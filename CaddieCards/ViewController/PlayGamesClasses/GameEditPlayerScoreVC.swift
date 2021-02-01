@@ -342,6 +342,7 @@ class GameEditPlayerScoreVC: BaseViewController, UITableViewDelegate, UITableVie
         popOver.disappearAutomatically(after: 300.0, completion: { print("automatically hidden")} )
     }
     @IBAction func submitBtnTapped(_ sender: Any) {
+        // tHis is for sample commit
         let temsArray = NSMutableArray()
         var scorecard = self.playGameDetailsDict?.scoreBoard[0]
         if self.par != "" {
