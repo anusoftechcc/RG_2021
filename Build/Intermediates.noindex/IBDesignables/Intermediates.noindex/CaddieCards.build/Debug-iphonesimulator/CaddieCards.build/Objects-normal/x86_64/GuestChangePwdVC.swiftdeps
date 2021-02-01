@@ -1,0 +1,1339 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GuestChangePwdVC"
+provides-nominal:
+- "9Golf_Putz16GuestChangePwdVCC"
+provides-member:
+- ["9Golf_Putz16GuestChangePwdVCC", ""]
+provides-dynamic-lookup:
+- "cpwdTxtField"
+- "pwdTxtField"
+- "submitBtnTapped"
+- "textField"
+- "textFieldShouldReturn"
+- "viewDidLoad"
+depends-top-level:
+- !private "!"
+- !private "!="
+- "+"
+- !private "-"
+- !private "<="
+- !private "=="
+- "AnyObject"
+- !private "ApiCall"
+- "AssignmentPrecedence"
+- "BaseViewController"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- "GuestChangePwdVC"
+- !private "IntegerLiteralType"
+- !private "MyStrings"
+- "NSInteger"
+- "NSRange"
+- "Parameters"
+- "String"
+- !private "StringLiteralType"
+- "UITextField"
+- "UITextFieldDelegate"
+- !private "UserDefaults"
+- !private "cpwdTxtField"
+- "print"
+- !private "pwdTxtField"
+depends-member:
+- !private ["9Golf_Putz7ApiCallC", "sendRequest"]
+- !private ["9Golf_Putz18BaseViewControllerC", "AnyObject"]
+- !private ["9Golf_Putz18BaseViewControllerC", "ApiCall"]
+- ["9Golf_Putz18BaseViewControllerC", "Bool"]
+- !private ["9Golf_Putz18BaseViewControllerC", "MyStrings"]
+- !private ["9Golf_Putz18BaseViewControllerC", "NSInteger"]
+- ["9Golf_Putz18BaseViewControllerC", "NSRange"]
+- !private ["9Golf_Putz18BaseViewControllerC", "Parameters"]
+- ["9Golf_Putz18BaseViewControllerC", "String"]
+- ["9Golf_Putz18BaseViewControllerC", "UITextField"]
+- !private ["9Golf_Putz18BaseViewControllerC", "UserDefaults"]
+- ["9Golf_Putz18BaseViewControllerC", ""]
+- ["9Golf_Putz18BaseViewControllerC", "cpwdTxtField"]
+- !private ["9Golf_Putz18BaseViewControllerC", "errorAlert"]
+- !private ["9Golf_Putz18BaseViewControllerC", "hideKeyboardWhenTappedAround"]
+- ["9Golf_Putz18BaseViewControllerC", "init"]
+- !private ["9Golf_Putz18BaseViewControllerC", "navigationController"]
+- !private ["9Golf_Putz18BaseViewControllerC", "print"]
+- ["9Golf_Putz18BaseViewControllerC", "pwdTxtField"]
+- !private ["9Golf_Putz18BaseViewControllerC", "startLoadingIndicator"]
+- ["9Golf_Putz18BaseViewControllerC", "submitBtnTapped"]
+- ["9Golf_Putz18BaseViewControllerC", "textField"]
+- ["9Golf_Putz18BaseViewControllerC", "textFieldDidBeginEditing"]
+- ["9Golf_Putz18BaseViewControllerC", "textFieldDidChangeSelection"]
+- ["9Golf_Putz18BaseViewControllerC", "textFieldDidEndEditing"]
+- ["9Golf_Putz18BaseViewControllerC", "textFieldShouldBeginEditing"]
+- ["9Golf_Putz18BaseViewControllerC", "textFieldShouldClear"]
+- ["9Golf_Putz18BaseViewControllerC", "textFieldShouldEndEditing"]
+- ["9Golf_Putz18BaseViewControllerC", "textFieldShouldReturn"]
+- !private ["9Golf_Putz18BaseViewControllerC", "title"]
+- ["9Golf_Putz18BaseViewControllerC", "viewDidLoad"]
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["So15CALayerDelegateP", "becomeFirstResponder"]
+- !private ["So15CALayerDelegateP", "isFirstResponder"]
+- !private ["So15CALayerDelegateP", "resignFirstResponder"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "count"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "isEmpty"]
+- !private ["s7CVarArgP", "ApiCall"]
+- !private ["s7CVarArgP", "MyStrings"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "becomeFirstResponder"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "cpwdTxtField"]
+- !private ["s7CVarArgP", "errorAlert"]
+- !private ["s7CVarArgP", "hideKeyboardWhenTappedAround"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "isFirstResponder"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "popViewController"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "pwdTxtField"]
+- !private ["s7CVarArgP", "resignFirstResponder"]
+- !private ["s7CVarArgP", "sendRequest"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "startLoadingIndicator"]
+- !private ["s7CVarArgP", "text"]
+- ["s7CVarArgP", "textField"]
+- ["s7CVarArgP", "textFieldDidBeginEditing"]
+- ["s7CVarArgP", "textFieldDidChangeSelection"]
+- ["s7CVarArgP", "textFieldDidEndEditing"]
+- ["s7CVarArgP", "textFieldShouldBeginEditing"]
+- ["s7CVarArgP", "textFieldShouldClear"]
+- ["s7CVarArgP", "textFieldShouldEndEditing"]
+- ["s7CVarArgP", "textFieldShouldReturn"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["SL", ""]
+- !private ["SL", "count"]
+- !private ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "ApiCall"]
+- !private ["s28CustomDebugStringConvertibleP", "MyStrings"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "becomeFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "cpwdTxtField"]
+- !private ["s28CustomDebugStringConvertibleP", "errorAlert"]
+- !private ["s28CustomDebugStringConvertibleP", "hideKeyboardWhenTappedAround"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "length"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "popViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "pwdTxtField"]
+- !private ["s28CustomDebugStringConvertibleP", "resignFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "sendRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "startLoadingIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- ["s28CustomDebugStringConvertibleP", "textField"]
+- ["s28CustomDebugStringConvertibleP", "textFieldDidBeginEditing"]
+- ["s28CustomDebugStringConvertibleP", "textFieldDidChangeSelection"]
+- ["s28CustomDebugStringConvertibleP", "textFieldDidEndEditing"]
+- ["s28CustomDebugStringConvertibleP", "textFieldShouldBeginEditing"]
+- ["s28CustomDebugStringConvertibleP", "textFieldShouldClear"]
+- ["s28CustomDebugStringConvertibleP", "textFieldShouldEndEditing"]
+- ["s28CustomDebugStringConvertibleP", "textFieldShouldReturn"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "becomeFirstResponder"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "isFirstResponder"]
+- !private ["s17CustomReflectableP", "length"]
+- !private ["s17CustomReflectableP", "resignFirstResponder"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "ApiCall"]
+- !private ["s23CustomStringConvertibleP", "MyStrings"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "becomeFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "cpwdTxtField"]
+- !private ["s23CustomStringConvertibleP", "errorAlert"]
+- !private ["s23CustomStringConvertibleP", "hideKeyboardWhenTappedAround"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "length"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "popViewController"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "pwdTxtField"]
+- !private ["s23CustomStringConvertibleP", "resignFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "sendRequest"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "startLoadingIndicator"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- ["s23CustomStringConvertibleP", "textField"]
+- ["s23CustomStringConvertibleP", "textFieldDidBeginEditing"]
+- ["s23CustomStringConvertibleP", "textFieldDidChangeSelection"]
+- ["s23CustomStringConvertibleP", "textFieldDidEndEditing"]
+- ["s23CustomStringConvertibleP", "textFieldShouldBeginEditing"]
+- ["s23CustomStringConvertibleP", "textFieldShouldClear"]
+- ["s23CustomStringConvertibleP", "textFieldShouldEndEditing"]
+- ["s23CustomStringConvertibleP", "textFieldShouldReturn"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "becomeFirstResponder"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "isFirstResponder"]
+- !private ["Se", "length"]
+- !private ["Se", "resignFirstResponder"]
+- !private ["Se", "text"]
+- !private ["SE", "becomeFirstResponder"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "isFirstResponder"]
+- !private ["SE", "length"]
+- !private ["SE", "resignFirstResponder"]
+- !private ["SE", "text"]
+- !private ["SQ", "ApiCall"]
+- !private ["SQ", "MyStrings"]
+- !private ["SQ", "String"]
+- !private ["SQ", "UserDefaults"]
+- ["SQ", ""]
+- !private ["SQ", "becomeFirstResponder"]
+- !private ["SQ", "count"]
+- !private ["SQ", "cpwdTxtField"]
+- !private ["SQ", "errorAlert"]
+- !private ["SQ", "hideKeyboardWhenTappedAround"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "isFirstResponder"]
+- !private ["SQ", "length"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "object"]
+- !private ["SQ", "popViewController"]
+- !private ["SQ", "print"]
+- !private ["SQ", "pwdTxtField"]
+- !private ["SQ", "resignFirstResponder"]
+- !private ["SQ", "sendRequest"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "startLoadingIndicator"]
+- !private ["SQ", "text"]
+- ["SQ", "textField"]
+- ["SQ", "textFieldDidBeginEditing"]
+- ["SQ", "textFieldDidChangeSelection"]
+- ["SQ", "textFieldDidEndEditing"]
+- ["SQ", "textFieldShouldBeginEditing"]
+- ["SQ", "textFieldShouldClear"]
+- ["SQ", "textFieldShouldEndEditing"]
+- ["SQ", "textFieldShouldReturn"]
+- !private ["SQ", "title"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s23ExpressibleByNilLiteralP", "becomeFirstResponder"]
+- !private ["s23ExpressibleByNilLiteralP", "isFirstResponder"]
+- !private ["s23ExpressibleByNilLiteralP", "resignFirstResponder"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["9Golf_Putz16GuestChangePwdVCC", "AnyObject"]
+- !private ["9Golf_Putz16GuestChangePwdVCC", "ApiCall"]
+- ["9Golf_Putz16GuestChangePwdVCC", "Bool"]
+- !private ["9Golf_Putz16GuestChangePwdVCC", "MyStrings"]
+- !private ["9Golf_Putz16GuestChangePwdVCC", "NSInteger"]
+- ["9Golf_Putz16GuestChangePwdVCC", "NSRange"]
+- !private ["9Golf_Putz16GuestChangePwdVCC", "Parameters"]
+- ["9Golf_Putz16GuestChangePwdVCC", "String"]
+- ["9Golf_Putz16GuestChangePwdVCC", "UITextField"]
+- !private ["9Golf_Putz16GuestChangePwdVCC", "UserDefaults"]
+- ["9Golf_Putz16GuestChangePwdVCC", ""]
+- ["9Golf_Putz16GuestChangePwdVCC", "cpwdTxtField"]
+- ["9Golf_Putz16GuestChangePwdVCC", "deinit"]
+- !private ["9Golf_Putz16GuestChangePwdVCC", "errorAlert"]
+- !private ["9Golf_Putz16GuestChangePwdVCC", "hideKeyboardWhenTappedAround"]
+- ["9Golf_Putz16GuestChangePwdVCC", "init"]
+- !private ["9Golf_Putz16GuestChangePwdVCC", "navigationController"]
+- !private ["9Golf_Putz16GuestChangePwdVCC", "print"]
+- ["9Golf_Putz16GuestChangePwdVCC", "pwdTxtField"]
+- !private ["9Golf_Putz16GuestChangePwdVCC", "startLoadingIndicator"]
+- ["9Golf_Putz16GuestChangePwdVCC", "submitBtnTapped"]
+- ["9Golf_Putz16GuestChangePwdVCC", "textField"]
+- ["9Golf_Putz16GuestChangePwdVCC", "textFieldDidBeginEditing"]
+- ["9Golf_Putz16GuestChangePwdVCC", "textFieldDidChangeSelection"]
+- ["9Golf_Putz16GuestChangePwdVCC", "textFieldDidEndEditing"]
+- ["9Golf_Putz16GuestChangePwdVCC", "textFieldShouldBeginEditing"]
+- ["9Golf_Putz16GuestChangePwdVCC", "textFieldShouldClear"]
+- ["9Golf_Putz16GuestChangePwdVCC", "textFieldShouldEndEditing"]
+- ["9Golf_Putz16GuestChangePwdVCC", "textFieldShouldReturn"]
+- !private ["9Golf_Putz16GuestChangePwdVCC", "title"]
+- ["9Golf_Putz16GuestChangePwdVCC", "viewDidLoad"]
+- !private ["SH", "ApiCall"]
+- !private ["SH", "MyStrings"]
+- !private ["SH", "String"]
+- !private ["SH", "UserDefaults"]
+- ["SH", ""]
+- !private ["SH", "becomeFirstResponder"]
+- !private ["SH", "count"]
+- !private ["SH", "cpwdTxtField"]
+- !private ["SH", "errorAlert"]
+- !private ["SH", "hideKeyboardWhenTappedAround"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "isFirstResponder"]
+- !private ["SH", "length"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "object"]
+- !private ["SH", "popViewController"]
+- !private ["SH", "print"]
+- !private ["SH", "pwdTxtField"]
+- !private ["SH", "resignFirstResponder"]
+- !private ["SH", "sendRequest"]
+- !private ["SH", "standard"]
+- !private ["SH", "startLoadingIndicator"]
+- !private ["SH", "text"]
+- ["SH", "textField"]
+- ["SH", "textFieldDidBeginEditing"]
+- ["SH", "textFieldDidChangeSelection"]
+- ["SH", "textFieldDidEndEditing"]
+- ["SH", "textFieldShouldBeginEditing"]
+- ["SH", "textFieldShouldClear"]
+- ["SH", "textFieldShouldEndEditing"]
+- ["SH", "textFieldShouldReturn"]
+- !private ["SH", "title"]
+- !private ["SH", "viewDidLoad"]
+- !private ["19FTPopOverMenu_Swift9ImageableP", "count"]
+- !private ["19FTPopOverMenu_Swift9ImageableP", "init"]
+- !private ["19FTPopOverMenu_Swift9ImageableP", "isEmpty"]
+- !private ["8SideMenu18InitializableClassP", "ApiCall"]
+- !private ["8SideMenu18InitializableClassP", "MyStrings"]
+- !private ["8SideMenu18InitializableClassP", "String"]
+- !private ["8SideMenu18InitializableClassP", "UserDefaults"]
+- ["8SideMenu18InitializableClassP", ""]
+- !private ["8SideMenu18InitializableClassP", "becomeFirstResponder"]
+- !private ["8SideMenu18InitializableClassP", "count"]
+- !private ["8SideMenu18InitializableClassP", "cpwdTxtField"]
+- !private ["8SideMenu18InitializableClassP", "errorAlert"]
+- !private ["8SideMenu18InitializableClassP", "hideKeyboardWhenTappedAround"]
+- !private ["8SideMenu18InitializableClassP", "isEmpty"]
+- !private ["8SideMenu18InitializableClassP", "isFirstResponder"]
+- !private ["8SideMenu18InitializableClassP", "navigationController"]
+- !private ["8SideMenu18InitializableClassP", "object"]
+- !private ["8SideMenu18InitializableClassP", "popViewController"]
+- !private ["8SideMenu18InitializableClassP", "print"]
+- !private ["8SideMenu18InitializableClassP", "pwdTxtField"]
+- !private ["8SideMenu18InitializableClassP", "resignFirstResponder"]
+- !private ["8SideMenu18InitializableClassP", "sendRequest"]
+- !private ["8SideMenu18InitializableClassP", "standard"]
+- !private ["8SideMenu18InitializableClassP", "startLoadingIndicator"]
+- !private ["8SideMenu18InitializableClassP", "text"]
+- ["8SideMenu18InitializableClassP", "textField"]
+- ["8SideMenu18InitializableClassP", "textFieldDidBeginEditing"]
+- ["8SideMenu18InitializableClassP", "textFieldDidChangeSelection"]
+- ["8SideMenu18InitializableClassP", "textFieldDidEndEditing"]
+- ["8SideMenu18InitializableClassP", "textFieldShouldBeginEditing"]
+- ["8SideMenu18InitializableClassP", "textFieldShouldClear"]
+- ["8SideMenu18InitializableClassP", "textFieldShouldEndEditing"]
+- ["8SideMenu18InitializableClassP", "textFieldShouldReturn"]
+- !private ["8SideMenu18InitializableClassP", "title"]
+- !private ["8SideMenu18InitializableClassP", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["9Golf_Putz9MyStringsV", "changePwdUrl"]
+- !private ["9Golf_Putz9MyStringsV", "init"]
+- !private ["So8NSCodingP", "ApiCall"]
+- !private ["So8NSCodingP", "MyStrings"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UserDefaults"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "becomeFirstResponder"]
+- !private ["So8NSCodingP", "count"]
+- ["So8NSCodingP", "cpwdTxtField"]
+- !private ["So8NSCodingP", "errorAlert"]
+- ["So8NSCodingP", "hideKeyboardWhenTappedAround"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "isFirstResponder"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "popViewController"]
+- !private ["So8NSCodingP", "print"]
+- ["So8NSCodingP", "pwdTxtField"]
+- !private ["So8NSCodingP", "resignFirstResponder"]
+- !private ["So8NSCodingP", "startLoadingIndicator"]
+- ["So8NSCodingP", "submitBtnTapped"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSCodingP", "textField"]
+- ["So8NSCodingP", "textFieldDidBeginEditing"]
+- ["So8NSCodingP", "textFieldDidChangeSelection"]
+- ["So8NSCodingP", "textFieldDidEndEditing"]
+- ["So8NSCodingP", "textFieldShouldBeginEditing"]
+- ["So8NSCodingP", "textFieldShouldClear"]
+- ["So8NSCodingP", "textFieldShouldEndEditing"]
+- ["So8NSCodingP", "textFieldShouldReturn"]
+- !private ["So8NSCodingP", "title"]
+- ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So26NSExtensionRequestHandlingP", "ApiCall"]
+- !private ["So26NSExtensionRequestHandlingP", "MyStrings"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "UserDefaults"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "cpwdTxtField"]
+- !private ["So26NSExtensionRequestHandlingP", "errorAlert"]
+- ["So26NSExtensionRequestHandlingP", "hideKeyboardWhenTappedAround"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "popViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- ["So26NSExtensionRequestHandlingP", "pwdTxtField"]
+- !private ["So26NSExtensionRequestHandlingP", "startLoadingIndicator"]
+- ["So26NSExtensionRequestHandlingP", "submitBtnTapped"]
+- ["So26NSExtensionRequestHandlingP", "textField"]
+- ["So26NSExtensionRequestHandlingP", "textFieldDidBeginEditing"]
+- ["So26NSExtensionRequestHandlingP", "textFieldDidChangeSelection"]
+- ["So26NSExtensionRequestHandlingP", "textFieldDidEndEditing"]
+- ["So26NSExtensionRequestHandlingP", "textFieldShouldBeginEditing"]
+- ["So26NSExtensionRequestHandlingP", "textFieldShouldClear"]
+- ["So26NSExtensionRequestHandlingP", "textFieldShouldEndEditing"]
+- ["So26NSExtensionRequestHandlingP", "textFieldShouldReturn"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "ApiCall"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "MyStrings"]
+- !private ["So8NSObjectC", "NSInteger"]
+- ["So8NSObjectC", "NSRange"]
+- !private ["So8NSObjectC", "Parameters"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "becomeFirstResponder"]
+- !private ["So8NSObjectC", "count"]
+- ["So8NSObjectC", "cpwdTxtField"]
+- !private ["So8NSObjectC", "errorAlert"]
+- !private ["So8NSObjectC", "hideKeyboardWhenTappedAround"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "isFirstResponder"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "popViewController"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "pwdTxtField"]
+- !private ["So8NSObjectC", "resignFirstResponder"]
+- !private ["So8NSObjectC", "sendRequest"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "startLoadingIndicator"]
+- ["So8NSObjectC", "submitBtnTapped"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "textField"]
+- ["So8NSObjectC", "textFieldDidBeginEditing"]
+- ["So8NSObjectC", "textFieldDidChangeSelection"]
+- ["So8NSObjectC", "textFieldDidEndEditing"]
+- ["So8NSObjectC", "textFieldShouldBeginEditing"]
+- ["So8NSObjectC", "textFieldShouldClear"]
+- ["So8NSObjectC", "textFieldShouldEndEditing"]
+- ["So8NSObjectC", "textFieldShouldReturn"]
+- !private ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "ApiCall"]
+- !private ["So8NSObjectP", "MyStrings"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UserDefaults"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "becomeFirstResponder"]
+- !private ["So8NSObjectP", "count"]
+- ["So8NSObjectP", "cpwdTxtField"]
+- !private ["So8NSObjectP", "errorAlert"]
+- ["So8NSObjectP", "hideKeyboardWhenTappedAround"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "isFirstResponder"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "object"]
+- !private ["So8NSObjectP", "popViewController"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "pwdTxtField"]
+- !private ["So8NSObjectP", "resignFirstResponder"]
+- !private ["So8NSObjectP", "sendRequest"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So8NSObjectP", "startLoadingIndicator"]
+- ["So8NSObjectP", "submitBtnTapped"]
+- !private ["So8NSObjectP", "text"]
+- ["So8NSObjectP", "textField"]
+- ["So8NSObjectP", "textFieldDidBeginEditing"]
+- ["So8NSObjectP", "textFieldDidChangeSelection"]
+- ["So8NSObjectP", "textFieldDidEndEditing"]
+- ["So8NSObjectP", "textFieldShouldBeginEditing"]
+- ["So8NSObjectP", "textFieldShouldClear"]
+- ["So8NSObjectP", "textFieldShouldEndEditing"]
+- ["So8NSObjectP", "textFieldShouldReturn"]
+- !private ["So8NSObjectP", "title"]
+- ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "count"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["Sq", "becomeFirstResponder"]
+- !private ["Sq", "isFirstResponder"]
+- !private ["Sq", "resignFirstResponder"]
+- !private ["Sq", "text"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["SS", "count"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["Sy", "count"]
+- !private ["Sy", "init"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["So29UIAccessibilityIdentificationP", "becomeFirstResponder"]
+- !private ["So29UIAccessibilityIdentificationP", "isFirstResponder"]
+- !private ["So29UIAccessibilityIdentificationP", "resignFirstResponder"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "becomeFirstResponder"]
+- !private ["So12UIAppearanceP", "isFirstResponder"]
+- !private ["So12UIAppearanceP", "resignFirstResponder"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "ApiCall"]
+- !private ["So21UIAppearanceContainerP", "MyStrings"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UserDefaults"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "becomeFirstResponder"]
+- ["So21UIAppearanceContainerP", "cpwdTxtField"]
+- !private ["So21UIAppearanceContainerP", "errorAlert"]
+- ["So21UIAppearanceContainerP", "hideKeyboardWhenTappedAround"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isFirstResponder"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "popViewController"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- ["So21UIAppearanceContainerP", "pwdTxtField"]
+- !private ["So21UIAppearanceContainerP", "resignFirstResponder"]
+- !private ["So21UIAppearanceContainerP", "startLoadingIndicator"]
+- ["So21UIAppearanceContainerP", "submitBtnTapped"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- ["So21UIAppearanceContainerP", "textField"]
+- ["So21UIAppearanceContainerP", "textFieldDidBeginEditing"]
+- ["So21UIAppearanceContainerP", "textFieldDidChangeSelection"]
+- ["So21UIAppearanceContainerP", "textFieldDidEndEditing"]
+- ["So21UIAppearanceContainerP", "textFieldShouldBeginEditing"]
+- ["So21UIAppearanceContainerP", "textFieldShouldClear"]
+- ["So21UIAppearanceContainerP", "textFieldShouldEndEditing"]
+- ["So21UIAppearanceContainerP", "textFieldShouldReturn"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "ApiCall"]
+- !private ["So18UIContentContainerP", "MyStrings"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "UserDefaults"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "cpwdTxtField"]
+- !private ["So18UIContentContainerP", "errorAlert"]
+- ["So18UIContentContainerP", "hideKeyboardWhenTappedAround"]
+- ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "popViewController"]
+- !private ["So18UIContentContainerP", "print"]
+- ["So18UIContentContainerP", "pwdTxtField"]
+- !private ["So18UIContentContainerP", "startLoadingIndicator"]
+- ["So18UIContentContainerP", "submitBtnTapped"]
+- ["So18UIContentContainerP", "textField"]
+- ["So18UIContentContainerP", "textFieldDidBeginEditing"]
+- ["So18UIContentContainerP", "textFieldDidChangeSelection"]
+- ["So18UIContentContainerP", "textFieldDidEndEditing"]
+- ["So18UIContentContainerP", "textFieldShouldBeginEditing"]
+- ["So18UIContentContainerP", "textFieldShouldClear"]
+- ["So18UIContentContainerP", "textFieldShouldEndEditing"]
+- ["So18UIContentContainerP", "textFieldShouldReturn"]
+- !private ["So18UIContentContainerP", "title"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "becomeFirstResponder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "isFirstResponder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "resignFirstResponder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So32UIContextMenuInteractionDelegateP", "becomeFirstResponder"]
+- !private ["So32UIContextMenuInteractionDelegateP", "isFirstResponder"]
+- !private ["So32UIContextMenuInteractionDelegateP", "resignFirstResponder"]
+- !private ["So32UIContextMenuInteractionDelegateP", "text"]
+- ["So9UIControlC", ""]
+- !private ["So9UIControlC", "becomeFirstResponder"]
+- !private ["So9UIControlC", "isFirstResponder"]
+- !private ["So9UIControlC", "resignFirstResponder"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "becomeFirstResponder"]
+- !private ["So17UICoordinateSpaceP", "isFirstResponder"]
+- !private ["So17UICoordinateSpaceP", "resignFirstResponder"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "becomeFirstResponder"]
+- !private ["So13UIDynamicItemP", "isFirstResponder"]
+- !private ["So13UIDynamicItemP", "resignFirstResponder"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "ApiCall"]
+- !private ["So18UIFocusEnvironmentP", "MyStrings"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UserDefaults"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "becomeFirstResponder"]
+- ["So18UIFocusEnvironmentP", "cpwdTxtField"]
+- !private ["So18UIFocusEnvironmentP", "errorAlert"]
+- ["So18UIFocusEnvironmentP", "hideKeyboardWhenTappedAround"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isFirstResponder"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "popViewController"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- ["So18UIFocusEnvironmentP", "pwdTxtField"]
+- !private ["So18UIFocusEnvironmentP", "resignFirstResponder"]
+- !private ["So18UIFocusEnvironmentP", "startLoadingIndicator"]
+- ["So18UIFocusEnvironmentP", "submitBtnTapped"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So18UIFocusEnvironmentP", "textField"]
+- ["So18UIFocusEnvironmentP", "textFieldDidBeginEditing"]
+- ["So18UIFocusEnvironmentP", "textFieldDidChangeSelection"]
+- ["So18UIFocusEnvironmentP", "textFieldDidEndEditing"]
+- ["So18UIFocusEnvironmentP", "textFieldShouldBeginEditing"]
+- ["So18UIFocusEnvironmentP", "textFieldShouldClear"]
+- ["So18UIFocusEnvironmentP", "textFieldShouldEndEditing"]
+- ["So18UIFocusEnvironmentP", "textFieldShouldReturn"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "becomeFirstResponder"]
+- !private ["So11UIFocusItemP", "isFirstResponder"]
+- !private ["So11UIFocusItemP", "resignFirstResponder"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "becomeFirstResponder"]
+- !private ["So20UIFocusItemContainerP", "isFirstResponder"]
+- !private ["So20UIFocusItemContainerP", "resignFirstResponder"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So10UIKeyInputP", ""]
+- !private ["So10UIKeyInputP", "becomeFirstResponder"]
+- !private ["So10UIKeyInputP", "isFirstResponder"]
+- !private ["So10UIKeyInputP", "resignFirstResponder"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So24UILargeContentViewerItemP", "becomeFirstResponder"]
+- !private ["So24UILargeContentViewerItemP", "isFirstResponder"]
+- !private ["So24UILargeContentViewerItemP", "resignFirstResponder"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So22UINavigationControllerC", "popViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "ApiCall"]
+- !private ["So30UIPasteConfigurationSupportingP", "MyStrings"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "becomeFirstResponder"]
+- ["So30UIPasteConfigurationSupportingP", "cpwdTxtField"]
+- !private ["So30UIPasteConfigurationSupportingP", "errorAlert"]
+- ["So30UIPasteConfigurationSupportingP", "hideKeyboardWhenTappedAround"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isFirstResponder"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "popViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- ["So30UIPasteConfigurationSupportingP", "pwdTxtField"]
+- !private ["So30UIPasteConfigurationSupportingP", "resignFirstResponder"]
+- !private ["So30UIPasteConfigurationSupportingP", "startLoadingIndicator"]
+- ["So30UIPasteConfigurationSupportingP", "submitBtnTapped"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "textField"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldDidBeginEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldDidChangeSelection"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldDidEndEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldShouldBeginEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldShouldClear"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldShouldEndEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldShouldReturn"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "AnyObject"]
+- !private ["So11UIResponderC", "ApiCall"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "MyStrings"]
+- !private ["So11UIResponderC", "NSInteger"]
+- ["So11UIResponderC", "NSRange"]
+- !private ["So11UIResponderC", "Parameters"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "UserDefaults"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "becomeFirstResponder"]
+- ["So11UIResponderC", "cpwdTxtField"]
+- !private ["So11UIResponderC", "errorAlert"]
+- !private ["So11UIResponderC", "hideKeyboardWhenTappedAround"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isFirstResponder"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "popViewController"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "pwdTxtField"]
+- !private ["So11UIResponderC", "resignFirstResponder"]
+- !private ["So11UIResponderC", "startLoadingIndicator"]
+- ["So11UIResponderC", "submitBtnTapped"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "textField"]
+- ["So11UIResponderC", "textFieldDidBeginEditing"]
+- ["So11UIResponderC", "textFieldDidChangeSelection"]
+- ["So11UIResponderC", "textFieldDidEndEditing"]
+- ["So11UIResponderC", "textFieldShouldBeginEditing"]
+- ["So11UIResponderC", "textFieldShouldClear"]
+- ["So11UIResponderC", "textFieldShouldEndEditing"]
+- ["So11UIResponderC", "textFieldShouldReturn"]
+- !private ["So11UIResponderC", "title"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "ApiCall"]
+- !private ["So30UIResponderStandardEditActionsP", "MyStrings"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "becomeFirstResponder"]
+- ["So30UIResponderStandardEditActionsP", "cpwdTxtField"]
+- !private ["So30UIResponderStandardEditActionsP", "errorAlert"]
+- ["So30UIResponderStandardEditActionsP", "hideKeyboardWhenTappedAround"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isFirstResponder"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "popViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- ["So30UIResponderStandardEditActionsP", "pwdTxtField"]
+- !private ["So30UIResponderStandardEditActionsP", "resignFirstResponder"]
+- !private ["So30UIResponderStandardEditActionsP", "startLoadingIndicator"]
+- ["So30UIResponderStandardEditActionsP", "submitBtnTapped"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So30UIResponderStandardEditActionsP", "textField"]
+- ["So30UIResponderStandardEditActionsP", "textFieldDidBeginEditing"]
+- ["So30UIResponderStandardEditActionsP", "textFieldDidChangeSelection"]
+- ["So30UIResponderStandardEditActionsP", "textFieldDidEndEditing"]
+- ["So30UIResponderStandardEditActionsP", "textFieldShouldBeginEditing"]
+- ["So30UIResponderStandardEditActionsP", "textFieldShouldClear"]
+- ["So30UIResponderStandardEditActionsP", "textFieldShouldEndEditing"]
+- ["So30UIResponderStandardEditActionsP", "textFieldShouldReturn"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "ApiCall"]
+- !private ["So16UIStateRestoringP", "MyStrings"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "UserDefaults"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "cpwdTxtField"]
+- !private ["So16UIStateRestoringP", "errorAlert"]
+- ["So16UIStateRestoringP", "hideKeyboardWhenTappedAround"]
+- ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "popViewController"]
+- !private ["So16UIStateRestoringP", "print"]
+- ["So16UIStateRestoringP", "pwdTxtField"]
+- !private ["So16UIStateRestoringP", "startLoadingIndicator"]
+- ["So16UIStateRestoringP", "submitBtnTapped"]
+- ["So16UIStateRestoringP", "textField"]
+- ["So16UIStateRestoringP", "textFieldDidBeginEditing"]
+- ["So16UIStateRestoringP", "textFieldDidChangeSelection"]
+- ["So16UIStateRestoringP", "textFieldDidEndEditing"]
+- ["So16UIStateRestoringP", "textFieldShouldBeginEditing"]
+- ["So16UIStateRestoringP", "textFieldShouldClear"]
+- ["So16UIStateRestoringP", "textFieldShouldEndEditing"]
+- ["So16UIStateRestoringP", "textFieldShouldReturn"]
+- !private ["So16UIStateRestoringP", "title"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So15UITextDraggableP", "becomeFirstResponder"]
+- !private ["So15UITextDraggableP", "isFirstResponder"]
+- !private ["So15UITextDraggableP", "resignFirstResponder"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "becomeFirstResponder"]
+- !private ["So15UITextDroppableP", "isFirstResponder"]
+- !private ["So15UITextDroppableP", "resignFirstResponder"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "becomeFirstResponder"]
+- !private ["So11UITextFieldC", "isFirstResponder"]
+- !private ["So11UITextFieldC", "resignFirstResponder"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So19UITextFieldDelegateP", "ApiCall"]
+- !private ["So19UITextFieldDelegateP", "MyStrings"]
+- !private ["So19UITextFieldDelegateP", "String"]
+- !private ["So19UITextFieldDelegateP", "UserDefaults"]
+- ["So19UITextFieldDelegateP", ""]
+- ["So19UITextFieldDelegateP", "cpwdTxtField"]
+- !private ["So19UITextFieldDelegateP", "errorAlert"]
+- !private ["So19UITextFieldDelegateP", "hideKeyboardWhenTappedAround"]
+- ["So19UITextFieldDelegateP", "init"]
+- !private ["So19UITextFieldDelegateP", "navigationController"]
+- !private ["So19UITextFieldDelegateP", "print"]
+- ["So19UITextFieldDelegateP", "pwdTxtField"]
+- !private ["So19UITextFieldDelegateP", "startLoadingIndicator"]
+- ["So19UITextFieldDelegateP", "submitBtnTapped"]
+- ["So19UITextFieldDelegateP", "textField"]
+- ["So19UITextFieldDelegateP", "textFieldDidBeginEditing"]
+- ["So19UITextFieldDelegateP", "textFieldDidChangeSelection"]
+- ["So19UITextFieldDelegateP", "textFieldDidEndEditing"]
+- ["So19UITextFieldDelegateP", "textFieldShouldBeginEditing"]
+- ["So19UITextFieldDelegateP", "textFieldShouldClear"]
+- ["So19UITextFieldDelegateP", "textFieldShouldEndEditing"]
+- ["So19UITextFieldDelegateP", "textFieldShouldReturn"]
+- !private ["So19UITextFieldDelegateP", "title"]
+- ["So19UITextFieldDelegateP", "viewDidLoad"]
+- !private ["So11UITextInputP", ""]
+- !private ["So11UITextInputP", "becomeFirstResponder"]
+- !private ["So11UITextInputP", "isFirstResponder"]
+- !private ["So11UITextInputP", "resignFirstResponder"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", ""]
+- !private ["So17UITextInputTraitsP", "becomeFirstResponder"]
+- !private ["So17UITextInputTraitsP", "isFirstResponder"]
+- !private ["So17UITextInputTraitsP", "resignFirstResponder"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", ""]
+- !private ["So34UITextPasteConfigurationSupportingP", "becomeFirstResponder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "isFirstResponder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "resignFirstResponder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "ApiCall"]
+- !private ["So18UITraitEnvironmentP", "MyStrings"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UserDefaults"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "becomeFirstResponder"]
+- ["So18UITraitEnvironmentP", "cpwdTxtField"]
+- !private ["So18UITraitEnvironmentP", "errorAlert"]
+- ["So18UITraitEnvironmentP", "hideKeyboardWhenTappedAround"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isFirstResponder"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "popViewController"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- ["So18UITraitEnvironmentP", "pwdTxtField"]
+- !private ["So18UITraitEnvironmentP", "resignFirstResponder"]
+- !private ["So18UITraitEnvironmentP", "startLoadingIndicator"]
+- ["So18UITraitEnvironmentP", "submitBtnTapped"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So18UITraitEnvironmentP", "textField"]
+- ["So18UITraitEnvironmentP", "textFieldDidBeginEditing"]
+- ["So18UITraitEnvironmentP", "textFieldDidChangeSelection"]
+- ["So18UITraitEnvironmentP", "textFieldDidEndEditing"]
+- ["So18UITraitEnvironmentP", "textFieldShouldBeginEditing"]
+- ["So18UITraitEnvironmentP", "textFieldShouldClear"]
+- ["So18UITraitEnvironmentP", "textFieldShouldEndEditing"]
+- ["So18UITraitEnvironmentP", "textFieldShouldReturn"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "ApiCall"]
+- !private ["So23UIUserActivityRestoringP", "MyStrings"]
+- !private ["So23UIUserActivityRestoringP", "String"]
+- !private ["So23UIUserActivityRestoringP", "UserDefaults"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "becomeFirstResponder"]
+- ["So23UIUserActivityRestoringP", "cpwdTxtField"]
+- !private ["So23UIUserActivityRestoringP", "errorAlert"]
+- ["So23UIUserActivityRestoringP", "hideKeyboardWhenTappedAround"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isFirstResponder"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "popViewController"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- ["So23UIUserActivityRestoringP", "pwdTxtField"]
+- !private ["So23UIUserActivityRestoringP", "resignFirstResponder"]
+- !private ["So23UIUserActivityRestoringP", "startLoadingIndicator"]
+- ["So23UIUserActivityRestoringP", "submitBtnTapped"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So23UIUserActivityRestoringP", "textField"]
+- ["So23UIUserActivityRestoringP", "textFieldDidBeginEditing"]
+- ["So23UIUserActivityRestoringP", "textFieldDidChangeSelection"]
+- ["So23UIUserActivityRestoringP", "textFieldDidEndEditing"]
+- ["So23UIUserActivityRestoringP", "textFieldShouldBeginEditing"]
+- ["So23UIUserActivityRestoringP", "textFieldShouldClear"]
+- ["So23UIUserActivityRestoringP", "textFieldShouldEndEditing"]
+- ["So23UIUserActivityRestoringP", "textFieldShouldReturn"]
+- !private ["So23UIUserActivityRestoringP", "title"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "becomeFirstResponder"]
+- !private ["So6UIViewC", "isFirstResponder"]
+- !private ["So6UIViewC", "resignFirstResponder"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "AnyObject"]
+- !private ["So16UIViewControllerC", "ApiCall"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "MyStrings"]
+- !private ["So16UIViewControllerC", "NSInteger"]
+- ["So16UIViewControllerC", "NSRange"]
+- !private ["So16UIViewControllerC", "Parameters"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UITextField"]
+- !private ["So16UIViewControllerC", "UserDefaults"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "cpwdTxtField"]
+- !private ["So16UIViewControllerC", "errorAlert"]
+- !private ["So16UIViewControllerC", "hideKeyboardWhenTappedAround"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "popViewController"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "pwdTxtField"]
+- !private ["So16UIViewControllerC", "startLoadingIndicator"]
+- ["So16UIViewControllerC", "submitBtnTapped"]
+- ["So16UIViewControllerC", "textField"]
+- ["So16UIViewControllerC", "textFieldDidBeginEditing"]
+- ["So16UIViewControllerC", "textFieldDidChangeSelection"]
+- ["So16UIViewControllerC", "textFieldDidEndEditing"]
+- ["So16UIViewControllerC", "textFieldShouldBeginEditing"]
+- ["So16UIViewControllerC", "textFieldShouldClear"]
+- ["So16UIViewControllerC", "textFieldShouldEndEditing"]
+- ["So16UIViewControllerC", "textFieldShouldReturn"]
+- !private ["So16UIViewControllerC", "title"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["9Alamofire14URLConvertibleP", "count"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "isEmpty"]
+- !private ["So14NSUserDefaultsC", "object"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "length"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ApiCall"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MyStrings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "becomeFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cpwdTxtField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "errorAlert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hideKeyboardWhenTappedAround"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pwdTxtField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resignFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startLoadingIndicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textField"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldDidBeginEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldDidChangeSelection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldDidEndEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldShouldBeginEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldShouldClear"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldShouldEndEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldShouldReturn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ApiCall"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MyStrings"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserDefaults"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "becomeFirstResponder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cpwdTxtField"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "errorAlert"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hideKeyboardWhenTappedAround"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isFirstResponder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "object"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "popViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pwdTxtField"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resignFirstResponder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sendRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startLoadingIndicator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textField"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textFieldDidBeginEditing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textFieldDidChangeSelection"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textFieldDidEndEditing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textFieldShouldBeginEditing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textFieldShouldClear"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textFieldShouldEndEditing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textFieldShouldReturn"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["So8_NSRangeV", "length"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "becomeFirstResponder"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "isFirstResponder"]
+- !private ["s21_ObjectiveCBridgeableP", "length"]
+- !private ["s21_ObjectiveCBridgeableP", "resignFirstResponder"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["So13CKRecordValueP", "count"]
+- !private ["So13CKRecordValueP", "isEmpty"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "becomeFirstResponder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isFirstResponder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "resignFirstResponder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "9Golf_Putz7ApiCallC"
+- "9Golf_Putz18BaseViewControllerC"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "9Golf_Putz16GuestChangePwdVCC"
+- "SH"
+- !private "19FTPopOverMenu_Swift9ImageableP"
+- "8SideMenu18InitializableClassP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "9Golf_Putz9MyStringsV"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- "So19UITextFieldDelegateP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "So14NSUserDefaultsC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "So8_NSRangeV"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "So13CKRecordValueP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Modules/SwiftyPickerPopover.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules/FTPopOverMenu_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKURL.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Headers/SwiftyPickerPopover-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Headers/FTPopOverMenu_Swift-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRStackFrame.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceViewControllerBase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolving.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLink.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRExceptionModel.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkNavigation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKWebViewAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRCrashlytics.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkTarget.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Headers/SwiftyPickerPopover-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Headers/FTPopOverMenu_Swift-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMeasurementEvent.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "befc268a0f0677ebdac9f44ad49fb534"

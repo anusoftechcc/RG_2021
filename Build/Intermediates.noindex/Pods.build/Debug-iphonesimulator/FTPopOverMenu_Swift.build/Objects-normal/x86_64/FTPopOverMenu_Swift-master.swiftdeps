@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "d56b7c3cc9a79b180ed29bfa596df1c2"
+build_time: [1612196341, 773806000]
+inputs:
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FTPopOverMenu_Swift/FTPopOverMenu_Swift/FT+Extension.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FTPopOverMenu_Swift/FTPopOverMenu_Swift/FTCellConfiguration.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FTPopOverMenu_Swift/FTPopOverMenu_Swift/FTConfiguration.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FTPopOverMenu_Swift/FTPopOverMenu_Swift/FTConstants.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FTPopOverMenu_Swift/FTPopOverMenu_Swift/FTPopOverMenu.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FTPopOverMenu_Swift/FTPopOverMenu_Swift/FTPopOverMenuCell.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FTPopOverMenu_Swift/FTPopOverMenu_Swift/UIControl+Point.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FTPopOverMenu_Swift/FTPopOverMenu_Swift/UIScreen+Frame.swift": [1609324482, 0]

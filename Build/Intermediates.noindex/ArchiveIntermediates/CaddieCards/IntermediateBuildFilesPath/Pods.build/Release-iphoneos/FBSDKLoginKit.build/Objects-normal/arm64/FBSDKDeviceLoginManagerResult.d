@@ -1,0 +1,40 @@
+dependencies: \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.m \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Intermediates.noindex/ArchiveIntermediates/CaddieCards/BuildProductsPath/Release-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Target\ Support\ Files/FBSDKLoginKit/FBSDKLoginKit-prefix.pch \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/Internal/FBSDKDeviceLoginManagerResult+Internal.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Intermediates.noindex/ArchiveIntermediates/CaddieCards/BuildProductsPath/Release-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceViewControllerBase.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceButton.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKWebViewAppLinkResolver.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKURL.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMeasurementEvent.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphErrorRecoveryProcessor.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkUtility.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererView.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererController.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkResolver.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkResolving.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkNavigation.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkTarget.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLink.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestDataAttachment.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequest.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/FBSDKAppEvents.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestConnection.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Target\ Support\ Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h \
+  /Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.h

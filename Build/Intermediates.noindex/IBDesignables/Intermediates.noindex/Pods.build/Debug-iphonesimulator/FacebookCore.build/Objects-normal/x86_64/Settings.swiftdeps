@@ -1,0 +1,215 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So13FBSDKSettingsC", ""]
+- ["So13FBSDKSettingsC", "loggingBehaviors"]
+provides-dynamic-lookup:
+- "loggingBehaviors"
+depends-top-level:
+- "AssignmentPrecedence"
+- "LoggingBehavior"
+- "Set"
+- "Settings"
+depends-member:
+- !private ["s7CVarArgP", "LoggingBehavior"]
+- !private ["s7CVarArgP", "Set"]
+- !private ["s7CVarArgP", "Settings"]
+- !private ["s7CVarArgP", "__loggingBehaviors"]
+- !private ["s7CVarArgP", "_loggingBehaviors"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "LoggingBehavior"]
+- !private ["s28CustomDebugStringConvertibleP", "Set"]
+- !private ["s28CustomDebugStringConvertibleP", "Settings"]
+- !private ["s28CustomDebugStringConvertibleP", "__loggingBehaviors"]
+- !private ["s28CustomDebugStringConvertibleP", "_loggingBehaviors"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "LoggingBehavior"]
+- !private ["s23CustomStringConvertibleP", "Set"]
+- !private ["s23CustomStringConvertibleP", "Settings"]
+- !private ["s23CustomStringConvertibleP", "__loggingBehaviors"]
+- !private ["s23CustomStringConvertibleP", "_loggingBehaviors"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SQ", "LoggingBehavior"]
+- !private ["SQ", "RawValue"]
+- !private ["SQ", "Set"]
+- !private ["SQ", "Settings"]
+- !private ["SQ", ""]
+- !private ["SQ", "__loggingBehaviors"]
+- !private ["SQ", "_loggingBehaviors"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "rawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["SH", "LoggingBehavior"]
+- !private ["SH", "RawValue"]
+- !private ["SH", "Set"]
+- !private ["SH", "Settings"]
+- !private ["SH", "__loggingBehaviors"]
+- !private ["SH", "_loggingBehaviors"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "rawValue"]
+- !private ["So20FBSDKLoggingBehaviora", "RawValue"]
+- !private ["So20FBSDKLoggingBehaviora", "init"]
+- !private ["So20FBSDKLoggingBehaviora", "rawValue"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", "LoggingBehavior"]
+- ["So8NSObjectC", "Set"]
+- !private ["So8NSObjectC", "Settings"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "__loggingBehaviors"]
+- !private ["So8NSObjectC", "_loggingBehaviors"]
+- ["So8NSObjectC", "loggingBehaviors"]
+- ["So8NSObjectP", "LoggingBehavior"]
+- ["So8NSObjectP", "Set"]
+- !private ["So8NSObjectP", "Settings"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "__loggingBehaviors"]
+- !private ["So8NSObjectP", "_loggingBehaviors"]
+- ["So8NSObjectP", "loggingBehaviors"]
+- !private ["SY", "RawValue"]
+- !private ["SY", ""]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["Sh", "init"]
+- !private ["Sh", "map"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "map"]
+- ["So13FBSDKSettingsC", "LoggingBehavior"]
+- ["So13FBSDKSettingsC", "Set"]
+- !private ["So13FBSDKSettingsC", "Settings"]
+- ["So13FBSDKSettingsC", ""]
+- !private ["So13FBSDKSettingsC", "__loggingBehaviors"]
+- !private ["So13FBSDKSettingsC", "_loggingBehaviors"]
+- ["So13FBSDKSettingsC", "loggingBehaviors"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "RawValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "rawValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LoggingBehavior"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Settings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "__loggingBehaviors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_loggingBehaviors"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LoggingBehavior"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Set"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Settings"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "__loggingBehaviors"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_loggingBehaviors"]
+- !private ["s21_ObjectiveCBridgeableP", "RawValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "rawValue"]
+- !private ["s20_SwiftNewtypeWrapperP", "RawValue"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "rawValue"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "So20FBSDKLoggingBehaviora"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- "So13FBSDKSettingsC"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKURL.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceViewControllerBase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkResolving.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLink.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkNavigation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestConnection.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKWebViewAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/FBSDKAppEvents.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkTarget.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestDataAttachment.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMeasurementEvent.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequest.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkUtility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FacebookCore.build/unextended-module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FBSDKCoreKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0793df880f0b733c618c7604f9083df4"

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "8a2e63534287b062d7c516a840c297d0"
+build_time: [1610991885, 973739000]
+inputs:
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FacebookLogin/Sources/Login/FBLoginButton.swift": [1609324482, 886556824]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FacebookLogin/Sources/Login/FBSDKLoginKit+Typealiases.swift": [1609324482, 887108490]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FacebookLogin/Sources/Login/LoginManager.swift": [1609324482, 887658661]

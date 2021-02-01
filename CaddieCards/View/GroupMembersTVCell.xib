@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+        <array key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="GroupMembersTVCell" rowHeight="50" id="KGk-i7-Jjw" customClass="GroupMembersTVCell" customModule="CaddieCards" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Group Member 1 :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3H-Z6-wBp">
+                        <rect key="frame" x="20" y="0.0" width="142" height="51"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="142" id="U7F-71-TzU"/>
+                            <constraint firstAttribute="height" constant="51" id="t3g-x6-wJW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGr-Sy-kWc">
+                        <rect key="frame" x="170" y="0.0" width="142" height="51"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="51" id="NVO-n6-L7U"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <color key="textColor" red="0.2666666667" green="0.26274509800000001" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tGr-Sy-kWc" firstAttribute="leading" secondItem="H3H-Z6-wBp" secondAttribute="trailing" constant="8" id="7hH-oA-bds"/>
+                    <constraint firstAttribute="bottom" secondItem="H3H-Z6-wBp" secondAttribute="bottom" constant="-1.5" id="9Df-4G-jMI"/>
+                    <constraint firstAttribute="trailing" secondItem="tGr-Sy-kWc" secondAttribute="trailing" constant="8" id="Ebr-h5-jIa"/>
+                    <constraint firstAttribute="bottom" secondItem="tGr-Sy-kWc" secondAttribute="bottom" constant="-1.5" id="Kcc-ny-0ce"/>
+                    <constraint firstItem="H3H-Z6-wBp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="X6h-hO-MA3"/>
+                    <constraint firstItem="H3H-Z6-wBp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hBL-Oe-8Nb"/>
+                    <constraint firstItem="tGr-Sy-kWc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="t8K-Wj-kjD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="GroupMemberCountLbl" destination="H3H-Z6-wBp" id="eBP-ay-9Pu"/>
+                <outlet property="groupMemberNameLbl" destination="tGr-Sy-kWc" id="mSP-bE-2YK"/>
+            </connections>
+            <point key="canvasLocation" x="60.799999999999997" y="98.950524737631198"/>
+        </tableViewCell>
+    </objects>
+</document>

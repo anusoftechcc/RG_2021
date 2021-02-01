@@ -1,0 +1,449 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SideMenuTransitionControllerDelegate"
+- "SideMenuTransitionController"
+provides-nominal:
+- "8SideMenu0aB28TransitionControllerDelegateP"
+- "8SideMenu0aB20TransitionControllerC"
+provides-member:
+- ["8SideMenu0aB28TransitionControllerDelegateP", ""]
+- ["8SideMenu0aB20TransitionControllerC", ""]
+provides-dynamic-lookup:
+- "animationController"
+- "config"
+- "delegate"
+- "handle"
+- "interactionController"
+- "interactionControllerForDismissal"
+- "interactionControllerForPresentation"
+- "interactive"
+- "layout"
+- "leftSide"
+- "sideMenuAnimationController"
+- "transition"
+depends-top-level:
+- "AnimationModel"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "MenuModel"
+- "Model"
+- "NSObject"
+- "PresentationModel"
+- "SideMenuAnimationController"
+- "SideMenuAnimationControllerDelegate"
+- "SideMenuInteractionController"
+- "SideMenuTransitionController"
+- "SideMenuTransitionControllerDelegate"
+- "UIViewController"
+- "UIViewControllerAnimatedTransitioning"
+- "UIViewControllerInteractiveTransitioning"
+- "UIViewControllerTransitioningDelegate"
+- "Void"
+- !private "animationController"
+- !private "config"
+- !private "delegate"
+- !private "interactionController"
+- !private "interactive"
+- !private "leftSide"
+depends-member:
+- !private ["8SideMenu14AnimationModelP", "completionCurve"]
+- !private ["8SideMenu14AnimationModelP", "dismissWhenBackgrounded"]
+- !private ["s7CVarArgP", "SideMenuAnimationController"]
+- !private ["s7CVarArgP", "SideMenuInteractionController"]
+- ["s7CVarArgP", "State"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "animationController"]
+- ["s7CVarArgP", "animationControllerForDismissedController"]
+- ["s7CVarArgP", "animationControllerForPresentedController"]
+- !private ["s7CVarArgP", "config"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "handle"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "interactionController"]
+- ["s7CVarArgP", "interactionControllerForDismissal"]
+- ["s7CVarArgP", "interactionControllerForPresentation"]
+- !private ["s7CVarArgP", "interactive"]
+- !private ["s7CVarArgP", "layout"]
+- !private ["s7CVarArgP", "leftSide"]
+- ["s7CVarArgP", "presentationController"]
+- ["s7CVarArgP", "presentationControllerForPresentedViewController"]
+- ["s7CVarArgP", "sideMenuAnimationController"]
+- !private ["s7CVarArgP", "transition"]
+- !private ["s28CustomDebugStringConvertibleP", "SideMenuAnimationController"]
+- !private ["s28CustomDebugStringConvertibleP", "SideMenuInteractionController"]
+- ["s28CustomDebugStringConvertibleP", "State"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "animationController"]
+- ["s28CustomDebugStringConvertibleP", "animationControllerForDismissedController"]
+- ["s28CustomDebugStringConvertibleP", "animationControllerForPresentedController"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "config"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "handle"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "interactionController"]
+- ["s28CustomDebugStringConvertibleP", "interactionControllerForDismissal"]
+- ["s28CustomDebugStringConvertibleP", "interactionControllerForPresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "interactive"]
+- !private ["s28CustomDebugStringConvertibleP", "layout"]
+- !private ["s28CustomDebugStringConvertibleP", "leftSide"]
+- ["s28CustomDebugStringConvertibleP", "presentationController"]
+- ["s28CustomDebugStringConvertibleP", "presentationControllerForPresentedViewController"]
+- ["s28CustomDebugStringConvertibleP", "sideMenuAnimationController"]
+- !private ["s28CustomDebugStringConvertibleP", "transition"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "SideMenuAnimationController"]
+- !private ["s23CustomStringConvertibleP", "SideMenuInteractionController"]
+- ["s23CustomStringConvertibleP", "State"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "animationController"]
+- ["s23CustomStringConvertibleP", "animationControllerForDismissedController"]
+- ["s23CustomStringConvertibleP", "animationControllerForPresentedController"]
+- !private ["s23CustomStringConvertibleP", "config"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "handle"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "interactionController"]
+- ["s23CustomStringConvertibleP", "interactionControllerForDismissal"]
+- ["s23CustomStringConvertibleP", "interactionControllerForPresentation"]
+- !private ["s23CustomStringConvertibleP", "interactive"]
+- !private ["s23CustomStringConvertibleP", "layout"]
+- !private ["s23CustomStringConvertibleP", "leftSide"]
+- ["s23CustomStringConvertibleP", "presentationController"]
+- ["s23CustomStringConvertibleP", "presentationControllerForPresentedViewController"]
+- ["s23CustomStringConvertibleP", "sideMenuAnimationController"]
+- !private ["s23CustomStringConvertibleP", "transition"]
+- !private ["Se", "callAsFunction"]
+- !private ["SE", "callAsFunction"]
+- !private ["SQ", "SideMenuAnimationController"]
+- !private ["SQ", "SideMenuInteractionController"]
+- ["SQ", "State"]
+- ["SQ", ""]
+- ["SQ", "animationController"]
+- ["SQ", "animationControllerForDismissedController"]
+- ["SQ", "animationControllerForPresentedController"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "config"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "handle"]
+- !private ["SQ", "init"]
+- !private ["SQ", "interactionController"]
+- ["SQ", "interactionControllerForDismissal"]
+- ["SQ", "interactionControllerForPresentation"]
+- !private ["SQ", "interactive"]
+- !private ["SQ", "layout"]
+- !private ["SQ", "leftSide"]
+- ["SQ", "presentationController"]
+- ["SQ", "presentationControllerForPresentedViewController"]
+- ["SQ", "sideMenuAnimationController"]
+- !private ["SQ", "transition"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["SH", "SideMenuAnimationController"]
+- !private ["SH", "SideMenuInteractionController"]
+- ["SH", "State"]
+- ["SH", ""]
+- ["SH", "animationController"]
+- ["SH", "animationControllerForDismissedController"]
+- ["SH", "animationControllerForPresentedController"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "config"]
+- !private ["SH", "delegate"]
+- !private ["SH", "handle"]
+- !private ["SH", "init"]
+- !private ["SH", "interactionController"]
+- ["SH", "interactionControllerForDismissal"]
+- ["SH", "interactionControllerForPresentation"]
+- !private ["SH", "interactive"]
+- !private ["SH", "layout"]
+- !private ["SH", "leftSide"]
+- ["SH", "presentationController"]
+- ["SH", "presentationControllerForPresentedViewController"]
+- ["SH", "sideMenuAnimationController"]
+- !private ["SH", "transition"]
+- !private ["8SideMenu18InitializableClassP", "SideMenuAnimationController"]
+- !private ["8SideMenu18InitializableClassP", "SideMenuInteractionController"]
+- ["8SideMenu18InitializableClassP", "State"]
+- ["8SideMenu18InitializableClassP", ""]
+- ["8SideMenu18InitializableClassP", "animationController"]
+- ["8SideMenu18InitializableClassP", "animationControllerForDismissedController"]
+- ["8SideMenu18InitializableClassP", "animationControllerForPresentedController"]
+- !private ["8SideMenu18InitializableClassP", "config"]
+- !private ["8SideMenu18InitializableClassP", "delegate"]
+- !private ["8SideMenu18InitializableClassP", "handle"]
+- !private ["8SideMenu18InitializableClassP", "init"]
+- !private ["8SideMenu18InitializableClassP", "interactionController"]
+- ["8SideMenu18InitializableClassP", "interactionControllerForDismissal"]
+- ["8SideMenu18InitializableClassP", "interactionControllerForPresentation"]
+- !private ["8SideMenu18InitializableClassP", "interactive"]
+- !private ["8SideMenu18InitializableClassP", "layout"]
+- !private ["8SideMenu18InitializableClassP", "leftSide"]
+- ["8SideMenu18InitializableClassP", "presentationController"]
+- ["8SideMenu18InitializableClassP", "presentationControllerForPresentedViewController"]
+- ["8SideMenu18InitializableClassP", "sideMenuAnimationController"]
+- !private ["8SideMenu18InitializableClassP", "transition"]
+- !private ["8SideMenu0B5ModelP", "completionCurve"]
+- !private ["8SideMenu0B5ModelP", "dismissWhenBackgrounded"]
+- ["So8NSObjectC", "AnimationModel"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "MenuModel"]
+- ["So8NSObjectC", "Model"]
+- ["So8NSObjectC", "PresentationModel"]
+- ["So8NSObjectC", "SideMenuAnimationController"]
+- ["So8NSObjectC", "SideMenuInteractionController"]
+- ["So8NSObjectC", "SideMenuTransitionControllerDelegate"]
+- ["So8NSObjectC", "State"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "UIViewControllerAnimatedTransitioning"]
+- ["So8NSObjectC", "UIViewControllerInteractiveTransitioning"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "animationController"]
+- ["So8NSObjectC", "animationControllerForDismissedController"]
+- ["So8NSObjectC", "animationControllerForPresentedController"]
+- ["So8NSObjectC", "config"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "handle"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "interactionController"]
+- ["So8NSObjectC", "interactionControllerForDismissal"]
+- ["So8NSObjectC", "interactionControllerForPresentation"]
+- ["So8NSObjectC", "interactive"]
+- ["So8NSObjectC", "layout"]
+- ["So8NSObjectC", "leftSide"]
+- ["So8NSObjectC", "presentationController"]
+- ["So8NSObjectC", "presentationControllerForPresentedViewController"]
+- ["So8NSObjectC", "sideMenuAnimationController"]
+- ["So8NSObjectC", "transition"]
+- ["So8NSObjectP", "AnimationModel"]
+- ["So8NSObjectP", "MenuModel"]
+- ["So8NSObjectP", "Model"]
+- ["So8NSObjectP", "PresentationModel"]
+- ["So8NSObjectP", "SideMenuAnimationController"]
+- ["So8NSObjectP", "SideMenuInteractionController"]
+- ["So8NSObjectP", "SideMenuTransitionControllerDelegate"]
+- ["So8NSObjectP", "State"]
+- ["So8NSObjectP", "UIViewController"]
+- ["So8NSObjectP", "UIViewControllerAnimatedTransitioning"]
+- ["So8NSObjectP", "UIViewControllerInteractiveTransitioning"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "animationController"]
+- ["So8NSObjectP", "animationControllerForDismissedController"]
+- ["So8NSObjectP", "animationControllerForPresentedController"]
+- ["So8NSObjectP", "config"]
+- ["So8NSObjectP", "deinit"]
+- ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "handle"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "interactionController"]
+- ["So8NSObjectP", "interactionControllerForDismissal"]
+- ["So8NSObjectP", "interactionControllerForPresentation"]
+- ["So8NSObjectP", "interactive"]
+- ["So8NSObjectP", "layout"]
+- ["So8NSObjectP", "leftSide"]
+- ["So8NSObjectP", "presentationController"]
+- ["So8NSObjectP", "presentationControllerForPresentedViewController"]
+- ["So8NSObjectP", "sideMenuAnimationController"]
+- ["So8NSObjectP", "transition"]
+- !private ["Sq", "callAsFunction"]
+- !private ["8SideMenu17PresentationModelP", "completionCurve"]
+- !private ["8SideMenu17PresentationModelP", "dismissWhenBackgrounded"]
+- !private ["8SideMenu0aB19AnimationControllerC", ""]
+- !private ["8SideMenu0aB19AnimationControllerC", "init"]
+- !private ["8SideMenu0aB19AnimationControllerC", "layout"]
+- !private ["8SideMenu0aB19AnimationControllerC", "transition"]
+- !private ["8SideMenu0aB27AnimationControllerDelegateP", "SideMenuAnimationController"]
+- !private ["8SideMenu0aB27AnimationControllerDelegateP", "SideMenuInteractionController"]
+- ["8SideMenu0aB27AnimationControllerDelegateP", ""]
+- ["8SideMenu0aB27AnimationControllerDelegateP", "animationController"]
+- ["8SideMenu0aB27AnimationControllerDelegateP", "animationControllerForDismissedController"]
+- ["8SideMenu0aB27AnimationControllerDelegateP", "animationControllerForPresentedController"]
+- !private ["8SideMenu0aB27AnimationControllerDelegateP", "config"]
+- !private ["8SideMenu0aB27AnimationControllerDelegateP", "delegate"]
+- !private ["8SideMenu0aB27AnimationControllerDelegateP", "interactionController"]
+- ["8SideMenu0aB27AnimationControllerDelegateP", "interactionControllerForDismissal"]
+- ["8SideMenu0aB27AnimationControllerDelegateP", "interactionControllerForPresentation"]
+- !private ["8SideMenu0aB27AnimationControllerDelegateP", "interactive"]
+- !private ["8SideMenu0aB27AnimationControllerDelegateP", "leftSide"]
+- ["8SideMenu0aB27AnimationControllerDelegateP", "presentationController"]
+- ["8SideMenu0aB27AnimationControllerDelegateP", "presentationControllerForPresentedViewController"]
+- ["8SideMenu0aB27AnimationControllerDelegateP", "sideMenuAnimationController"]
+- ["8SideMenu0aB21InteractionControllerC", "State"]
+- !private ["8SideMenu0aB21InteractionControllerC", ""]
+- !private ["8SideMenu0aB21InteractionControllerC", "handle"]
+- !private ["8SideMenu0aB21InteractionControllerC", "init"]
+- ["8SideMenu0aB20TransitionControllerC", "AnimationModel"]
+- ["8SideMenu0aB20TransitionControllerC", "Bool"]
+- ["8SideMenu0aB20TransitionControllerC", "MenuModel"]
+- ["8SideMenu0aB20TransitionControllerC", "Model"]
+- ["8SideMenu0aB20TransitionControllerC", "PresentationModel"]
+- ["8SideMenu0aB20TransitionControllerC", "SideMenuAnimationController"]
+- ["8SideMenu0aB20TransitionControllerC", "SideMenuInteractionController"]
+- ["8SideMenu0aB20TransitionControllerC", "SideMenuTransitionControllerDelegate"]
+- ["8SideMenu0aB20TransitionControllerC", "UIViewController"]
+- ["8SideMenu0aB20TransitionControllerC", "UIViewControllerAnimatedTransitioning"]
+- ["8SideMenu0aB20TransitionControllerC", "UIViewControllerInteractiveTransitioning"]
+- ["8SideMenu0aB20TransitionControllerC", "Void"]
+- ["8SideMenu0aB20TransitionControllerC", ""]
+- ["8SideMenu0aB20TransitionControllerC", "animationController"]
+- ["8SideMenu0aB20TransitionControllerC", "animationControllerForDismissedController"]
+- ["8SideMenu0aB20TransitionControllerC", "animationControllerForPresentedController"]
+- !private ["8SideMenu0aB20TransitionControllerC", "config"]
+- ["8SideMenu0aB20TransitionControllerC", "deinit"]
+- ["8SideMenu0aB20TransitionControllerC", "delegate"]
+- ["8SideMenu0aB20TransitionControllerC", "handle"]
+- ["8SideMenu0aB20TransitionControllerC", "init"]
+- !private ["8SideMenu0aB20TransitionControllerC", "interactionController"]
+- ["8SideMenu0aB20TransitionControllerC", "interactionControllerForDismissal"]
+- ["8SideMenu0aB20TransitionControllerC", "interactionControllerForPresentation"]
+- ["8SideMenu0aB20TransitionControllerC", "interactive"]
+- ["8SideMenu0aB20TransitionControllerC", "layout"]
+- !private ["8SideMenu0aB20TransitionControllerC", "leftSide"]
+- ["8SideMenu0aB20TransitionControllerC", "presentationController"]
+- ["8SideMenu0aB20TransitionControllerC", "presentationControllerForPresentedViewController"]
+- ["8SideMenu0aB20TransitionControllerC", "sideMenuAnimationController"]
+- ["8SideMenu0aB20TransitionControllerC", "transition"]
+- ["8SideMenu0aB28TransitionControllerDelegateP", "SideMenuTransitionController"]
+- ["8SideMenu0aB28TransitionControllerDelegateP", "UIViewController"]
+- ["8SideMenu0aB28TransitionControllerDelegateP", "sideMenuTransitionController"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "State"]
+- ["So36UIPercentDrivenInteractiveTransitionC", ""]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "handle"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "init"]
+- ["So37UIViewControllerAnimatedTransitioningP", "init"]
+- !private ["So37UIViewControllerAnimatedTransitioningP", "layout"]
+- !private ["So37UIViewControllerAnimatedTransitioningP", "transition"]
+- ["So40UIViewControllerInteractiveTransitioningP", "State"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "handle"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "init"]
+- !private ["So37UIViewControllerTransitioningDelegateP", "SideMenuAnimationController"]
+- !private ["So37UIViewControllerTransitioningDelegateP", "SideMenuInteractionController"]
+- ["So37UIViewControllerTransitioningDelegateP", ""]
+- ["So37UIViewControllerTransitioningDelegateP", "animationController"]
+- ["So37UIViewControllerTransitioningDelegateP", "animationControllerForDismissedController"]
+- ["So37UIViewControllerTransitioningDelegateP", "animationControllerForPresentedController"]
+- ["So37UIViewControllerTransitioningDelegateP", "config"]
+- ["So37UIViewControllerTransitioningDelegateP", "deinit"]
+- ["So37UIViewControllerTransitioningDelegateP", "delegate"]
+- ["So37UIViewControllerTransitioningDelegateP", "handle"]
+- ["So37UIViewControllerTransitioningDelegateP", "init"]
+- ["So37UIViewControllerTransitioningDelegateP", "interactionController"]
+- ["So37UIViewControllerTransitioningDelegateP", "interactionControllerForDismissal"]
+- ["So37UIViewControllerTransitioningDelegateP", "interactionControllerForPresentation"]
+- ["So37UIViewControllerTransitioningDelegateP", "interactive"]
+- ["So37UIViewControllerTransitioningDelegateP", "layout"]
+- ["So37UIViewControllerTransitioningDelegateP", "leftSide"]
+- ["So37UIViewControllerTransitioningDelegateP", "presentationController"]
+- ["So37UIViewControllerTransitioningDelegateP", "presentationControllerForPresentedViewController"]
+- ["So37UIViewControllerTransitioningDelegateP", "sideMenuAnimationController"]
+- ["So37UIViewControllerTransitioningDelegateP", "transition"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SideMenuAnimationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SideMenuInteractionController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "State"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "animationController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "animationControllerForDismissedController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "animationControllerForPresentedController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "config"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interactionController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "interactionControllerForDismissal"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "interactionControllerForPresentation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interactive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftSide"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationControllerForPresentedViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sideMenuAnimationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transition"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SideMenuAnimationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SideMenuInteractionController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "State"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animationController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animationControllerForDismissedController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animationControllerForPresentedController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "config"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interactionController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interactionControllerForDismissal"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interactionControllerForPresentation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interactive"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layout"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leftSide"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "presentationController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "presentationControllerForPresentedViewController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sideMenuAnimationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "transition"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+depends-nominal:
+- !private "8SideMenu14AnimationModelP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "8SideMenu18InitializableClassP"
+- !private "8SideMenu0B5ModelP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "8SideMenu17PresentationModelP"
+- !private "8SideMenu0aB19AnimationControllerC"
+- "8SideMenu0aB27AnimationControllerDelegateP"
+- "8SideMenu0aB21InteractionControllerC"
+- "8SideMenu0aB20TransitionControllerC"
+- "8SideMenu0aB28TransitionControllerDelegateP"
+- "So36UIPercentDrivenInteractiveTransitionC"
+- "So37UIViewControllerAnimatedTransitioningP"
+- "So40UIViewControllerInteractiveTransitioningP"
+- "So37UIViewControllerTransitioningDelegateP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Target Support Files/SideMenu/SideMenu-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SideMenu.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c381ca58a97d1d80128beda73693493e"

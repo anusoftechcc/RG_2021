@@ -1,0 +1,582 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DatePickerPopover"
+provides-nominal:
+- "19SwiftyPickerPopover04DatebC0C"
+provides-member:
+- ["19SwiftyPickerPopover04DatebC0C", ""]
+provides-dynamic-lookup:
+- "cancelButton"
+- "clearButton"
+- "dateMode_"
+- "doneButton"
+- "locale"
+- "maximumDate"
+- "minimumDate"
+- "minuteInterval"
+- "selectedDate"
+- "setButton"
+- "setCancelButton"
+- "setClearButton"
+- "setDateMode"
+- "setDoneButton"
+- "setLocale"
+- "setMaximumDate"
+- "setMinimumDate"
+- "setMinuteInterval"
+- "setSelectedDate"
+- "setValueChange"
+- "valueChangeAction"
+depends-top-level:
+- "AbstractPopover"
+- "ActionHandlerType"
+- "AssignmentPrecedence"
+- "ButtonParameterType"
+- "Date"
+- "DatePickerPopover"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "ItemType"
+- "Locale"
+- "PopoverType"
+- "Self"
+- "String"
+- "StringLiteralType"
+- "UIColor"
+- "UIDatePicker"
+- "UIFont"
+- "Void"
+- !private "cancelButton"
+- !private "clearButton"
+- !private "doneButton"
+- !private "setButton"
+- !private "setLocale"
+- !private "valueChangeAction"
+depends-member:
+- ["19SwiftyPickerPopover08AbstractC0C", "ActionHandlerType"]
+- ["19SwiftyPickerPopover08AbstractC0C", "ButtonParameterType"]
+- ["19SwiftyPickerPopover08AbstractC0C", "Date"]
+- ["19SwiftyPickerPopover08AbstractC0C", "DatePickerPopover"]
+- ["19SwiftyPickerPopover08AbstractC0C", "Int"]
+- ["19SwiftyPickerPopover08AbstractC0C", "ItemType"]
+- ["19SwiftyPickerPopover08AbstractC0C", "Locale"]
+- ["19SwiftyPickerPopover08AbstractC0C", "PopoverType"]
+- ["19SwiftyPickerPopover08AbstractC0C", "Self"]
+- ["19SwiftyPickerPopover08AbstractC0C", "String"]
+- ["19SwiftyPickerPopover08AbstractC0C", "UIColor"]
+- ["19SwiftyPickerPopover08AbstractC0C", "UIDatePicker"]
+- ["19SwiftyPickerPopover08AbstractC0C", "UIFont"]
+- ["19SwiftyPickerPopover08AbstractC0C", "Void"]
+- ["19SwiftyPickerPopover08AbstractC0C", ""]
+- ["19SwiftyPickerPopover08AbstractC0C", "cancelButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "clearButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "dateMode_"]
+- ["19SwiftyPickerPopover08AbstractC0C", "doneButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "init"]
+- ["19SwiftyPickerPopover08AbstractC0C", "locale"]
+- ["19SwiftyPickerPopover08AbstractC0C", "maximumDate"]
+- ["19SwiftyPickerPopover08AbstractC0C", "minimumDate"]
+- ["19SwiftyPickerPopover08AbstractC0C", "minuteInterval"]
+- ["19SwiftyPickerPopover08AbstractC0C", "selectedDate"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setCancelButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setClearButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setDateMode"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setDoneButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setLocale"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setMaximumDate"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setMinimumDate"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setMinuteInterval"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setSelectedDate"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setValueChange"]
+- !private ["19SwiftyPickerPopover08AbstractC0C", "title"]
+- ["19SwiftyPickerPopover08AbstractC0C", "valueChangeAction"]
+- ["SK", ""]
+- ["SK", "localized"]
+- ["So15CALayerDelegateP", "Mode"]
+- ["s7CVarArgP", "ItemType"]
+- ["s7CVarArgP", "Locale"]
+- ["s7CVarArgP", "Mode"]
+- ["s7CVarArgP", "Self"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "cancelButton"]
+- !private ["s7CVarArgP", "clearButton"]
+- !private ["s7CVarArgP", "dateMode_"]
+- !private ["s7CVarArgP", "doneButton"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "locale"]
+- ["s7CVarArgP", "localized"]
+- !private ["s7CVarArgP", "maximumDate"]
+- !private ["s7CVarArgP", "minimumDate"]
+- !private ["s7CVarArgP", "minuteInterval"]
+- !private ["s7CVarArgP", "selectedDate"]
+- !private ["s7CVarArgP", "setButton"]
+- !private ["s7CVarArgP", "setLocale"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "valueChangeAction"]
+- ["Sl", ""]
+- ["Sl", "localized"]
+- ["SL", ""]
+- ["SL", "init"]
+- ["SL", "localized"]
+- ["s28CustomDebugStringConvertibleP", "ItemType"]
+- ["s28CustomDebugStringConvertibleP", "Locale"]
+- ["s28CustomDebugStringConvertibleP", "Mode"]
+- ["s28CustomDebugStringConvertibleP", "Self"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cancelButton"]
+- !private ["s28CustomDebugStringConvertibleP", "clearButton"]
+- ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "dateMode_"]
+- !private ["s28CustomDebugStringConvertibleP", "doneButton"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- ["s28CustomDebugStringConvertibleP", "localized"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumDate"]
+- !private ["s28CustomDebugStringConvertibleP", "minimumDate"]
+- !private ["s28CustomDebugStringConvertibleP", "minuteInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedDate"]
+- !private ["s28CustomDebugStringConvertibleP", "setButton"]
+- !private ["s28CustomDebugStringConvertibleP", "setLocale"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "valueChangeAction"]
+- ["s17CustomReflectableP", "current"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "localized"]
+- ["s23CustomStringConvertibleP", "ItemType"]
+- ["s23CustomStringConvertibleP", "Locale"]
+- ["s23CustomStringConvertibleP", "Mode"]
+- ["s23CustomStringConvertibleP", "Self"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "cancelButton"]
+- !private ["s23CustomStringConvertibleP", "clearButton"]
+- ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "dateMode_"]
+- !private ["s23CustomStringConvertibleP", "doneButton"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- ["s23CustomStringConvertibleP", "localized"]
+- !private ["s23CustomStringConvertibleP", "maximumDate"]
+- !private ["s23CustomStringConvertibleP", "minimumDate"]
+- !private ["s23CustomStringConvertibleP", "minuteInterval"]
+- !private ["s23CustomStringConvertibleP", "selectedDate"]
+- !private ["s23CustomStringConvertibleP", "setButton"]
+- !private ["s23CustomStringConvertibleP", "setLocale"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "valueChangeAction"]
+- ["10Foundation4DateV", "init"]
+- ["19SwiftyPickerPopover04DatebC0C", "ActionHandlerType"]
+- ["19SwiftyPickerPopover04DatebC0C", "ButtonParameterType"]
+- ["19SwiftyPickerPopover04DatebC0C", "Date"]
+- ["19SwiftyPickerPopover04DatebC0C", "DatePickerPopover"]
+- ["19SwiftyPickerPopover04DatebC0C", "Int"]
+- ["19SwiftyPickerPopover04DatebC0C", "ItemType"]
+- ["19SwiftyPickerPopover04DatebC0C", "Locale"]
+- ["19SwiftyPickerPopover04DatebC0C", "PopoverType"]
+- ["19SwiftyPickerPopover04DatebC0C", "Self"]
+- ["19SwiftyPickerPopover04DatebC0C", "String"]
+- ["19SwiftyPickerPopover04DatebC0C", "UIColor"]
+- ["19SwiftyPickerPopover04DatebC0C", "UIDatePicker"]
+- ["19SwiftyPickerPopover04DatebC0C", "UIFont"]
+- ["19SwiftyPickerPopover04DatebC0C", "Void"]
+- ["19SwiftyPickerPopover04DatebC0C", ""]
+- ["19SwiftyPickerPopover04DatebC0C", "cancelButton"]
+- ["19SwiftyPickerPopover04DatebC0C", "clearButton"]
+- ["19SwiftyPickerPopover04DatebC0C", "dateMode_"]
+- ["19SwiftyPickerPopover04DatebC0C", "deinit"]
+- ["19SwiftyPickerPopover04DatebC0C", "doneButton"]
+- ["19SwiftyPickerPopover04DatebC0C", "init"]
+- ["19SwiftyPickerPopover04DatebC0C", "locale"]
+- ["19SwiftyPickerPopover04DatebC0C", "maximumDate"]
+- ["19SwiftyPickerPopover04DatebC0C", "minimumDate"]
+- ["19SwiftyPickerPopover04DatebC0C", "minuteInterval"]
+- ["19SwiftyPickerPopover04DatebC0C", "selectedDate"]
+- ["19SwiftyPickerPopover04DatebC0C", "setButton"]
+- ["19SwiftyPickerPopover04DatebC0C", "setCancelButton"]
+- ["19SwiftyPickerPopover04DatebC0C", "setClearButton"]
+- ["19SwiftyPickerPopover04DatebC0C", "setDateMode"]
+- ["19SwiftyPickerPopover04DatebC0C", "setDoneButton"]
+- ["19SwiftyPickerPopover04DatebC0C", "setLocale"]
+- ["19SwiftyPickerPopover04DatebC0C", "setMaximumDate"]
+- ["19SwiftyPickerPopover04DatebC0C", "setMinimumDate"]
+- ["19SwiftyPickerPopover04DatebC0C", "setMinuteInterval"]
+- ["19SwiftyPickerPopover04DatebC0C", "setSelectedDate"]
+- ["19SwiftyPickerPopover04DatebC0C", "setValueChange"]
+- !private ["19SwiftyPickerPopover04DatebC0C", "title"]
+- ["19SwiftyPickerPopover04DatebC0C", "valueChangeAction"]
+- ["Se", "current"]
+- ["Se", "init"]
+- ["Se", "localized"]
+- ["SE", "current"]
+- ["SE", "init"]
+- ["SE", "localized"]
+- ["SQ", "ItemType"]
+- ["SQ", "Locale"]
+- ["SQ", "Mode"]
+- ["SQ", "Self"]
+- ["SQ", ""]
+- !private ["SQ", "cancelButton"]
+- !private ["SQ", "clearButton"]
+- ["SQ", "current"]
+- ["SQ", "date"]
+- !private ["SQ", "dateMode_"]
+- !private ["SQ", "doneButton"]
+- ["SQ", "init"]
+- !private ["SQ", "locale"]
+- ["SQ", "localized"]
+- !private ["SQ", "maximumDate"]
+- !private ["SQ", "minimumDate"]
+- !private ["SQ", "minuteInterval"]
+- !private ["SQ", "selectedDate"]
+- !private ["SQ", "setButton"]
+- !private ["SQ", "setLocale"]
+- !private ["SQ", "title"]
+- !private ["SQ", "valueChangeAction"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "localized"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", "localized"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "localized"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "localized"]
+- ["SH", "ItemType"]
+- ["SH", "Locale"]
+- ["SH", "Mode"]
+- ["SH", "Self"]
+- ["SH", ""]
+- !private ["SH", "cancelButton"]
+- !private ["SH", "clearButton"]
+- ["SH", "current"]
+- ["SH", "date"]
+- !private ["SH", "dateMode_"]
+- !private ["SH", "doneButton"]
+- ["SH", "init"]
+- !private ["SH", "locale"]
+- ["SH", "localized"]
+- !private ["SH", "maximumDate"]
+- !private ["SH", "minimumDate"]
+- !private ["SH", "minuteInterval"]
+- !private ["SH", "selectedDate"]
+- !private ["SH", "setButton"]
+- !private ["SH", "setLocale"]
+- !private ["SH", "title"]
+- !private ["SH", "valueChangeAction"]
+- ["10Foundation6LocaleV", "current"]
+- !private ["10Foundation6LocaleV", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "localized"]
+- ["s10MirrorPathP", "localized"]
+- ["So16UIDatePickerModeV", "date"]
+- ["So8NSCodingP", "Mode"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "localized"]
+- ["So9NSCopyingP", "localized"]
+- ["So21NSItemProviderReadingP", "localized"]
+- ["So21NSItemProviderWritingP", "localized"]
+- ["So16NSMutableCopyingP", "localized"]
+- ["So8NSObjectC", "ActionHandlerType"]
+- ["So8NSObjectC", "ButtonParameterType"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "DatePickerPopover"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "ItemType"]
+- ["So8NSObjectC", "Locale"]
+- ["So8NSObjectC", "Mode"]
+- ["So8NSObjectC", "PopoverType"]
+- ["So8NSObjectC", "Self"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIDatePicker"]
+- ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "cancelButton"]
+- ["So8NSObjectC", "clearButton"]
+- ["So8NSObjectC", "dateMode_"]
+- ["So8NSObjectC", "doneButton"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "locale"]
+- ["So8NSObjectC", "localized"]
+- ["So8NSObjectC", "maximumDate"]
+- ["So8NSObjectC", "minimumDate"]
+- ["So8NSObjectC", "minuteInterval"]
+- ["So8NSObjectC", "selectedDate"]
+- ["So8NSObjectC", "setButton"]
+- ["So8NSObjectC", "setCancelButton"]
+- ["So8NSObjectC", "setClearButton"]
+- ["So8NSObjectC", "setDateMode"]
+- ["So8NSObjectC", "setDoneButton"]
+- ["So8NSObjectC", "setLocale"]
+- ["So8NSObjectC", "setMaximumDate"]
+- ["So8NSObjectC", "setMinimumDate"]
+- ["So8NSObjectC", "setMinuteInterval"]
+- ["So8NSObjectC", "setSelectedDate"]
+- ["So8NSObjectC", "setValueChange"]
+- !private ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "valueChangeAction"]
+- ["So8NSObjectP", "ActionHandlerType"]
+- ["So8NSObjectP", "ButtonParameterType"]
+- ["So8NSObjectP", "Date"]
+- ["So8NSObjectP", "DatePickerPopover"]
+- ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "ItemType"]
+- ["So8NSObjectP", "Locale"]
+- ["So8NSObjectP", "Mode"]
+- ["So8NSObjectP", "PopoverType"]
+- ["So8NSObjectP", "Self"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", "UIDatePicker"]
+- ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", "Void"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "addDimmedBackgroundViewIfNeeded"]
+- ["So8NSObjectP", "appear"]
+- ["So8NSObjectP", "backgroundColor"]
+- ["So8NSObjectP", "baseViewController"]
+- ["So8NSObjectP", "cancelButton"]
+- ["So8NSObjectP", "clearButton"]
+- ["So8NSObjectP", "configureContentViewController"]
+- ["So8NSObjectP", "configureNavigationController"]
+- ["So8NSObjectP", "contentViewController"]
+- ["So8NSObjectP", "cornerRadius"]
+- ["So8NSObjectP", "dateMode_"]
+- ["So8NSObjectP", "disappear"]
+- ["So8NSObjectP", "disappearAutomatically"]
+- ["So8NSObjectP", "disappearAutomaticallyItems"]
+- ["So8NSObjectP", "doneButton"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isAllowedOutsideTappingDismissing"]
+- ["So8NSObjectP", "isEnabledDimmedBackgroundView"]
+- ["So8NSObjectP", "kDimmedViewIdentifer"]
+- ["So8NSObjectP", "locale"]
+- ["So8NSObjectP", "localized"]
+- ["So8NSObjectP", "maximumDate"]
+- ["So8NSObjectP", "minimumDate"]
+- ["So8NSObjectP", "minuteInterval"]
+- ["So8NSObjectP", "permittedArrowDirections"]
+- ["So8NSObjectP", "redoDisappearAutomatically"]
+- ["So8NSObjectP", "reload"]
+- ["So8NSObjectP", "removeDimmedView"]
+- ["So8NSObjectP", "selectedDate"]
+- ["So8NSObjectP", "setArrowColor"]
+- ["So8NSObjectP", "setButton"]
+- ["So8NSObjectP", "setCancelButton"]
+- ["So8NSObjectP", "setClearButton"]
+- ["So8NSObjectP", "setCornerRadius"]
+- ["So8NSObjectP", "setDateMode"]
+- ["So8NSObjectP", "setDimmedBackgroundView"]
+- ["So8NSObjectP", "setDoneButton"]
+- ["So8NSObjectP", "setLocale"]
+- ["So8NSObjectP", "setMaximumDate"]
+- ["So8NSObjectP", "setMinimumDate"]
+- ["So8NSObjectP", "setMinuteInterval"]
+- ["So8NSObjectP", "setOutsideTapDismissing"]
+- ["So8NSObjectP", "setPermittedArrowDirections"]
+- ["So8NSObjectP", "setSelectedDate"]
+- ["So8NSObjectP", "setSize"]
+- ["So8NSObjectP", "setValueChange"]
+- ["So8NSObjectP", "size"]
+- ["So8NSObjectP", "storyboardName"]
+- ["So8NSObjectP", "tintColor"]
+- ["So8NSObjectP", "title"]
+- ["So8NSObjectP", "valueChangeAction"]
+- ["So14NSSecureCodingP", "localized"]
+- ["So8NSStringC", "localized"]
+- ["Sm", "localized"]
+- ["SY", "date"]
+- ["10Foundation20ReferenceConvertibleP", "current"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["ST", ""]
+- ["ST", "localized"]
+- ["SS", "localized"]
+- ["Sy", "localized"]
+- ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", "localized"]
+- ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", "localized"]
+- ["So29UIAccessibilityIdentificationP", "Mode"]
+- ["So12UIAppearanceP", "Mode"]
+- ["So21UIAppearanceContainerP", "Mode"]
+- ["So32UIContextMenuInteractionDelegateP", "Mode"]
+- ["So9UIControlC", "Mode"]
+- ["So17UICoordinateSpaceP", "Mode"]
+- ["So12UIDatePickerC", "Mode"]
+- ["So13UIDynamicItemP", "Mode"]
+- ["So18UIFocusEnvironmentP", "Mode"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So11UIFocusItemP", "Mode"]
+- ["So20UIFocusItemContainerP", "Mode"]
+- ["So24UILargeContentViewerItemP", "Mode"]
+- ["So30UIPasteConfigurationSupportingP", "Mode"]
+- ["So11UIResponderC", "Mode"]
+- ["So30UIResponderStandardEditActionsP", "Mode"]
+- ["So18UITraitEnvironmentP", "Mode"]
+- ["So23UIUserActivityRestoringP", "Mode"]
+- ["So6UIViewC", "Mode"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "localized"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "localized"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "localized"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "localized"]
+- ["s19_HasContiguousBytesP", "localized"]
+- ["s35_HasCustomAnyHashableRepresentationP", "localized"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ItemType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Locale"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Mode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Self"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clearButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateMode_"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doneButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "localized"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maximumDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minimumDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minuteInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setLocale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "valueChangeAction"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ItemType"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Locale"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Mode"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Self"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancelButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clearButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateMode_"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "doneButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locale"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "localized"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "maximumDate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "minimumDate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "minuteInterval"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selectedDate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setLocale"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "valueChangeAction"]
+- ["s21_ObjectiveCBridgeableP", ""]
+- ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "current"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "localized"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "Mode"]
+depends-nominal:
+- "19SwiftyPickerPopover08AbstractC0C"
+- "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- "19SwiftyPickerPopover04DatebC0C"
+- "Se"
+- "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "10Foundation6LocaleV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So16UIDatePickerModeV"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "Sm"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So12UIDatePickerC"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Target Support Files/SwiftyPickerPopover/SwiftyPickerPopover-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyPickerPopover.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "25859782b56b5e8e3de10b029322acb3"

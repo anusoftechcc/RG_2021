@@ -1,0 +1,249 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DateTransform"
+provides-nominal:
+- "12ObjectMapper13DateTransformC"
+- "12ObjectMapper13DateTransformC4UnitO"
+provides-member:
+- ["12ObjectMapper13DateTransformC", ""]
+- ["12ObjectMapper13DateTransformC4UnitO", ""]
+provides-dynamic-lookup:
+- "transformFromJSON"
+- "transformToJSON"
+- "unit"
+depends-top-level:
+- !private "*"
+- !private "/"
+- "=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Date"
+- "DateTransform"
+- "Double"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "String"
+- "TimeInterval"
+- "TransformType"
+- "Unit"
+- !private "atof"
+- !private "rawValue"
+- "unit"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SB", "init"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["SL", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- ["12ObjectMapper13DateTransformC", "Date"]
+- ["12ObjectMapper13DateTransformC", "Double"]
+- ["12ObjectMapper13DateTransformC", "JSON"]
+- ["12ObjectMapper13DateTransformC", "Object"]
+- !private ["12ObjectMapper13DateTransformC", "String"]
+- ["12ObjectMapper13DateTransformC", "TimeInterval"]
+- ["12ObjectMapper13DateTransformC", "Unit"]
+- ["12ObjectMapper13DateTransformC", ""]
+- !private ["12ObjectMapper13DateTransformC", "atof"]
+- ["12ObjectMapper13DateTransformC", "deinit"]
+- ["12ObjectMapper13DateTransformC", "init"]
+- !private ["12ObjectMapper13DateTransformC", "rawValue"]
+- ["12ObjectMapper13DateTransformC", "transformFromJSON"]
+- ["12ObjectMapper13DateTransformC", "transformToJSON"]
+- !private ["12ObjectMapper13DateTransformC", "unit"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "init"]
+- !private ["Se", "timeIntervalSince1970"]
+- !private ["Sd", "init"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "timeIntervalSince1970"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "addScale"]
+- !private ["SQ", "flatMap"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "removeScale"]
+- !private ["SQ", "seconds"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["SF", ""]
+- !private ["SF", "init"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "addScale"]
+- !private ["SH", "flatMap"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["SH", "removeScale"]
+- !private ["SH", "seconds"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sq", "flatMap"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "addScale"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["SY", "removeScale"]
+- !private ["SY", "seconds"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["12ObjectMapper13TransformTypeP", "Date"]
+- !private ["12ObjectMapper13TransformTypeP", "Double"]
+- ["12ObjectMapper13TransformTypeP", "JSON"]
+- ["12ObjectMapper13TransformTypeP", "Object"]
+- !private ["12ObjectMapper13TransformTypeP", "TimeInterval"]
+- ["12ObjectMapper13TransformTypeP", ""]
+- !private ["12ObjectMapper13TransformTypeP", "atof"]
+- !private ["12ObjectMapper13TransformTypeP", "rawValue"]
+- ["12ObjectMapper13TransformTypeP", "transformFromJSON"]
+- ["12ObjectMapper13TransformTypeP", "transformToJSON"]
+- !private ["12ObjectMapper13TransformTypeP", "unit"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["12ObjectMapper13DateTransformC4UnitO", "=="]
+- ["12ObjectMapper13DateTransformC4UnitO", "Default_RawValue"]
+- ["12ObjectMapper13DateTransformC4UnitO", "RawValue"]
+- ["12ObjectMapper13DateTransformC4UnitO", "TimeInterval"]
+- ["12ObjectMapper13DateTransformC4UnitO", ""]
+- ["12ObjectMapper13DateTransformC4UnitO", "_Default_RawValue"]
+- ["12ObjectMapper13DateTransformC4UnitO", "_rawHashValue"]
+- ["12ObjectMapper13DateTransformC4UnitO", "addScale"]
+- ["12ObjectMapper13DateTransformC4UnitO", "hash"]
+- ["12ObjectMapper13DateTransformC4UnitO", "hashValue"]
+- ["12ObjectMapper13DateTransformC4UnitO", "init"]
+- ["12ObjectMapper13DateTransformC4UnitO", "milliseconds"]
+- ["12ObjectMapper13DateTransformC4UnitO", "rawValue"]
+- ["12ObjectMapper13DateTransformC4UnitO", "removeScale"]
+- ["12ObjectMapper13DateTransformC4UnitO", "seconds"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- "12ObjectMapper13DateTransformC"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SF"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sq"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- "12ObjectMapper13TransformTypeP"
+- "So18UIFocusEnvironmentP"
+- "12ObjectMapper13DateTransformC4UnitO"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ObjectMapper.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "35e662a6f1713b3ac218466d821303b4"

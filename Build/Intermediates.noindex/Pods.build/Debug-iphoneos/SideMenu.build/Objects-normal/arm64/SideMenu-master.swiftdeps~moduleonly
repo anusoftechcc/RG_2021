@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "215337c4bf4ddef9ed17903f84ad7687"
+build_time: [1610379806, 715925000]
+inputs:
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/Deprecations.swift": [1609324483, 972843212]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/Extensions.swift": [1609324483, 975950115]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/Initializable.swift": [1609324483, 971665632]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/Print.swift": [1609324483, 970504616]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/Protected.swift": [1609324483, 974109853]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift": [1609324483, 971079571]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/SideMenuInteractionController.swift": [1609324483, 972244955]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/SideMenuManager.swift": [1609324483, 975380522]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/SideMenuNavigationController.swift": [1609324483, 977330719]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift": [1609324483, 974824826]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift": [1609324483, 973496171]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift": [1609324483, 976532107]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift": [1609324483, 977972465]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift": [1609324483, 978533274]

@@ -1,0 +1,713 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DashboardVC"
+provides-nominal:
+- "9Golf_Putz11DashboardVCC"
+provides-member:
+- ["9Golf_Putz11DashboardVCC", ""]
+provides-dynamic-lookup:
+- "setupSideMenu"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BaseViewController"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "DashboardVC"
+- !private "SideMenuManager"
+- !private "StringLiteralType"
+- !private "UIBarButtonItem"
+- "UISideMenuNavigationController"
+- !private "setupSideMenu"
+- !private "storyboard"
+depends-member:
+- ["9Golf_Putz18BaseViewControllerC", "Bool"]
+- !private ["9Golf_Putz18BaseViewControllerC", "SideMenuManager"]
+- !private ["9Golf_Putz18BaseViewControllerC", "UIBarButtonItem"]
+- !private ["9Golf_Putz18BaseViewControllerC", "UISideMenuNavigationController"]
+- ["9Golf_Putz18BaseViewControllerC", ""]
+- ["9Golf_Putz18BaseViewControllerC", "init"]
+- !private ["9Golf_Putz18BaseViewControllerC", "navigationController"]
+- !private ["9Golf_Putz18BaseViewControllerC", "navigationItem"]
+- ["9Golf_Putz18BaseViewControllerC", "setupSideMenu"]
+- !private ["9Golf_Putz18BaseViewControllerC", "storyboard"]
+- ["9Golf_Putz18BaseViewControllerC", "viewDidLoad"]
+- ["9Golf_Putz18BaseViewControllerC", "viewWillAppear"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["s7CVarArgP", "SideMenuManager"]
+- !private ["s7CVarArgP", "UIBarButtonItem"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "backBarButtonItem"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "menuAddPanGestureToPresent"]
+- !private ["s7CVarArgP", "menuAddScreenEdgePanGesturesToPresent"]
+- !private ["s7CVarArgP", "menuFadeStatusBar"]
+- !private ["s7CVarArgP", "menuLeftNavigationController"]
+- !private ["s7CVarArgP", "menuRightNavigationController"]
+- !private ["s7CVarArgP", "navigationBar"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "setupSideMenu"]
+- !private ["s7CVarArgP", "storyboard"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- !private ["s28CustomDebugStringConvertibleP", "SideMenuManager"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItem"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "menuAddPanGestureToPresent"]
+- !private ["s28CustomDebugStringConvertibleP", "menuAddScreenEdgePanGesturesToPresent"]
+- !private ["s28CustomDebugStringConvertibleP", "menuFadeStatusBar"]
+- !private ["s28CustomDebugStringConvertibleP", "menuLeftNavigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "menuRightNavigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationBar"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "setupSideMenu"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- !private ["s23CustomStringConvertibleP", "SideMenuManager"]
+- !private ["s23CustomStringConvertibleP", "UIBarButtonItem"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "backBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "menuAddPanGestureToPresent"]
+- !private ["s23CustomStringConvertibleP", "menuAddScreenEdgePanGesturesToPresent"]
+- !private ["s23CustomStringConvertibleP", "menuFadeStatusBar"]
+- !private ["s23CustomStringConvertibleP", "menuLeftNavigationController"]
+- !private ["s23CustomStringConvertibleP", "menuRightNavigationController"]
+- !private ["s23CustomStringConvertibleP", "navigationBar"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "setupSideMenu"]
+- !private ["s23CustomStringConvertibleP", "storyboard"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- ["9Golf_Putz11DashboardVCC", "Bool"]
+- !private ["9Golf_Putz11DashboardVCC", "SideMenuManager"]
+- !private ["9Golf_Putz11DashboardVCC", "UIBarButtonItem"]
+- !private ["9Golf_Putz11DashboardVCC", "UISideMenuNavigationController"]
+- ["9Golf_Putz11DashboardVCC", ""]
+- ["9Golf_Putz11DashboardVCC", "deinit"]
+- ["9Golf_Putz11DashboardVCC", "init"]
+- !private ["9Golf_Putz11DashboardVCC", "navigationController"]
+- !private ["9Golf_Putz11DashboardVCC", "navigationItem"]
+- !private ["9Golf_Putz11DashboardVCC", "setupSideMenu"]
+- !private ["9Golf_Putz11DashboardVCC", "storyboard"]
+- ["9Golf_Putz11DashboardVCC", "viewDidLoad"]
+- ["9Golf_Putz11DashboardVCC", "viewWillAppear"]
+- !private ["SQ", "SideMenuManager"]
+- !private ["SQ", "UIBarButtonItem"]
+- ["SQ", ""]
+- !private ["SQ", "backBarButtonItem"]
+- !private ["SQ", "default"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "isHidden"]
+- !private ["SQ", "menuAddPanGestureToPresent"]
+- !private ["SQ", "menuAddScreenEdgePanGesturesToPresent"]
+- !private ["SQ", "menuFadeStatusBar"]
+- !private ["SQ", "menuLeftNavigationController"]
+- !private ["SQ", "menuRightNavigationController"]
+- !private ["SQ", "navigationBar"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "navigationItem"]
+- !private ["SQ", "plain"]
+- !private ["SQ", "setupSideMenu"]
+- !private ["SQ", "storyboard"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "viewWillAppear"]
+- !private ["SH", "SideMenuManager"]
+- !private ["SH", "UIBarButtonItem"]
+- ["SH", ""]
+- !private ["SH", "backBarButtonItem"]
+- !private ["SH", "default"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "isHidden"]
+- !private ["SH", "menuAddPanGestureToPresent"]
+- !private ["SH", "menuAddScreenEdgePanGesturesToPresent"]
+- !private ["SH", "menuFadeStatusBar"]
+- !private ["SH", "menuLeftNavigationController"]
+- !private ["SH", "menuRightNavigationController"]
+- !private ["SH", "navigationBar"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "navigationItem"]
+- !private ["SH", "plain"]
+- !private ["SH", "setupSideMenu"]
+- !private ["SH", "storyboard"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "viewWillAppear"]
+- !private ["8SideMenu18InitializableClassP", "SideMenuManager"]
+- !private ["8SideMenu18InitializableClassP", "UIBarButtonItem"]
+- ["8SideMenu18InitializableClassP", ""]
+- !private ["8SideMenu18InitializableClassP", "backBarButtonItem"]
+- !private ["8SideMenu18InitializableClassP", "default"]
+- !private ["8SideMenu18InitializableClassP", "init"]
+- !private ["8SideMenu18InitializableClassP", "instantiateViewController"]
+- !private ["8SideMenu18InitializableClassP", "isHidden"]
+- !private ["8SideMenu18InitializableClassP", "menuAddPanGestureToPresent"]
+- !private ["8SideMenu18InitializableClassP", "menuAddScreenEdgePanGesturesToPresent"]
+- !private ["8SideMenu18InitializableClassP", "menuFadeStatusBar"]
+- !private ["8SideMenu18InitializableClassP", "menuLeftNavigationController"]
+- !private ["8SideMenu18InitializableClassP", "menuRightNavigationController"]
+- !private ["8SideMenu18InitializableClassP", "navigationBar"]
+- !private ["8SideMenu18InitializableClassP", "navigationController"]
+- !private ["8SideMenu18InitializableClassP", "navigationItem"]
+- !private ["8SideMenu18InitializableClassP", "setupSideMenu"]
+- !private ["8SideMenu18InitializableClassP", "storyboard"]
+- !private ["8SideMenu18InitializableClassP", "view"]
+- !private ["8SideMenu18InitializableClassP", "viewDidLoad"]
+- !private ["8SideMenu18InitializableClassP", "viewWillAppear"]
+- !private ["So8NSCodingP", "SideMenuManager"]
+- !private ["So8NSCodingP", "UIBarButtonItem"]
+- !private ["So8NSCodingP", "UISideMenuNavigationController"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backBarButtonItem"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "navigationBar"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "navigationItem"]
+- ["So8NSCodingP", "setupSideMenu"]
+- !private ["So8NSCodingP", "storyboard"]
+- !private ["So8NSCodingP", "view"]
+- ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "viewWillAppear"]
+- !private ["So26NSExtensionRequestHandlingP", "SideMenuManager"]
+- !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItem"]
+- !private ["So26NSExtensionRequestHandlingP", "UISideMenuNavigationController"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationBar"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- ["So26NSExtensionRequestHandlingP", "setupSideMenu"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "SideMenuManager"]
+- !private ["So8NSObjectC", "UIBarButtonItem"]
+- !private ["So8NSObjectC", "UISideMenuNavigationController"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "backBarButtonItem"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "menuAddPanGestureToPresent"]
+- !private ["So8NSObjectC", "menuAddScreenEdgePanGesturesToPresent"]
+- !private ["So8NSObjectC", "menuFadeStatusBar"]
+- !private ["So8NSObjectC", "menuLeftNavigationController"]
+- !private ["So8NSObjectC", "menuRightNavigationController"]
+- !private ["So8NSObjectC", "navigationBar"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "navigationItem"]
+- ["So8NSObjectC", "setupSideMenu"]
+- !private ["So8NSObjectC", "storyboard"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So8NSObjectP", "SideMenuManager"]
+- !private ["So8NSObjectP", "UIBarButtonItem"]
+- !private ["So8NSObjectP", "UISideMenuNavigationController"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "backBarButtonItem"]
+- !private ["So8NSObjectP", "default"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "menuAddPanGestureToPresent"]
+- !private ["So8NSObjectP", "menuAddScreenEdgePanGesturesToPresent"]
+- !private ["So8NSObjectP", "menuFadeStatusBar"]
+- !private ["So8NSObjectP", "menuLeftNavigationController"]
+- !private ["So8NSObjectP", "menuRightNavigationController"]
+- !private ["So8NSObjectP", "navigationBar"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "navigationItem"]
+- ["So8NSObjectP", "setupSideMenu"]
+- !private ["So8NSObjectP", "storyboard"]
+- !private ["So8NSObjectP", "view"]
+- ["So8NSObjectP", "viewDidLoad"]
+- ["So8NSObjectP", "viewWillAppear"]
+- !private ["SY", "plain"]
+- !private ["8SideMenu0aB7ManagerC", "default"]
+- !private ["8SideMenu0aB7ManagerC", "menuAddPanGestureToPresent"]
+- !private ["8SideMenu0aB7ManagerC", "menuAddScreenEdgePanGesturesToPresent"]
+- !private ["8SideMenu0aB7ManagerC", "menuFadeStatusBar"]
+- !private ["8SideMenu0aB7ManagerC", "menuLeftNavigationController"]
+- !private ["8SideMenu0aB7ManagerC", "menuRightNavigationController"]
+- !private ["8SideMenu0aB38NavigationControllerTransitionDelegateP", "default"]
+- !private ["8SideMenu0aB38NavigationControllerTransitionDelegateP", "menuAddPanGestureToPresent"]
+- !private ["8SideMenu0aB38NavigationControllerTransitionDelegateP", "menuAddScreenEdgePanGesturesToPresent"]
+- !private ["8SideMenu0aB38NavigationControllerTransitionDelegateP", "menuFadeStatusBar"]
+- !private ["8SideMenu0aB38NavigationControllerTransitionDelegateP", "menuLeftNavigationController"]
+- !private ["8SideMenu0aB38NavigationControllerTransitionDelegateP", "menuRightNavigationController"]
+- !private ["So20UIBarButtonItemStyleV", "plain"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "SideMenuManager"]
+- !private ["So21UIAppearanceContainerP", "UIBarButtonItem"]
+- !private ["So21UIAppearanceContainerP", "UISideMenuNavigationController"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "navigationBar"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- ["So21UIAppearanceContainerP", "setupSideMenu"]
+- !private ["So21UIAppearanceContainerP", "storyboard"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "viewWillAppear"]
+- !private ["So15UIBarButtonItemC", "init"]
+- ["So9UIBarItemC", ""]
+- !private ["So9UIBarItemC", "init"]
+- !private ["So16UIBarPositioningP", "isHidden"]
+- !private ["So18UIContentContainerP", "SideMenuManager"]
+- !private ["So18UIContentContainerP", "UIBarButtonItem"]
+- !private ["So18UIContentContainerP", "UISideMenuNavigationController"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationBar"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- ["So18UIContentContainerP", "setupSideMenu"]
+- !private ["So18UIContentContainerP", "storyboard"]
+- !private ["So18UIContentContainerP", "view"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "viewWillAppear"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "SideMenuManager"]
+- !private ["So18UIFocusEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UIFocusEnvironmentP", "UISideMenuNavigationController"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "navigationBar"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- ["So18UIFocusEnvironmentP", "setupSideMenu"]
+- !private ["So18UIFocusEnvironmentP", "storyboard"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So20UIFocusItemContainerP", "isHidden"]
+- !private ["So24UILargeContentViewerItemP", "isHidden"]
+- !private ["So15UINavigationBarC", "isHidden"]
+- ["So22UINavigationControllerC", ""]
+- !private ["So22UINavigationControllerC", "navigationBar"]
+- !private ["So22UINavigationControllerC", "view"]
+- !private ["So16UINavigationItemC", "backBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "SideMenuManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "UISideMenuNavigationController"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- ["So30UIPasteConfigurationSupportingP", "setupSideMenu"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "SideMenuManager"]
+- !private ["So11UIResponderC", "UIBarButtonItem"]
+- !private ["So11UIResponderC", "UISideMenuNavigationController"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "navigationBar"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "navigationItem"]
+- ["So11UIResponderC", "setupSideMenu"]
+- !private ["So11UIResponderC", "storyboard"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "SideMenuManager"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
+- !private ["So30UIResponderStandardEditActionsP", "UISideMenuNavigationController"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationBar"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- ["So30UIResponderStandardEditActionsP", "setupSideMenu"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "SideMenuManager"]
+- !private ["So16UIStateRestoringP", "UIBarButtonItem"]
+- !private ["So16UIStateRestoringP", "UISideMenuNavigationController"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationBar"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- ["So16UIStateRestoringP", "setupSideMenu"]
+- !private ["So16UIStateRestoringP", "storyboard"]
+- !private ["So16UIStateRestoringP", "view"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "viewWillAppear"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "SideMenuManager"]
+- !private ["So18UITraitEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UITraitEnvironmentP", "UISideMenuNavigationController"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "navigationBar"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- ["So18UITraitEnvironmentP", "setupSideMenu"]
+- !private ["So18UITraitEnvironmentP", "storyboard"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "viewWillAppear"]
+- !private ["So23UIUserActivityRestoringP", "SideMenuManager"]
+- !private ["So23UIUserActivityRestoringP", "UIBarButtonItem"]
+- !private ["So23UIUserActivityRestoringP", "UISideMenuNavigationController"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isHidden"]
+- !private ["So23UIUserActivityRestoringP", "navigationBar"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "navigationItem"]
+- ["So23UIUserActivityRestoringP", "setupSideMenu"]
+- !private ["So23UIUserActivityRestoringP", "storyboard"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "viewWillAppear"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "isHidden"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "SideMenuManager"]
+- !private ["So16UIViewControllerC", "UIBarButtonItem"]
+- !private ["So16UIViewControllerC", "UISideMenuNavigationController"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationBar"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- ["So16UIViewControllerC", "setupSideMenu"]
+- !private ["So16UIViewControllerC", "storyboard"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SideMenuManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItem"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "menuAddPanGestureToPresent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "menuAddScreenEdgePanGesturesToPresent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "menuFadeStatusBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "menuLeftNavigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "menuRightNavigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupSideMenu"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SideMenuManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIBarButtonItem"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backBarButtonItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isHidden"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "menuAddPanGestureToPresent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "menuAddScreenEdgePanGesturesToPresent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "menuFadeStatusBar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "menuLeftNavigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "menuRightNavigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationBar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupSideMenu"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "storyboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewWillAppear"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+depends-nominal:
+- "9Golf_Putz18BaseViewControllerC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "9Golf_Putz11DashboardVCC"
+- "SQ"
+- "SH"
+- "8SideMenu18InitializableClassP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- !private "8SideMenu0aB7ManagerC"
+- !private "8SideMenu0aB38NavigationControllerTransitionDelegateP"
+- !private "So20UIBarButtonItemStyleV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So15UIBarButtonItemC"
+- "So9UIBarItemC"
+- !private "So16UIBarPositioningP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So15UINavigationBarC"
+- "So22UINavigationControllerC"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules/FTPopOverMenu_Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/WebKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKURL.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Headers/FTPopOverMenu_Swift-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSImage+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRStackFrame.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceViewControllerBase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolving.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLink.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRExceptionModel.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkNavigation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKWebViewAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRCrashlytics.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkTarget.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Headers/FTPopOverMenu_Swift-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMeasurementEvent.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseMessaging/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCrashlytics/FirebaseCrashlytics.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5b51045f5a97535bd1860f7c481c63a1"

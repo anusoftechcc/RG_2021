@@ -1,0 +1,672 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StringPickerPopover"
+provides-nominal:
+- "19SwiftyPickerPopover06StringbC0C"
+provides-member:
+- ["19SwiftyPickerPopover06StringbC0C", ""]
+provides-dynamic-lookup:
+- "cancelButton"
+- "choices"
+- "clearButton"
+- "displayStringFor"
+- "doneButton"
+- "font"
+- "fontColor"
+- "fontSize"
+- "images"
+- "kDefaultFontSize"
+- "kValueForCleared"
+- "rowHeight"
+- "selectedRow"
+- "setButton"
+- "setCancelButton"
+- "setClearButton"
+- "setDisplayStringFor"
+- "setDoneButton"
+- "setFont"
+- "setFontColor"
+- "setFontSize"
+- "setImageNames"
+- "setImages"
+- "setRowHeight"
+- "setSelectedRow"
+- "setValueChange"
+- "valueChangeAction"
+depends-top-level:
+- !private "!="
+- "AbstractPopover"
+- "ActionHandlerType"
+- "AssignmentPrecedence"
+- "ButtonParameterType"
+- "CGFloat"
+- "DisplayStringForType"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "ItemType"
+- "PopoverType"
+- "Self"
+- "String"
+- "StringLiteralType"
+- "StringPickerPopover"
+- "UIColor"
+- "UIFont"
+- "UIImage"
+- !private "cancelButton"
+- !private "choices"
+- !private "clearButton"
+- !private "doneButton"
+- !private "kValueForCleared"
+- !private "setButton"
+- !private "valueChangeAction"
+depends-member:
+- ["19SwiftyPickerPopover08AbstractC0C", "ActionHandlerType"]
+- ["19SwiftyPickerPopover08AbstractC0C", "ButtonParameterType"]
+- ["19SwiftyPickerPopover08AbstractC0C", "CGFloat"]
+- ["19SwiftyPickerPopover08AbstractC0C", "DisplayStringForType"]
+- ["19SwiftyPickerPopover08AbstractC0C", "Int"]
+- ["19SwiftyPickerPopover08AbstractC0C", "ItemType"]
+- ["19SwiftyPickerPopover08AbstractC0C", "PopoverType"]
+- ["19SwiftyPickerPopover08AbstractC0C", "Self"]
+- ["19SwiftyPickerPopover08AbstractC0C", "String"]
+- ["19SwiftyPickerPopover08AbstractC0C", "StringPickerPopover"]
+- ["19SwiftyPickerPopover08AbstractC0C", "UIColor"]
+- ["19SwiftyPickerPopover08AbstractC0C", "UIFont"]
+- ["19SwiftyPickerPopover08AbstractC0C", "UIImage"]
+- ["19SwiftyPickerPopover08AbstractC0C", ""]
+- ["19SwiftyPickerPopover08AbstractC0C", "cancelButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "choices"]
+- ["19SwiftyPickerPopover08AbstractC0C", "clearButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "displayStringFor"]
+- ["19SwiftyPickerPopover08AbstractC0C", "doneButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "font"]
+- ["19SwiftyPickerPopover08AbstractC0C", "fontColor"]
+- ["19SwiftyPickerPopover08AbstractC0C", "fontSize"]
+- ["19SwiftyPickerPopover08AbstractC0C", "images"]
+- ["19SwiftyPickerPopover08AbstractC0C", "init"]
+- ["19SwiftyPickerPopover08AbstractC0C", "kDefaultFontSize"]
+- ["19SwiftyPickerPopover08AbstractC0C", "kValueForCleared"]
+- ["19SwiftyPickerPopover08AbstractC0C", "rowHeight"]
+- ["19SwiftyPickerPopover08AbstractC0C", "selectedRow"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setCancelButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setClearButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setDisplayStringFor"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setDoneButton"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setFont"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setFontColor"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setFontSize"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setImageNames"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setImages"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setRowHeight"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setSelectedRow"]
+- ["19SwiftyPickerPopover08AbstractC0C", "setValueChange"]
+- !private ["19SwiftyPickerPopover08AbstractC0C", "title"]
+- ["19SwiftyPickerPopover08AbstractC0C", "valueChangeAction"]
+- !private ["Sa", "first"]
+- !private ["Sa", "insert"]
+- !private ["Sa", "map"]
+- ["SK", ""]
+- !private ["SK", "first"]
+- !private ["SK", "insert"]
+- ["SK", "localized"]
+- !private ["SK", "map"]
+- ["s7CVarArgP", "Self"]
+- !private ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "cancelButton"]
+- !private ["s7CVarArgP", "choices"]
+- !private ["s7CVarArgP", "clearButton"]
+- !private ["s7CVarArgP", "displayStringFor"]
+- !private ["s7CVarArgP", "doneButton"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "fontColor"]
+- !private ["s7CVarArgP", "fontSize"]
+- !private ["s7CVarArgP", "images"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "kValueForCleared"]
+- ["s7CVarArgP", "localized"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "rowHeight"]
+- !private ["s7CVarArgP", "selectedRow"]
+- !private ["s7CVarArgP", "setButton"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "valueChangeAction"]
+- ["Sl", ""]
+- !private ["Sl", "first"]
+- !private ["Sl", "insert"]
+- ["Sl", "localized"]
+- !private ["Sl", "map"]
+- ["SL", ""]
+- ["SL", "localized"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "insert"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- ["s28CustomDebugStringConvertibleP", "Self"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelButton"]
+- !private ["s28CustomDebugStringConvertibleP", "choices"]
+- !private ["s28CustomDebugStringConvertibleP", "clearButton"]
+- !private ["s28CustomDebugStringConvertibleP", "displayStringFor"]
+- !private ["s28CustomDebugStringConvertibleP", "doneButton"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "fontColor"]
+- !private ["s28CustomDebugStringConvertibleP", "fontSize"]
+- !private ["s28CustomDebugStringConvertibleP", "images"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "kValueForCleared"]
+- ["s28CustomDebugStringConvertibleP", "localized"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "rowHeight"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedRow"]
+- !private ["s28CustomDebugStringConvertibleP", "setButton"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "valueChangeAction"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "insert"]
+- ["s17CustomReflectableP", "localized"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", "Self"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "cancelButton"]
+- !private ["s23CustomStringConvertibleP", "choices"]
+- !private ["s23CustomStringConvertibleP", "clearButton"]
+- !private ["s23CustomStringConvertibleP", "displayStringFor"]
+- !private ["s23CustomStringConvertibleP", "doneButton"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "fontColor"]
+- !private ["s23CustomStringConvertibleP", "fontSize"]
+- !private ["s23CustomStringConvertibleP", "images"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "kValueForCleared"]
+- ["s23CustomStringConvertibleP", "localized"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "rowHeight"]
+- !private ["s23CustomStringConvertibleP", "selectedRow"]
+- !private ["s23CustomStringConvertibleP", "setButton"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "valueChangeAction"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "insert"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "first"]
+- !private ["Se", "insert"]
+- ["Se", "localized"]
+- !private ["Se", "map"]
+- !private ["SE", "first"]
+- !private ["SE", "insert"]
+- ["SE", "localized"]
+- !private ["SE", "map"]
+- ["SQ", "Self"]
+- !private ["SQ", "UIImage"]
+- ["SQ", ""]
+- ["SQ", "black"]
+- !private ["SQ", "cancelButton"]
+- !private ["SQ", "choices"]
+- !private ["SQ", "clearButton"]
+- !private ["SQ", "displayStringFor"]
+- !private ["SQ", "doneButton"]
+- !private ["SQ", "first"]
+- !private ["SQ", "font"]
+- !private ["SQ", "fontColor"]
+- !private ["SQ", "fontSize"]
+- !private ["SQ", "images"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "kValueForCleared"]
+- ["SQ", "localized"]
+- !private ["SQ", "map"]
+- !private ["SQ", "rowHeight"]
+- !private ["SQ", "selectedRow"]
+- !private ["SQ", "setButton"]
+- !private ["SQ", "title"]
+- !private ["SQ", "valueChangeAction"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "localized"]
+- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", "localized"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "localized"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "localized"]
+- ["SH", "Self"]
+- !private ["SH", "UIImage"]
+- ["SH", ""]
+- ["SH", "black"]
+- !private ["SH", "cancelButton"]
+- !private ["SH", "choices"]
+- !private ["SH", "clearButton"]
+- !private ["SH", "displayStringFor"]
+- !private ["SH", "doneButton"]
+- !private ["SH", "first"]
+- !private ["SH", "font"]
+- !private ["SH", "fontColor"]
+- !private ["SH", "fontSize"]
+- !private ["SH", "images"]
+- !private ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["SH", "kValueForCleared"]
+- ["SH", "localized"]
+- !private ["SH", "map"]
+- !private ["SH", "rowHeight"]
+- !private ["SH", "selectedRow"]
+- !private ["SH", "setButton"]
+- !private ["SH", "title"]
+- !private ["SH", "valueChangeAction"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "localized"]
+- ["s10MirrorPathP", "localized"]
+- !private ["SM", ""]
+- !private ["SM", "first"]
+- !private ["SM", "insert"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "insert"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "localized"]
+- ["So9NSCopyingP", "black"]
+- ["So9NSCopyingP", "localized"]
+- ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderReadingP", "localized"]
+- ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So21NSItemProviderWritingP", "localized"]
+- ["So16NSMutableCopyingP", "localized"]
+- ["So8NSObjectC", "ActionHandlerType"]
+- ["So8NSObjectC", "ButtonParameterType"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "DisplayStringForType"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "ItemType"]
+- ["So8NSObjectC", "PopoverType"]
+- ["So8NSObjectC", "Self"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "StringPickerPopover"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "cancelButton"]
+- ["So8NSObjectC", "choices"]
+- ["So8NSObjectC", "clearButton"]
+- ["So8NSObjectC", "displayStringFor"]
+- ["So8NSObjectC", "doneButton"]
+- ["So8NSObjectC", "font"]
+- ["So8NSObjectC", "fontColor"]
+- ["So8NSObjectC", "fontSize"]
+- !private ["So8NSObjectC", "imageNamed"]
+- !private ["So8NSObjectC", "imageWithCGImage"]
+- !private ["So8NSObjectC", "imageWithCIImage"]
+- !private ["So8NSObjectC", "imageWithContentsOfFile"]
+- !private ["So8NSObjectC", "imageWithData"]
+- ["So8NSObjectC", "images"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jpegData"]
+- ["So8NSObjectC", "kDefaultFontSize"]
+- ["So8NSObjectC", "kValueForCleared"]
+- ["So8NSObjectC", "localized"]
+- !private ["So8NSObjectC", "pngData"]
+- ["So8NSObjectC", "rowHeight"]
+- ["So8NSObjectC", "selectedRow"]
+- ["So8NSObjectC", "setButton"]
+- ["So8NSObjectC", "setCancelButton"]
+- ["So8NSObjectC", "setClearButton"]
+- ["So8NSObjectC", "setDisplayStringFor"]
+- ["So8NSObjectC", "setDoneButton"]
+- ["So8NSObjectC", "setFont"]
+- ["So8NSObjectC", "setFontColor"]
+- ["So8NSObjectC", "setFontSize"]
+- ["So8NSObjectC", "setImageNames"]
+- ["So8NSObjectC", "setImages"]
+- ["So8NSObjectC", "setRowHeight"]
+- ["So8NSObjectC", "setSelectedRow"]
+- ["So8NSObjectC", "setValueChange"]
+- !private ["So8NSObjectC", "systemImageNamed"]
+- !private ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "valueChangeAction"]
+- ["So8NSObjectP", "ActionHandlerType"]
+- ["So8NSObjectP", "ButtonParameterType"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", "DisplayStringForType"]
+- ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "ItemType"]
+- ["So8NSObjectP", "PopoverType"]
+- ["So8NSObjectP", "Self"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "StringPickerPopover"]
+- ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", "UIImage"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "addDimmedBackgroundViewIfNeeded"]
+- ["So8NSObjectP", "appear"]
+- ["So8NSObjectP", "backgroundColor"]
+- ["So8NSObjectP", "baseViewController"]
+- ["So8NSObjectP", "black"]
+- ["So8NSObjectP", "cancelButton"]
+- ["So8NSObjectP", "choices"]
+- ["So8NSObjectP", "clearButton"]
+- ["So8NSObjectP", "configureContentViewController"]
+- ["So8NSObjectP", "configureNavigationController"]
+- ["So8NSObjectP", "contentViewController"]
+- ["So8NSObjectP", "cornerRadius"]
+- ["So8NSObjectP", "disappear"]
+- ["So8NSObjectP", "disappearAutomatically"]
+- ["So8NSObjectP", "disappearAutomaticallyItems"]
+- ["So8NSObjectP", "displayStringFor"]
+- ["So8NSObjectP", "doneButton"]
+- ["So8NSObjectP", "font"]
+- ["So8NSObjectP", "fontColor"]
+- ["So8NSObjectP", "fontSize"]
+- !private ["So8NSObjectP", "imageNamed"]
+- !private ["So8NSObjectP", "imageWithCGImage"]
+- !private ["So8NSObjectP", "imageWithCIImage"]
+- !private ["So8NSObjectP", "imageWithContentsOfFile"]
+- !private ["So8NSObjectP", "imageWithData"]
+- ["So8NSObjectP", "images"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isAllowedOutsideTappingDismissing"]
+- ["So8NSObjectP", "isEnabledDimmedBackgroundView"]
+- !private ["So8NSObjectP", "jpegData"]
+- ["So8NSObjectP", "kDefaultFontSize"]
+- ["So8NSObjectP", "kDimmedViewIdentifer"]
+- ["So8NSObjectP", "kValueForCleared"]
+- ["So8NSObjectP", "localized"]
+- ["So8NSObjectP", "permittedArrowDirections"]
+- !private ["So8NSObjectP", "pngData"]
+- ["So8NSObjectP", "redoDisappearAutomatically"]
+- ["So8NSObjectP", "reload"]
+- ["So8NSObjectP", "removeDimmedView"]
+- ["So8NSObjectP", "rowHeight"]
+- ["So8NSObjectP", "selectedRow"]
+- ["So8NSObjectP", "setArrowColor"]
+- ["So8NSObjectP", "setButton"]
+- ["So8NSObjectP", "setCancelButton"]
+- ["So8NSObjectP", "setClearButton"]
+- ["So8NSObjectP", "setCornerRadius"]
+- ["So8NSObjectP", "setDimmedBackgroundView"]
+- ["So8NSObjectP", "setDisplayStringFor"]
+- ["So8NSObjectP", "setDoneButton"]
+- ["So8NSObjectP", "setFont"]
+- ["So8NSObjectP", "setFontColor"]
+- ["So8NSObjectP", "setFontSize"]
+- ["So8NSObjectP", "setImageNames"]
+- ["So8NSObjectP", "setImages"]
+- ["So8NSObjectP", "setOutsideTapDismissing"]
+- ["So8NSObjectP", "setPermittedArrowDirections"]
+- ["So8NSObjectP", "setRowHeight"]
+- ["So8NSObjectP", "setSelectedRow"]
+- ["So8NSObjectP", "setSize"]
+- ["So8NSObjectP", "setValueChange"]
+- ["So8NSObjectP", "size"]
+- ["So8NSObjectP", "storyboardName"]
+- !private ["So8NSObjectP", "systemImageNamed"]
+- ["So8NSObjectP", "tintColor"]
+- ["So8NSObjectP", "title"]
+- ["So8NSObjectP", "valueChangeAction"]
+- ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "init"]
+- ["So14NSSecureCodingP", "localized"]
+- ["So8NSStringC", "localized"]
+- !private ["Sk", ""]
+- !private ["Sk", "first"]
+- !private ["Sk", "insert"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "first"]
+- !private ["Sm", "insert"]
+- ["Sm", "localized"]
+- !private ["Sm", "map"]
+- ["ST", ""]
+- !private ["ST", "first"]
+- !private ["ST", "insert"]
+- ["ST", "localized"]
+- !private ["ST", "map"]
+- ["SS", "localized"]
+- ["19SwiftyPickerPopover06StringbC0C", "ActionHandlerType"]
+- ["19SwiftyPickerPopover06StringbC0C", "ButtonParameterType"]
+- ["19SwiftyPickerPopover06StringbC0C", "CGFloat"]
+- ["19SwiftyPickerPopover06StringbC0C", "DisplayStringForType"]
+- ["19SwiftyPickerPopover06StringbC0C", "Int"]
+- ["19SwiftyPickerPopover06StringbC0C", "ItemType"]
+- ["19SwiftyPickerPopover06StringbC0C", "PopoverType"]
+- ["19SwiftyPickerPopover06StringbC0C", "Self"]
+- ["19SwiftyPickerPopover06StringbC0C", "String"]
+- ["19SwiftyPickerPopover06StringbC0C", "StringPickerPopover"]
+- ["19SwiftyPickerPopover06StringbC0C", "UIColor"]
+- ["19SwiftyPickerPopover06StringbC0C", "UIFont"]
+- ["19SwiftyPickerPopover06StringbC0C", "UIImage"]
+- ["19SwiftyPickerPopover06StringbC0C", ""]
+- ["19SwiftyPickerPopover06StringbC0C", "cancelButton"]
+- ["19SwiftyPickerPopover06StringbC0C", "choices"]
+- ["19SwiftyPickerPopover06StringbC0C", "clearButton"]
+- ["19SwiftyPickerPopover06StringbC0C", "deinit"]
+- ["19SwiftyPickerPopover06StringbC0C", "displayStringFor"]
+- ["19SwiftyPickerPopover06StringbC0C", "doneButton"]
+- ["19SwiftyPickerPopover06StringbC0C", "font"]
+- ["19SwiftyPickerPopover06StringbC0C", "fontColor"]
+- ["19SwiftyPickerPopover06StringbC0C", "fontSize"]
+- ["19SwiftyPickerPopover06StringbC0C", "images"]
+- ["19SwiftyPickerPopover06StringbC0C", "init"]
+- ["19SwiftyPickerPopover06StringbC0C", "kDefaultFontSize"]
+- ["19SwiftyPickerPopover06StringbC0C", "kValueForCleared"]
+- ["19SwiftyPickerPopover06StringbC0C", "rowHeight"]
+- ["19SwiftyPickerPopover06StringbC0C", "selectedRow"]
+- ["19SwiftyPickerPopover06StringbC0C", "setButton"]
+- ["19SwiftyPickerPopover06StringbC0C", "setCancelButton"]
+- ["19SwiftyPickerPopover06StringbC0C", "setClearButton"]
+- ["19SwiftyPickerPopover06StringbC0C", "setDisplayStringFor"]
+- ["19SwiftyPickerPopover06StringbC0C", "setDoneButton"]
+- ["19SwiftyPickerPopover06StringbC0C", "setFont"]
+- ["19SwiftyPickerPopover06StringbC0C", "setFontColor"]
+- ["19SwiftyPickerPopover06StringbC0C", "setFontSize"]
+- ["19SwiftyPickerPopover06StringbC0C", "setImageNames"]
+- ["19SwiftyPickerPopover06StringbC0C", "setImages"]
+- ["19SwiftyPickerPopover06StringbC0C", "setRowHeight"]
+- ["19SwiftyPickerPopover06StringbC0C", "setSelectedRow"]
+- ["19SwiftyPickerPopover06StringbC0C", "setValueChange"]
+- !private ["19SwiftyPickerPopover06StringbC0C", "title"]
+- ["19SwiftyPickerPopover06StringbC0C", "valueChangeAction"]
+- ["Sy", "localized"]
+- ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", "localized"]
+- ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", "localized"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- ["So7UIColorC", "black"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "insert"]
+- !private ["s14_ArrayProtocolP", "map"]
+- ["s30_CustomPlaygroundQuickLookableP", "localized"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "insert"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "localized"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "localized"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "localized"]
+- ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "insert"]
+- ["s19_HasContiguousBytesP", "localized"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- ["s35_HasCustomAnyHashableRepresentationP", "localized"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Self"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "choices"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clearButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "displayStringFor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doneButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fontColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fontSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "images"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kValueForCleared"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "localized"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rowHeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "valueChangeAction"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Self"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "black"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancelButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "choices"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clearButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "displayStringFor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "doneButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "font"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fontColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fontSize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "images"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kValueForCleared"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "localized"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rowHeight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selectedRow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "valueChangeAction"]
+- ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- ["s21_ObjectiveCBridgeableP", "localized"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- "19SwiftyPickerPopover08AbstractC0C"
+- !private "Sa"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "Sk"
+- "Sm"
+- "ST"
+- "SS"
+- "19SwiftyPickerPopover06StringbC0C"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- "So7UIColorC"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Target Support Files/SwiftyPickerPopover/SwiftyPickerPopover-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyPickerPopover.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "526fb9132759bb685e48483e05c6bfae"

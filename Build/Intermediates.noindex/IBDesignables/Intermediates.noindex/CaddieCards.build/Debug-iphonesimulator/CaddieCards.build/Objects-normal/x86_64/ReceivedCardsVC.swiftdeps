@@ -1,0 +1,1290 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReceivedCardsVC"
+provides-nominal:
+- "9Golf_Putz15ReceivedCardsVCC"
+provides-member:
+- ["9Golf_Putz15ReceivedCardsVCC", ""]
+- ["So22UINavigationControllerC", ""]
+- ["So22UINavigationControllerC", "popToViewController"]
+provides-dynamic-lookup:
+- "cardDescription"
+- "cardDescriptionTxtView"
+- "cardName"
+- "cardNameLbl"
+- "gameId"
+- "goBack"
+- "isFromNotifications"
+- "popToViewController"
+- "viewDidLoad"
+- "viewWillDisappear"
+depends-top-level:
+- !private "=="
+- "AnyClass"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Int32"
+- !private "NSNumber"
+- "PlayVC"
+- "ReceivedCardsVC"
+- "String"
+- "StringLiteralType"
+- !private "UIBarButtonItem"
+- !private "UIImage"
+- "UILabel"
+- "UINavigationController"
+- !private "UIStoryboard"
+- "UITextView"
+- "UIViewController"
+- !private "cardDescription"
+- !private "cardName"
+- !private "gameId"
+- !private "goBack"
+- !private "isFromNotifications"
+- !private "navigationController"
+- !private "popToViewController"
+- !private "viewControllers"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "last"]
+- ["9Golf_Putz18BaseViewControllerC", ""]
+- !private ["9Golf_Putz18BaseViewControllerC", "editReplayGameId"]
+- !private ["9Golf_Putz18BaseViewControllerC", "isFromNotificagions"]
+- !private ["SK", ""]
+- !private ["SK", "last"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "last"]
+- !private ["s7CVarArgP", "Int32"]
+- !private ["s7CVarArgP", "NSNumber"]
+- !private ["s7CVarArgP", "PlayVC"]
+- !private ["s7CVarArgP", "Style"]
+- !private ["s7CVarArgP", "UIBarButtonItem"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UIStoryboard"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "backBarButtonItem"]
+- !private ["s7CVarArgP", "cardDescription"]
+- !private ["s7CVarArgP", "cardDescriptionTxtView"]
+- !private ["s7CVarArgP", "cardName"]
+- !private ["s7CVarArgP", "cardNameLbl"]
+- !private ["s7CVarArgP", "editReplayGameId"]
+- !private ["s7CVarArgP", "gameId"]
+- !private ["s7CVarArgP", "goBack"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "interactivePopGestureRecognizer"]
+- !private ["s7CVarArgP", "isEnabled"]
+- !private ["s7CVarArgP", "isFromNotificagions"]
+- !private ["s7CVarArgP", "isFromNotifications"]
+- !private ["s7CVarArgP", "isKind"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "leftBarButtonItem"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "popToViewController"]
+- !private ["s7CVarArgP", "pushViewController"]
+- !private ["s7CVarArgP", "setHidesBackButton"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "viewControllers"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillDisappear"]
+- !private ["Sl", ""]
+- !private ["Sl", "last"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "Int32"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "PlayVC"]
+- !private ["s28CustomDebugStringConvertibleP", "Style"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "cardDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "cardDescriptionTxtView"]
+- !private ["s28CustomDebugStringConvertibleP", "cardName"]
+- !private ["s28CustomDebugStringConvertibleP", "cardNameLbl"]
+- !private ["s28CustomDebugStringConvertibleP", "editReplayGameId"]
+- !private ["s28CustomDebugStringConvertibleP", "gameId"]
+- !private ["s28CustomDebugStringConvertibleP", "goBack"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "interactivePopGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "isEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "isFromNotificagions"]
+- !private ["s28CustomDebugStringConvertibleP", "isFromNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "isKind"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "leftBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "popToViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "setHidesBackButton"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "viewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillDisappear"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "Int32"]
+- !private ["s23CustomStringConvertibleP", "NSNumber"]
+- !private ["s23CustomStringConvertibleP", "PlayVC"]
+- !private ["s23CustomStringConvertibleP", "Style"]
+- !private ["s23CustomStringConvertibleP", "UIBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "backBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "cardDescription"]
+- !private ["s23CustomStringConvertibleP", "cardDescriptionTxtView"]
+- !private ["s23CustomStringConvertibleP", "cardName"]
+- !private ["s23CustomStringConvertibleP", "cardNameLbl"]
+- !private ["s23CustomStringConvertibleP", "editReplayGameId"]
+- !private ["s23CustomStringConvertibleP", "gameId"]
+- !private ["s23CustomStringConvertibleP", "goBack"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "interactivePopGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "isEnabled"]
+- !private ["s23CustomStringConvertibleP", "isFromNotificagions"]
+- !private ["s23CustomStringConvertibleP", "isFromNotifications"]
+- !private ["s23CustomStringConvertibleP", "isKind"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "leftBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "popToViewController"]
+- !private ["s23CustomStringConvertibleP", "pushViewController"]
+- !private ["s23CustomStringConvertibleP", "setHidesBackButton"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "viewControllers"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillDisappear"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "text"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "text"]
+- !private ["SQ", "Int32"]
+- !private ["SQ", "NSNumber"]
+- !private ["SQ", "PlayVC"]
+- !private ["SQ", "Style"]
+- !private ["SQ", "UIBarButtonItem"]
+- !private ["SQ", "UIImage"]
+- !private ["SQ", "UIStoryboard"]
+- ["SQ", ""]
+- !private ["SQ", "backBarButtonItem"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "cardDescription"]
+- !private ["SQ", "cardDescriptionTxtView"]
+- !private ["SQ", "cardName"]
+- !private ["SQ", "cardNameLbl"]
+- !private ["SQ", "done"]
+- !private ["SQ", "editReplayGameId"]
+- !private ["SQ", "gameId"]
+- !private ["SQ", "goBack"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "interactivePopGestureRecognizer"]
+- !private ["SQ", "isEnabled"]
+- !private ["SQ", "isFromNotificagions"]
+- !private ["SQ", "isFromNotifications"]
+- !private ["SQ", "isKind"]
+- !private ["SQ", "last"]
+- !private ["SQ", "leftBarButtonItem"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "navigationItem"]
+- !private ["SQ", "plain"]
+- !private ["SQ", "popToViewController"]
+- !private ["SQ", "pushViewController"]
+- !private ["SQ", "setHidesBackButton"]
+- !private ["SQ", "text"]
+- !private ["SQ", "title"]
+- !private ["SQ", "viewControllers"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "viewWillDisappear"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "Int32"]
+- !private ["SH", "NSNumber"]
+- !private ["SH", "PlayVC"]
+- !private ["SH", "Style"]
+- !private ["SH", "UIBarButtonItem"]
+- !private ["SH", "UIImage"]
+- !private ["SH", "UIStoryboard"]
+- ["SH", ""]
+- !private ["SH", "backBarButtonItem"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "cardDescription"]
+- !private ["SH", "cardDescriptionTxtView"]
+- !private ["SH", "cardName"]
+- !private ["SH", "cardNameLbl"]
+- !private ["SH", "done"]
+- !private ["SH", "editReplayGameId"]
+- !private ["SH", "gameId"]
+- !private ["SH", "goBack"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "interactivePopGestureRecognizer"]
+- !private ["SH", "isEnabled"]
+- !private ["SH", "isFromNotificagions"]
+- !private ["SH", "isFromNotifications"]
+- !private ["SH", "isKind"]
+- !private ["SH", "last"]
+- !private ["SH", "leftBarButtonItem"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "navigationItem"]
+- !private ["SH", "plain"]
+- !private ["SH", "popToViewController"]
+- !private ["SH", "pushViewController"]
+- !private ["SH", "setHidesBackButton"]
+- !private ["SH", "text"]
+- !private ["SH", "title"]
+- !private ["SH", "viewControllers"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "viewWillDisappear"]
+- !private ["19FTPopOverMenu_Swift9ImageableP", "init"]
+- !private ["19FTPopOverMenu_Swift9ImageableP", "init"]
+- !private ["8SideMenu18InitializableClassP", "Int32"]
+- !private ["8SideMenu18InitializableClassP", "NSNumber"]
+- !private ["8SideMenu18InitializableClassP", "PlayVC"]
+- !private ["8SideMenu18InitializableClassP", "Style"]
+- !private ["8SideMenu18InitializableClassP", "UIBarButtonItem"]
+- !private ["8SideMenu18InitializableClassP", "UIImage"]
+- !private ["8SideMenu18InitializableClassP", "UIStoryboard"]
+- ["8SideMenu18InitializableClassP", ""]
+- !private ["8SideMenu18InitializableClassP", "backBarButtonItem"]
+- !private ["8SideMenu18InitializableClassP", "cardDescription"]
+- !private ["8SideMenu18InitializableClassP", "cardDescriptionTxtView"]
+- !private ["8SideMenu18InitializableClassP", "cardName"]
+- !private ["8SideMenu18InitializableClassP", "cardNameLbl"]
+- !private ["8SideMenu18InitializableClassP", "editReplayGameId"]
+- !private ["8SideMenu18InitializableClassP", "gameId"]
+- !private ["8SideMenu18InitializableClassP", "goBack"]
+- !private ["8SideMenu18InitializableClassP", "init"]
+- !private ["8SideMenu18InitializableClassP", "init"]
+- !private ["8SideMenu18InitializableClassP", "instantiateViewController"]
+- !private ["8SideMenu18InitializableClassP", "interactivePopGestureRecognizer"]
+- !private ["8SideMenu18InitializableClassP", "isEnabled"]
+- !private ["8SideMenu18InitializableClassP", "isFromNotificagions"]
+- !private ["8SideMenu18InitializableClassP", "isFromNotifications"]
+- !private ["8SideMenu18InitializableClassP", "isKind"]
+- !private ["8SideMenu18InitializableClassP", "leftBarButtonItem"]
+- !private ["8SideMenu18InitializableClassP", "navigationController"]
+- !private ["8SideMenu18InitializableClassP", "navigationItem"]
+- !private ["8SideMenu18InitializableClassP", "popToViewController"]
+- !private ["8SideMenu18InitializableClassP", "pushViewController"]
+- !private ["8SideMenu18InitializableClassP", "setHidesBackButton"]
+- !private ["8SideMenu18InitializableClassP", "text"]
+- !private ["8SideMenu18InitializableClassP", "title"]
+- !private ["8SideMenu18InitializableClassP", "viewControllers"]
+- !private ["8SideMenu18InitializableClassP", "viewDidLoad"]
+- !private ["8SideMenu18InitializableClassP", "viewWillDisappear"]
+- !private ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- ["So8NSCodingP", "AnyClass"]
+- !private ["So8NSCodingP", "Int32"]
+- !private ["So8NSCodingP", "NSNumber"]
+- !private ["So8NSCodingP", "PlayVC"]
+- !private ["So8NSCodingP", "Style"]
+- !private ["So8NSCodingP", "UIBarButtonItem"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UIStoryboard"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backBarButtonItem"]
+- ["So8NSCodingP", "cardDescription"]
+- ["So8NSCodingP", "cardDescriptionTxtView"]
+- ["So8NSCodingP", "cardName"]
+- ["So8NSCodingP", "cardNameLbl"]
+- !private ["So8NSCodingP", "editReplayGameId"]
+- ["So8NSCodingP", "gameId"]
+- ["So8NSCodingP", "goBack"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "interactivePopGestureRecognizer"]
+- !private ["So8NSCodingP", "isFromNotificagions"]
+- ["So8NSCodingP", "isFromNotifications"]
+- !private ["So8NSCodingP", "isKind"]
+- !private ["So8NSCodingP", "leftBarButtonItem"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "navigationItem"]
+- ["So8NSCodingP", "popToViewController"]
+- !private ["So8NSCodingP", "pushViewController"]
+- !private ["So8NSCodingP", "setHidesBackButton"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "viewControllers"]
+- ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "viewWillDisappear"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "AnyClass"]
+- !private ["So26NSExtensionRequestHandlingP", "Int32"]
+- !private ["So26NSExtensionRequestHandlingP", "NSNumber"]
+- !private ["So26NSExtensionRequestHandlingP", "PlayVC"]
+- !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItem"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "UIStoryboard"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "cardDescription"]
+- ["So26NSExtensionRequestHandlingP", "cardDescriptionTxtView"]
+- ["So26NSExtensionRequestHandlingP", "cardName"]
+- ["So26NSExtensionRequestHandlingP", "cardNameLbl"]
+- !private ["So26NSExtensionRequestHandlingP", "editReplayGameId"]
+- ["So26NSExtensionRequestHandlingP", "gameId"]
+- ["So26NSExtensionRequestHandlingP", "goBack"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "interactivePopGestureRecognizer"]
+- !private ["So26NSExtensionRequestHandlingP", "isFromNotificagions"]
+- ["So26NSExtensionRequestHandlingP", "isFromNotifications"]
+- !private ["So26NSExtensionRequestHandlingP", "isKind"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- ["So26NSExtensionRequestHandlingP", "popToViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- !private ["So26NSExtensionRequestHandlingP", "viewControllers"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "viewWillDisappear"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSNumberC", "init"]
+- ["So8NSObjectC", "AnyClass"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Int32"]
+- !private ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "PlayVC"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Style"]
+- !private ["So8NSObjectC", "UIBarButtonItem"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "UIStoryboard"]
+- ["So8NSObjectC", "UITextView"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "backBarButtonItem"]
+- ["So8NSObjectC", "cardDescription"]
+- ["So8NSObjectC", "cardDescriptionTxtView"]
+- ["So8NSObjectC", "cardName"]
+- ["So8NSObjectC", "cardNameLbl"]
+- !private ["So8NSObjectC", "editReplayGameId"]
+- ["So8NSObjectC", "gameId"]
+- ["So8NSObjectC", "goBack"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "interactivePopGestureRecognizer"]
+- !private ["So8NSObjectC", "isEnabled"]
+- !private ["So8NSObjectC", "isFromNotificagions"]
+- ["So8NSObjectC", "isFromNotifications"]
+- !private ["So8NSObjectC", "isKind"]
+- !private ["So8NSObjectC", "leftBarButtonItem"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "navigationItem"]
+- ["So8NSObjectC", "popToViewController"]
+- !private ["So8NSObjectC", "pushViewController"]
+- !private ["So8NSObjectC", "setHidesBackButton"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "viewControllers"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillDisappear"]
+- ["So8NSObjectP", "AnyClass"]
+- !private ["So8NSObjectP", "Int32"]
+- !private ["So8NSObjectP", "NSNumber"]
+- !private ["So8NSObjectP", "PlayVC"]
+- !private ["So8NSObjectP", "Style"]
+- !private ["So8NSObjectP", "UIBarButtonItem"]
+- !private ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "UIStoryboard"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "backBarButtonItem"]
+- ["So8NSObjectP", "cardDescription"]
+- ["So8NSObjectP", "cardDescriptionTxtView"]
+- ["So8NSObjectP", "cardName"]
+- ["So8NSObjectP", "cardNameLbl"]
+- !private ["So8NSObjectP", "editReplayGameId"]
+- ["So8NSObjectP", "gameId"]
+- ["So8NSObjectP", "goBack"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "interactivePopGestureRecognizer"]
+- !private ["So8NSObjectP", "isEnabled"]
+- !private ["So8NSObjectP", "isFromNotificagions"]
+- ["So8NSObjectP", "isFromNotifications"]
+- !private ["So8NSObjectP", "isKind"]
+- !private ["So8NSObjectP", "leftBarButtonItem"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "navigationItem"]
+- ["So8NSObjectP", "popToViewController"]
+- !private ["So8NSObjectP", "pushViewController"]
+- !private ["So8NSObjectP", "setHidesBackButton"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So8NSObjectP", "viewControllers"]
+- ["So8NSObjectP", "viewDidLoad"]
+- ["So8NSObjectP", "viewWillDisappear"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- ["So7NSValueC", ""]
+- !private ["So7NSValueC", "init"]
+- !private ["So7NSValueC", "init"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sq", "text"]
+- !private ["9Golf_Putz6PlayVCC", "editReplayGameId"]
+- !private ["9Golf_Putz6PlayVCC", "isFromNotificagions"]
+- !private ["9Golf_Putz0B18CardsAddedDelegateP", "editReplayGameId"]
+- !private ["9Golf_Putz0B18CardsAddedDelegateP", "isFromNotificagions"]
+- !private ["Sk", ""]
+- !private ["Sk", "last"]
+- !private ["Sm", ""]
+- !private ["Sm", "last"]
+- !private ["SY", "done"]
+- !private ["SY", "plain"]
+- ["9Golf_Putz15ReceivedCardsVCC", "Bool"]
+- !private ["9Golf_Putz15ReceivedCardsVCC", "Int32"]
+- !private ["9Golf_Putz15ReceivedCardsVCC", "NSNumber"]
+- !private ["9Golf_Putz15ReceivedCardsVCC", "PlayVC"]
+- ["9Golf_Putz15ReceivedCardsVCC", "String"]
+- !private ["9Golf_Putz15ReceivedCardsVCC", "UIBarButtonItem"]
+- !private ["9Golf_Putz15ReceivedCardsVCC", "UIImage"]
+- ["9Golf_Putz15ReceivedCardsVCC", "UILabel"]
+- !private ["9Golf_Putz15ReceivedCardsVCC", "UIStoryboard"]
+- ["9Golf_Putz15ReceivedCardsVCC", "UITextView"]
+- ["9Golf_Putz15ReceivedCardsVCC", ""]
+- ["9Golf_Putz15ReceivedCardsVCC", "cardDescription"]
+- ["9Golf_Putz15ReceivedCardsVCC", "cardDescriptionTxtView"]
+- ["9Golf_Putz15ReceivedCardsVCC", "cardName"]
+- ["9Golf_Putz15ReceivedCardsVCC", "cardNameLbl"]
+- ["9Golf_Putz15ReceivedCardsVCC", "deinit"]
+- ["9Golf_Putz15ReceivedCardsVCC", "gameId"]
+- ["9Golf_Putz15ReceivedCardsVCC", "goBack"]
+- ["9Golf_Putz15ReceivedCardsVCC", "init"]
+- ["9Golf_Putz15ReceivedCardsVCC", "isFromNotifications"]
+- !private ["9Golf_Putz15ReceivedCardsVCC", "navigationController"]
+- !private ["9Golf_Putz15ReceivedCardsVCC", "navigationItem"]
+- !private ["9Golf_Putz15ReceivedCardsVCC", "title"]
+- ["9Golf_Putz15ReceivedCardsVCC", "viewDidLoad"]
+- ["9Golf_Putz15ReceivedCardsVCC", "viewWillDisappear"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "last"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["So20UIBarButtonItemStyleV", "done"]
+- !private ["So20UIBarButtonItemStyleV", "plain"]
+- !private ["So29UIAccessibilityIdentificationP", "Style"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "Style"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", "AnyClass"]
+- !private ["So21UIAppearanceContainerP", "Int32"]
+- !private ["So21UIAppearanceContainerP", "NSNumber"]
+- !private ["So21UIAppearanceContainerP", "PlayVC"]
+- !private ["So21UIAppearanceContainerP", "UIBarButtonItem"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UIStoryboard"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "cardDescription"]
+- ["So21UIAppearanceContainerP", "cardDescriptionTxtView"]
+- ["So21UIAppearanceContainerP", "cardName"]
+- ["So21UIAppearanceContainerP", "cardNameLbl"]
+- !private ["So21UIAppearanceContainerP", "editReplayGameId"]
+- ["So21UIAppearanceContainerP", "gameId"]
+- ["So21UIAppearanceContainerP", "goBack"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "interactivePopGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "isFromNotificagions"]
+- ["So21UIAppearanceContainerP", "isFromNotifications"]
+- !private ["So21UIAppearanceContainerP", "isKind"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- ["So21UIAppearanceContainerP", "popToViewController"]
+- !private ["So21UIAppearanceContainerP", "pushViewController"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So21UIAppearanceContainerP", "viewControllers"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "viewWillDisappear"]
+- !private ["So15UIBarButtonItemC", "Style"]
+- !private ["So15UIBarButtonItemC", "init"]
+- !private ["So9UIBarItemC", "Style"]
+- ["So9UIBarItemC", ""]
+- !private ["So9UIBarItemC", "init"]
+- !private ["So26UICollectionViewDataSourceP", "editReplayGameId"]
+- !private ["So26UICollectionViewDataSourceP", "isFromNotificagions"]
+- !private ["So24UICollectionViewDelegateP", ""]
+- !private ["So24UICollectionViewDelegateP", "editReplayGameId"]
+- !private ["So24UICollectionViewDelegateP", "isFromNotificagions"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "editReplayGameId"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "isFromNotificagions"]
+- ["So18UIContentContainerP", "AnyClass"]
+- !private ["So18UIContentContainerP", "Int32"]
+- !private ["So18UIContentContainerP", "NSNumber"]
+- !private ["So18UIContentContainerP", "PlayVC"]
+- !private ["So18UIContentContainerP", "UIBarButtonItem"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "UIStoryboard"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "cardDescription"]
+- ["So18UIContentContainerP", "cardDescriptionTxtView"]
+- ["So18UIContentContainerP", "cardName"]
+- ["So18UIContentContainerP", "cardNameLbl"]
+- !private ["So18UIContentContainerP", "editReplayGameId"]
+- ["So18UIContentContainerP", "gameId"]
+- ["So18UIContentContainerP", "goBack"]
+- ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "interactivePopGestureRecognizer"]
+- !private ["So18UIContentContainerP", "isFromNotificagions"]
+- ["So18UIContentContainerP", "isFromNotifications"]
+- !private ["So18UIContentContainerP", "isKind"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- ["So18UIContentContainerP", "popToViewController"]
+- !private ["So18UIContentContainerP", "pushViewController"]
+- !private ["So18UIContentContainerP", "title"]
+- !private ["So18UIContentContainerP", "viewControllers"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "viewWillDisappear"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", "AnyClass"]
+- !private ["So18UIFocusEnvironmentP", "Int32"]
+- !private ["So18UIFocusEnvironmentP", "NSNumber"]
+- !private ["So18UIFocusEnvironmentP", "PlayVC"]
+- !private ["So18UIFocusEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UIStoryboard"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "cardDescription"]
+- ["So18UIFocusEnvironmentP", "cardDescriptionTxtView"]
+- ["So18UIFocusEnvironmentP", "cardName"]
+- ["So18UIFocusEnvironmentP", "cardNameLbl"]
+- !private ["So18UIFocusEnvironmentP", "editReplayGameId"]
+- ["So18UIFocusEnvironmentP", "gameId"]
+- ["So18UIFocusEnvironmentP", "goBack"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "interactivePopGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "isFromNotificagions"]
+- ["So18UIFocusEnvironmentP", "isFromNotifications"]
+- !private ["So18UIFocusEnvironmentP", "isKind"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- ["So18UIFocusEnvironmentP", "popToViewController"]
+- !private ["So18UIFocusEnvironmentP", "pushViewController"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So18UIFocusEnvironmentP", "viewControllers"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "viewWillDisappear"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So30UIFocusItemScrollableContainerP", "text"]
+- !private ["So19UIGestureRecognizerC", "isEnabled"]
+- !private ["So7UIImageC", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So10UIKeyInputP", ""]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- ["So22UINavigationControllerC", "AnyClass"]
+- ["So22UINavigationControllerC", "Bool"]
+- ["So22UINavigationControllerC", ""]
+- !private ["So22UINavigationControllerC", "interactivePopGestureRecognizer"]
+- ["So22UINavigationControllerC", "popToViewController"]
+- !private ["So22UINavigationControllerC", "pushViewController"]
+- !private ["So22UINavigationControllerC", "viewControllers"]
+- !private ["So16UINavigationItemC", "backBarButtonItem"]
+- !private ["So16UINavigationItemC", "leftBarButtonItem"]
+- !private ["So16UINavigationItemC", "setHidesBackButton"]
+- ["So30UIPasteConfigurationSupportingP", "AnyClass"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int32"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSNumber"]
+- !private ["So30UIPasteConfigurationSupportingP", "PlayVC"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "cardDescription"]
+- ["So30UIPasteConfigurationSupportingP", "cardDescriptionTxtView"]
+- ["So30UIPasteConfigurationSupportingP", "cardName"]
+- ["So30UIPasteConfigurationSupportingP", "cardNameLbl"]
+- !private ["So30UIPasteConfigurationSupportingP", "editReplayGameId"]
+- ["So30UIPasteConfigurationSupportingP", "gameId"]
+- ["So30UIPasteConfigurationSupportingP", "goBack"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "interactivePopGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "isFromNotificagions"]
+- ["So30UIPasteConfigurationSupportingP", "isFromNotifications"]
+- !private ["So30UIPasteConfigurationSupportingP", "isKind"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- ["So30UIPasteConfigurationSupportingP", "popToViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "viewWillDisappear"]
+- ["So11UIResponderC", "AnyClass"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "Int32"]
+- !private ["So11UIResponderC", "NSNumber"]
+- !private ["So11UIResponderC", "PlayVC"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIBarButtonItem"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "UIStoryboard"]
+- ["So11UIResponderC", "UITextView"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "cardDescription"]
+- ["So11UIResponderC", "cardDescriptionTxtView"]
+- ["So11UIResponderC", "cardName"]
+- ["So11UIResponderC", "cardNameLbl"]
+- !private ["So11UIResponderC", "editReplayGameId"]
+- ["So11UIResponderC", "gameId"]
+- ["So11UIResponderC", "goBack"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "interactivePopGestureRecognizer"]
+- !private ["So11UIResponderC", "isFromNotificagions"]
+- ["So11UIResponderC", "isFromNotifications"]
+- !private ["So11UIResponderC", "isKind"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "navigationItem"]
+- ["So11UIResponderC", "popToViewController"]
+- !private ["So11UIResponderC", "pushViewController"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "title"]
+- !private ["So11UIResponderC", "viewControllers"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillDisappear"]
+- ["So30UIResponderStandardEditActionsP", "AnyClass"]
+- !private ["So30UIResponderStandardEditActionsP", "Int32"]
+- !private ["So30UIResponderStandardEditActionsP", "NSNumber"]
+- !private ["So30UIResponderStandardEditActionsP", "PlayVC"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "cardDescription"]
+- ["So30UIResponderStandardEditActionsP", "cardDescriptionTxtView"]
+- ["So30UIResponderStandardEditActionsP", "cardName"]
+- ["So30UIResponderStandardEditActionsP", "cardNameLbl"]
+- !private ["So30UIResponderStandardEditActionsP", "editReplayGameId"]
+- ["So30UIResponderStandardEditActionsP", "gameId"]
+- ["So30UIResponderStandardEditActionsP", "goBack"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "interactivePopGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "isFromNotificagions"]
+- ["So30UIResponderStandardEditActionsP", "isFromNotifications"]
+- !private ["So30UIResponderStandardEditActionsP", "isKind"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- ["So30UIResponderStandardEditActionsP", "popToViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "viewControllers"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "viewWillDisappear"]
+- !private ["So12UIScrollViewC", "text"]
+- !private ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "editReplayGameId"]
+- !private ["So20UIScrollViewDelegateP", "isFromNotificagions"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "Style"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- ["So16UIStateRestoringP", "AnyClass"]
+- !private ["So16UIStateRestoringP", "Int32"]
+- !private ["So16UIStateRestoringP", "NSNumber"]
+- !private ["So16UIStateRestoringP", "PlayVC"]
+- !private ["So16UIStateRestoringP", "UIBarButtonItem"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "UIStoryboard"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "cardDescription"]
+- ["So16UIStateRestoringP", "cardDescriptionTxtView"]
+- ["So16UIStateRestoringP", "cardName"]
+- ["So16UIStateRestoringP", "cardNameLbl"]
+- !private ["So16UIStateRestoringP", "editReplayGameId"]
+- ["So16UIStateRestoringP", "gameId"]
+- ["So16UIStateRestoringP", "goBack"]
+- ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "interactivePopGestureRecognizer"]
+- !private ["So16UIStateRestoringP", "isFromNotificagions"]
+- ["So16UIStateRestoringP", "isFromNotifications"]
+- !private ["So16UIStateRestoringP", "isKind"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- ["So16UIStateRestoringP", "popToViewController"]
+- !private ["So16UIStateRestoringP", "pushViewController"]
+- !private ["So16UIStateRestoringP", "title"]
+- !private ["So16UIStateRestoringP", "viewControllers"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "viewWillDisappear"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So21UITableViewDataSourceP", "editReplayGameId"]
+- !private ["So21UITableViewDataSourceP", "isFromNotificagions"]
+- !private ["So19UITableViewDelegateP", "editReplayGameId"]
+- !private ["So19UITableViewDelegateP", "isFromNotificagions"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextInputP", ""]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", ""]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", ""]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So10UITextViewC", "text"]
+- ["So18UITraitEnvironmentP", "AnyClass"]
+- !private ["So18UITraitEnvironmentP", "Int32"]
+- !private ["So18UITraitEnvironmentP", "NSNumber"]
+- !private ["So18UITraitEnvironmentP", "PlayVC"]
+- !private ["So18UITraitEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UIStoryboard"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "cardDescription"]
+- ["So18UITraitEnvironmentP", "cardDescriptionTxtView"]
+- ["So18UITraitEnvironmentP", "cardName"]
+- ["So18UITraitEnvironmentP", "cardNameLbl"]
+- !private ["So18UITraitEnvironmentP", "editReplayGameId"]
+- ["So18UITraitEnvironmentP", "gameId"]
+- ["So18UITraitEnvironmentP", "goBack"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "interactivePopGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "isFromNotificagions"]
+- ["So18UITraitEnvironmentP", "isFromNotifications"]
+- !private ["So18UITraitEnvironmentP", "isKind"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- ["So18UITraitEnvironmentP", "popToViewController"]
+- !private ["So18UITraitEnvironmentP", "pushViewController"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So18UITraitEnvironmentP", "viewControllers"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "viewWillDisappear"]
+- ["So23UIUserActivityRestoringP", "AnyClass"]
+- !private ["So23UIUserActivityRestoringP", "Int32"]
+- !private ["So23UIUserActivityRestoringP", "NSNumber"]
+- !private ["So23UIUserActivityRestoringP", "PlayVC"]
+- !private ["So23UIUserActivityRestoringP", "UIBarButtonItem"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- !private ["So23UIUserActivityRestoringP", "UIStoryboard"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "cardDescription"]
+- ["So23UIUserActivityRestoringP", "cardDescriptionTxtView"]
+- ["So23UIUserActivityRestoringP", "cardName"]
+- ["So23UIUserActivityRestoringP", "cardNameLbl"]
+- !private ["So23UIUserActivityRestoringP", "editReplayGameId"]
+- ["So23UIUserActivityRestoringP", "gameId"]
+- ["So23UIUserActivityRestoringP", "goBack"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "interactivePopGestureRecognizer"]
+- !private ["So23UIUserActivityRestoringP", "isFromNotificagions"]
+- ["So23UIUserActivityRestoringP", "isFromNotifications"]
+- !private ["So23UIUserActivityRestoringP", "isKind"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "navigationItem"]
+- ["So23UIUserActivityRestoringP", "popToViewController"]
+- !private ["So23UIUserActivityRestoringP", "pushViewController"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "title"]
+- !private ["So23UIUserActivityRestoringP", "viewControllers"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "viewWillDisappear"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "AnyClass"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "Int32"]
+- !private ["So16UIViewControllerC", "NSNumber"]
+- !private ["So16UIViewControllerC", "PlayVC"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIBarButtonItem"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UILabel"]
+- !private ["So16UIViewControllerC", "UIStoryboard"]
+- ["So16UIViewControllerC", "UITextView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "cardDescription"]
+- ["So16UIViewControllerC", "cardDescriptionTxtView"]
+- ["So16UIViewControllerC", "cardName"]
+- ["So16UIViewControllerC", "cardNameLbl"]
+- !private ["So16UIViewControllerC", "editReplayGameId"]
+- ["So16UIViewControllerC", "gameId"]
+- ["So16UIViewControllerC", "goBack"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "interactivePopGestureRecognizer"]
+- !private ["So16UIViewControllerC", "isFromNotificagions"]
+- ["So16UIViewControllerC", "isFromNotifications"]
+- !private ["So16UIViewControllerC", "isKind"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- ["So16UIViewControllerC", "popToViewController"]
+- !private ["So16UIViewControllerC", "pushViewController"]
+- !private ["So16UIViewControllerC", "title"]
+- !private ["So16UIViewControllerC", "viewControllers"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillDisappear"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int32"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlayVC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cardDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cardDescriptionTxtView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cardName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cardNameLbl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "editReplayGameId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gameId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "goBack"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interactivePopGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFromNotificagions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFromNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isKind"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popToViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setHidesBackButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillDisappear"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int32"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSNumber"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlayVC"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Style"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIBarButtonItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIStoryboard"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backBarButtonItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cardDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cardDescriptionTxtView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cardName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cardNameLbl"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "editReplayGameId"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "gameId"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "goBack"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interactivePopGestureRecognizer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isFromNotificagions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isFromNotifications"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isKind"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leftBarButtonItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "popToViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pushViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setHidesBackButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewControllers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewWillDisappear"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["So13CKRecordValueP", "init"]
+- !private ["So13CKRecordValueP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- "9Golf_Putz18BaseViewControllerC"
+- !private "SK"
+- !private "Sz"
+- !private "So15CALayerDelegateP"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "19FTPopOverMenu_Swift9ImageableP"
+- "8SideMenu18InitializableClassP"
+- !private "s5Int32V"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "So7NSValueC"
+- !private "Sj"
+- !private "Sq"
+- !private "9Golf_Putz6PlayVCC"
+- !private "9Golf_Putz0B18CardsAddedDelegateP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "9Golf_Putz15ReceivedCardsVCC"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "So20UIBarButtonItemStyleV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So15UIBarButtonItemC"
+- "So9UIBarItemC"
+- !private "So26UICollectionViewDataSourceP"
+- !private "So24UICollectionViewDelegateP"
+- !private "So34UICollectionViewDelegateFlowLayoutP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So19UIGestureRecognizerC"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So10UIKeyInputP"
+- !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
+- "So22UINavigationControllerC"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So10UITextViewC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "So13CKRecordValueP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Modules/SwiftyPickerPopover.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules/FTPopOverMenu_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKURL.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Headers/SwiftyPickerPopover-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Headers/FTPopOverMenu_Swift-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRStackFrame.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceViewControllerBase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolving.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLink.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRExceptionModel.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkNavigation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKWebViewAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRCrashlytics.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkTarget.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Headers/SwiftyPickerPopover-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Headers/FTPopOverMenu_Swift-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMeasurementEvent.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "72beafb3644ad90afeb6bd736e37a912"

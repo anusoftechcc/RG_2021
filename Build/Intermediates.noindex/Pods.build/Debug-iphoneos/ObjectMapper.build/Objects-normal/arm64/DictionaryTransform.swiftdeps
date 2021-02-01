@@ -1,0 +1,145 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DictionaryTransform"
+provides-nominal:
+- "12ObjectMapper19DictionaryTransformV"
+provides-member:
+- ["12ObjectMapper19DictionaryTransformV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "Dictionary"
+- "DictionaryTransform"
+- "Hashable"
+- "Key"
+- "Mappable"
+- "RawRepresentable"
+- "String"
+- "TransformType"
+- "Value"
+depends-member:
+- ["12ObjectMapper12BaseMappableP", ""]
+- !private ["12ObjectMapper12BaseMappableP", "init"]
+- !private ["12ObjectMapper12BaseMappableP", "toJSON"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "reduce"]
+- !private ["Se", "subscript"]
+- !private ["SD", "reduce"]
+- !private ["SD", "subscript"]
+- ["12ObjectMapper19DictionaryTransformV", "Default_JSON"]
+- ["12ObjectMapper19DictionaryTransformV", "Default_Object"]
+- ["12ObjectMapper19DictionaryTransformV", "JSON"]
+- !private ["12ObjectMapper19DictionaryTransformV", "Key"]
+- ["12ObjectMapper19DictionaryTransformV", "Object"]
+- !private ["12ObjectMapper19DictionaryTransformV", "String"]
+- !private ["12ObjectMapper19DictionaryTransformV", "Value"]
+- ["12ObjectMapper19DictionaryTransformV", ""]
+- ["12ObjectMapper19DictionaryTransformV", "_Default_JSON"]
+- ["12ObjectMapper19DictionaryTransformV", "_Default_Object"]
+- ["12ObjectMapper19DictionaryTransformV", "init"]
+- ["12ObjectMapper19DictionaryTransformV", "transformFromJSON"]
+- ["12ObjectMapper19DictionaryTransformV", "transformToJSON"]
+- !private ["SE", "reduce"]
+- !private ["SE", "subscript"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "reduce"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["SH", "RawValue"]
+- !private ["SH", "init"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "reduce"]
+- !private ["SH", "subscript"]
+- !private ["12ObjectMapper8MappableP", "init"]
+- !private ["12ObjectMapper8MappableP", "toJSON"]
+- ["SY", "RawValue"]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
+- !private ["ST", ""]
+- !private ["ST", "reduce"]
+- !private ["ST", "subscript"]
+- ["12ObjectMapper13TransformTypeP", "Default_JSON"]
+- ["12ObjectMapper13TransformTypeP", "Default_Object"]
+- ["12ObjectMapper13TransformTypeP", "JSON"]
+- !private ["12ObjectMapper13TransformTypeP", "Key"]
+- ["12ObjectMapper13TransformTypeP", "Object"]
+- !private ["12ObjectMapper13TransformTypeP", "Value"]
+- ["12ObjectMapper13TransformTypeP", ""]
+- ["12ObjectMapper13TransformTypeP", "_Default_JSON"]
+- ["12ObjectMapper13TransformTypeP", "_Default_Object"]
+- ["12ObjectMapper13TransformTypeP", "transformFromJSON"]
+- ["12ObjectMapper13TransformTypeP", "transformToJSON"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "12ObjectMapper12BaseMappableP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- "12ObjectMapper19DictionaryTransformV"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- !private "12ObjectMapper8MappableP"
+- "SY"
+- !private "ST"
+- "12ObjectMapper13TransformTypeP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ObjectMapper.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "906fb5437bbb54214c15023dcf2f4bfc"

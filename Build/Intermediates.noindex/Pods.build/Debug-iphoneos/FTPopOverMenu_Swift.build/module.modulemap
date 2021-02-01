@@ -1,0 +1,11 @@
+framework module FTPopOverMenu_Swift {
+  umbrella header "FTPopOverMenu_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FTPopOverMenu_Swift.Swift {
+    header "FTPopOverMenu_Swift-Swift.h"
+    requires objc
+}

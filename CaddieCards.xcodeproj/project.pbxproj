@@ -1,0 +1,1271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5664864FE4A32121F71D1A98 /* Pods_CaddieCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47160E1C65A9F71D25431226 /* Pods_CaddieCards.framework */; };
+		637E6B5D25B98656007D235E /* Notifications.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637E6B5C25B98656007D235E /* Notifications.storyboard */; };
+		637E6B6025B98698007D235E /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E6B5F25B98698007D235E /* NotificationsVC.swift */; };
+		637E6B6325B98923007D235E /* NotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E6B6225B98923007D235E /* NotificationsTableViewCell.swift */; };
+		637E6C6025BABA2C007D235E /* GuestChangepassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637E6C5F25BABA2C007D235E /* GuestChangepassword.storyboard */; };
+		637E6C6325BABA59007D235E /* GuestChangePwdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E6C6225BABA59007D235E /* GuestChangePwdVC.swift */; };
+		639ED84425BEE8D500526347 /* CustomAlertViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639ED84225BEE8D400526347 /* CustomAlertViewDelegate.swift */; };
+		639ED84525BEE8D500526347 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639ED84325BEE8D500526347 /* CustomAlertView.swift */; };
+		639ED84825BEE90F00526347 /* CustomAlert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639ED84725BEE90F00526347 /* CustomAlert.storyboard */; };
+		6F6DE9102593312A001D7D90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F6DE90F2593312A001D7D90 /* GoogleService-Info.plist */; };
+		6FF5A5132594655400B2E37F /* PutzCardsDisplayTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5A5112594655400B2E37F /* PutzCardsDisplayTVCell.swift */; };
+		6FF5A5142594655400B2E37F /* PutzCardUserNameTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5A5122594655400B2E37F /* PutzCardUserNameTVCell.swift */; };
+		6FF5A5172594657800B2E37F /* SendPutzCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5A5162594657800B2E37F /* SendPutzCardVC.swift */; };
+		6FF5A61C2594EFA600B2E37F /* ReceivedCardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5A61B2594EFA600B2E37F /* ReceivedCardsVC.swift */; };
+		6FF5A6922596477F00B2E37F /* NotificationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5A6912596477F00B2E37F /* NotificationsModel.swift */; };
+		9D00018B22337F3200C68F38 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00018822337F3200C68F38 /* ApiCall.swift */; };
+		9D00018C22337F3200C68F38 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00018922337F3200C68F38 /* BaseModel.swift */; };
+		9D00018D22337F3200C68F38 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00018A22337F3200C68F38 /* LoginModel.swift */; };
+		9D0001912233862500C68F38 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0001902233862500C68F38 /* DashboardVC.swift */; };
+		9D0001932233888600C68F38 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0001922233888600C68F38 /* SignUpVC.swift */; };
+		9D0001952233899D00C68F38 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0001942233899D00C68F38 /* ChangePasswordVC.swift */; };
+		9D002561223E41F0007A9474 /* PersonalDetailsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00255F223E41F0007A9474 /* PersonalDetailsTVCell.swift */; };
+		9D002562223E41F0007A9474 /* PersonalDetailsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D002560223E41F0007A9474 /* PersonalDetailsTVCell.xib */; };
+		9D002565223E420C007A9474 /* ChangePwdTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D002563223E420C007A9474 /* ChangePwdTVCell.swift */; };
+		9D002566223E420C007A9474 /* ChangePwdTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D002564223E420C007A9474 /* ChangePwdTVCell.xib */; };
+		9D002568223E62F6007A9474 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D002567223E62F6007A9474 /* ProfileModel.swift */; };
+		9D00256A223E84B1007A9474 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D002569223E84B1007A9474 /* EditProfileVC.swift */; };
+		9D00460522CB08A3008CD12C /* EditGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00460422CB08A3008CD12C /* EditGameModel.swift */; };
+		9D00460722CB1264008CD12C /* CourseSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00460622CB1264008CD12C /* CourseSearchVC.swift */; };
+		9D01B0A12276161100F4DFA1 /* CreateGroupTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01B09F2276161100F4DFA1 /* CreateGroupTVCell.swift */; };
+		9D01B0A22276161100F4DFA1 /* CreateGroupTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D01B0A02276161100F4DFA1 /* CreateGroupTVCell.xib */; };
+		9D01B0A422761EE600F4DFA1 /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01B0A322761EE600F4DFA1 /* CreateGroupVC.swift */; };
+		9D01B0A622761FFB00F4DFA1 /* GroupDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01B0A522761FFB00F4DFA1 /* GroupDetailsVC.swift */; };
+		9D02D461226B8A4A0007E52B /* FriendsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D02D460226B8A4A0007E52B /* FriendsModel.swift */; };
+		9D033C9A22698C3400A5321C /* FriendsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D033C9822698C3400A5321C /* FriendsTVCell.swift */; };
+		9D033C9B22698C3400A5321C /* FriendsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D033C9922698C3400A5321C /* FriendsTVCell.xib */; };
+		9D033C9E22698C6100A5321C /* RequestTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D033C9C22698C6100A5321C /* RequestTVCell.swift */; };
+		9D033C9F22698C6100A5321C /* RequestTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D033C9D22698C6100A5321C /* RequestTVCell.xib */; };
+		9D033CA222698C7900A5321C /* GroupTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D033CA022698C7900A5321C /* GroupTVCell.swift */; };
+		9D033CA322698C7900A5321C /* GroupTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D033CA122698C7900A5321C /* GroupTVCell.xib */; };
+		9D033CA5226994B000A5321C /* SearchFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D033CA4226994B000A5321C /* SearchFriendsVC.swift */; };
+		9D03955D2238BB0100324B8E /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D03955C2238BB0100324B8E /* ApiConstants.swift */; };
+		9D04A24D2234C4980062E62C /* Handelson-Four.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D04A24C2234C4980062E62C /* Handelson-Four.otf */; };
+		9D04A24F22357F850062E62C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04A24E22357F850062E62C /* Constants.swift */; };
+		9D04A2512235A1EF0062E62C /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04A2502235A1EF0062E62C /* MenuVC.swift */; };
+		9D04A2532235B1A50062E62C /* ScoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04A2522235B1A50062E62C /* ScoresVC.swift */; };
+		9D04A2552235B1B90062E62C /* FriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04A2542235B1B90062E62C /* FriendsVC.swift */; };
+		9D04A2572235B1D00062E62C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04A2562235B1D00062E62C /* ProfileVC.swift */; };
+		9D04A2592235B1E80062E62C /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04A2582235B1E80062E62C /* ContactUsVC.swift */; };
+		9D04A25B2235B2CA0062E62C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D04A25A2235B2CA0062E62C /* Profile.storyboard */; };
+		9D05D60522AEEAEE0077971A /* SelectMembersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D05D60422AEEAEE0077971A /* SelectMembersVC.swift */; };
+		9D05D60722AEEC0D0077971A /* SearchFrndCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D05D60622AEEC0D0077971A /* SearchFrndCell.swift */; };
+		9D05D60922AEEC2D0077971A /* SelectGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D05D60822AEEC2D0077971A /* SelectGroupCell.swift */; };
+		9D05D60B22AEEC4E0077971A /* MembersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D05D60A22AEEC4E0077971A /* MembersCell.swift */; };
+		9D0C6FFB23505F6A00615C23 /* GameHistoryTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C6FF923505F6A00615C23 /* GameHistoryTVCell.swift */; };
+		9D0C6FFC23505F6A00615C23 /* GameHistoryTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0C6FFA23505F6A00615C23 /* GameHistoryTVCell.xib */; };
+		9D0C6FFE235063FE00615C23 /* ScorebordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C6FFD235063FE00615C23 /* ScorebordVC.swift */; };
+		9D0C8487226835D00068B5A2 /* ShareAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C8486226835D00068B5A2 /* ShareAppVC.swift */; };
+		9D0D9E6F23AC93800095DE61 /* ChangeAverageScoreTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0D9E6D23AC93800095DE61 /* ChangeAverageScoreTVCell.swift */; };
+		9D0D9E7023AC93800095DE61 /* ChangeAverageScoreTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0D9E6E23AC93800095DE61 /* ChangeAverageScoreTVCell.xib */; };
+		9D0D9E7223AC98B60095DE61 /* ProfilePerDetailsEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0D9E7123AC98B60095DE61 /* ProfilePerDetailsEditVC.swift */; };
+		9D0D9E7423AC9C990095DE61 /* EditAvgScoreTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0D9E7323AC9C990095DE61 /* EditAvgScoreTVCell.swift */; };
+		9D0D9E7623AC9CB90095DE61 /* EditAddressDetailsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0D9E7523AC9CB90095DE61 /* EditAddressDetailsTVCell.swift */; };
+		9D0D9E7923ACAE7E0095DE61 /* AddressTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0D9E7723ACAE7E0095DE61 /* AddressTVCell.swift */; };
+		9D0D9E7A23ACAE7E0095DE61 /* AddressTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0D9E7823ACAE7E0095DE61 /* AddressTVCell.xib */; };
+		9D13D225242FB8DB00871D03 /* SearchGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13D224242FB8DB00871D03 /* SearchGameVC.swift */; };
+		9D14E42E23519AE300D0A0CE /* EditOrReplayGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D14E42D23519AE300D0A0CE /* EditOrReplayGameModel.swift */; };
+		9D17D637228D087700358E4C /* GamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17D636228D087700358E4C /* GamesVC.swift */; };
+		9D17D639228D0B8A00358E4C /* CreateGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17D638228D0B8A00358E4C /* CreateGameVC.swift */; };
+		9D17D63C228D0F5300358E4C /* GroupYouTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17D63A228D0F5300358E4C /* GroupYouTVCell.swift */; };
+		9D17D63D228D0F5300358E4C /* GroupYouTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D17D63B228D0F5300358E4C /* GroupYouTVCell.xib */; };
+		9D1A651222CC5AF800ADEFCC /* SearchCourseNameTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A651122CC5AF800ADEFCC /* SearchCourseNameTVCell.swift */; };
+		9D1F04F1235CDCC1002A5AF4 /* ScoreboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F04F0235CDCC1002A5AF4 /* ScoreboardModel.swift */; };
+		9D24D0D8258659E2005B9FCE /* MPHeaderTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D24D0D7258659E2005B9FCE /* MPHeaderTVCell.swift */; };
+		9D2651B9258DABE100B61382 /* AddPutzCardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2651B8258DABE100B61382 /* AddPutzCardsVC.swift */; };
+		9D2651BC258DB54700B61382 /* AddPutzCardsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2651BB258DB54700B61382 /* AddPutzCardsTVCell.swift */; };
+		9D273E10239DFA4500292F07 /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D273E0F239DFA4500292F07 /* PlayVC.swift */; };
+		9D2E2D1424EB9A04003EB26B /* GolfPutzLoadScreen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9D2E2D1324EB9A04003EB26B /* GolfPutzLoadScreen.mp4 */; };
+		9D36F90323AA04DA008E0123 /* EditPlayerScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D36F90223AA04DA008E0123 /* EditPlayerScoreVC.swift */; };
+		9D470F012532F2C300112108 /* GameEPScoreTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D470F002532F2C300112108 /* GameEPScoreTVCell.swift */; };
+		9D4AF41122321FDB00960C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AF41022321FDB00960C02 /* AppDelegate.swift */; };
+		9D4AF41622321FDB00960C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AF41422321FDB00960C02 /* Main.storyboard */; };
+		9D4AF41922321FDB00960C02 /* CaddieCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AF41722321FDB00960C02 /* CaddieCards.xcdatamodeld */; };
+		9D4AF41B22321FDC00960C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AF41A22321FDC00960C02 /* Assets.xcassets */; };
+		9D4AF41E22321FDC00960C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AF41C22321FDC00960C02 /* LaunchScreen.storyboard */; };
+		9D4AF42A223221E700960C02 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AF429223221E700960C02 /* SplashScreenVC.swift */; };
+		9D4AF42D2232229B00960C02 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4AF42C2232229B00960C02 /* AVFoundation.framework */; };
+		9D4AF42F223222AD00960C02 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4AF42E223222AD00960C02 /* AVKit.framework */; };
+		9D4AF431223224F100960C02 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AF430223224F100960C02 /* HomeScreenVC.swift */; };
+		9D4AF4372232317700960C02 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AF4332232317700960C02 /* OpenSans-Semibold.ttf */; };
+		9D4AF4382232317700960C02 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AF4342232317700960C02 /* OpenSans-Bold.ttf */; };
+		9D4AF4392232317700960C02 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AF4352232317700960C02 /* OpenSans-Light.ttf */; };
+		9D4AF43A2232317700960C02 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AF4362232317700960C02 /* OpenSans-Regular.ttf */; };
+		9D4AF43C2232345900960C02 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AF43B2232345900960C02 /* LoginVC.swift */; };
+		9D4AF43E22323E2500960C02 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AF43D22323E2500960C02 /* BaseViewController.swift */; };
+		9D4C6DEA2532130000178BC8 /* GameEditPlayerScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C6DE92532130000178BC8 /* GameEditPlayerScoreVC.swift */; };
+		9D50AB2F24593B7900B358E2 /* ActiveGameTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50AB2D24593B7900B358E2 /* ActiveGameTVCell.swift */; };
+		9D50AB3024593B7900B358E2 /* ActiveGameTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D50AB2E24593B7900B358E2 /* ActiveGameTVCell.xib */; };
+		9D56C0B6258E488B0021FD08 /* PutzCardsDisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D56C0B5258E488B0021FD08 /* PutzCardsDisplayVC.swift */; };
+		9D56C0B8258E49140021FD08 /* PutzCardsNoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D56C0B7258E49140021FD08 /* PutzCardsNoVC.swift */; };
+		9D59A86422AC29E40028D5D5 /* ScheduledTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59A86222AC29E40028D5D5 /* ScheduledTVCell.swift */; };
+		9D59A86522AC29E40028D5D5 /* ScheduledTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D59A86322AC29E40028D5D5 /* ScheduledTVCell.xib */; };
+		9D59A86B22AC36490028D5D5 /* DateAndTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59A86A22AC36490028D5D5 /* DateAndTimeVC.swift */; };
+		9D67D8302563A0A0009C54F1 /* RulesContentTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67D82F2563A0A0009C54F1 /* RulesContentTVCell.swift */; };
+		9D79E9072275BBA900B796DB /* SearchFrndTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D79E9052275BBA900B796DB /* SearchFrndTVCell.swift */; };
+		9D79E9082275BBA900B796DB /* SearchFrndTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D79E9062275BBA900B796DB /* SearchFrndTVCell.xib */; };
+		9D7AAE85257E071000D1EAD4 /* PressEnterScoreTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AAE83257E071000D1EAD4 /* PressEnterScoreTVCell.swift */; };
+		9D7AAE86257E071000D1EAD4 /* PressEnterScoreTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7AAE84257E071000D1EAD4 /* PressEnterScoreTVCell.xib */; };
+		9D7C0A8724F261E400CF3ED2 /* AddGuestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0A8624F261E400CF3ED2 /* AddGuestVC.swift */; };
+		9D7C311C2277F82300D20768 /* GroupDetailsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C311A2277F82300D20768 /* GroupDetailsTVCell.swift */; };
+		9D7C311D2277F82300D20768 /* GroupDetailsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C311B2277F82300D20768 /* GroupDetailsTVCell.xib */; };
+		9D7C318224FA433300DDEC33 /* NassauGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C318124FA433300DDEC33 /* NassauGameVC.swift */; };
+		9D7C318424FA45AF00DDEC33 /* NassauGameTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C318324FA45AF00DDEC33 /* NassauGameTVCell.swift */; };
+		9D7C318624FA46F800DDEC33 /* NassauPlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C318524FA46F800DDEC33 /* NassauPlayModel.swift */; };
+		9D7C318824FA4A8400DDEC33 /* NassauSubmitTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C318724FA4A8400DDEC33 /* NassauSubmitTVCell.swift */; };
+		9D7C318A24FA55ED00DDEC33 /* NassauHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C318924FA55ED00DDEC33 /* NassauHeaderCell.swift */; };
+		9D7F09BF25296FAE00A00B22 /* LongShortGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F09BE25296FAE00A00B22 /* LongShortGameVC.swift */; };
+		9D7F09C12529706900A00B22 /* LongShortTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F09C02529706900A00B22 /* LongShortTVCell.swift */; };
+		9D7F92E62477983D003D687B /* SelectFrndPlayVCTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F92E42477983D003D687B /* SelectFrndPlayVCTVCell.swift */; };
+		9D7F92E72477983D003D687B /* SelectFrndPlayVCTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7F92E52477983D003D687B /* SelectFrndPlayVCTVCell.xib */; };
+		9D82A6A4250018980000BEE6 /* SwingSixsGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82A6A3250018980000BEE6 /* SwingSixsGameVC.swift */; };
+		9D82A6A625001AB10000BEE6 /* SwingSixsPlayGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82A6A525001AB10000BEE6 /* SwingSixsPlayGameModel.swift */; };
+		9D84F22D2565124D00C07FD3 /* GameRulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84F22C2565124D00C07FD3 /* GameRulesVC.swift */; };
+		9D84F22F2565144900C07FD3 /* GameRulesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84F22E2565144900C07FD3 /* GameRulesTableViewCell.swift */; };
+		9D97A973256D04BD00F1F7C4 /* PressesTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D97A972256D04BD00F1F7C4 /* PressesTVCell.swift */; };
+		9D9D082E2458345A009CF842 /* ViewFullImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D082D2458345A009CF842 /* ViewFullImageVC.swift */; };
+		9DA2DA5924ADAC1200D0E1FA /* MatchPlaySubmitTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2DA5824ADAC1200D0E1FA /* MatchPlaySubmitTVCell.swift */; };
+		9DA2DA5B24ADAD7A00D0E1FA /* MatchPlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2DA5A24ADAD7A00D0E1FA /* MatchPlayModel.swift */; };
+		9DA6EF7723AFF9D700BDC571 /* HomeCourseNamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6EF7623AFF9D700BDC571 /* HomeCourseNamesVC.swift */; };
+		9DB39DD8240656F7002FC9EC /* CaddieCardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB39DD7240656F7002FC9EC /* CaddieCardsVC.swift */; };
+		9DB39DDA24065AAA002FC9EC /* CaddieCardsCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB39DD924065AAA002FC9EC /* CaddieCardsCVCell.swift */; };
+		9DB39DDC240660EB002FC9EC /* HoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB39DDB240660EB002FC9EC /* HoleVC.swift */; };
+		9DBE75532527386C00788B3E /* WolfGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE75522527386C00788B3E /* WolfGameVC.swift */; };
+		9DBE75552527404F00788B3E /* WolfGameTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE75542527404E00788B3E /* WolfGameTVCell.swift */; };
+		9DBE7557252743FA00788B3E /* WolfGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE7556252743FA00788B3E /* WolfGameModel.swift */; };
+		9DCC561823FFA2EC0069576C /* StrokePlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC561723FFA2EC0069576C /* StrokePlayVC.swift */; };
+		9DCC561A23FFAC3C0069576C /* StrokePlayTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC561923FFAC3C0069576C /* StrokePlayTVCell.swift */; };
+		9DCC98BA24BC237D006907DE /* NineSGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC98B924BC237D006907DE /* NineSGameVC.swift */; };
+		9DCC98C124BC2491006907DE /* NineSGameTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC98C024BC2491006907DE /* NineSGameTVCell.swift */; };
+		9DCC98C324BC2D75006907DE /* NineSGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC98C224BC2D75006907DE /* NineSGameModel.swift */; };
+		9DD214C624AD948D007C03FE /* MatchPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD214C524AD948D007C03FE /* MatchPlayVC.swift */; };
+		9DD214C824AD94A5007C03FE /* MatchPlayTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD214C724AD94A5007C03FE /* MatchPlayTVCell.swift */; };
+		9DD4BCE1240D9A4300FC97DE /* AnimalAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4BCE0240D9A4300FC97DE /* AnimalAnimationVC.swift */; };
+		9DD52CAD227A09370011D6A9 /* AddFriendTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD52CAB227A09370011D6A9 /* AddFriendTVCell.swift */; };
+		9DD52CAE227A09370011D6A9 /* AddFriendTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD52CAC227A09370011D6A9 /* AddFriendTVCell.xib */; };
+		9DD52CB1227A135C0011D6A9 /* GroupMembersTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD52CAF227A135C0011D6A9 /* GroupMembersTVCell.swift */; };
+		9DD52CB2227A135C0011D6A9 /* GroupMembersTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD52CB0227A135C0011D6A9 /* GroupMembersTVCell.xib */; };
+		9DD52CB5227A139D0011D6A9 /* AddFrndGroupTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD52CB3227A139D0011D6A9 /* AddFrndGroupTVCell.swift */; };
+		9DD52CB6227A139D0011D6A9 /* AddFrndGroupTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD52CB4227A139D0011D6A9 /* AddFrndGroupTVCell.xib */; };
+		9DD52CB8227A22430011D6A9 /* AddFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD52CB7227A22430011D6A9 /* AddFriendVC.swift */; };
+		9DD52CBB227A23C90011D6A9 /* SelectFrndTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD52CB9227A23C90011D6A9 /* SelectFrndTVCell.swift */; };
+		9DD52CBC227A23C90011D6A9 /* SelectFrndTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD52CBA227A23C90011D6A9 /* SelectFrndTVCell.xib */; };
+		9DDF4AEE240A42A30088860E /* PlayGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF4AED240A42A30088860E /* PlayGameModel.swift */; };
+		9DE2E6AF2560428200E1FDB7 /* ExpandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2E6AE2560428200E1FDB7 /* ExpandTableViewCell.swift */; };
+		9DF5067D2560447F00BB6F5B /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5067C2560447F00BB6F5B /* ContentTableViewCell.swift */; };
+		9DFC7E09228FD73D00D662B0 /* GameViewDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC7E08228FD73D00D662B0 /* GameViewDetailsModel.swift */; };
+		9DFEBE3E2239F788008414FF /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFEBE3D2239F788008414FF /* ResponseModel.swift */; };
+		9DFF0CDB22AD019700065769 /* GroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF0CDA22AD019700065769 /* GroupVC.swift */; };
+		9DFF0CDE22AD069B00065769 /* SelectGroupTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF0CDC22AD069B00065769 /* SelectGroupTVCell.swift */; };
+		9DFF0CDF22AD069B00065769 /* SelectGroupTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF0CDD22AD069B00065769 /* SelectGroupTVCell.xib */; };
+		9DFF81AB240ADDDD0059754C /* PlayFriendsCVcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF81AA240ADDDD0059754C /* PlayFriendsCVcell.swift */; };
+		9DFF9EEF2233A13B00E7309B /* LoadScreenNew2secLow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF9EEE2233A13B00E7309B /* LoadScreenNew2secLow.mp4 */; };
+		9DFF9EF12233A1EC00E7309B /* jester_laugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF9EF02233A1EC00E7309B /* jester_laugh.mp3 */; };
+		9DFF9EF4223431D900E7309B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF9EF3223431D900E7309B /* Utils.swift */; };
+		D6475BAD252E191400A05501 /* client_384469182523-vir5j3f20sre7oe4dd61d9r04e57cdf9.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6475BAC252E191400A05501 /* client_384469182523-vir5j3f20sre7oe4dd61d9r04e57cdf9.apps.googleusercontent.com.plist */; };
+		D64F0E0825B6046200060521 /* PutzBux.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64F0E0725B6046200060521 /* PutzBux.storyboard */; };
+		D64F0E0B25B604B300060521 /* PutzBuxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F0E0A25B604B300060521 /* PutzBuxVC.swift */; };
+		D66994D025ACBE030080380F /* ViewCardWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66994CF25ACBE030080380F /* ViewCardWindowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47160E1C65A9F71D25431226 /* Pods_CaddieCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaddieCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		637E6B5C25B98656007D235E /* Notifications.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notifications.storyboard; sourceTree = "<group>"; };
+		637E6B5F25B98698007D235E /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		637E6B6225B98923007D235E /* NotificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		637E6C5F25BABA2C007D235E /* GuestChangepassword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GuestChangepassword.storyboard; sourceTree = "<group>"; };
+		637E6C6225BABA59007D235E /* GuestChangePwdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestChangePwdVC.swift; sourceTree = "<group>"; };
+		639ED84225BEE8D400526347 /* CustomAlertViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewDelegate.swift; sourceTree = "<group>"; };
+		639ED84325BEE8D500526347 /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		639ED84725BEE90F00526347 /* CustomAlert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomAlert.storyboard; sourceTree = "<group>"; };
+		6F6DE90F2593312A001D7D90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6FF5A5112594655400B2E37F /* PutzCardsDisplayTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PutzCardsDisplayTVCell.swift; sourceTree = "<group>"; };
+		6FF5A5122594655400B2E37F /* PutzCardUserNameTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PutzCardUserNameTVCell.swift; sourceTree = "<group>"; };
+		6FF5A5162594657800B2E37F /* SendPutzCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendPutzCardVC.swift; sourceTree = "<group>"; };
+		6FF5A61B2594EFA600B2E37F /* ReceivedCardsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedCardsVC.swift; sourceTree = "<group>"; };
+		6FF5A6912596477F00B2E37F /* NotificationsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsModel.swift; sourceTree = "<group>"; };
+		821B6B88258FA978002BF77E /* Golf Putz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Golf Putz.entitlements"; sourceTree = "<group>"; };
+		9D00018822337F3200C68F38 /* ApiCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		9D00018922337F3200C68F38 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		9D00018A22337F3200C68F38 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		9D0001902233862500C68F38 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		9D0001922233888600C68F38 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		9D0001942233899D00C68F38 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		9D00255F223E41F0007A9474 /* PersonalDetailsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailsTVCell.swift; sourceTree = "<group>"; };
+		9D002560223E41F0007A9474 /* PersonalDetailsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalDetailsTVCell.xib; sourceTree = "<group>"; };
+		9D002563223E420C007A9474 /* ChangePwdTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePwdTVCell.swift; sourceTree = "<group>"; };
+		9D002564223E420C007A9474 /* ChangePwdTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePwdTVCell.xib; sourceTree = "<group>"; };
+		9D002567223E62F6007A9474 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		9D002569223E84B1007A9474 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		9D00460422CB08A3008CD12C /* EditGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGameModel.swift; sourceTree = "<group>"; };
+		9D00460622CB1264008CD12C /* CourseSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSearchVC.swift; sourceTree = "<group>"; };
+		9D01B09F2276161100F4DFA1 /* CreateGroupTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupTVCell.swift; sourceTree = "<group>"; };
+		9D01B0A02276161100F4DFA1 /* CreateGroupTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateGroupTVCell.xib; sourceTree = "<group>"; };
+		9D01B0A322761EE600F4DFA1 /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
+		9D01B0A522761FFB00F4DFA1 /* GroupDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailsVC.swift; sourceTree = "<group>"; };
+		9D02D460226B8A4A0007E52B /* FriendsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModel.swift; sourceTree = "<group>"; };
+		9D033C9822698C3400A5321C /* FriendsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTVCell.swift; sourceTree = "<group>"; };
+		9D033C9922698C3400A5321C /* FriendsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsTVCell.xib; sourceTree = "<group>"; };
+		9D033C9C22698C6100A5321C /* RequestTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTVCell.swift; sourceTree = "<group>"; };
+		9D033C9D22698C6100A5321C /* RequestTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestTVCell.xib; sourceTree = "<group>"; };
+		9D033CA022698C7900A5321C /* GroupTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTVCell.swift; sourceTree = "<group>"; };
+		9D033CA122698C7900A5321C /* GroupTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTVCell.xib; sourceTree = "<group>"; };
+		9D033CA4226994B000A5321C /* SearchFriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFriendsVC.swift; sourceTree = "<group>"; };
+		9D03955C2238BB0100324B8E /* ApiConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		9D04A24C2234C4980062E62C /* Handelson-Four.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Handelson-Four.otf"; sourceTree = "<group>"; };
+		9D04A24E22357F850062E62C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9D04A2502235A1EF0062E62C /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		9D04A2522235B1A50062E62C /* ScoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresVC.swift; sourceTree = "<group>"; };
+		9D04A2542235B1B90062E62C /* FriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsVC.swift; sourceTree = "<group>"; };
+		9D04A2562235B1D00062E62C /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		9D04A2582235B1E80062E62C /* ContactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		9D04A25A2235B2CA0062E62C /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		9D05D60422AEEAEE0077971A /* SelectMembersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMembersVC.swift; sourceTree = "<group>"; };
+		9D05D60622AEEC0D0077971A /* SearchFrndCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFrndCell.swift; sourceTree = "<group>"; };
+		9D05D60822AEEC2D0077971A /* SelectGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGroupCell.swift; sourceTree = "<group>"; };
+		9D05D60A22AEEC4E0077971A /* MembersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersCell.swift; sourceTree = "<group>"; };
+		9D0C6FF923505F6A00615C23 /* GameHistoryTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistoryTVCell.swift; sourceTree = "<group>"; };
+		9D0C6FFA23505F6A00615C23 /* GameHistoryTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameHistoryTVCell.xib; sourceTree = "<group>"; };
+		9D0C6FFD235063FE00615C23 /* ScorebordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorebordVC.swift; sourceTree = "<group>"; };
+		9D0C8486226835D00068B5A2 /* ShareAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAppVC.swift; sourceTree = "<group>"; };
+		9D0D9E6D23AC93800095DE61 /* ChangeAverageScoreTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAverageScoreTVCell.swift; sourceTree = "<group>"; };
+		9D0D9E6E23AC93800095DE61 /* ChangeAverageScoreTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeAverageScoreTVCell.xib; sourceTree = "<group>"; };
+		9D0D9E7123AC98B60095DE61 /* ProfilePerDetailsEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePerDetailsEditVC.swift; sourceTree = "<group>"; };
+		9D0D9E7323AC9C990095DE61 /* EditAvgScoreTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAvgScoreTVCell.swift; sourceTree = "<group>"; };
+		9D0D9E7523AC9CB90095DE61 /* EditAddressDetailsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAddressDetailsTVCell.swift; sourceTree = "<group>"; };
+		9D0D9E7723ACAE7E0095DE61 /* AddressTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTVCell.swift; sourceTree = "<group>"; };
+		9D0D9E7823ACAE7E0095DE61 /* AddressTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressTVCell.xib; sourceTree = "<group>"; };
+		9D13D224242FB8DB00871D03 /* SearchGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGameVC.swift; sourceTree = "<group>"; };
+		9D14E42D23519AE300D0A0CE /* EditOrReplayGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditOrReplayGameModel.swift; sourceTree = "<group>"; };
+		9D17D636228D087700358E4C /* GamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesVC.swift; sourceTree = "<group>"; };
+		9D17D638228D0B8A00358E4C /* CreateGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGameVC.swift; sourceTree = "<group>"; };
+		9D17D63A228D0F5300358E4C /* GroupYouTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupYouTVCell.swift; sourceTree = "<group>"; };
+		9D17D63B228D0F5300358E4C /* GroupYouTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupYouTVCell.xib; sourceTree = "<group>"; };
+		9D1A651122CC5AF800ADEFCC /* SearchCourseNameTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCourseNameTVCell.swift; sourceTree = "<group>"; };
+		9D1F04F0235CDCC1002A5AF4 /* ScoreboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardModel.swift; sourceTree = "<group>"; };
+		9D24D0D7258659E2005B9FCE /* MPHeaderTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPHeaderTVCell.swift; sourceTree = "<group>"; };
+		9D2651B8258DABE100B61382 /* AddPutzCardsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPutzCardsVC.swift; sourceTree = "<group>"; };
+		9D2651BB258DB54700B61382 /* AddPutzCardsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPutzCardsTVCell.swift; sourceTree = "<group>"; };
+		9D273E0F239DFA4500292F07 /* PlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
+		9D2E2D1324EB9A04003EB26B /* GolfPutzLoadScreen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GolfPutzLoadScreen.mp4; sourceTree = "<group>"; };
+		9D36F90223AA04DA008E0123 /* EditPlayerScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPlayerScoreVC.swift; sourceTree = "<group>"; };
+		9D470F002532F2C300112108 /* GameEPScoreTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEPScoreTVCell.swift; sourceTree = "<group>"; };
+		9D4AF40D22321FDB00960C02 /* Golf Putz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golf Putz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4AF41022321FDB00960C02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D4AF41522321FDB00960C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D4AF41822321FDB00960C02 /* CaddieCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaddieCards.xcdatamodel; sourceTree = "<group>"; };
+		9D4AF41A22321FDC00960C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D4AF41D22321FDC00960C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D4AF41F22321FDC00960C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D4AF429223221E700960C02 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		9D4AF42C2232229B00960C02 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9D4AF42E223222AD00960C02 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		9D4AF430223224F100960C02 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		9D4AF4332232317700960C02 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		9D4AF4342232317700960C02 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		9D4AF4352232317700960C02 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		9D4AF4362232317700960C02 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		9D4AF43B2232345900960C02 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9D4AF43D22323E2500960C02 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9D4C6DE92532130000178BC8 /* GameEditPlayerScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEditPlayerScoreVC.swift; sourceTree = "<group>"; };
+		9D50AB2D24593B7900B358E2 /* ActiveGameTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveGameTVCell.swift; sourceTree = "<group>"; };
+		9D50AB2E24593B7900B358E2 /* ActiveGameTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActiveGameTVCell.xib; sourceTree = "<group>"; };
+		9D56C0B5258E488B0021FD08 /* PutzCardsDisplayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutzCardsDisplayVC.swift; sourceTree = "<group>"; };
+		9D56C0B7258E49140021FD08 /* PutzCardsNoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutzCardsNoVC.swift; sourceTree = "<group>"; };
+		9D59A86222AC29E40028D5D5 /* ScheduledTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledTVCell.swift; sourceTree = "<group>"; };
+		9D59A86322AC29E40028D5D5 /* ScheduledTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduledTVCell.xib; sourceTree = "<group>"; };
+		9D59A86A22AC36490028D5D5 /* DateAndTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndTimeVC.swift; sourceTree = "<group>"; };
+		9D67D82F2563A0A0009C54F1 /* RulesContentTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesContentTVCell.swift; sourceTree = "<group>"; };
+		9D79E9052275BBA900B796DB /* SearchFrndTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFrndTVCell.swift; sourceTree = "<group>"; };
+		9D79E9062275BBA900B796DB /* SearchFrndTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchFrndTVCell.xib; sourceTree = "<group>"; };
+		9D7AAE83257E071000D1EAD4 /* PressEnterScoreTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressEnterScoreTVCell.swift; sourceTree = "<group>"; };
+		9D7AAE84257E071000D1EAD4 /* PressEnterScoreTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PressEnterScoreTVCell.xib; sourceTree = "<group>"; };
+		9D7C0A8624F261E400CF3ED2 /* AddGuestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuestVC.swift; sourceTree = "<group>"; };
+		9D7C311A2277F82300D20768 /* GroupDetailsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailsTVCell.swift; sourceTree = "<group>"; };
+		9D7C311B2277F82300D20768 /* GroupDetailsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupDetailsTVCell.xib; sourceTree = "<group>"; };
+		9D7C318124FA433300DDEC33 /* NassauGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NassauGameVC.swift; sourceTree = "<group>"; };
+		9D7C318324FA45AF00DDEC33 /* NassauGameTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NassauGameTVCell.swift; sourceTree = "<group>"; };
+		9D7C318524FA46F800DDEC33 /* NassauPlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NassauPlayModel.swift; sourceTree = "<group>"; };
+		9D7C318724FA4A8400DDEC33 /* NassauSubmitTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NassauSubmitTVCell.swift; sourceTree = "<group>"; };
+		9D7C318924FA55ED00DDEC33 /* NassauHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NassauHeaderCell.swift; sourceTree = "<group>"; };
+		9D7F09BE25296FAE00A00B22 /* LongShortGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongShortGameVC.swift; sourceTree = "<group>"; };
+		9D7F09C02529706900A00B22 /* LongShortTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongShortTVCell.swift; sourceTree = "<group>"; };
+		9D7F92E42477983D003D687B /* SelectFrndPlayVCTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFrndPlayVCTVCell.swift; sourceTree = "<group>"; };
+		9D7F92E52477983D003D687B /* SelectFrndPlayVCTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectFrndPlayVCTVCell.xib; sourceTree = "<group>"; };
+		9D82A6A3250018980000BEE6 /* SwingSixsGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingSixsGameVC.swift; sourceTree = "<group>"; };
+		9D82A6A525001AB10000BEE6 /* SwingSixsPlayGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingSixsPlayGameModel.swift; sourceTree = "<group>"; };
+		9D84F22C2565124D00C07FD3 /* GameRulesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRulesVC.swift; sourceTree = "<group>"; };
+		9D84F22E2565144900C07FD3 /* GameRulesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRulesTableViewCell.swift; sourceTree = "<group>"; };
+		9D97A972256D04BD00F1F7C4 /* PressesTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressesTVCell.swift; sourceTree = "<group>"; };
+		9D9D082D2458345A009CF842 /* ViewFullImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFullImageVC.swift; sourceTree = "<group>"; };
+		9DA2DA5824ADAC1200D0E1FA /* MatchPlaySubmitTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPlaySubmitTVCell.swift; sourceTree = "<group>"; };
+		9DA2DA5A24ADAD7A00D0E1FA /* MatchPlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPlayModel.swift; sourceTree = "<group>"; };
+		9DA6EF7623AFF9D700BDC571 /* HomeCourseNamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCourseNamesVC.swift; sourceTree = "<group>"; };
+		9DB39DD7240656F7002FC9EC /* CaddieCardsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddieCardsVC.swift; sourceTree = "<group>"; };
+		9DB39DD924065AAA002FC9EC /* CaddieCardsCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddieCardsCVCell.swift; sourceTree = "<group>"; };
+		9DB39DDB240660EB002FC9EC /* HoleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleVC.swift; sourceTree = "<group>"; };
+		9DBE75522527386C00788B3E /* WolfGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolfGameVC.swift; sourceTree = "<group>"; };
+		9DBE75542527404E00788B3E /* WolfGameTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolfGameTVCell.swift; sourceTree = "<group>"; };
+		9DBE7556252743FA00788B3E /* WolfGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolfGameModel.swift; sourceTree = "<group>"; };
+		9DCC561723FFA2EC0069576C /* StrokePlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokePlayVC.swift; sourceTree = "<group>"; };
+		9DCC561923FFAC3C0069576C /* StrokePlayTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokePlayTVCell.swift; sourceTree = "<group>"; };
+		9DCC98B924BC237D006907DE /* NineSGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineSGameVC.swift; sourceTree = "<group>"; };
+		9DCC98C024BC2491006907DE /* NineSGameTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineSGameTVCell.swift; sourceTree = "<group>"; };
+		9DCC98C224BC2D75006907DE /* NineSGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineSGameModel.swift; sourceTree = "<group>"; };
+		9DD214C524AD948D007C03FE /* MatchPlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPlayVC.swift; sourceTree = "<group>"; };
+		9DD214C724AD94A5007C03FE /* MatchPlayTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPlayTVCell.swift; sourceTree = "<group>"; };
+		9DD4BCE0240D9A4300FC97DE /* AnimalAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalAnimationVC.swift; sourceTree = "<group>"; };
+		9DD52CAB227A09370011D6A9 /* AddFriendTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendTVCell.swift; sourceTree = "<group>"; };
+		9DD52CAC227A09370011D6A9 /* AddFriendTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddFriendTVCell.xib; sourceTree = "<group>"; };
+		9DD52CAF227A135C0011D6A9 /* GroupMembersTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMembersTVCell.swift; sourceTree = "<group>"; };
+		9DD52CB0227A135C0011D6A9 /* GroupMembersTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupMembersTVCell.xib; sourceTree = "<group>"; };
+		9DD52CB3227A139D0011D6A9 /* AddFrndGroupTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFrndGroupTVCell.swift; sourceTree = "<group>"; };
+		9DD52CB4227A139D0011D6A9 /* AddFrndGroupTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddFrndGroupTVCell.xib; sourceTree = "<group>"; };
+		9DD52CB7227A22430011D6A9 /* AddFriendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendVC.swift; sourceTree = "<group>"; };
+		9DD52CB9227A23C90011D6A9 /* SelectFrndTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFrndTVCell.swift; sourceTree = "<group>"; };
+		9DD52CBA227A23C90011D6A9 /* SelectFrndTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectFrndTVCell.xib; sourceTree = "<group>"; };
+		9DDF4AED240A42A30088860E /* PlayGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameModel.swift; sourceTree = "<group>"; };
+		9DE2E6AE2560428200E1FDB7 /* ExpandTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandTableViewCell.swift; sourceTree = "<group>"; };
+		9DF5067C2560447F00BB6F5B /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		9DFC7E08228FD73D00D662B0 /* GameViewDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewDetailsModel.swift; sourceTree = "<group>"; };
+		9DFEBE3D2239F788008414FF /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		9DFF0CDA22AD019700065769 /* GroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupVC.swift; sourceTree = "<group>"; };
+		9DFF0CDC22AD069B00065769 /* SelectGroupTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGroupTVCell.swift; sourceTree = "<group>"; };
+		9DFF0CDD22AD069B00065769 /* SelectGroupTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectGroupTVCell.xib; sourceTree = "<group>"; };
+		9DFF81AA240ADDDD0059754C /* PlayFriendsCVcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayFriendsCVcell.swift; sourceTree = "<group>"; };
+		9DFF9EEE2233A13B00E7309B /* LoadScreenNew2secLow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LoadScreenNew2secLow.mp4; sourceTree = "<group>"; };
+		9DFF9EF02233A1EC00E7309B /* jester_laugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jester_laugh.mp3; sourceTree = "<group>"; };
+		9DFF9EF3223431D900E7309B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D6475BAC252E191400A05501 /* client_384469182523-vir5j3f20sre7oe4dd61d9r04e57cdf9.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_384469182523-vir5j3f20sre7oe4dd61d9r04e57cdf9.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		D64F0E0725B6046200060521 /* PutzBux.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PutzBux.storyboard; sourceTree = "<group>"; };
+		D64F0E0A25B604B300060521 /* PutzBuxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutzBuxVC.swift; sourceTree = "<group>"; };
+		D66994CF25ACBE030080380F /* ViewCardWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCardWindowView.swift; sourceTree = "<group>"; };
+		EE887120D9E80D57C21069EF /* Pods-CaddieCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaddieCards.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaddieCards/Pods-CaddieCards.release.xcconfig"; sourceTree = "<group>"; };
+		FD8B9C066D50D42A6DAC535A /* Pods-CaddieCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaddieCards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaddieCards/Pods-CaddieCards.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D4AF40A22321FDB00960C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4AF42F223222AD00960C02 /* AVKit.framework in Frameworks */,
+				9D4AF42D2232229B00960C02 /* AVFoundation.framework in Frameworks */,
+				5664864FE4A32121F71D1A98 /* Pods_CaddieCards.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C40AEE8542AA96BD7E6E86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD8B9C066D50D42A6DAC535A /* Pods-CaddieCards.debug.xcconfig */,
+				EE887120D9E80D57C21069EF /* Pods-CaddieCards.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		639ED84125BEE89F00526347 /* CustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				639ED84325BEE8D500526347 /* CustomAlertView.swift */,
+				639ED84225BEE8D400526347 /* CustomAlertViewDelegate.swift */,
+				639ED84725BEE90F00526347 /* CustomAlert.storyboard */,
+			);
+			path = CustomAlert;
+			sourceTree = "<group>";
+		};
+		9D00255E223E41B2007A9474 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D2651BA258DB52000B61382 /* PutzCardsView */,
+				9DE2E6B02560440C00E1FDB7 /* SideMenu */,
+				9DCC98BB24BC23A4006907DE /* GamesView */,
+				9D00255F223E41F0007A9474 /* PersonalDetailsTVCell.swift */,
+				9D002560223E41F0007A9474 /* PersonalDetailsTVCell.xib */,
+				9D002563223E420C007A9474 /* ChangePwdTVCell.swift */,
+				9D002564223E420C007A9474 /* ChangePwdTVCell.xib */,
+				9D033C9822698C3400A5321C /* FriendsTVCell.swift */,
+				9D033C9922698C3400A5321C /* FriendsTVCell.xib */,
+				9D033C9C22698C6100A5321C /* RequestTVCell.swift */,
+				9D033C9D22698C6100A5321C /* RequestTVCell.xib */,
+				9D033CA022698C7900A5321C /* GroupTVCell.swift */,
+				9D033CA122698C7900A5321C /* GroupTVCell.xib */,
+				9D79E9052275BBA900B796DB /* SearchFrndTVCell.swift */,
+				9D79E9062275BBA900B796DB /* SearchFrndTVCell.xib */,
+				9D01B09F2276161100F4DFA1 /* CreateGroupTVCell.swift */,
+				9D01B0A02276161100F4DFA1 /* CreateGroupTVCell.xib */,
+				9D7C311A2277F82300D20768 /* GroupDetailsTVCell.swift */,
+				9D7C311B2277F82300D20768 /* GroupDetailsTVCell.xib */,
+				9DD52CAB227A09370011D6A9 /* AddFriendTVCell.swift */,
+				9DD52CAC227A09370011D6A9 /* AddFriendTVCell.xib */,
+				9DD52CAF227A135C0011D6A9 /* GroupMembersTVCell.swift */,
+				9DD52CB0227A135C0011D6A9 /* GroupMembersTVCell.xib */,
+				9DD52CB3227A139D0011D6A9 /* AddFrndGroupTVCell.swift */,
+				9DD52CB4227A139D0011D6A9 /* AddFrndGroupTVCell.xib */,
+				9DD52CB9227A23C90011D6A9 /* SelectFrndTVCell.swift */,
+				9DD52CBA227A23C90011D6A9 /* SelectFrndTVCell.xib */,
+				9D17D63A228D0F5300358E4C /* GroupYouTVCell.swift */,
+				9D17D63B228D0F5300358E4C /* GroupYouTVCell.xib */,
+				9D59A86222AC29E40028D5D5 /* ScheduledTVCell.swift */,
+				9D59A86322AC29E40028D5D5 /* ScheduledTVCell.xib */,
+				9DFF0CDC22AD069B00065769 /* SelectGroupTVCell.swift */,
+				9DFF0CDD22AD069B00065769 /* SelectGroupTVCell.xib */,
+				9D05D60622AEEC0D0077971A /* SearchFrndCell.swift */,
+				9D05D60822AEEC2D0077971A /* SelectGroupCell.swift */,
+				9D05D60A22AEEC4E0077971A /* MembersCell.swift */,
+				9D1A651122CC5AF800ADEFCC /* SearchCourseNameTVCell.swift */,
+				9D0C6FF923505F6A00615C23 /* GameHistoryTVCell.swift */,
+				9D0C6FFA23505F6A00615C23 /* GameHistoryTVCell.xib */,
+				9D0D9E6D23AC93800095DE61 /* ChangeAverageScoreTVCell.swift */,
+				9D0D9E6E23AC93800095DE61 /* ChangeAverageScoreTVCell.xib */,
+				9D0D9E7323AC9C990095DE61 /* EditAvgScoreTVCell.swift */,
+				9D0D9E7523AC9CB90095DE61 /* EditAddressDetailsTVCell.swift */,
+				9D0D9E7723ACAE7E0095DE61 /* AddressTVCell.swift */,
+				9D0D9E7823ACAE7E0095DE61 /* AddressTVCell.xib */,
+				9DCC561923FFAC3C0069576C /* StrokePlayTVCell.swift */,
+				9DB39DD924065AAA002FC9EC /* CaddieCardsCVCell.swift */,
+				9DFF81AA240ADDDD0059754C /* PlayFriendsCVcell.swift */,
+				9D50AB2D24593B7900B358E2 /* ActiveGameTVCell.swift */,
+				9D50AB2E24593B7900B358E2 /* ActiveGameTVCell.xib */,
+				9D7F92E42477983D003D687B /* SelectFrndPlayVCTVCell.swift */,
+				9D7F92E52477983D003D687B /* SelectFrndPlayVCTVCell.xib */,
+				9DD214C724AD94A5007C03FE /* MatchPlayTVCell.swift */,
+				9DA2DA5824ADAC1200D0E1FA /* MatchPlaySubmitTVCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D03955B2238BAF000324B8E /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				9D03955C2238BB0100324B8E /* ApiConstants.swift */,
+				9D00018822337F3200C68F38 /* ApiCall.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		9D2651B7258DAB9400B61382 /* PutzCardsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6FF5A61B2594EFA600B2E37F /* ReceivedCardsVC.swift */,
+				6FF5A5162594657800B2E37F /* SendPutzCardVC.swift */,
+				9D2651B8258DABE100B61382 /* AddPutzCardsVC.swift */,
+				9D56C0B5258E488B0021FD08 /* PutzCardsDisplayVC.swift */,
+				9D56C0B7258E49140021FD08 /* PutzCardsNoVC.swift */,
+				D66994CF25ACBE030080380F /* ViewCardWindowView.swift */,
+			);
+			path = PutzCardsViewControllers;
+			sourceTree = "<group>";
+		};
+		9D2651BA258DB52000B61382 /* PutzCardsView */ = {
+			isa = PBXGroup;
+			children = (
+				6FF5A5112594655400B2E37F /* PutzCardsDisplayTVCell.swift */,
+				6FF5A5122594655400B2E37F /* PutzCardUserNameTVCell.swift */,
+				9D2651BB258DB54700B61382 /* AddPutzCardsTVCell.swift */,
+			);
+			path = PutzCardsView;
+			sourceTree = "<group>";
+		};
+		9D4AF40422321FDB00960C02 = {
+			isa = PBXGroup;
+			children = (
+				6F6DE90F2593312A001D7D90 /* GoogleService-Info.plist */,
+				9D4AF40F22321FDB00960C02 /* CaddieCards */,
+				9D4AF40E22321FDB00960C02 /* Products */,
+				9D4AF42B2232229B00960C02 /* Frameworks */,
+				06C40AEE8542AA96BD7E6E86 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9D4AF40E22321FDB00960C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D4AF40D22321FDB00960C02 /* Golf Putz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D4AF40F22321FDB00960C02 /* CaddieCards */ = {
+			isa = PBXGroup;
+			children = (
+				821B6B88258FA978002BF77E /* Golf Putz.entitlements */,
+				9D03955B2238BAF000324B8E /* Api */,
+				9DFF9EF52234321600E7309B /* Constants */,
+				9DFF9EF22234315400E7309B /* Utils */,
+				9D4AF432223230AE00960C02 /* Fonts */,
+				9D4AF4282232207000960C02 /* AppGlobals */,
+				9D4AF4272232205300960C02 /* ViewController */,
+				9D4AF4252232202D00960C02 /* Model */,
+				9D00255E223E41B2007A9474 /* View */,
+				9DFF9EF92234328000E7309B /* Assets */,
+				9DFF9EF82234324B00E7309B /* UIStoryboards */,
+				9D4AF41022321FDB00960C02 /* AppDelegate.swift */,
+				9D4AF41A22321FDC00960C02 /* Assets.xcassets */,
+				9D4AF41F22321FDC00960C02 /* Info.plist */,
+				9D4AF41722321FDB00960C02 /* CaddieCards.xcdatamodeld */,
+			);
+			path = CaddieCards;
+			sourceTree = "<group>";
+		};
+		9D4AF4252232202D00960C02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DFEBE3D2239F788008414FF /* ResponseModel.swift */,
+				9D00018922337F3200C68F38 /* BaseModel.swift */,
+				9D00018A22337F3200C68F38 /* LoginModel.swift */,
+				9D002567223E62F6007A9474 /* ProfileModel.swift */,
+				9D02D460226B8A4A0007E52B /* FriendsModel.swift */,
+				9DFC7E08228FD73D00D662B0 /* GameViewDetailsModel.swift */,
+				9D00460422CB08A3008CD12C /* EditGameModel.swift */,
+				9D14E42D23519AE300D0A0CE /* EditOrReplayGameModel.swift */,
+				9D1F04F0235CDCC1002A5AF4 /* ScoreboardModel.swift */,
+				9DDF4AED240A42A30088860E /* PlayGameModel.swift */,
+				9DA2DA5A24ADAD7A00D0E1FA /* MatchPlayModel.swift */,
+				9DCC98C224BC2D75006907DE /* NineSGameModel.swift */,
+				9D7C318524FA46F800DDEC33 /* NassauPlayModel.swift */,
+				9D82A6A525001AB10000BEE6 /* SwingSixsPlayGameModel.swift */,
+				9DBE7556252743FA00788B3E /* WolfGameModel.swift */,
+				6FF5A6912596477F00B2E37F /* NotificationsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D4AF4272232205300960C02 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				639ED84125BEE89F00526347 /* CustomAlert */,
+				9D2651B7258DAB9400B61382 /* PutzCardsViewControllers */,
+				9D67D8312563AB38009C54F1 /* MenuRulesGamesVC */,
+				9D4AF429223221E700960C02 /* SplashScreenVC.swift */,
+				9D4AF430223224F100960C02 /* HomeScreenVC.swift */,
+				9D4AF43B2232345900960C02 /* LoginVC.swift */,
+				9D0001902233862500C68F38 /* DashboardVC.swift */,
+				9D0001922233888600C68F38 /* SignUpVC.swift */,
+				9D0001942233899D00C68F38 /* ChangePasswordVC.swift */,
+				9D04A2502235A1EF0062E62C /* MenuVC.swift */,
+				9D04A2522235B1A50062E62C /* ScoresVC.swift */,
+				9D04A2542235B1B90062E62C /* FriendsVC.swift */,
+				9D04A2562235B1D00062E62C /* ProfileVC.swift */,
+				9D04A2582235B1E80062E62C /* ContactUsVC.swift */,
+				9D002569223E84B1007A9474 /* EditProfileVC.swift */,
+				9D0C8486226835D00068B5A2 /* ShareAppVC.swift */,
+				9D033CA4226994B000A5321C /* SearchFriendsVC.swift */,
+				9D01B0A322761EE600F4DFA1 /* CreateGroupVC.swift */,
+				9D01B0A522761FFB00F4DFA1 /* GroupDetailsVC.swift */,
+				9DD52CB7227A22430011D6A9 /* AddFriendVC.swift */,
+				9D17D636228D087700358E4C /* GamesVC.swift */,
+				9D17D638228D0B8A00358E4C /* CreateGameVC.swift */,
+				9D59A86A22AC36490028D5D5 /* DateAndTimeVC.swift */,
+				9DFF0CDA22AD019700065769 /* GroupVC.swift */,
+				9D05D60422AEEAEE0077971A /* SelectMembersVC.swift */,
+				9D00460622CB1264008CD12C /* CourseSearchVC.swift */,
+				9D0C6FFD235063FE00615C23 /* ScorebordVC.swift */,
+				9D273E0F239DFA4500292F07 /* PlayVC.swift */,
+				9D36F90223AA04DA008E0123 /* EditPlayerScoreVC.swift */,
+				9D0D9E7123AC98B60095DE61 /* ProfilePerDetailsEditVC.swift */,
+				9DA6EF7623AFF9D700BDC571 /* HomeCourseNamesVC.swift */,
+				9DCC561723FFA2EC0069576C /* StrokePlayVC.swift */,
+				9DB39DD7240656F7002FC9EC /* CaddieCardsVC.swift */,
+				9DB39DDB240660EB002FC9EC /* HoleVC.swift */,
+				9DD4BCE0240D9A4300FC97DE /* AnimalAnimationVC.swift */,
+				9D13D224242FB8DB00871D03 /* SearchGameVC.swift */,
+				9D9D082D2458345A009CF842 /* ViewFullImageVC.swift */,
+				9DD214C524AD948D007C03FE /* MatchPlayVC.swift */,
+				9DCC98B924BC237D006907DE /* NineSGameVC.swift */,
+				9D7C0A8624F261E400CF3ED2 /* AddGuestVC.swift */,
+				9D7C318124FA433300DDEC33 /* NassauGameVC.swift */,
+				9D82A6A22500184D0000BEE6 /* PlayGamesClasses */,
+				D64F0E0A25B604B300060521 /* PutzBuxVC.swift */,
+				637E6B5F25B98698007D235E /* NotificationsVC.swift */,
+				637E6B6225B98923007D235E /* NotificationsTableViewCell.swift */,
+				637E6C6225BABA59007D235E /* GuestChangePwdVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9D4AF4282232207000960C02 /* AppGlobals */ = {
+			isa = PBXGroup;
+			children = (
+				9D4AF43D22323E2500960C02 /* BaseViewController.swift */,
+			);
+			path = AppGlobals;
+			sourceTree = "<group>";
+		};
+		9D4AF42B2232229B00960C02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D4AF42E223222AD00960C02 /* AVKit.framework */,
+				9D4AF42C2232229B00960C02 /* AVFoundation.framework */,
+				47160E1C65A9F71D25431226 /* Pods_CaddieCards.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D4AF432223230AE00960C02 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9D04A24C2234C4980062E62C /* Handelson-Four.otf */,
+				9D4AF4342232317700960C02 /* OpenSans-Bold.ttf */,
+				9D4AF4352232317700960C02 /* OpenSans-Light.ttf */,
+				9D4AF4362232317700960C02 /* OpenSans-Regular.ttf */,
+				9D4AF4332232317700960C02 /* OpenSans-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9D67D8312563AB38009C54F1 /* MenuRulesGamesVC */ = {
+			isa = PBXGroup;
+			children = (
+				9D84F22C2565124D00C07FD3 /* GameRulesVC.swift */,
+			);
+			path = MenuRulesGamesVC;
+			sourceTree = "<group>";
+		};
+		9D82A6A22500184D0000BEE6 /* PlayGamesClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9D82A6A3250018980000BEE6 /* SwingSixsGameVC.swift */,
+				9DBE75522527386C00788B3E /* WolfGameVC.swift */,
+				9D7F09BE25296FAE00A00B22 /* LongShortGameVC.swift */,
+				9D4C6DE92532130000178BC8 /* GameEditPlayerScoreVC.swift */,
+			);
+			path = PlayGamesClasses;
+			sourceTree = "<group>";
+		};
+		9DCC98BB24BC23A4006907DE /* GamesView */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC98C024BC2491006907DE /* NineSGameTVCell.swift */,
+				9D7C318324FA45AF00DDEC33 /* NassauGameTVCell.swift */,
+				9D7C318724FA4A8400DDEC33 /* NassauSubmitTVCell.swift */,
+				9D7C318924FA55ED00DDEC33 /* NassauHeaderCell.swift */,
+				9DBE75542527404E00788B3E /* WolfGameTVCell.swift */,
+				9D7F09C02529706900A00B22 /* LongShortTVCell.swift */,
+				9D470F002532F2C300112108 /* GameEPScoreTVCell.swift */,
+				9D97A972256D04BD00F1F7C4 /* PressesTVCell.swift */,
+				9D7AAE83257E071000D1EAD4 /* PressEnterScoreTVCell.swift */,
+				9D7AAE84257E071000D1EAD4 /* PressEnterScoreTVCell.xib */,
+				9D24D0D7258659E2005B9FCE /* MPHeaderTVCell.swift */,
+			);
+			path = GamesView;
+			sourceTree = "<group>";
+		};
+		9DE2E6B02560440C00E1FDB7 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9DE2E6AE2560428200E1FDB7 /* ExpandTableViewCell.swift */,
+				9DF5067C2560447F00BB6F5B /* ContentTableViewCell.swift */,
+				9D67D82F2563A0A0009C54F1 /* RulesContentTVCell.swift */,
+				9D84F22E2565144900C07FD3 /* GameRulesTableViewCell.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		9DFF9EF22234315400E7309B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9DFF9EF3223431D900E7309B /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9DFF9EF52234321600E7309B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9D04A24E22357F850062E62C /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9DFF9EF82234324B00E7309B /* UIStoryboards */ = {
+			isa = PBXGroup;
+			children = (
+				9D4AF41422321FDB00960C02 /* Main.storyboard */,
+				9D4AF41C22321FDC00960C02 /* LaunchScreen.storyboard */,
+				9D04A25A2235B2CA0062E62C /* Profile.storyboard */,
+				D64F0E0725B6046200060521 /* PutzBux.storyboard */,
+				637E6B5C25B98656007D235E /* Notifications.storyboard */,
+				637E6C5F25BABA2C007D235E /* GuestChangepassword.storyboard */,
+			);
+			path = UIStoryboards;
+			sourceTree = "<group>";
+		};
+		9DFF9EF92234328000E7309B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9D2E2D1324EB9A04003EB26B /* GolfPutzLoadScreen.mp4 */,
+				9DFF9EEE2233A13B00E7309B /* LoadScreenNew2secLow.mp4 */,
+				9DFF9EF02233A1EC00E7309B /* jester_laugh.mp3 */,
+				D6475BAC252E191400A05501 /* client_384469182523-vir5j3f20sre7oe4dd61d9r04e57cdf9.apps.googleusercontent.com.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D4AF40C22321FDB00960C02 /* CaddieCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D4AF42222321FDC00960C02 /* Build configuration list for PBXNativeTarget "CaddieCards" */;
+			buildPhases = (
+				1BA5B502E4CD998C7F80412A /* [CP] Check Pods Manifest.lock */,
+				9D4AF40922321FDB00960C02 /* Sources */,
+				9D4AF40A22321FDB00960C02 /* Frameworks */,
+				9D4AF40B22321FDB00960C02 /* Resources */,
+				5DB38B7A0DB6BA5CA3ADD46F /* [CP] Embed Pods Frameworks */,
+				CCA6C012A04129354B7FD6BF /* [CP] Copy Pods Resources */,
+				6F6DE90E25932EE8001D7D90 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaddieCards;
+			productName = CaddieCards;
+			productReference = 9D4AF40D22321FDB00960C02 /* Golf Putz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D4AF40522321FDB00960C02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "Madhusudhan Reddy";
+				TargetAttributes = {
+					9D4AF40C22321FDB00960C02 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 9D4AF40822321FDB00960C02 /* Build configuration list for PBXProject "CaddieCards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D4AF40422321FDB00960C02;
+			productRefGroup = 9D4AF40E22321FDB00960C02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D4AF40C22321FDB00960C02 /* CaddieCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D4AF40B22321FDB00960C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0D9E7023AC93800095DE61 /* ChangeAverageScoreTVCell.xib in Resources */,
+				9DD52CB6227A139D0011D6A9 /* AddFrndGroupTVCell.xib in Resources */,
+				9D7C311D2277F82300D20768 /* GroupDetailsTVCell.xib in Resources */,
+				9D50AB3024593B7900B358E2 /* ActiveGameTVCell.xib in Resources */,
+				637E6B5D25B98656007D235E /* Notifications.storyboard in Resources */,
+				D6475BAD252E191400A05501 /* client_384469182523-vir5j3f20sre7oe4dd61d9r04e57cdf9.apps.googleusercontent.com.plist in Resources */,
+				9D7AAE86257E071000D1EAD4 /* PressEnterScoreTVCell.xib in Resources */,
+				9D002562223E41F0007A9474 /* PersonalDetailsTVCell.xib in Resources */,
+				9D4AF4392232317700960C02 /* OpenSans-Light.ttf in Resources */,
+				9D033CA322698C7900A5321C /* GroupTVCell.xib in Resources */,
+				9D79E9082275BBA900B796DB /* SearchFrndTVCell.xib in Resources */,
+				9D4AF4372232317700960C02 /* OpenSans-Semibold.ttf in Resources */,
+				9D4AF41E22321FDC00960C02 /* LaunchScreen.storyboard in Resources */,
+				9D4AF43A2232317700960C02 /* OpenSans-Regular.ttf in Resources */,
+				637E6C6025BABA2C007D235E /* GuestChangepassword.storyboard in Resources */,
+				9DD52CBC227A23C90011D6A9 /* SelectFrndTVCell.xib in Resources */,
+				9D033C9F22698C6100A5321C /* RequestTVCell.xib in Resources */,
+				9D59A86522AC29E40028D5D5 /* ScheduledTVCell.xib in Resources */,
+				9D7F92E72477983D003D687B /* SelectFrndPlayVCTVCell.xib in Resources */,
+				9DD52CB2227A135C0011D6A9 /* GroupMembersTVCell.xib in Resources */,
+				9D01B0A22276161100F4DFA1 /* CreateGroupTVCell.xib in Resources */,
+				D64F0E0825B6046200060521 /* PutzBux.storyboard in Resources */,
+				9D4AF41B22321FDC00960C02 /* Assets.xcassets in Resources */,
+				9D2E2D1424EB9A04003EB26B /* GolfPutzLoadScreen.mp4 in Resources */,
+				9DFF9EEF2233A13B00E7309B /* LoadScreenNew2secLow.mp4 in Resources */,
+				9D002566223E420C007A9474 /* ChangePwdTVCell.xib in Resources */,
+				9DD52CAE227A09370011D6A9 /* AddFriendTVCell.xib in Resources */,
+				9D04A25B2235B2CA0062E62C /* Profile.storyboard in Resources */,
+				9D17D63D228D0F5300358E4C /* GroupYouTVCell.xib in Resources */,
+				9D4AF4382232317700960C02 /* OpenSans-Bold.ttf in Resources */,
+				6F6DE9102593312A001D7D90 /* GoogleService-Info.plist in Resources */,
+				9D04A24D2234C4980062E62C /* Handelson-Four.otf in Resources */,
+				9D033C9B22698C3400A5321C /* FriendsTVCell.xib in Resources */,
+				9DFF0CDF22AD069B00065769 /* SelectGroupTVCell.xib in Resources */,
+				9DFF9EF12233A1EC00E7309B /* jester_laugh.mp3 in Resources */,
+				9D4AF41622321FDB00960C02 /* Main.storyboard in Resources */,
+				9D0D9E7A23ACAE7E0095DE61 /* AddressTVCell.xib in Resources */,
+				639ED84825BEE90F00526347 /* CustomAlert.storyboard in Resources */,
+				9D0C6FFC23505F6A00615C23 /* GameHistoryTVCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BA5B502E4CD998C7F80412A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CaddieCards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DB38B7A0DB6BA5CA3ADD46F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CaddieCards/Pods-CaddieCards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CaddieCards/Pods-CaddieCards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CaddieCards/Pods-CaddieCards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F6DE90E25932EE8001D7D90 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		CCA6C012A04129354B7FD6BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CaddieCards/Pods-CaddieCards-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CaddieCards/Pods-CaddieCards-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CaddieCards/Pods-CaddieCards-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D4AF40922321FDB00960C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB39DDC240660EB002FC9EC /* HoleVC.swift in Sources */,
+				9D7C311C2277F82300D20768 /* GroupDetailsTVCell.swift in Sources */,
+				9D14E42E23519AE300D0A0CE /* EditOrReplayGameModel.swift in Sources */,
+				9DA2DA5B24ADAD7A00D0E1FA /* MatchPlayModel.swift in Sources */,
+				9D82A6A4250018980000BEE6 /* SwingSixsGameVC.swift in Sources */,
+				9D4AF42A223221E700960C02 /* SplashScreenVC.swift in Sources */,
+				9D0D9E7423AC9C990095DE61 /* EditAvgScoreTVCell.swift in Sources */,
+				9D033C9E22698C6100A5321C /* RequestTVCell.swift in Sources */,
+				9D7C318A24FA55ED00DDEC33 /* NassauHeaderCell.swift in Sources */,
+				9D04A2532235B1A50062E62C /* ScoresVC.swift in Sources */,
+				9DB39DDA24065AAA002FC9EC /* CaddieCardsCVCell.swift in Sources */,
+				9D00460522CB08A3008CD12C /* EditGameModel.swift in Sources */,
+				9D05D60922AEEC2D0077971A /* SelectGroupCell.swift in Sources */,
+				9D7F92E62477983D003D687B /* SelectFrndPlayVCTVCell.swift in Sources */,
+				9DD52CAD227A09370011D6A9 /* AddFriendTVCell.swift in Sources */,
+				6FF5A6922596477F00B2E37F /* NotificationsModel.swift in Sources */,
+				9DCC98C124BC2491006907DE /* NineSGameTVCell.swift in Sources */,
+				9D84F22F2565144900C07FD3 /* GameRulesTableViewCell.swift in Sources */,
+				6FF5A5172594657800B2E37F /* SendPutzCardVC.swift in Sources */,
+				9D04A2592235B1E80062E62C /* ContactUsVC.swift in Sources */,
+				9D0D9E7223AC98B60095DE61 /* ProfilePerDetailsEditVC.swift in Sources */,
+				9DA2DA5924ADAC1200D0E1FA /* MatchPlaySubmitTVCell.swift in Sources */,
+				9DA6EF7723AFF9D700BDC571 /* HomeCourseNamesVC.swift in Sources */,
+				9DD52CB8227A22430011D6A9 /* AddFriendVC.swift in Sources */,
+				9DFF0CDE22AD069B00065769 /* SelectGroupTVCell.swift in Sources */,
+				9D0001912233862500C68F38 /* DashboardVC.swift in Sources */,
+				9DFEBE3E2239F788008414FF /* ResponseModel.swift in Sources */,
+				9D24D0D8258659E2005B9FCE /* MPHeaderTVCell.swift in Sources */,
+				9D4AF41922321FDB00960C02 /* CaddieCards.xcdatamodeld in Sources */,
+				9D4C6DEA2532130000178BC8 /* GameEditPlayerScoreVC.swift in Sources */,
+				9D67D8302563A0A0009C54F1 /* RulesContentTVCell.swift in Sources */,
+				9D0001932233888600C68F38 /* SignUpVC.swift in Sources */,
+				9D17D63C228D0F5300358E4C /* GroupYouTVCell.swift in Sources */,
+				9D4AF41122321FDB00960C02 /* AppDelegate.swift in Sources */,
+				9DCC561A23FFAC3C0069576C /* StrokePlayTVCell.swift in Sources */,
+				9DD52CB1227A135C0011D6A9 /* GroupMembersTVCell.swift in Sources */,
+				9DCC98BA24BC237D006907DE /* NineSGameVC.swift in Sources */,
+				9D82A6A625001AB10000BEE6 /* SwingSixsPlayGameModel.swift in Sources */,
+				9D02D461226B8A4A0007E52B /* FriendsModel.swift in Sources */,
+				9DDF4AEE240A42A30088860E /* PlayGameModel.swift in Sources */,
+				639ED84425BEE8D500526347 /* CustomAlertViewDelegate.swift in Sources */,
+				9DCC98C324BC2D75006907DE /* NineSGameModel.swift in Sources */,
+				9D7C318424FA45AF00DDEC33 /* NassauGameTVCell.swift in Sources */,
+				9D84F22D2565124D00C07FD3 /* GameRulesVC.swift in Sources */,
+				9D7AAE85257E071000D1EAD4 /* PressEnterScoreTVCell.swift in Sources */,
+				9D04A24F22357F850062E62C /* Constants.swift in Sources */,
+				637E6B6025B98698007D235E /* NotificationsVC.swift in Sources */,
+				9D2651B9258DABE100B61382 /* AddPutzCardsVC.swift in Sources */,
+				9D97A973256D04BD00F1F7C4 /* PressesTVCell.swift in Sources */,
+				9D05D60B22AEEC4E0077971A /* MembersCell.swift in Sources */,
+				9DD52CBB227A23C90011D6A9 /* SelectFrndTVCell.swift in Sources */,
+				9DD4BCE1240D9A4300FC97DE /* AnimalAnimationVC.swift in Sources */,
+				9DD52CB5227A139D0011D6A9 /* AddFrndGroupTVCell.swift in Sources */,
+				9D1A651222CC5AF800ADEFCC /* SearchCourseNameTVCell.swift in Sources */,
+				9DF5067D2560447F00BB6F5B /* ContentTableViewCell.swift in Sources */,
+				9D7F09C12529706900A00B22 /* LongShortTVCell.swift in Sources */,
+				9D00460722CB1264008CD12C /* CourseSearchVC.swift in Sources */,
+				D64F0E0B25B604B300060521 /* PutzBuxVC.swift in Sources */,
+				9DBE75552527404F00788B3E /* WolfGameTVCell.swift in Sources */,
+				9DB39DD8240656F7002FC9EC /* CaddieCardsVC.swift in Sources */,
+				9DFF9EF4223431D900E7309B /* Utils.swift in Sources */,
+				9D59A86422AC29E40028D5D5 /* ScheduledTVCell.swift in Sources */,
+				D66994D025ACBE030080380F /* ViewCardWindowView.swift in Sources */,
+				9D00018B22337F3200C68F38 /* ApiCall.swift in Sources */,
+				9D033CA5226994B000A5321C /* SearchFriendsVC.swift in Sources */,
+				9D59A86B22AC36490028D5D5 /* DateAndTimeVC.swift in Sources */,
+				9D7C0A8724F261E400CF3ED2 /* AddGuestVC.swift in Sources */,
+				9DCC561823FFA2EC0069576C /* StrokePlayVC.swift in Sources */,
+				9D00018D22337F3200C68F38 /* LoginModel.swift in Sources */,
+				9D13D225242FB8DB00871D03 /* SearchGameVC.swift in Sources */,
+				9D0D9E6F23AC93800095DE61 /* ChangeAverageScoreTVCell.swift in Sources */,
+				9DBE7557252743FA00788B3E /* WolfGameModel.swift in Sources */,
+				637E6C6325BABA59007D235E /* GuestChangePwdVC.swift in Sources */,
+				9DBE75532527386C00788B3E /* WolfGameVC.swift in Sources */,
+				9D033CA222698C7900A5321C /* GroupTVCell.swift in Sources */,
+				9D4AF431223224F100960C02 /* HomeScreenVC.swift in Sources */,
+				9D04A2552235B1B90062E62C /* FriendsVC.swift in Sources */,
+				9D9D082E2458345A009CF842 /* ViewFullImageVC.swift in Sources */,
+				9D0C8487226835D00068B5A2 /* ShareAppVC.swift in Sources */,
+				9D002565223E420C007A9474 /* ChangePwdTVCell.swift in Sources */,
+				9D56C0B6258E488B0021FD08 /* PutzCardsDisplayVC.swift in Sources */,
+				9D0C6FFB23505F6A00615C23 /* GameHistoryTVCell.swift in Sources */,
+				9D002568223E62F6007A9474 /* ProfileModel.swift in Sources */,
+				9DE2E6AF2560428200E1FDB7 /* ExpandTableViewCell.swift in Sources */,
+				6FF5A5132594655400B2E37F /* PutzCardsDisplayTVCell.swift in Sources */,
+				9D04A2572235B1D00062E62C /* ProfileVC.swift in Sources */,
+				9D01B0A622761FFB00F4DFA1 /* GroupDetailsVC.swift in Sources */,
+				9D1F04F1235CDCC1002A5AF4 /* ScoreboardModel.swift in Sources */,
+				9D05D60522AEEAEE0077971A /* SelectMembersVC.swift in Sources */,
+				9D0D9E7923ACAE7E0095DE61 /* AddressTVCell.swift in Sources */,
+				9D0C6FFE235063FE00615C23 /* ScorebordVC.swift in Sources */,
+				9D50AB2F24593B7900B358E2 /* ActiveGameTVCell.swift in Sources */,
+				9D01B0A422761EE600F4DFA1 /* CreateGroupVC.swift in Sources */,
+				9D470F012532F2C300112108 /* GameEPScoreTVCell.swift in Sources */,
+				9D03955D2238BB0100324B8E /* ApiConstants.swift in Sources */,
+				637E6B6325B98923007D235E /* NotificationsTableViewCell.swift in Sources */,
+				9D002561223E41F0007A9474 /* PersonalDetailsTVCell.swift in Sources */,
+				9D4AF43C2232345900960C02 /* LoginVC.swift in Sources */,
+				6FF5A5142594655400B2E37F /* PutzCardUserNameTVCell.swift in Sources */,
+				9D05D60722AEEC0D0077971A /* SearchFrndCell.swift in Sources */,
+				6FF5A61C2594EFA600B2E37F /* ReceivedCardsVC.swift in Sources */,
+				9D033C9A22698C3400A5321C /* FriendsTVCell.swift in Sources */,
+				9D273E10239DFA4500292F07 /* PlayVC.swift in Sources */,
+				9D00256A223E84B1007A9474 /* EditProfileVC.swift in Sources */,
+				9D79E9072275BBA900B796DB /* SearchFrndTVCell.swift in Sources */,
+				9DFC7E09228FD73D00D662B0 /* GameViewDetailsModel.swift in Sources */,
+				9D7C318824FA4A8400DDEC33 /* NassauSubmitTVCell.swift in Sources */,
+				9D7C318224FA433300DDEC33 /* NassauGameVC.swift in Sources */,
+				9D36F90323AA04DA008E0123 /* EditPlayerScoreVC.swift in Sources */,
+				9D00018C22337F3200C68F38 /* BaseModel.swift in Sources */,
+				9DD214C824AD94A5007C03FE /* MatchPlayTVCell.swift in Sources */,
+				9D4AF43E22323E2500960C02 /* BaseViewController.swift in Sources */,
+				9DFF81AB240ADDDD0059754C /* PlayFriendsCVcell.swift in Sources */,
+				9D0001952233899D00C68F38 /* ChangePasswordVC.swift in Sources */,
+				9D2651BC258DB54700B61382 /* AddPutzCardsTVCell.swift in Sources */,
+				9D7C318624FA46F800DDEC33 /* NassauPlayModel.swift in Sources */,
+				9D17D639228D0B8A00358E4C /* CreateGameVC.swift in Sources */,
+				9D0D9E7623AC9CB90095DE61 /* EditAddressDetailsTVCell.swift in Sources */,
+				9D04A2512235A1EF0062E62C /* MenuVC.swift in Sources */,
+				9D7F09BF25296FAE00A00B22 /* LongShortGameVC.swift in Sources */,
+				639ED84525BEE8D500526347 /* CustomAlertView.swift in Sources */,
+				9D17D637228D087700358E4C /* GamesVC.swift in Sources */,
+				9D56C0B8258E49140021FD08 /* PutzCardsNoVC.swift in Sources */,
+				9DD214C624AD948D007C03FE /* MatchPlayVC.swift in Sources */,
+				9DFF0CDB22AD019700065769 /* GroupVC.swift in Sources */,
+				9D01B0A12276161100F4DFA1 /* CreateGroupTVCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D4AF41422321FDB00960C02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D4AF41522321FDB00960C02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D4AF41C22321FDC00960C02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D4AF41D22321FDC00960C02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D4AF42022321FDC00960C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D4AF42122321FDC00960C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D4AF42322321FDC00960C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8B9C066D50D42A6DAC535A /* Pods-CaddieCards.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "CaddieCards/Golf Putz.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Raju Checkuri (VTT8KSM528)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 17;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 643L6YX769;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CaddieCards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spyderweb.caddiecards;
+				PRODUCT_NAME = "Golf Putz";
+				PROVISIONING_PROFILE_SPECIFIER = Caddie_Provision_Dev;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D4AF42422321FDC00960C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE887120D9E80D57C21069EF /* Pods-CaddieCards.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "CaddieCards/Golf Putz.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Raju Checkuri (VTT8KSM528)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 17;
+				DEVELOPMENT_TEAM = 643L6YX769;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CaddieCards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spyderweb.caddiecards;
+				PRODUCT_NAME = "Golf Putz";
+				PROVISIONING_PROFILE_SPECIFIER = Caddie_Provision_Dev;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D4AF40822321FDB00960C02 /* Build configuration list for PBXProject "CaddieCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D4AF42022321FDC00960C02 /* Debug */,
+				9D4AF42122321FDC00960C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D4AF42222321FDC00960C02 /* Build configuration list for PBXNativeTarget "CaddieCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D4AF42322321FDC00960C02 /* Debug */,
+				9D4AF42422321FDC00960C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D4AF41722321FDB00960C02 /* CaddieCards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D4AF41822321FDB00960C02 /* CaddieCards.xcdatamodel */,
+			);
+			currentVersion = 9D4AF41822321FDB00960C02 /* CaddieCards.xcdatamodel */;
+			path = CaddieCards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9D4AF40522321FDB00960C02 /* Project object */;
+}

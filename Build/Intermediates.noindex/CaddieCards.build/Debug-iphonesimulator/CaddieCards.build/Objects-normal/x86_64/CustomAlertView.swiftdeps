@@ -1,0 +1,1257 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CustomAlertView"
+provides-nominal:
+- "9Golf_Putz15CustomAlertViewC"
+provides-member:
+- ["9Golf_Putz15CustomAlertViewC", ""]
+provides-dynamic-lookup:
+- "alertView"
+- "animateView"
+- "cancelButton"
+- "delegate"
+- "imgName"
+- "imgURL"
+- "imgView"
+- "message"
+- "messageLabel"
+- "onTapCancelButton"
+- "senderName"
+- "senderNameLbl"
+- "setupView"
+- "titleLabel"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "+"
+- "-"
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CustomAlertView"
+- "CustomAlertViewDelegate"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "StringLiteralType"
+- "UIButton"
+- !private "UIColor"
+- "UIImageView"
+- "UILabel"
+- "UIView"
+- "UIViewController"
+- !private "URL"
+- "Void"
+- !private "alertView"
+- !private "animateView"
+- !private "delegate"
+- !private "imgURL"
+- !private "message"
+- !private "senderName"
+- !private "setupView"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So15CALayerDelegateP", "alpha"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "sd_setImage"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["So7CGPointV", "y"]
+- !private ["So6CGRectV", "origin"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "count"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "alertView"]
+- !private ["s7CVarArgP", "alpha"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "animateView"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "imgURL"]
+- !private ["s7CVarArgP", "imgView"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "message"]
+- !private ["s7CVarArgP", "messageLabel"]
+- !private ["s7CVarArgP", "onTapCancelButton"]
+- !private ["s7CVarArgP", "sd_setImage"]
+- !private ["s7CVarArgP", "senderName"]
+- !private ["s7CVarArgP", "senderNameLbl"]
+- !private ["s7CVarArgP", "setupView"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- !private ["s7CVarArgP", "withAlphaComponent"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["SL", ""]
+- !private ["SL", "count"]
+- ["9Golf_Putz15CustomAlertViewC", "Bool"]
+- ["9Golf_Putz15CustomAlertViewC", "CustomAlertViewDelegate"]
+- ["9Golf_Putz15CustomAlertViewC", "UIButton"]
+- !private ["9Golf_Putz15CustomAlertViewC", "UIColor"]
+- ["9Golf_Putz15CustomAlertViewC", "UIImageView"]
+- ["9Golf_Putz15CustomAlertViewC", "UILabel"]
+- ["9Golf_Putz15CustomAlertViewC", "UIView"]
+- !private ["9Golf_Putz15CustomAlertViewC", "URL"]
+- !private ["9Golf_Putz15CustomAlertViewC", "Void"]
+- ["9Golf_Putz15CustomAlertViewC", ""]
+- ["9Golf_Putz15CustomAlertViewC", "alertView"]
+- ["9Golf_Putz15CustomAlertViewC", "animateView"]
+- ["9Golf_Putz15CustomAlertViewC", "cancelButton"]
+- ["9Golf_Putz15CustomAlertViewC", "deinit"]
+- ["9Golf_Putz15CustomAlertViewC", "delegate"]
+- !private ["9Golf_Putz15CustomAlertViewC", "dismiss"]
+- ["9Golf_Putz15CustomAlertViewC", "imgName"]
+- ["9Golf_Putz15CustomAlertViewC", "imgURL"]
+- ["9Golf_Putz15CustomAlertViewC", "imgView"]
+- ["9Golf_Putz15CustomAlertViewC", "init"]
+- ["9Golf_Putz15CustomAlertViewC", "message"]
+- ["9Golf_Putz15CustomAlertViewC", "messageLabel"]
+- ["9Golf_Putz15CustomAlertViewC", "onTapCancelButton"]
+- ["9Golf_Putz15CustomAlertViewC", "senderName"]
+- ["9Golf_Putz15CustomAlertViewC", "senderNameLbl"]
+- ["9Golf_Putz15CustomAlertViewC", "setupView"]
+- ["9Golf_Putz15CustomAlertViewC", "titleLabel"]
+- !private ["9Golf_Putz15CustomAlertViewC", "view"]
+- ["9Golf_Putz15CustomAlertViewC", "viewDidLoad"]
+- ["9Golf_Putz15CustomAlertViewC", "viewWillAppear"]
+- !private ["9Golf_Putz23CustomAlertViewDelegateP", "cancelButtonTapped"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "alertView"]
+- !private ["s28CustomDebugStringConvertibleP", "alpha"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "animateView"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "imgURL"]
+- !private ["s28CustomDebugStringConvertibleP", "imgView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "message"]
+- !private ["s28CustomDebugStringConvertibleP", "messageLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "onTapCancelButton"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "sd_setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "senderName"]
+- !private ["s28CustomDebugStringConvertibleP", "senderNameLbl"]
+- !private ["s28CustomDebugStringConvertibleP", "setupView"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- !private ["s28CustomDebugStringConvertibleP", "withAlphaComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s17CustomReflectableP", "alpha"]
+- !private ["s17CustomReflectableP", "backgroundColor"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "frame"]
+- !private ["s17CustomReflectableP", "layer"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "sd_setImage"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "alertView"]
+- !private ["s23CustomStringConvertibleP", "alpha"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "animateView"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "imgURL"]
+- !private ["s23CustomStringConvertibleP", "imgView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "message"]
+- !private ["s23CustomStringConvertibleP", "messageLabel"]
+- !private ["s23CustomStringConvertibleP", "onTapCancelButton"]
+- !private ["s23CustomStringConvertibleP", "sd_setImage"]
+- !private ["s23CustomStringConvertibleP", "senderName"]
+- !private ["s23CustomStringConvertibleP", "senderNameLbl"]
+- !private ["s23CustomStringConvertibleP", "setupView"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- !private ["s23CustomStringConvertibleP", "withAlphaComponent"]
+- !private ["Se", "alpha"]
+- !private ["Se", "backgroundColor"]
+- !private ["Se", "count"]
+- !private ["Se", "frame"]
+- !private ["Se", "init"]
+- !private ["Se", "layer"]
+- !private ["Se", "origin"]
+- !private ["Se", "sd_setImage"]
+- !private ["Se", "text"]
+- !private ["Se", "y"]
+- !private ["SE", "alpha"]
+- !private ["SE", "backgroundColor"]
+- !private ["SE", "count"]
+- !private ["SE", "frame"]
+- !private ["SE", "init"]
+- !private ["SE", "layer"]
+- !private ["SE", "origin"]
+- !private ["SE", "sd_setImage"]
+- !private ["SE", "text"]
+- !private ["SE", "y"]
+- !private ["SQ", "UIColor"]
+- !private ["SQ", "UIView"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- !private ["SQ", "alertView"]
+- !private ["SQ", "alpha"]
+- !private ["SQ", "animate"]
+- !private ["SQ", "animateView"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "black"]
+- !private ["SQ", "cornerRadius"]
+- !private ["SQ", "count"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "imgURL"]
+- !private ["SQ", "imgView"]
+- !private ["SQ", "init"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "message"]
+- !private ["SQ", "messageLabel"]
+- !private ["SQ", "onTapCancelButton"]
+- !private ["SQ", "origin"]
+- !private ["SQ", "sd_setImage"]
+- !private ["SQ", "senderName"]
+- !private ["SQ", "senderNameLbl"]
+- !private ["SQ", "setupView"]
+- !private ["SQ", "text"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "viewWillAppear"]
+- !private ["SQ", "withAlphaComponent"]
+- !private ["SQ", "y"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "alpha"]
+- !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
+- !private ["s23ExpressibleByNilLiteralP", "frame"]
+- !private ["s23ExpressibleByNilLiteralP", "layer"]
+- !private ["s23ExpressibleByNilLiteralP", "sd_setImage"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["SH", "UIColor"]
+- !private ["SH", "UIView"]
+- !private ["SH", "URL"]
+- ["SH", ""]
+- !private ["SH", "alertView"]
+- !private ["SH", "alpha"]
+- !private ["SH", "animate"]
+- !private ["SH", "animateView"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "black"]
+- !private ["SH", "cornerRadius"]
+- !private ["SH", "count"]
+- !private ["SH", "delegate"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "frame"]
+- !private ["SH", "imgURL"]
+- !private ["SH", "imgView"]
+- !private ["SH", "init"]
+- !private ["SH", "layer"]
+- !private ["SH", "message"]
+- !private ["SH", "messageLabel"]
+- !private ["SH", "onTapCancelButton"]
+- !private ["SH", "sd_setImage"]
+- !private ["SH", "senderName"]
+- !private ["SH", "senderNameLbl"]
+- !private ["SH", "setupView"]
+- !private ["SH", "text"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "viewWillAppear"]
+- !private ["SH", "withAlphaComponent"]
+- !private ["19FTPopOverMenu_Swift9ImageableP", "count"]
+- !private ["8SideMenu18InitializableClassP", "UIColor"]
+- !private ["8SideMenu18InitializableClassP", "UIView"]
+- !private ["8SideMenu18InitializableClassP", "URL"]
+- ["8SideMenu18InitializableClassP", ""]
+- !private ["8SideMenu18InitializableClassP", "alertView"]
+- !private ["8SideMenu18InitializableClassP", "alpha"]
+- !private ["8SideMenu18InitializableClassP", "animate"]
+- !private ["8SideMenu18InitializableClassP", "animateView"]
+- !private ["8SideMenu18InitializableClassP", "backgroundColor"]
+- !private ["8SideMenu18InitializableClassP", "black"]
+- !private ["8SideMenu18InitializableClassP", "cornerRadius"]
+- !private ["8SideMenu18InitializableClassP", "count"]
+- !private ["8SideMenu18InitializableClassP", "delegate"]
+- !private ["8SideMenu18InitializableClassP", "dismiss"]
+- !private ["8SideMenu18InitializableClassP", "frame"]
+- !private ["8SideMenu18InitializableClassP", "imgURL"]
+- !private ["8SideMenu18InitializableClassP", "imgView"]
+- !private ["8SideMenu18InitializableClassP", "layer"]
+- !private ["8SideMenu18InitializableClassP", "message"]
+- !private ["8SideMenu18InitializableClassP", "messageLabel"]
+- !private ["8SideMenu18InitializableClassP", "onTapCancelButton"]
+- !private ["8SideMenu18InitializableClassP", "sd_setImage"]
+- !private ["8SideMenu18InitializableClassP", "senderName"]
+- !private ["8SideMenu18InitializableClassP", "senderNameLbl"]
+- !private ["8SideMenu18InitializableClassP", "setupView"]
+- !private ["8SideMenu18InitializableClassP", "text"]
+- !private ["8SideMenu18InitializableClassP", "view"]
+- !private ["8SideMenu18InitializableClassP", "viewDidLoad"]
+- !private ["8SideMenu18InitializableClassP", "viewWillAppear"]
+- !private ["8SideMenu18InitializableClassP", "withAlphaComponent"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s10MirrorPathP", "count"]
+- ["So8NSCodingP", "CustomAlertViewDelegate"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIView"]
+- !private ["So8NSCodingP", "URL"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "alertView"]
+- !private ["So8NSCodingP", "alpha"]
+- !private ["So8NSCodingP", "animate"]
+- ["So8NSCodingP", "animateView"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "black"]
+- ["So8NSCodingP", "cancelButton"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "count"]
+- ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "imgName"]
+- ["So8NSCodingP", "imgURL"]
+- ["So8NSCodingP", "imgView"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- ["So8NSCodingP", "message"]
+- ["So8NSCodingP", "messageLabel"]
+- ["So8NSCodingP", "onTapCancelButton"]
+- !private ["So8NSCodingP", "sd_setImage"]
+- ["So8NSCodingP", "senderName"]
+- ["So8NSCodingP", "senderNameLbl"]
+- ["So8NSCodingP", "setupView"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSCodingP", "titleLabel"]
+- !private ["So8NSCodingP", "view"]
+- ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "viewWillAppear"]
+- !private ["So8NSCodingP", "withAlphaComponent"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "withAlphaComponent"]
+- ["So26NSExtensionRequestHandlingP", "CustomAlertViewDelegate"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UIView"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "alertView"]
+- ["So26NSExtensionRequestHandlingP", "animateView"]
+- ["So26NSExtensionRequestHandlingP", "cancelButton"]
+- ["So26NSExtensionRequestHandlingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- ["So26NSExtensionRequestHandlingP", "imgName"]
+- ["So26NSExtensionRequestHandlingP", "imgURL"]
+- ["So26NSExtensionRequestHandlingP", "imgView"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "message"]
+- ["So26NSExtensionRequestHandlingP", "messageLabel"]
+- ["So26NSExtensionRequestHandlingP", "onTapCancelButton"]
+- ["So26NSExtensionRequestHandlingP", "senderName"]
+- ["So26NSExtensionRequestHandlingP", "senderNameLbl"]
+- ["So26NSExtensionRequestHandlingP", "setupView"]
+- ["So26NSExtensionRequestHandlingP", "titleLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "withAlphaComponent"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "withAlphaComponent"]
+- !private ["So16NSMutableCopyingP", "count"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CustomAlertViewDelegate"]
+- ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "alertView"]
+- !private ["So8NSObjectC", "alpha"]
+- !private ["So8NSObjectC", "animate"]
+- ["So8NSObjectC", "animateView"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "cancelButton"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- !private ["So8NSObjectC", "count"]
+- ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "imgName"]
+- ["So8NSObjectC", "imgURL"]
+- ["So8NSObjectC", "imgView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "message"]
+- ["So8NSObjectC", "messageLabel"]
+- ["So8NSObjectC", "onTapCancelButton"]
+- !private ["So8NSObjectC", "sd_setImage"]
+- ["So8NSObjectC", "senderName"]
+- ["So8NSObjectC", "senderNameLbl"]
+- ["So8NSObjectC", "setupView"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "titleLabel"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So8NSObjectC", "withAlphaComponent"]
+- ["So8NSObjectP", "CustomAlertViewDelegate"]
+- !private ["So8NSObjectP", "UIColor"]
+- !private ["So8NSObjectP", "UIView"]
+- !private ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "alertView"]
+- !private ["So8NSObjectP", "alpha"]
+- !private ["So8NSObjectP", "animate"]
+- ["So8NSObjectP", "animateView"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "black"]
+- ["So8NSObjectP", "cancelButton"]
+- !private ["So8NSObjectP", "cornerRadius"]
+- !private ["So8NSObjectP", "count"]
+- ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "frame"]
+- ["So8NSObjectP", "imgName"]
+- ["So8NSObjectP", "imgURL"]
+- ["So8NSObjectP", "imgView"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "layer"]
+- ["So8NSObjectP", "message"]
+- ["So8NSObjectP", "messageLabel"]
+- ["So8NSObjectP", "onTapCancelButton"]
+- !private ["So8NSObjectP", "sd_setImage"]
+- ["So8NSObjectP", "senderName"]
+- ["So8NSObjectP", "senderNameLbl"]
+- ["So8NSObjectP", "setupView"]
+- !private ["So8NSObjectP", "text"]
+- ["So8NSObjectP", "titleLabel"]
+- !private ["So8NSObjectP", "view"]
+- ["So8NSObjectP", "viewDidLoad"]
+- ["So8NSObjectP", "viewWillAppear"]
+- !private ["So8NSObjectP", "withAlphaComponent"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "withAlphaComponent"]
+- !private ["So8NSStringC", "count"]
+- !private ["Sq", "alpha"]
+- !private ["Sq", "backgroundColor"]
+- !private ["Sq", "frame"]
+- !private ["Sq", "layer"]
+- !private ["Sq", "sd_setImage"]
+- !private ["Sq", "text"]
+- !private ["Sm", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "count"]
+- !private ["Sx", "_step"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "distance"]
+- !private ["SS", "count"]
+- !private ["Sy", "count"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "sd_setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "alpha"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "sd_setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "alpha"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "sd_setImage"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", "CustomAlertViewDelegate"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "alertView"]
+- !private ["So21UIAppearanceContainerP", "alpha"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- ["So21UIAppearanceContainerP", "animateView"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- ["So21UIAppearanceContainerP", "cancelButton"]
+- ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- ["So21UIAppearanceContainerP", "imgName"]
+- ["So21UIAppearanceContainerP", "imgURL"]
+- ["So21UIAppearanceContainerP", "imgView"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- ["So21UIAppearanceContainerP", "message"]
+- ["So21UIAppearanceContainerP", "messageLabel"]
+- ["So21UIAppearanceContainerP", "onTapCancelButton"]
+- !private ["So21UIAppearanceContainerP", "sd_setImage"]
+- ["So21UIAppearanceContainerP", "senderName"]
+- ["So21UIAppearanceContainerP", "senderNameLbl"]
+- ["So21UIAppearanceContainerP", "setupView"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- ["So21UIAppearanceContainerP", "titleLabel"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "viewWillAppear"]
+- !private ["So7UIColorC", "black"]
+- !private ["So7UIColorC", "withAlphaComponent"]
+- ["So18UIContentContainerP", "CustomAlertViewDelegate"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UIView"]
+- !private ["So18UIContentContainerP", "URL"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "alertView"]
+- ["So18UIContentContainerP", "animateView"]
+- ["So18UIContentContainerP", "cancelButton"]
+- ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- ["So18UIContentContainerP", "imgName"]
+- ["So18UIContentContainerP", "imgURL"]
+- ["So18UIContentContainerP", "imgView"]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "message"]
+- ["So18UIContentContainerP", "messageLabel"]
+- ["So18UIContentContainerP", "onTapCancelButton"]
+- ["So18UIContentContainerP", "senderName"]
+- ["So18UIContentContainerP", "senderNameLbl"]
+- ["So18UIContentContainerP", "setupView"]
+- ["So18UIContentContainerP", "titleLabel"]
+- !private ["So18UIContentContainerP", "view"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "viewWillAppear"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "alpha"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "sd_setImage"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "alpha"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "sd_setImage"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", "CustomAlertViewDelegate"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "alertView"]
+- !private ["So18UIFocusEnvironmentP", "alpha"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- ["So18UIFocusEnvironmentP", "animateView"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- ["So18UIFocusEnvironmentP", "cancelButton"]
+- ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- ["So18UIFocusEnvironmentP", "imgName"]
+- ["So18UIFocusEnvironmentP", "imgURL"]
+- ["So18UIFocusEnvironmentP", "imgView"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- ["So18UIFocusEnvironmentP", "message"]
+- ["So18UIFocusEnvironmentP", "messageLabel"]
+- ["So18UIFocusEnvironmentP", "onTapCancelButton"]
+- !private ["So18UIFocusEnvironmentP", "sd_setImage"]
+- ["So18UIFocusEnvironmentP", "senderName"]
+- ["So18UIFocusEnvironmentP", "senderNameLbl"]
+- ["So18UIFocusEnvironmentP", "setupView"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So18UIFocusEnvironmentP", "titleLabel"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- !private ["So11UIFocusItemP", "alpha"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "sd_setImage"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "alpha"]
+- !private ["So20UIFocusItemContainerP", "animate"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So20UIFocusItemContainerP", "sd_setImage"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So11UIImageViewC", "sd_setImage"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "alpha"]
+- !private ["So24UILargeContentViewerItemP", "animate"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "frame"]
+- !private ["So24UILargeContentViewerItemP", "layer"]
+- !private ["So24UILargeContentViewerItemP", "sd_setImage"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "CustomAlertViewDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "alertView"]
+- !private ["So30UIPasteConfigurationSupportingP", "alpha"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- ["So30UIPasteConfigurationSupportingP", "animateView"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- ["So30UIPasteConfigurationSupportingP", "cancelButton"]
+- ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- ["So30UIPasteConfigurationSupportingP", "imgName"]
+- ["So30UIPasteConfigurationSupportingP", "imgURL"]
+- ["So30UIPasteConfigurationSupportingP", "imgView"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- ["So30UIPasteConfigurationSupportingP", "message"]
+- ["So30UIPasteConfigurationSupportingP", "messageLabel"]
+- ["So30UIPasteConfigurationSupportingP", "onTapCancelButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "sd_setImage"]
+- ["So30UIPasteConfigurationSupportingP", "senderName"]
+- ["So30UIPasteConfigurationSupportingP", "senderNameLbl"]
+- ["So30UIPasteConfigurationSupportingP", "setupView"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "titleLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CustomAlertViewDelegate"]
+- ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "Void"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "alertView"]
+- !private ["So11UIResponderC", "alpha"]
+- !private ["So11UIResponderC", "animate"]
+- ["So11UIResponderC", "animateView"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "cancelButton"]
+- ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "imgName"]
+- ["So11UIResponderC", "imgURL"]
+- ["So11UIResponderC", "imgView"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "message"]
+- ["So11UIResponderC", "messageLabel"]
+- ["So11UIResponderC", "onTapCancelButton"]
+- !private ["So11UIResponderC", "sd_setImage"]
+- ["So11UIResponderC", "senderName"]
+- ["So11UIResponderC", "senderNameLbl"]
+- ["So11UIResponderC", "setupView"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "titleLabel"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- ["So30UIResponderStandardEditActionsP", "CustomAlertViewDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "alertView"]
+- !private ["So30UIResponderStandardEditActionsP", "alpha"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- ["So30UIResponderStandardEditActionsP", "animateView"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- ["So30UIResponderStandardEditActionsP", "cancelButton"]
+- ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- ["So30UIResponderStandardEditActionsP", "imgName"]
+- ["So30UIResponderStandardEditActionsP", "imgURL"]
+- ["So30UIResponderStandardEditActionsP", "imgView"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- ["So30UIResponderStandardEditActionsP", "message"]
+- ["So30UIResponderStandardEditActionsP", "messageLabel"]
+- ["So30UIResponderStandardEditActionsP", "onTapCancelButton"]
+- !private ["So30UIResponderStandardEditActionsP", "sd_setImage"]
+- ["So30UIResponderStandardEditActionsP", "senderName"]
+- ["So30UIResponderStandardEditActionsP", "senderNameLbl"]
+- ["So30UIResponderStandardEditActionsP", "setupView"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So30UIResponderStandardEditActionsP", "titleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- ["So16UIStateRestoringP", "CustomAlertViewDelegate"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UIView"]
+- !private ["So16UIStateRestoringP", "URL"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "alertView"]
+- ["So16UIStateRestoringP", "animateView"]
+- ["So16UIStateRestoringP", "cancelButton"]
+- ["So16UIStateRestoringP", "delegate"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- ["So16UIStateRestoringP", "imgName"]
+- ["So16UIStateRestoringP", "imgURL"]
+- ["So16UIStateRestoringP", "imgView"]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "message"]
+- ["So16UIStateRestoringP", "messageLabel"]
+- ["So16UIStateRestoringP", "onTapCancelButton"]
+- ["So16UIStateRestoringP", "senderName"]
+- ["So16UIStateRestoringP", "senderNameLbl"]
+- ["So16UIStateRestoringP", "setupView"]
+- ["So16UIStateRestoringP", "titleLabel"]
+- !private ["So16UIStateRestoringP", "view"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "viewWillAppear"]
+- ["So18UITraitEnvironmentP", "CustomAlertViewDelegate"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "alertView"]
+- !private ["So18UITraitEnvironmentP", "alpha"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- ["So18UITraitEnvironmentP", "animateView"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- ["So18UITraitEnvironmentP", "cancelButton"]
+- ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- ["So18UITraitEnvironmentP", "imgName"]
+- ["So18UITraitEnvironmentP", "imgURL"]
+- ["So18UITraitEnvironmentP", "imgView"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- ["So18UITraitEnvironmentP", "message"]
+- ["So18UITraitEnvironmentP", "messageLabel"]
+- ["So18UITraitEnvironmentP", "onTapCancelButton"]
+- !private ["So18UITraitEnvironmentP", "sd_setImage"]
+- ["So18UITraitEnvironmentP", "senderName"]
+- ["So18UITraitEnvironmentP", "senderNameLbl"]
+- ["So18UITraitEnvironmentP", "setupView"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So18UITraitEnvironmentP", "titleLabel"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "viewWillAppear"]
+- ["So23UIUserActivityRestoringP", "CustomAlertViewDelegate"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- !private ["So23UIUserActivityRestoringP", "UIView"]
+- !private ["So23UIUserActivityRestoringP", "URL"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "alertView"]
+- !private ["So23UIUserActivityRestoringP", "alpha"]
+- !private ["So23UIUserActivityRestoringP", "animate"]
+- ["So23UIUserActivityRestoringP", "animateView"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- ["So23UIUserActivityRestoringP", "cancelButton"]
+- ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- ["So23UIUserActivityRestoringP", "imgName"]
+- ["So23UIUserActivityRestoringP", "imgURL"]
+- ["So23UIUserActivityRestoringP", "imgView"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- ["So23UIUserActivityRestoringP", "message"]
+- ["So23UIUserActivityRestoringP", "messageLabel"]
+- ["So23UIUserActivityRestoringP", "onTapCancelButton"]
+- !private ["So23UIUserActivityRestoringP", "sd_setImage"]
+- ["So23UIUserActivityRestoringP", "senderName"]
+- ["So23UIUserActivityRestoringP", "senderNameLbl"]
+- ["So23UIUserActivityRestoringP", "setupView"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So23UIUserActivityRestoringP", "titleLabel"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "viewWillAppear"]
+- !private ["So6UIViewC", "alpha"]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "layer"]
+- !private ["So6UIViewC", "sd_setImage"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "CustomAlertViewDelegate"]
+- ["So16UIViewControllerC", "UIButton"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UIView"]
+- !private ["So16UIViewControllerC", "URL"]
+- !private ["So16UIViewControllerC", "Void"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "alertView"]
+- ["So16UIViewControllerC", "animateView"]
+- ["So16UIViewControllerC", "cancelButton"]
+- ["So16UIViewControllerC", "delegate"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "imgName"]
+- ["So16UIViewControllerC", "imgURL"]
+- ["So16UIViewControllerC", "imgView"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "message"]
+- ["So16UIViewControllerC", "messageLabel"]
+- ["So16UIViewControllerC", "onTapCancelButton"]
+- ["So16UIViewControllerC", "senderName"]
+- ["So16UIViewControllerC", "senderNameLbl"]
+- ["So16UIViewControllerC", "setupView"]
+- ["So16UIViewControllerC", "titleLabel"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "count"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "y"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "withAlphaComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alertView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alpha"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animateView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imgURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imgView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "message"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "messageLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onTapCancelButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sd_setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "senderName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "senderNameLbl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withAlphaComponent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "alertView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "alpha"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animateView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "black"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cornerRadius"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismiss"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imgURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imgView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "message"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "messageLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onTapCancelButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sd_setImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "senderName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "senderNameLbl"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewWillAppear"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "withAlphaComponent"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "alpha"]
+- !private ["s21_ObjectiveCBridgeableP", "backgroundColor"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "frame"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "layer"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "sd_setImage"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["So13CKRecordValueP", "count"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "alpha"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "sd_setImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "SK"
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "So7CGPointV"
+- !private "So6CGRectV"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "9Golf_Putz15CustomAlertViewC"
+- !private "9Golf_Putz23CustomAlertViewDelegateP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "19FTPopOverMenu_Swift9ImageableP"
+- "8SideMenu18InitializableClassP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "So13CKRecordValueP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Modules/SwiftyPickerPopover.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules/FTPopOverMenu_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKURL.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Headers/SwiftyPickerPopover-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Headers/FTPopOverMenu_Swift-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRStackFrame.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceViewControllerBase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolving.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLink.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRExceptionModel.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkNavigation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKWebViewAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRCrashlytics.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkTarget.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Headers/SwiftyPickerPopover-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Headers/FTPopOverMenu_Swift-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMeasurementEvent.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bd64e57957e0de1697c0b83cd4f62a5f"

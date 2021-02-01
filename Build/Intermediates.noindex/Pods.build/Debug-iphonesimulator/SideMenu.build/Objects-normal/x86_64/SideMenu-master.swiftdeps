@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "04869cfd19c8c3e0ac9b3c00e43d64d4"
+build_time: [1612196332, 17325000]
+inputs:
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/Deprecations.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/Extensions.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/Initializable.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/Print.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/Protected.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/SideMenuInteractionController.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/SideMenuManager.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/SideMenuNavigationController.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift": [1609324482, 0]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift": [1609324482, 0]

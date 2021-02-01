@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChangeAverageScoreTVCell" rowHeight="641" id="Say-yi-si1" customClass="ChangeAverageScoreTVCell" customModule="CaddieCards" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="206"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Say-yi-si1" id="VHR-Rz-iXa">
+                <rect key="frame" x="0.0" y="0.0" width="348" height="205.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2J8-nD-Fcj">
+                        <rect key="frame" x="20" y="5" width="308" height="180"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHANGE AVERAGE SCORE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qnr-PG-8QV">
+                                <rect key="frame" x="20" y="39.5" width="210.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="19"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIQ-iM-xNG">
+                                <rect key="frame" x="257" y="31" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xBZ-hP-ZLy"/>
+                                    <constraint firstAttribute="width" constant="40" id="zTB-Hm-8PA"/>
+                                </constraints>
+                                <state key="normal" image="edit_icon"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AVERAGE SCORE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKd-9W-wVr">
+                                <rect key="frame" x="20" y="96" width="277" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="kre-kW-wYk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u54-do-z77">
+                                <rect key="frame" x="20" y="125" width="277" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="dag-t2-IiA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="u54-do-z77" firstAttribute="trailing" secondItem="BKd-9W-wVr" secondAttribute="trailing" id="0ya-2Z-F68"/>
+                            <constraint firstItem="u54-do-z77" firstAttribute="top" secondItem="BKd-9W-wVr" secondAttribute="bottom" constant="8" id="1mH-YA-ph8"/>
+                            <constraint firstItem="BKd-9W-wVr" firstAttribute="leading" secondItem="2J8-nD-Fcj" secondAttribute="leading" constant="20" id="O4p-oj-O90"/>
+                            <constraint firstAttribute="trailing" secondItem="BKd-9W-wVr" secondAttribute="trailing" constant="11" id="bD7-B0-DOH"/>
+                            <constraint firstAttribute="trailing" secondItem="MIQ-iM-xNG" secondAttribute="trailing" constant="11" id="g2R-QF-1dk"/>
+                            <constraint firstItem="u54-do-z77" firstAttribute="leading" secondItem="BKd-9W-wVr" secondAttribute="leading" id="mxC-on-tEQ"/>
+                            <constraint firstItem="BKd-9W-wVr" firstAttribute="top" secondItem="MIQ-iM-xNG" secondAttribute="bottom" constant="25" id="nMt-Ts-tE3"/>
+                            <constraint firstAttribute="bottom" secondItem="u54-do-z77" secondAttribute="bottom" constant="30" id="ntc-De-Xju"/>
+                            <constraint firstItem="MIQ-iM-xNG" firstAttribute="centerY" secondItem="Qnr-PG-8QV" secondAttribute="centerY" id="rR9-8B-y5d"/>
+                            <constraint firstItem="Qnr-PG-8QV" firstAttribute="leading" secondItem="2J8-nD-Fcj" secondAttribute="leading" constant="20" id="w0q-OW-iXm"/>
+                            <constraint firstItem="MIQ-iM-xNG" firstAttribute="top" secondItem="2J8-nD-Fcj" secondAttribute="top" constant="31" id="yuP-Oh-jPV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2J8-nD-Fcj" firstAttribute="top" secondItem="VHR-Rz-iXa" secondAttribute="top" constant="5" id="DHf-p3-8KJ"/>
+                    <constraint firstItem="2J8-nD-Fcj" firstAttribute="leading" secondItem="VHR-Rz-iXa" secondAttribute="leading" constant="20" id="hFH-d7-r8b"/>
+                    <constraint firstAttribute="trailing" secondItem="2J8-nD-Fcj" secondAttribute="trailing" constant="20" id="s1U-KG-EkD"/>
+                    <constraint firstAttribute="bottom" secondItem="2J8-nD-Fcj" secondAttribute="bottom" constant="20.5" id="t40-A5-9Xv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="Awz-Au-1iO"/>
+            <connections>
+                <outlet property="avgScoreEditBtn" destination="MIQ-iM-xNG" id="pll-Vs-OBZ"/>
+                <outlet property="avgScoreLbl" destination="u54-do-z77" id="LlE-uu-WSn"/>
+                <outlet property="shadowView" destination="2J8-nD-Fcj" id="DGd-91-EBA"/>
+            </connections>
+            <point key="canvasLocation" x="168" y="345.87706146926541"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="edit_icon" width="32" height="32"/>
+    </resources>
+</document>

@@ -1,0 +1,174 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["SS", ""]
+- ["SS", "localized"]
+- ["SS", "localized"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bundle"
+- !private "NSLocalizedString"
+- "String"
+- "StringLiteralType"
+depends-member:
+- !private ["SK", "Bundle"]
+- !private ["SK", "NSLocalizedString"]
+- !private ["SK", ""]
+- !private ["So8NSBundleC", "main"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "NSLocalizedString"]
+- !private ["s7CVarArgP", "main"]
+- !private ["Sl", "Bundle"]
+- !private ["Sl", "NSLocalizedString"]
+- !private ["Sl", ""]
+- !private ["SL", "Bundle"]
+- !private ["SL", "NSLocalizedString"]
+- !private ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLocalizedString"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s17CustomReflectableP", "Bundle"]
+- !private ["s17CustomReflectableP", "NSLocalizedString"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "NSLocalizedString"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["Se", "Bundle"]
+- !private ["Se", "NSLocalizedString"]
+- !private ["SE", "Bundle"]
+- !private ["SE", "NSLocalizedString"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "NSLocalizedString"]
+- !private ["SQ", ""]
+- !private ["SQ", "main"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Bundle"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "NSLocalizedString"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "Bundle"]
+- !private ["s32ExpressibleByStringInterpolationP", "NSLocalizedString"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "Bundle"]
+- !private ["s26ExpressibleByStringLiteralP", "NSLocalizedString"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Bundle"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "NSLocalizedString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SH", "Bundle"]
+- !private ["SH", "NSLocalizedString"]
+- !private ["SH", ""]
+- !private ["SH", "main"]
+- !private ["s25LosslessStringConvertibleP", "Bundle"]
+- !private ["s25LosslessStringConvertibleP", "NSLocalizedString"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s10MirrorPathP", "Bundle"]
+- !private ["s10MirrorPathP", "NSLocalizedString"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "main"]
+- !private ["Sm", "Bundle"]
+- !private ["Sm", "NSLocalizedString"]
+- !private ["ST", "Bundle"]
+- !private ["ST", "NSLocalizedString"]
+- !private ["ST", ""]
+- ["SS", "Bundle"]
+- !private ["SS", "NSLocalizedString"]
+- ["SS", "String"]
+- ["SS", ""]
+- ["SS", "localized"]
+- !private ["Sy", "Bundle"]
+- !private ["Sy", "NSLocalizedString"]
+- !private ["s16TextOutputStreamP", "Bundle"]
+- !private ["s16TextOutputStreamP", "NSLocalizedString"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", "Bundle"]
+- !private ["s20TextOutputStreamableP", "NSLocalizedString"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Bundle"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "NSLocalizedString"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Bundle"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "NSLocalizedString"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Bundle"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "NSLocalizedString"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Bundle"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "NSLocalizedString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "Bundle"]
+- !private ["s19_HasContiguousBytesP", "NSLocalizedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["s21_ObjectiveCBridgeableP", "Bundle"]
+- !private ["s21_ObjectiveCBridgeableP", "NSLocalizedString"]
+depends-nominal:
+- !private "SK"
+- !private "So8NSBundleC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sm"
+- !private "ST"
+- "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Target Support Files/SwiftyPickerPopover/SwiftyPickerPopover-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyPickerPopover.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0195c9291604a661d9dadc3280333d84"

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+        <array key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="RequestTVCell" id="KGk-i7-Jjw" customClass="RequestTVCell" customModule="CaddieCards" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="129.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1q9-iz-xtB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="129.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_icon" translatesAutoresizingMaskIntoConstraints="NO" id="A1d-1w-fmD">
+                                <rect key="frame" x="15" y="25" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="YGa-r7-dCB"/>
+                                    <constraint firstAttribute="height" constant="80" id="kF6-6x-U9P"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOL-z3-B5y">
+                                <rect key="frame" x="110" y="15" width="202" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="q1u-mi-89N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmP-aU-mOK">
+                                <rect key="frame" x="110" y="75" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.24329389779999999" green="0.5866203834" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                                <state key="normal" title="Accept">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWj-KX-EoW">
+                                <rect key="frame" x="215.5" y="75" width="90" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                                <state key="normal" title="Delete">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
+                                </variation>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UyJ-0J-eeC">
+                                <rect key="frame" x="110" y="43" width="202" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="mDj-eI-gvd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVr-Kd-4do">
+                                <rect key="frame" x="110" y="128.5" width="200" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="KYf-jG-M53"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="A1d-1w-fmD" firstAttribute="leading" secondItem="1q9-iz-xtB" secondAttribute="leading" constant="15" id="4iN-bl-ori"/>
+                            <constraint firstItem="cWj-KX-EoW" firstAttribute="top" secondItem="UyJ-0J-eeC" secondAttribute="bottom" constant="12" id="7RA-uv-z8P"/>
+                            <constraint firstItem="cVr-Kd-4do" firstAttribute="leading" secondItem="NmP-aU-mOK" secondAttribute="leading" id="D7j-PF-HYF"/>
+                            <constraint firstItem="cVr-Kd-4do" firstAttribute="top" secondItem="NmP-aU-mOK" secondAttribute="bottom" constant="13.5" id="FJm-Iz-mO0"/>
+                            <constraint firstItem="cWj-KX-EoW" firstAttribute="height" secondItem="NmP-aU-mOK" secondAttribute="height" id="Ife-4E-hXw"/>
+                            <constraint firstAttribute="bottom" secondItem="cVr-Kd-4do" secondAttribute="bottom" id="LHh-Xe-zxY"/>
+                            <constraint firstItem="DOL-z3-B5y" firstAttribute="top" secondItem="1q9-iz-xtB" secondAttribute="top" constant="15" id="Lct-db-HHQ"/>
+                            <constraint firstItem="cWj-KX-EoW" firstAttribute="width" secondItem="NmP-aU-mOK" secondAttribute="width" id="NMu-jG-kSv"/>
+                            <constraint firstAttribute="trailing" secondItem="cWj-KX-EoW" secondAttribute="trailing" constant="14.5" id="OMG-g3-ZJx"/>
+                            <constraint firstItem="UyJ-0J-eeC" firstAttribute="top" secondItem="DOL-z3-B5y" secondAttribute="bottom" constant="8" id="R8H-P5-cAd"/>
+                            <constraint firstAttribute="trailing" secondItem="cVr-Kd-4do" secondAttribute="trailing" constant="10" id="S1i-5r-dR7"/>
+                            <constraint firstItem="DOL-z3-B5y" firstAttribute="leading" secondItem="A1d-1w-fmD" secondAttribute="trailing" constant="15" id="Uxm-j1-Wgy"/>
+                            <constraint firstItem="NmP-aU-mOK" firstAttribute="leading" secondItem="A1d-1w-fmD" secondAttribute="trailing" constant="15" id="VxR-6Y-PQ6"/>
+                            <constraint firstItem="UyJ-0J-eeC" firstAttribute="trailing" secondItem="DOL-z3-B5y" secondAttribute="trailing" id="as6-jL-i2o"/>
+                            <constraint firstItem="NmP-aU-mOK" firstAttribute="top" secondItem="UyJ-0J-eeC" secondAttribute="bottom" constant="12" id="bhN-Ft-B81"/>
+                            <constraint firstItem="A1d-1w-fmD" firstAttribute="centerY" secondItem="1q9-iz-xtB" secondAttribute="centerY" id="eOL-Pr-2uL"/>
+                            <constraint firstItem="UyJ-0J-eeC" firstAttribute="leading" secondItem="DOL-z3-B5y" secondAttribute="leading" id="fdR-J3-2Uw"/>
+                            <constraint firstItem="cWj-KX-EoW" firstAttribute="leading" secondItem="NmP-aU-mOK" secondAttribute="trailing" constant="15.5" id="hgm-zG-7ni"/>
+                            <constraint firstAttribute="trailing" secondItem="DOL-z3-B5y" secondAttribute="trailing" constant="8" id="qEv-6z-egm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1q9-iz-xtB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1sm-Nm-rrT"/>
+                    <constraint firstItem="1q9-iz-xtB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="KJP-vB-IS8"/>
+                    <constraint firstAttribute="trailing" secondItem="1q9-iz-xtB" secondAttribute="trailing" id="Szy-HP-fMv"/>
+                    <constraint firstAttribute="bottom" secondItem="1q9-iz-xtB" secondAttribute="bottom" id="WUk-Vs-RX0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="acceptBtn" destination="NmP-aU-mOK" id="btu-3o-Vzy"/>
+                <outlet property="deleteBtn" destination="cWj-KX-EoW" id="btv-UP-u6B"/>
+                <outlet property="nameLbl" destination="DOL-z3-B5y" id="3Dh-Rs-041"/>
+                <outlet property="profileImgView" destination="A1d-1w-fmD" id="9CD-tB-Emg"/>
+                <outlet property="timeLbl" destination="UyJ-0J-eeC" id="PbJ-Q5-2pc"/>
+            </connections>
+            <point key="canvasLocation" x="148.80000000000001" y="48.575712143928037"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="profile_icon" width="32" height="32"/>
+    </resources>
+</document>

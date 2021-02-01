@@ -1,0 +1,1150 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "webseviceDelegate"
+- "ApiCall"
+provides-nominal:
+- "9Golf_Putz17webseviceDelegateP"
+- "9Golf_Putz7ApiCallC"
+provides-member:
+- ["9Golf_Putz17webseviceDelegateP", ""]
+- ["9Golf_Putz7ApiCallC", ""]
+provides-dynamic-lookup:
+- "delegate"
+- "getServerCallUserExist"
+- "getServercall"
+- "postCall"
+- "postServercall"
+- "sendRequest"
+- "uploadImageRequest"
+- "webserviceResponseMethod"
+depends-top-level:
+- !private "..<"
+- "=="
+- !private "Alamofire"
+- "AnyObject"
+- "ApiCall"
+- !private "AssignmentPrecedence"
+- "BaseModel"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "Connectivity"
+- !private "Dictionary"
+- !private "FloatLiteralType"
+- "HTTPHeaders"
+- "HTTPMethod"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "JSONEncoding"
+- "MBProgressHUD"
+- "NSArray"
+- "NSDictionary"
+- "NSInteger"
+- "NSObject"
+- "NSString"
+- "ResponseModel"
+- "String"
+- "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- "UIImage"
+- "UIViewController"
+- !private "UInt64"
+- "Void"
+- "debugPrint"
+- "print"
+- "webseviceDelegate"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["9Golf_Putz7ApiCallC", "Alamofire"]
+- ["9Golf_Putz7ApiCallC", "AnyObject"]
+- !private ["9Golf_Putz7ApiCallC", "BaseModel"]
+- ["9Golf_Putz7ApiCallC", "Bool"]
+- !private ["9Golf_Putz7ApiCallC", "Connectivity"]
+- !private ["9Golf_Putz7ApiCallC", "HTTPHeaders"]
+- ["9Golf_Putz7ApiCallC", "HTTPMethod"]
+- !private ["9Golf_Putz7ApiCallC", "Int"]
+- !private ["9Golf_Putz7ApiCallC", "JSONEncoding"]
+- !private ["9Golf_Putz7ApiCallC", "MBProgressHUD"]
+- !private ["9Golf_Putz7ApiCallC", "NSArray"]
+- ["9Golf_Putz7ApiCallC", "NSDictionary"]
+- !private ["9Golf_Putz7ApiCallC", "NSInteger"]
+- !private ["9Golf_Putz7ApiCallC", "NSString"]
+- ["9Golf_Putz7ApiCallC", "ResponseModel"]
+- ["9Golf_Putz7ApiCallC", "String"]
+- !private ["9Golf_Putz7ApiCallC", "UIAlertAction"]
+- !private ["9Golf_Putz7ApiCallC", "UIAlertController"]
+- ["9Golf_Putz7ApiCallC", "UIImage"]
+- ["9Golf_Putz7ApiCallC", "UIViewController"]
+- !private ["9Golf_Putz7ApiCallC", "UInt64"]
+- ["9Golf_Putz7ApiCallC", "Void"]
+- ["9Golf_Putz7ApiCallC", ""]
+- !private ["9Golf_Putz7ApiCallC", "debugPrint"]
+- ["9Golf_Putz7ApiCallC", "deinit"]
+- ["9Golf_Putz7ApiCallC", "delegate"]
+- ["9Golf_Putz7ApiCallC", "getServerCallUserExist"]
+- ["9Golf_Putz7ApiCallC", "getServercall"]
+- ["9Golf_Putz7ApiCallC", "init"]
+- ["9Golf_Putz7ApiCallC", "postCall"]
+- ["9Golf_Putz7ApiCallC", "postServercall"]
+- !private ["9Golf_Putz7ApiCallC", "print"]
+- ["9Golf_Putz7ApiCallC", "sendRequest"]
+- ["9Golf_Putz7ApiCallC", "uploadImageRequest"]
+- ["9Golf_Putz7ApiCallC", "webseviceDelegate"]
+- !private ["12ObjectMapper12BaseMappableP", "Error"]
+- !private ["12ObjectMapper12BaseMappableP", ""]
+- !private ["12ObjectMapper12BaseMappableP", "init"]
+- !private ["9Golf_Putz9BaseModelC", "Error"]
+- !private ["9Golf_Putz9BaseModelC", ""]
+- !private ["9Golf_Putz9BaseModelC", "init"]
+- !private ["SK", "Encoding"]
+- !private ["SK", ""]
+- !private ["SK", "callAsFunction"]
+- !private ["SK", "init"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["Sz", "init"]
+- !private ["So15CALayerDelegateP", "hide"]
+- !private ["So15CALayerDelegateP", "hideAnimated"]
+- !private ["So15CALayerDelegateP", "hideHUDForView"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "Encoding"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "callAsFunction"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["s7CVarArgP", "Alamofire"]
+- !private ["s7CVarArgP", "BaseModel"]
+- !private ["s7CVarArgP", "Connectivity"]
+- !private ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "JSONEncoding"]
+- !private ["s7CVarArgP", "MBProgressHUD"]
+- !private ["s7CVarArgP", "ResponseModel"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- !private ["s7CVarArgP", "UInt64"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "customModel"]
+- !private ["s7CVarArgP", "debugPrint"]
+- !private ["s7CVarArgP", "getServerCallUserExist"]
+- !private ["s7CVarArgP", "getServercall"]
+- !private ["s7CVarArgP", "hide"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSuccess"]
+- !private ["s7CVarArgP", "jpegData"]
+- !private ["s7CVarArgP", "postCall"]
+- !private ["s7CVarArgP", "postServercall"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "responseCode"]
+- !private ["s7CVarArgP", "responseDictionary"]
+- !private ["s7CVarArgP", "sendRequest"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "uploadImageRequest"]
+- !private ["s7CVarArgP", "view"]
+- !private ["Sl", "Encoding"]
+- !private ["Sl", ""]
+- !private ["Sl", "callAsFunction"]
+- !private ["Sl", "init"]
+- !private ["SL", "Encoding"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["9Golf_Putz12ConnectivityV", "isConnectedToInternet"]
+- !private ["10Foundation15ContiguousBytesP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
+- !private ["s28CustomDebugStringConvertibleP", "BaseModel"]
+- !private ["s28CustomDebugStringConvertibleP", "Connectivity"]
+- !private ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "MBProgressHUD"]
+- !private ["s28CustomDebugStringConvertibleP", "ResponseModel"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt64"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "customModel"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "getServerCallUserExist"]
+- !private ["s28CustomDebugStringConvertibleP", "getServercall"]
+- !private ["s28CustomDebugStringConvertibleP", "hide"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSuccess"]
+- !private ["s28CustomDebugStringConvertibleP", "jpegData"]
+- !private ["s28CustomDebugStringConvertibleP", "postCall"]
+- !private ["s28CustomDebugStringConvertibleP", "postServercall"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "responseCode"]
+- !private ["s28CustomDebugStringConvertibleP", "responseDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "responseString"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "sendRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "uploadImageRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "validate"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
+- !private ["s23CustomStringConvertibleP", "BaseModel"]
+- !private ["s23CustomStringConvertibleP", "Connectivity"]
+- !private ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "JSONEncoding"]
+- !private ["s23CustomStringConvertibleP", "MBProgressHUD"]
+- !private ["s23CustomStringConvertibleP", "ResponseModel"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- !private ["s23CustomStringConvertibleP", "UInt64"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "customModel"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "getServerCallUserExist"]
+- !private ["s23CustomStringConvertibleP", "getServercall"]
+- !private ["s23CustomStringConvertibleP", "hide"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSuccess"]
+- !private ["s23CustomStringConvertibleP", "jpegData"]
+- !private ["s23CustomStringConvertibleP", "postCall"]
+- !private ["s23CustomStringConvertibleP", "postServercall"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "responseCode"]
+- !private ["s23CustomStringConvertibleP", "responseDictionary"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "responseString"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "sendRequest"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["s23CustomStringConvertibleP", "uploadImageRequest"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "validate"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["10Foundation4DataV", "callAsFunction"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "callAsFunction"]
+- ["9Alamofire11DataRequestC", ""]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire11DataRequestC", "responseString"]
+- !private ["9Alamofire11DataRequestC", "validate"]
+- !private ["9Alamofire12DataResponseV", "response"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["Se", "Encoding"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "Encoding"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SS10FoundationE8EncodingV", "rawValue"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "Alamofire"]
+- !private ["SQ", "BaseModel"]
+- !private ["SQ", "Connectivity"]
+- !private ["SQ", "Encoding"]
+- !private ["SQ", "JSONEncoding"]
+- !private ["SQ", "MBProgressHUD"]
+- !private ["SQ", "ResponseModel"]
+- !private ["SQ", "String"]
+- !private ["SQ", "UIAlertAction"]
+- !private ["SQ", "UIAlertController"]
+- !private ["SQ", "UInt64"]
+- ["SQ", ""]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "customModel"]
+- !private ["SQ", "debugPrint"]
+- !private ["SQ", "default"]
+- !private ["SQ", "get"]
+- !private ["SQ", "getServerCallUserExist"]
+- !private ["SQ", "getServercall"]
+- !private ["SQ", "hide"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isSuccess"]
+- !private ["SQ", "jpegData"]
+- !private ["SQ", "post"]
+- !private ["SQ", "postCall"]
+- !private ["SQ", "postServercall"]
+- !private ["SQ", "present"]
+- !private ["SQ", "print"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "responseCode"]
+- !private ["SQ", "responseDictionary"]
+- !private ["SQ", "sendRequest"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "uploadImageRequest"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "view"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "Encoding"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "Encoding"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["9Alamofire10HTTPMethodO", "get"]
+- !private ["9Alamofire10HTTPMethodO", "post"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- !private ["SH", "Alamofire"]
+- !private ["SH", "BaseModel"]
+- !private ["SH", "Connectivity"]
+- !private ["SH", "Encoding"]
+- !private ["SH", "JSONEncoding"]
+- !private ["SH", "MBProgressHUD"]
+- !private ["SH", "ResponseModel"]
+- !private ["SH", "String"]
+- !private ["SH", "UIAlertAction"]
+- !private ["SH", "UIAlertController"]
+- !private ["SH", "UInt64"]
+- ["SH", ""]
+- !private ["SH", "addAction"]
+- !private ["SH", "alert"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "customModel"]
+- !private ["SH", "debugPrint"]
+- !private ["SH", "default"]
+- !private ["SH", "get"]
+- !private ["SH", "getServerCallUserExist"]
+- !private ["SH", "getServercall"]
+- !private ["SH", "hide"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isSuccess"]
+- !private ["SH", "jpegData"]
+- !private ["SH", "post"]
+- !private ["SH", "postCall"]
+- !private ["SH", "postServercall"]
+- !private ["SH", "present"]
+- !private ["SH", "print"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "responseCode"]
+- !private ["SH", "responseDictionary"]
+- !private ["SH", "sendRequest"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "uploadImageRequest"]
+- !private ["SH", "utf8"]
+- !private ["SH", "view"]
+- !private ["19FTPopOverMenu_Swift9ImageableP", "Encoding"]
+- !private ["19FTPopOverMenu_Swift9ImageableP", "init"]
+- !private ["19FTPopOverMenu_Swift9ImageableP", "jpegData"]
+- !private ["8SideMenu18InitializableClassP", "Alamofire"]
+- !private ["8SideMenu18InitializableClassP", "BaseModel"]
+- !private ["8SideMenu18InitializableClassP", "Connectivity"]
+- !private ["8SideMenu18InitializableClassP", "JSONEncoding"]
+- !private ["8SideMenu18InitializableClassP", "MBProgressHUD"]
+- !private ["8SideMenu18InitializableClassP", "ResponseModel"]
+- !private ["8SideMenu18InitializableClassP", "String"]
+- !private ["8SideMenu18InitializableClassP", "UIAlertAction"]
+- !private ["8SideMenu18InitializableClassP", "UIAlertController"]
+- !private ["8SideMenu18InitializableClassP", "UInt64"]
+- ["8SideMenu18InitializableClassP", ""]
+- !private ["8SideMenu18InitializableClassP", "addAction"]
+- !private ["8SideMenu18InitializableClassP", "customModel"]
+- !private ["8SideMenu18InitializableClassP", "debugPrint"]
+- !private ["8SideMenu18InitializableClassP", "getServerCallUserExist"]
+- !private ["8SideMenu18InitializableClassP", "getServercall"]
+- !private ["8SideMenu18InitializableClassP", "hide"]
+- !private ["8SideMenu18InitializableClassP", "init"]
+- !private ["8SideMenu18InitializableClassP", "isSuccess"]
+- !private ["8SideMenu18InitializableClassP", "jpegData"]
+- !private ["8SideMenu18InitializableClassP", "postCall"]
+- !private ["8SideMenu18InitializableClassP", "postServercall"]
+- !private ["8SideMenu18InitializableClassP", "present"]
+- !private ["8SideMenu18InitializableClassP", "print"]
+- !private ["8SideMenu18InitializableClassP", "responseCode"]
+- !private ["8SideMenu18InitializableClassP", "responseDictionary"]
+- !private ["8SideMenu18InitializableClassP", "sendRequest"]
+- !private ["8SideMenu18InitializableClassP", "statusCode"]
+- !private ["8SideMenu18InitializableClassP", "uploadImageRequest"]
+- !private ["8SideMenu18InitializableClassP", "view"]
+- !private ["9Alamofire12JSONEncodingV", "default"]
+- !private ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So13MBProgressHUDC", "hide"]
+- !private ["12ObjectMapper8MappableP", "Error"]
+- !private ["12ObjectMapper8MappableP", "init"]
+- !private ["s10MirrorPathP", "Encoding"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["9Alamofire17MultipartFormDataC", "append"]
+- !private ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "failure"]
+- !private ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "success"]
+- !private ["SM", ""]
+- !private ["SM", "callAsFunction"]
+- !private ["10Foundation19MutableDataProtocolP", "callAsFunction"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "alertControllerWithTitle"]
+- !private ["So8NSCodingP", "hide"]
+- !private ["So8NSCodingP", "hideAnimated"]
+- !private ["So8NSCodingP", "hideHUDForView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "jpegData"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "alertControllerWithTitle"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So21NSItemProviderReadingP", "jpegData"]
+- !private ["So21NSItemProviderWritingP", "jpegData"]
+- !private ["So8NSObjectC", "Alamofire"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "BaseModel"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Connectivity"]
+- !private ["So8NSObjectC", "HTTPHeaders"]
+- ["So8NSObjectC", "HTTPMethod"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "JSONEncoding"]
+- !private ["So8NSObjectC", "MBProgressHUD"]
+- !private ["So8NSObjectC", "NSArray"]
+- ["So8NSObjectC", "NSDictionary"]
+- !private ["So8NSObjectC", "NSInteger"]
+- !private ["So8NSObjectC", "NSString"]
+- ["So8NSObjectC", "ResponseModel"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "UInt64"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "actionWithTitle"]
+- !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "alertControllerWithTitle"]
+- !private ["So8NSObjectC", "customModel"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataForKey"]
+- !private ["So8NSObjectC", "dataForPasteboardType"]
+- !private ["So8NSObjectC", "dataFromRange"]
+- !private ["So8NSObjectC", "dataFromTXTRecordDictionary"]
+- !private ["So8NSObjectC", "dataUsingEncoding"]
+- !private ["So8NSObjectC", "dataWithJSONObject"]
+- !private ["So8NSObjectC", "dataWithPropertyList"]
+- !private ["So8NSObjectC", "debugPrint"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "getServerCallUserExist"]
+- ["So8NSObjectC", "getServercall"]
+- !private ["So8NSObjectC", "hide"]
+- !private ["So8NSObjectC", "hideAnimated"]
+- !private ["So8NSObjectC", "hideHUDForView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isSuccess"]
+- !private ["So8NSObjectC", "jpegData"]
+- ["So8NSObjectC", "postCall"]
+- ["So8NSObjectC", "postServercall"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "presentViewController"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "responseCode"]
+- !private ["So8NSObjectC", "responseDictionary"]
+- ["So8NSObjectC", "sendRequest"]
+- !private ["So8NSObjectC", "statusCode"]
+- ["So8NSObjectC", "uploadImageRequest"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "webseviceDelegate"]
+- !private ["So8NSObjectP", "Alamofire"]
+- ["So8NSObjectP", "AnyObject"]
+- !private ["So8NSObjectP", "BaseModel"]
+- !private ["So8NSObjectP", "Connectivity"]
+- !private ["So8NSObjectP", "HTTPHeaders"]
+- ["So8NSObjectP", "HTTPMethod"]
+- !private ["So8NSObjectP", "JSONEncoding"]
+- !private ["So8NSObjectP", "MBProgressHUD"]
+- !private ["So8NSObjectP", "NSString"]
+- ["So8NSObjectP", "ResponseModel"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UIAlertAction"]
+- !private ["So8NSObjectP", "UIAlertController"]
+- ["So8NSObjectP", "UIViewController"]
+- !private ["So8NSObjectP", "UInt64"]
+- ["So8NSObjectP", "Void"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "actionWithTitle"]
+- !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "alertControllerWithTitle"]
+- !private ["So8NSObjectP", "customModel"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataForKey"]
+- !private ["So8NSObjectP", "dataForPasteboardType"]
+- !private ["So8NSObjectP", "dataFromRange"]
+- !private ["So8NSObjectP", "dataFromTXTRecordDictionary"]
+- !private ["So8NSObjectP", "dataUsingEncoding"]
+- !private ["So8NSObjectP", "dataWithJSONObject"]
+- !private ["So8NSObjectP", "dataWithPropertyList"]
+- !private ["So8NSObjectP", "debugPrint"]
+- ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "getServerCallUserExist"]
+- ["So8NSObjectP", "getServercall"]
+- !private ["So8NSObjectP", "hide"]
+- !private ["So8NSObjectP", "hideAnimated"]
+- !private ["So8NSObjectP", "hideHUDForView"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isSuccess"]
+- !private ["So8NSObjectP", "jpegData"]
+- ["So8NSObjectP", "postCall"]
+- ["So8NSObjectP", "postServercall"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "presentViewController"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "responseCode"]
+- !private ["So8NSObjectP", "responseDictionary"]
+- ["So8NSObjectP", "sendRequest"]
+- !private ["So8NSObjectP", "statusCode"]
+- ["So8NSObjectP", "uploadImageRequest"]
+- !private ["So8NSObjectP", "view"]
+- ["So8NSObjectP", "webseviceDelegate"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "jpegData"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sj", "init"]
+- !private ["Sq", "callAsFunction"]
+- !private ["9Alamofire17ParameterEncodingP", "default"]
+- !private ["Sk", ""]
+- !private ["Sk", "callAsFunction"]
+- !private ["Sm", "Encoding"]
+- !private ["Sm", ""]
+- !private ["Sm", "callAsFunction"]
+- !private ["Sm", "init"]
+- !private ["SY", "alert"]
+- !private ["SY", "default"]
+- !private ["SY", "get"]
+- !private ["SY", "init"]
+- !private ["SY", "post"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "callAsFunction"]
+- ["9Alamofire7RequestC", ""]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire7RequestC", "responseString"]
+- !private ["9Alamofire7RequestC", "validate"]
+- !private ["9Alamofire8ResponseP", "response"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Golf_Putz13ResponseModelC", "customModel"]
+- !private ["9Golf_Putz13ResponseModelC", "init"]
+- !private ["9Golf_Putz13ResponseModelC", "isSuccess"]
+- !private ["9Golf_Putz13ResponseModelC", "responseCode"]
+- !private ["9Golf_Putz13ResponseModelC", "responseDictionary"]
+- !private ["9Alamofire6ResultO", "error"]
+- !private ["9Alamofire6ResultO", "failure"]
+- !private ["9Alamofire6ResultO", "success"]
+- !private ["9Alamofire6ResultO", "value"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Encoding"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "callAsFunction"]
+- !private ["ST", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "Encoding"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "Encoding"]
+- !private ["Sy", "init"]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "default"]
+- !private ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "Encoding"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "hide"]
+- !private ["So29UIAccessibilityIdentificationP", "hideAnimated"]
+- !private ["So29UIAccessibilityIdentificationP", "hideHUDForView"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "jpegData"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["So12UIAppearanceP", "hide"]
+- !private ["So12UIAppearanceP", "hideAnimated"]
+- !private ["So12UIAppearanceP", "hideHUDForView"]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "alertControllerWithTitle"]
+- !private ["So21UIAppearanceContainerP", "hide"]
+- !private ["So21UIAppearanceContainerP", "hideAnimated"]
+- !private ["So21UIAppearanceContainerP", "hideHUDForView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "alertControllerWithTitle"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So17UICoordinateSpaceP", "hide"]
+- !private ["So17UICoordinateSpaceP", "hideAnimated"]
+- !private ["So17UICoordinateSpaceP", "hideHUDForView"]
+- !private ["So13UIDynamicItemP", "hide"]
+- !private ["So13UIDynamicItemP", "hideAnimated"]
+- !private ["So13UIDynamicItemP", "hideHUDForView"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "alertControllerWithTitle"]
+- !private ["So18UIFocusEnvironmentP", "hide"]
+- !private ["So18UIFocusEnvironmentP", "hideAnimated"]
+- !private ["So18UIFocusEnvironmentP", "hideHUDForView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "hide"]
+- !private ["So11UIFocusItemP", "hideAnimated"]
+- !private ["So11UIFocusItemP", "hideHUDForView"]
+- !private ["So20UIFocusItemContainerP", "hide"]
+- !private ["So20UIFocusItemContainerP", "hideAnimated"]
+- !private ["So20UIFocusItemContainerP", "hideHUDForView"]
+- !private ["So7UIImageC", "jpegData"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "jpegData"]
+- !private ["So24UILargeContentViewerItemP", "hide"]
+- !private ["So24UILargeContentViewerItemP", "hideAnimated"]
+- !private ["So24UILargeContentViewerItemP", "hideHUDForView"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "alertControllerWithTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "hide"]
+- !private ["So30UIPasteConfigurationSupportingP", "hideAnimated"]
+- !private ["So30UIPasteConfigurationSupportingP", "hideHUDForView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "alertControllerWithTitle"]
+- !private ["So11UIResponderC", "hide"]
+- !private ["So11UIResponderC", "hideAnimated"]
+- !private ["So11UIResponderC", "hideHUDForView"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "presentViewController"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "alertControllerWithTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "hide"]
+- !private ["So30UIResponderStandardEditActionsP", "hideAnimated"]
+- !private ["So30UIResponderStandardEditActionsP", "hideHUDForView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "presentViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "alertControllerWithTitle"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "alertControllerWithTitle"]
+- !private ["So18UITraitEnvironmentP", "hide"]
+- !private ["So18UITraitEnvironmentP", "hideAnimated"]
+- !private ["So18UITraitEnvironmentP", "hideHUDForView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "alertControllerWithTitle"]
+- !private ["So23UIUserActivityRestoringP", "hide"]
+- !private ["So23UIUserActivityRestoringP", "hideAnimated"]
+- !private ["So23UIUserActivityRestoringP", "hideHUDForView"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "presentViewController"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "hide"]
+- !private ["So6UIViewC", "hideAnimated"]
+- !private ["So6UIViewC", "hideHUDForView"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "alertControllerWithTitle"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["s6UInt64V", "init"]
+- !private ["s6UInt64V", "init"]
+- !private ["9Alamofire14URLConvertibleP", "Encoding"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- ["So13NSURLResponseC", ""]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So20NSURLSessionDelegateP", ""]
+- !private ["SU", "init"]
+- !private ["SU", "init"]
+- !private ["9Alamofire13UploadRequestC", "responseJSON"]
+- !private ["9Alamofire13UploadRequestC", "responseString"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "jpegData"]
+- !private ["s19_HasContiguousBytesP", "Encoding"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BaseModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Connectivity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MBProgressHUD"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ResponseModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt64"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "customModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getServerCallUserExist"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getServercall"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hide"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSuccess"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jpegData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "postCall"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "postServercall"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "responseCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "responseDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uploadImageRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Alamofire"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BaseModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Connectivity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONEncoding"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MBProgressHUD"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ResponseModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UInt64"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "customModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "debugPrint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getServerCallUserExist"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getServercall"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hide"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isSuccess"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jpegData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "postCall"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "postServercall"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "responseCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "responseDictionary"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sendRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uploadImageRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "hide"]
+- ["9Golf_Putz17webseviceDelegateP", "NSDictionary"]
+- ["9Golf_Putz17webseviceDelegateP", "webserviceResponseMethod"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "9Golf_Putz7ApiCallC"
+- !private "12ObjectMapper12BaseMappableP"
+- !private "9Golf_Putz9BaseModelC"
+- !private "SK"
+- !private "Sz"
+- !private "So15CALayerDelegateP"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "9Golf_Putz12ConnectivityV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "9Alamofire10HTTPMethodO"
+- !private "So17NSHTTPURLResponseC"
+- "SH"
+- !private "19FTPopOverMenu_Swift9ImageableP"
+- "8SideMenu18InitializableClassP"
+- !private "9Alamofire12JSONEncodingV"
+- !private "s25LosslessStringConvertibleP"
+- !private "So13MBProgressHUDC"
+- !private "12ObjectMapper8MappableP"
+- !private "s10MirrorPathP"
+- !private "9Alamofire17MultipartFormDataC"
+- !private "9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "Sq"
+- !private "9Alamofire17ParameterEncodingP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "9Golf_Putz13ResponseModelC"
+- !private "9Alamofire6ResultO"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s6UInt64V"
+- !private "9Alamofire14URLConvertibleP"
+- "So13NSURLResponseC"
+- !private "So20NSURLSessionDelegateP"
+- !private "SU"
+- !private "9Alamofire13UploadRequestC"
+- !private "s15_CVarArgAlignedP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+- "9Golf_Putz17webseviceDelegateP"
+depends-dynamic-lookup:
+- !private "data"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Modules/SwiftyPickerPopover.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules/FTPopOverMenu_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKURL.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Headers/SwiftyPickerPopover-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Headers/FTPopOverMenu_Swift-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRStackFrame.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceViewControllerBase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolving.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLink.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRExceptionModel.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkNavigation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKWebViewAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRCrashlytics.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkTarget.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Headers/SwiftyPickerPopover-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Headers/FTPopOverMenu_Swift-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMeasurementEvent.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyPickerPopover/SwiftyPickerPopover.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8e78710299913a8eb05ed33e641bbf45"

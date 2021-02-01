@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "cb41fe6a0a5b89f006adb92271a822b4"
+build_time: [1611084958, 855280000]
+inputs:
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/AFError.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/Alamofire.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/MultipartFormData.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/Notifications.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/ParameterEncoding.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/Request.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/Response.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/ResponseSerialization.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/Result.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/ServerTrustPolicy.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/SessionDelegate.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/SessionManager.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/TaskDelegate.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/Timeline.swift": [9223372036, 854775807]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Alamofire/Source/Validation.swift": [9223372036, 854775807]

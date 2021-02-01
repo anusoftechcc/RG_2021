@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Custom Alert View-->
+        <scene sceneID="bqs-GL-vm9">
+            <objects>
+                <viewController storyboardIdentifier="CustomAlertID" id="Xlh-EP-W5V" customClass="CustomAlertView" customModule="Golf_Putz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="84J-Cv-g40"/>
+                        <viewControllerLayoutGuide type="bottom" id="GDY-FC-m24"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dkq-y3-QU6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C2q-s3-Wjc">
+                                <rect key="frame" x="40" y="188.5" width="334" height="250"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The FISH. You hit your ball into a water hazard. Splash!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rl1-YY-yil">
+                                        <rect key="frame" x="10" y="195" width="314" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="yv7-Sn-Pfc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rickey Rappy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAx-PJ-o1f">
+                                        <rect key="frame" x="10" y="163" width="314" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="50o-gS-8Ur"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkA-hn-Rkp">
+                                        <rect key="frame" x="311" y="1" width="22" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="b2x-Gb-Uhe"/>
+                                            <constraint firstAttribute="width" constant="22" id="s7d-Eg-FoJ"/>
+                                        </constraints>
+                                        <state key="normal" image="close_icon"/>
+                                        <connections>
+                                            <action selector="onTapCancelButton:" destination="Xlh-EP-W5V" eventType="touchUpInside" id="sVd-Yy-fTk"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rJn-xv-36Y">
+                                        <rect key="frame" x="112" y="30" width="110" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="R7i-Lh-VFq"/>
+                                            <constraint firstAttribute="height" constant="80" id="xWa-JO-dUV"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.8784313725490196" green="0.92941176470588238" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="YAx-PJ-o1f" secondAttribute="trailing" constant="10" id="21w-ey-RnE"/>
+                                    <constraint firstItem="rl1-YY-yil" firstAttribute="leading" secondItem="YAx-PJ-o1f" secondAttribute="leading" id="4VU-5i-3If"/>
+                                    <constraint firstItem="rJn-xv-36Y" firstAttribute="centerX" secondItem="C2q-s3-Wjc" secondAttribute="centerX" id="6pb-sN-wnE"/>
+                                    <constraint firstItem="YAx-PJ-o1f" firstAttribute="leading" secondItem="C2q-s3-Wjc" secondAttribute="leading" constant="10" id="83R-Xz-kio"/>
+                                    <constraint firstAttribute="height" constant="250" id="8y6-Nl-KuT"/>
+                                    <constraint firstAttribute="bottom" secondItem="rl1-YY-yil" secondAttribute="bottom" constant="5" id="EUT-gy-Mms"/>
+                                    <constraint firstAttribute="width" constant="270" id="U5u-ZU-aA5"/>
+                                    <constraint firstAttribute="trailing" secondItem="WkA-hn-Rkp" secondAttribute="trailing" constant="1" id="nWO-sz-f7T"/>
+                                    <constraint firstItem="rJn-xv-36Y" firstAttribute="top" secondItem="C2q-s3-Wjc" secondAttribute="top" constant="30" id="pmg-95-sNg"/>
+                                    <constraint firstItem="rl1-YY-yil" firstAttribute="trailing" secondItem="YAx-PJ-o1f" secondAttribute="trailing" id="sZo-w4-VWC"/>
+                                    <constraint firstItem="rl1-YY-yil" firstAttribute="top" secondItem="YAx-PJ-o1f" secondAttribute="bottom" constant="2" id="tVY-jY-a2I"/>
+                                    <constraint firstItem="WkA-hn-Rkp" firstAttribute="top" secondItem="C2q-s3-Wjc" secondAttribute="top" constant="1" id="w55-iV-RI4"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="U5u-ZU-aA5"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rq5-pS-3pd"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="C2q-s3-Wjc" firstAttribute="leading" secondItem="Rq5-pS-3pd" secondAttribute="leading" constant="40" id="2O4-Cx-3Ze"/>
+                            <constraint firstItem="C2q-s3-Wjc" firstAttribute="centerX" secondItem="Dkq-y3-QU6" secondAttribute="centerX" id="aEA-qp-AHw"/>
+                            <constraint firstItem="C2q-s3-Wjc" firstAttribute="centerY" secondItem="Dkq-y3-QU6" secondAttribute="centerY" multiplier="0.7" id="heT-Ad-SVh"/>
+                            <constraint firstItem="Rq5-pS-3pd" firstAttribute="trailing" secondItem="C2q-s3-Wjc" secondAttribute="trailing" constant="40" id="rKe-EV-acx"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="aEA-qp-AHw"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="alertView" destination="C2q-s3-Wjc" id="vGY-vJ-DRR"/>
+                        <outlet property="cancelButton" destination="WkA-hn-Rkp" id="5qN-ax-8eZ"/>
+                        <outlet property="imgView" destination="rJn-xv-36Y" id="ddE-8t-edq"/>
+                        <outlet property="messageLabel" destination="rl1-YY-yil" id="kWx-tC-wBm"/>
+                        <outlet property="senderNameLbl" destination="YAx-PJ-o1f" id="oaC-2j-fuV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WnN-vb-LPA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="363.768115942029" y="139.28571428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="close_icon" width="32" height="32"/>
+    </resources>
+</document>

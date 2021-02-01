@@ -1,0 +1,417 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SideMenuInteractionController"
+provides-nominal:
+- "8SideMenu0aB21InteractionControllerC"
+- "8SideMenu0aB21InteractionControllerC5StateO"
+provides-member:
+- ["8SideMenu0aB21InteractionControllerC", ""]
+- ["8SideMenu0aB21InteractionControllerC5StateO", ""]
+provides-dynamic-lookup:
+- "cancel"
+- "finish"
+- "handle"
+- "handleNotification"
+- "isCancelled"
+- "isFinished"
+- "update"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "NSNotification"
+- !private "NotificationCenter"
+- "SideMenuInteractionController"
+- "State"
+- "UIApplication"
+- "UIPercentDrivenInteractiveTransition"
+- "UIView"
+- !private "cancel"
+- !private "finish"
+- !private "handleNotification"
+- !private "isCancelled"
+- !private "isFinished"
+- !private "update"
+- !private "~="
+depends-member:
+- !private ["So20UIViewAnimationCurveV", "easeIn"]
+- !private ["SK", ""]
+- ["So15CALayerDelegateP", "AnimationCurve"]
+- ["s7CVarArgP", "AnimationCurve"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "UIApplication"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "completionCurve"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "didEnterBackgroundNotification"]
+- !private ["s7CVarArgP", "finish"]
+- !private ["s7CVarArgP", "handle"]
+- !private ["s7CVarArgP", "handleNotification"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isCancelled"]
+- !private ["s7CVarArgP", "isFinished"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "update"]
+- !private ["Sl", ""]
+- !private ["SL", ""]
+- ["s28CustomDebugStringConvertibleP", "AnimationCurve"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "completionCurve"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "didEnterBackgroundNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "finish"]
+- !private ["s28CustomDebugStringConvertibleP", "handle"]
+- !private ["s28CustomDebugStringConvertibleP", "handleNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "isFinished"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "update"]
+- ["s23CustomStringConvertibleP", "AnimationCurve"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "completionCurve"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "didEnterBackgroundNotification"]
+- !private ["s23CustomStringConvertibleP", "finish"]
+- !private ["s23CustomStringConvertibleP", "handle"]
+- !private ["s23CustomStringConvertibleP", "handleNotification"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isCancelled"]
+- !private ["s23CustomStringConvertibleP", "isFinished"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "update"]
+- ["SQ", "AnimationCurve"]
+- !private ["SQ", "NotificationCenter"]
+- !private ["SQ", "UIApplication"]
+- ["SQ", ""]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "cancel"]
+- !private ["SQ", "completionCurve"]
+- !private ["SQ", "default"]
+- !private ["SQ", "didEnterBackgroundNotification"]
+- !private ["SQ", "easeIn"]
+- !private ["SQ", "finish"]
+- !private ["SQ", "handle"]
+- !private ["SQ", "handleNotification"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isCancelled"]
+- !private ["SQ", "isFinished"]
+- !private ["SQ", "name"]
+- !private ["SQ", "update"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["SH", "AnimationCurve"]
+- !private ["SH", "NotificationCenter"]
+- !private ["SH", "UIApplication"]
+- ["SH", ""]
+- !private ["SH", "addObserver"]
+- !private ["SH", "cancel"]
+- !private ["SH", "completionCurve"]
+- !private ["SH", "default"]
+- !private ["SH", "didEnterBackgroundNotification"]
+- !private ["SH", "easeIn"]
+- !private ["SH", "finish"]
+- !private ["SH", "handle"]
+- !private ["SH", "handleNotification"]
+- !private ["SH", "init"]
+- !private ["SH", "isCancelled"]
+- !private ["SH", "isFinished"]
+- !private ["SH", "name"]
+- !private ["SH", "update"]
+- ["8SideMenu18InitializableClassP", "AnimationCurve"]
+- !private ["8SideMenu18InitializableClassP", "NotificationCenter"]
+- !private ["8SideMenu18InitializableClassP", "UIApplication"]
+- ["8SideMenu18InitializableClassP", ""]
+- !private ["8SideMenu18InitializableClassP", "addObserver"]
+- !private ["8SideMenu18InitializableClassP", "cancel"]
+- !private ["8SideMenu18InitializableClassP", "completionCurve"]
+- !private ["8SideMenu18InitializableClassP", "default"]
+- !private ["8SideMenu18InitializableClassP", "didEnterBackgroundNotification"]
+- !private ["8SideMenu18InitializableClassP", "finish"]
+- !private ["8SideMenu18InitializableClassP", "handle"]
+- !private ["8SideMenu18InitializableClassP", "handleNotification"]
+- !private ["8SideMenu18InitializableClassP", "init"]
+- !private ["8SideMenu18InitializableClassP", "isCancelled"]
+- !private ["8SideMenu18InitializableClassP", "isFinished"]
+- !private ["8SideMenu18InitializableClassP", "name"]
+- !private ["8SideMenu18InitializableClassP", "update"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", "AnimationCurve"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So9NSCopyingP", "name"]
+- !private ["So14NSNotificationC", "name"]
+- ["So8NSObjectC", "AnimationCurve"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "NSNotification"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- ["So8NSObjectC", "State"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "addObserverForName"]
+- ["So8NSObjectC", "cancel"]
+- ["So8NSObjectC", "cancelInteractiveTransition"]
+- !private ["So8NSObjectC", "completionCurve"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "didEnterBackgroundNotification"]
+- ["So8NSObjectC", "finish"]
+- ["So8NSObjectC", "finishInteractiveTransition"]
+- ["So8NSObjectC", "handle"]
+- ["So8NSObjectC", "handleNotification"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isCancelled"]
+- ["So8NSObjectC", "isFinished"]
+- !private ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "update"]
+- ["So8NSObjectC", "updateInteractiveTransition"]
+- ["So8NSObjectP", "AnimationCurve"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", "NSNotification"]
+- !private ["So8NSObjectP", "NotificationCenter"]
+- ["So8NSObjectP", "State"]
+- !private ["So8NSObjectP", "UIApplication"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addObserver"]
+- !private ["So8NSObjectP", "addObserverForName"]
+- ["So8NSObjectP", "cancel"]
+- ["So8NSObjectP", "cancelInteractiveTransition"]
+- !private ["So8NSObjectP", "completionCurve"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "didEnterBackgroundNotification"]
+- ["So8NSObjectP", "finish"]
+- ["So8NSObjectP", "finishInteractiveTransition"]
+- ["So8NSObjectP", "handle"]
+- ["So8NSObjectP", "handleNotification"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isCancelled"]
+- ["So8NSObjectP", "isFinished"]
+- !private ["So8NSObjectP", "name"]
+- ["So8NSObjectP", "update"]
+- ["So8NSObjectP", "updateInteractiveTransition"]
+- !private ["So20NSNotificationCenterC", "addObserver"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["SY", "easeIn"]
+- !private ["ST", ""]
+- ["8SideMenu0aB21InteractionControllerC", "Bool"]
+- ["8SideMenu0aB21InteractionControllerC", "CGFloat"]
+- ["8SideMenu0aB21InteractionControllerC", "NSNotification"]
+- !private ["8SideMenu0aB21InteractionControllerC", "NotificationCenter"]
+- ["8SideMenu0aB21InteractionControllerC", "State"]
+- !private ["8SideMenu0aB21InteractionControllerC", "UIApplication"]
+- ["8SideMenu0aB21InteractionControllerC", "UIView"]
+- ["8SideMenu0aB21InteractionControllerC", ""]
+- ["8SideMenu0aB21InteractionControllerC", "cancel"]
+- !private ["8SideMenu0aB21InteractionControllerC", "completionCurve"]
+- ["8SideMenu0aB21InteractionControllerC", "deinit"]
+- ["8SideMenu0aB21InteractionControllerC", "finish"]
+- ["8SideMenu0aB21InteractionControllerC", "handle"]
+- !private ["8SideMenu0aB21InteractionControllerC", "handleNotification"]
+- ["8SideMenu0aB21InteractionControllerC", "init"]
+- ["8SideMenu0aB21InteractionControllerC", "isCancelled"]
+- ["8SideMenu0aB21InteractionControllerC", "isFinished"]
+- ["8SideMenu0aB21InteractionControllerC", "update"]
+- ["8SideMenu0aB21InteractionControllerC5StateO", "CGFloat"]
+- ["8SideMenu0aB21InteractionControllerC5StateO", "cancel"]
+- ["8SideMenu0aB21InteractionControllerC5StateO", "finish"]
+- ["8SideMenu0aB21InteractionControllerC5StateO", "update"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- ["So29UIAccessibilityIdentificationP", "AnimationCurve"]
+- ["So12UIAppearanceP", "AnimationCurve"]
+- ["So21UIAppearanceContainerP", "AnimationCurve"]
+- !private ["So13UIApplicationC", "didEnterBackgroundNotification"]
+- ["So17UICoordinateSpaceP", "AnimationCurve"]
+- ["So13UIDynamicItemP", "AnimationCurve"]
+- ["So18UIFocusEnvironmentP", "AnimationCurve"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So11UIFocusItemP", "AnimationCurve"]
+- ["So20UIFocusItemContainerP", "AnimationCurve"]
+- ["So24UILargeContentViewerItemP", "AnimationCurve"]
+- ["So30UIPasteConfigurationSupportingP", "AnimationCurve"]
+- !private ["So30UIPasteConfigurationSupportingP", "didEnterBackgroundNotification"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "Bool"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "CGFloat"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "NSNotification"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "NotificationCenter"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "State"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "UIApplication"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "UIView"]
+- ["So36UIPercentDrivenInteractiveTransitionC", ""]
+- ["So36UIPercentDrivenInteractiveTransitionC", "cancel"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "completionCurve"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "finish"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "handle"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "handleNotification"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "init"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "isCancelled"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "isFinished"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "update"]
+- ["So11UIResponderC", "AnimationCurve"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "didEnterBackgroundNotification"]
+- ["So30UIResponderStandardEditActionsP", "AnimationCurve"]
+- !private ["So30UIResponderStandardEditActionsP", "didEnterBackgroundNotification"]
+- ["So18UITraitEnvironmentP", "AnimationCurve"]
+- ["So23UIUserActivityRestoringP", "AnimationCurve"]
+- !private ["So23UIUserActivityRestoringP", "didEnterBackgroundNotification"]
+- ["So6UIViewC", "AnimationCurve"]
+- ["So40UIViewControllerInteractiveTransitioningP", "Bool"]
+- ["So40UIViewControllerInteractiveTransitioningP", "CGFloat"]
+- ["So40UIViewControllerInteractiveTransitioningP", "NSNotification"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "NotificationCenter"]
+- ["So40UIViewControllerInteractiveTransitioningP", "State"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "UIApplication"]
+- ["So40UIViewControllerInteractiveTransitioningP", "UIView"]
+- ["So40UIViewControllerInteractiveTransitioningP", ""]
+- ["So40UIViewControllerInteractiveTransitioningP", "cancel"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "completionCurve"]
+- ["So40UIViewControllerInteractiveTransitioningP", "finish"]
+- ["So40UIViewControllerInteractiveTransitioningP", "handle"]
+- ["So40UIViewControllerInteractiveTransitioningP", "handleNotification"]
+- ["So40UIViewControllerInteractiveTransitioningP", "init"]
+- ["So40UIViewControllerInteractiveTransitioningP", "isCancelled"]
+- ["So40UIViewControllerInteractiveTransitioningP", "isFinished"]
+- ["So40UIViewControllerInteractiveTransitioningP", "update"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "name"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AnimationCurve"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "completionCurve"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didEnterBackgroundNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finish"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isCancelled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFinished"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "update"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AnimationCurve"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NotificationCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "completionCurve"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didEnterBackgroundNotification"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "finish"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handleNotification"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isCancelled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isFinished"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "update"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "AnimationCurve"]
+depends-nominal:
+- !private "So20UIViewAnimationCurveV"
+- !private "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "8SideMenu18InitializableClassP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So14NSNotificationC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So20NSNotificationCenterC"
+- !private "SY"
+- !private "ST"
+- "8SideMenu0aB21InteractionControllerC"
+- "8SideMenu0aB21InteractionControllerC5StateO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So36UIPercentDrivenInteractiveTransitionC"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So40UIViewControllerInteractiveTransitioningP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Target Support Files/SideMenu/SideMenu-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SideMenu.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9f5e6d448cfd4141c5cd59243b5c34a4"

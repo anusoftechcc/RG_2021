@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "a9e6fa36c089763e056ec1959a3c9ccc"
+build_time: [1610991886, 122958000]
+inputs:
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift": [1609324482, 348697103]

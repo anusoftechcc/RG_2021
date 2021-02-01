@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "a5bea5aa30bde01c9263694be8260436"
+build_time: [1610991883, 710150000]
+inputs:
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FacebookCore/Sources/Core/AccessToken.swift": [1609324482, 873801284]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FacebookCore/Sources/Core/Dictionary+KeyValueMap.swift": [1609324482, 872238236]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FacebookCore/Sources/Core/FBProfilePictureView.swift": [1609324482, 874446845]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FacebookCore/Sources/Core/FBSDKCoreKit+Typealiases.swift": [1609324482, 871320836]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FacebookCore/Sources/Core/Permission.swift": [1609324482, 870617768]
+  "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/FacebookCore/Sources/Core/Settings.swift": [1609324482, 875306966]

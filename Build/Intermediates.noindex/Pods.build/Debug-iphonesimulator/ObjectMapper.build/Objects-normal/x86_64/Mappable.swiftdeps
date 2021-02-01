@@ -1,0 +1,192 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseMappable"
+- "Mappable"
+- "StaticMappable"
+provides-nominal:
+- "12ObjectMapper12BaseMappableP"
+- "12ObjectMapper8MappableP"
+- "12ObjectMapper14StaticMappableP"
+provides-member:
+- ["12ObjectMapper12BaseMappableP", ""]
+- ["12ObjectMapper8MappableP", ""]
+- ["12ObjectMapper14StaticMappableP", ""]
+- ["Sa", ""]
+- ["Sh", ""]
+- ["12ObjectMapper8MappableP", "init"]
+- ["12ObjectMapper8MappableP", "init"]
+- ["12ObjectMapper12BaseMappableP", "toJSON"]
+- ["12ObjectMapper12BaseMappableP", "toJSONString"]
+- ["Sa", "init"]
+- ["Sa", "init"]
+- ["Sa", "toJSON"]
+- ["Sa", "toJSONString"]
+- ["Sh", "init"]
+- ["Sh", "init"]
+- ["Sh", "toJSON"]
+- ["Sh", "toJSONString"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "AssignmentPrecedence"
+- "BaseMappable"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Element"
+- "Map"
+- "MapContext"
+- "Mappable"
+- !private "Mapper"
+- "Self"
+- "Set"
+- "StaticMappable"
+- "String"
+depends-member:
+- ["Sa", "BaseMappable"]
+- ["Sa", "Bool"]
+- ["Sa", "MapContext"]
+- !private ["Sa", "Mapper"]
+- ["Sa", "String"]
+- ["Sa", ""]
+- ["Sa", "init"]
+- ["Sa", "toJSON"]
+- ["Sa", "toJSONString"]
+- ["12ObjectMapper12BaseMappableP", "BaseMappable"]
+- ["12ObjectMapper12BaseMappableP", "Bool"]
+- ["12ObjectMapper12BaseMappableP", "Map"]
+- ["12ObjectMapper12BaseMappableP", "MapContext"]
+- !private ["12ObjectMapper12BaseMappableP", "Mapper"]
+- ["12ObjectMapper12BaseMappableP", "String"]
+- ["12ObjectMapper12BaseMappableP", ""]
+- ["12ObjectMapper12BaseMappableP", "init"]
+- ["12ObjectMapper12BaseMappableP", "mapping"]
+- ["12ObjectMapper12BaseMappableP", "objectForMapping"]
+- ["12ObjectMapper12BaseMappableP", "toJSON"]
+- ["12ObjectMapper12BaseMappableP", "toJSONString"]
+- !private ["SK", "Mapper"]
+- !private ["SK", ""]
+- !private ["s7CVarArgP", "Mapper"]
+- !private ["Sl", "Mapper"]
+- !private ["Sl", ""]
+- !private ["10Foundation15ContiguousBytesP", "Mapper"]
+- !private ["s28CustomDebugStringConvertibleP", "Mapper"]
+- !private ["s17CustomReflectableP", "Mapper"]
+- !private ["s23CustomStringConvertibleP", "Mapper"]
+- !private ["10Foundation12DataProtocolP", "Mapper"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["Se", "Mapper"]
+- !private ["SE", "Mapper"]
+- !private ["SQ", "Mapper"]
+- !private ["SQ", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "Mapper"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["SH", "Mapper"]
+- ["12ObjectMapper8MappableP", "Map"]
+- ["12ObjectMapper8MappableP", "MapContext"]
+- !private ["12ObjectMapper8MappableP", "Mapper"]
+- ["12ObjectMapper8MappableP", "String"]
+- ["12ObjectMapper8MappableP", ""]
+- ["12ObjectMapper8MappableP", "init"]
+- !private ["12ObjectMapper0B0C", "init"]
+- !private ["12ObjectMapper0B0C", "map"]
+- !private ["12ObjectMapper0B0C", "mapArray"]
+- !private ["12ObjectMapper0B0C", "mapSet"]
+- !private ["12ObjectMapper0B0C", "toJSON"]
+- !private ["12ObjectMapper0B0C", "toJSONArray"]
+- !private ["12ObjectMapper0B0C", "toJSONSet"]
+- !private ["12ObjectMapper0B0C", "toJSONString"]
+- !private ["SM", "Mapper"]
+- !private ["SM", ""]
+- !private ["10Foundation19MutableDataProtocolP", "Mapper"]
+- !private ["Sk", "Mapper"]
+- !private ["Sk", ""]
+- !private ["Sm", "Mapper"]
+- !private ["Sm", ""]
+- !private ["ST", "Mapper"]
+- !private ["ST", ""]
+- ["Sh", "BaseMappable"]
+- ["Sh", "Bool"]
+- ["Sh", "MapContext"]
+- !private ["Sh", "Mapper"]
+- !private ["Sh", "Set"]
+- ["Sh", "String"]
+- ["Sh", ""]
+- ["Sh", "init"]
+- ["Sh", "toJSON"]
+- ["Sh", "toJSONString"]
+- !private ["s10SetAlgebraP", "Mapper"]
+- ["12ObjectMapper14StaticMappableP", "BaseMappable"]
+- ["12ObjectMapper14StaticMappableP", "Map"]
+- ["12ObjectMapper14StaticMappableP", "objectForMapping"]
+- !private ["s14_ArrayProtocolP", "Mapper"]
+- !private ["s24_DestructorSafeContainerP", "Mapper"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "Mapper"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Mapper"]
+- !private ["s21_ObjectiveCBridgeableP", "Mapper"]
+depends-nominal:
+- "Sa"
+- "12ObjectMapper12BaseMappableP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- "12ObjectMapper8MappableP"
+- !private "12ObjectMapper0B0C"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- "Sh"
+- !private "s10SetAlgebraP"
+- "12ObjectMapper14StaticMappableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ObjectMapper.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f01bd561fbaa25dced23144b7dff5475"

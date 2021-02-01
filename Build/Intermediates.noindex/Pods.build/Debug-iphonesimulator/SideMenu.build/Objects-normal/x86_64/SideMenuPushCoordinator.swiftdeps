@@ -1,0 +1,666 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CoordinatorModel"
+- "Coordinator"
+- "SideMenuPushCoordinator"
+provides-nominal:
+- "8SideMenu16CoordinatorModelP"
+- "8SideMenu11CoordinatorP"
+- "8SideMenu0aB15PushCoordinatorC"
+- "8SideMenu0aB15PushCoordinatorC5ModelV"
+provides-member:
+- ["8SideMenu16CoordinatorModelP", ""]
+- ["8SideMenu11CoordinatorP", ""]
+- ["8SideMenu0aB15PushCoordinatorC", ""]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", ""]
+provides-dynamic-lookup:
+- "config"
+- "start"
+depends-top-level:
+- !private "!"
+- !private "!="
+- "!=="
+- !private "&&"
+- "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CATransaction"
+- "CastingPrecedence"
+- "Coordinator"
+- "CoordinatorModel"
+- "Model"
+- !private "Print"
+- "SideMenuPushCoordinator"
+- "SideMenuPushStyle"
+- !private "String"
+- "UINavigationController"
+- "UISplitViewController"
+- "UITabBarController"
+- !private "UIView"
+- "UIViewController"
+- "Void"
+- !private "config"
+- "type"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "last"]
+- !private ["Sa", "reversed"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "reversed"]
+- !private ["So15CALayerDelegateP", "animationsEnabled"]
+- !private ["So13CATransactionC", "begin"]
+- !private ["So13CATransactionC", "commit"]
+- !private ["s7CVarArgP", "animationsEnabled"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "begin"]
+- !private ["s7CVarArgP", "commit"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "hidesBackButton"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "popToViewController"]
+- !private ["s7CVarArgP", "presentingViewController"]
+- !private ["s7CVarArgP", "pushViewController"]
+- !private ["s7CVarArgP", "reversed"]
+- !private ["s7CVarArgP", "selectedViewController"]
+- !private ["s7CVarArgP", "setViewControllers"]
+- !private ["s7CVarArgP", "viewControllers"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "reversed"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["10Foundation15ContiguousBytesP", "reversed"]
+- ["8SideMenu11CoordinatorP", "Bool"]
+- !private ["8SideMenu11CoordinatorP", "CATransaction"]
+- ["8SideMenu11CoordinatorP", "CoordinatorModel"]
+- ["8SideMenu11CoordinatorP", "Model"]
+- !private ["8SideMenu11CoordinatorP", "Print"]
+- !private ["8SideMenu11CoordinatorP", "String"]
+- !private ["8SideMenu11CoordinatorP", "UIView"]
+- ["8SideMenu11CoordinatorP", ""]
+- !private ["8SideMenu11CoordinatorP", "config"]
+- ["8SideMenu11CoordinatorP", "init"]
+- ["8SideMenu11CoordinatorP", "start"]
+- !private ["8SideMenu11CoordinatorP", "type"]
+- ["8SideMenu16CoordinatorModelP", "Bool"]
+- ["8SideMenu16CoordinatorModelP", "UIViewController"]
+- ["8SideMenu16CoordinatorModelP", ""]
+- !private ["8SideMenu16CoordinatorModelP", "allowPushOfSameClassTwice"]
+- !private ["8SideMenu16CoordinatorModelP", "alongsideTransition"]
+- ["8SideMenu16CoordinatorModelP", "animated"]
+- ["8SideMenu16CoordinatorModelP", "fromViewController"]
+- !private ["8SideMenu16CoordinatorModelP", "pushStyle"]
+- ["8SideMenu16CoordinatorModelP", "toViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "animationsEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "begin"]
+- !private ["s28CustomDebugStringConvertibleP", "commit"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "hidesBackButton"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "popToViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "presentingViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "setViewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "viewControllers"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "animationsEnabled"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "begin"]
+- !private ["s23CustomStringConvertibleP", "commit"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "hidesBackButton"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "popToViewController"]
+- !private ["s23CustomStringConvertibleP", "presentingViewController"]
+- !private ["s23CustomStringConvertibleP", "pushViewController"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "selectedViewController"]
+- !private ["s23CustomStringConvertibleP", "setViewControllers"]
+- !private ["s23CustomStringConvertibleP", "viewControllers"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["10Foundation12DataProtocolP", "reversed"]
+- !private ["Se", "append"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "reversed"]
+- !private ["SE", "append"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "reversed"]
+- !private ["SQ", "RawValue"]
+- ["SQ", ""]
+- !private ["SQ", "animationsEnabled"]
+- !private ["SQ", "append"]
+- !private ["SQ", "begin"]
+- !private ["SQ", "cannotPush"]
+- !private ["SQ", "commit"]
+- ["SQ", "default"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "hidesBackButton"]
+- !private ["SQ", "init"]
+- !private ["SQ", "last"]
+- !private ["SQ", "navigationItem"]
+- !private ["SQ", "popToViewController"]
+- ["SQ", "popWhenPossible"]
+- !private ["SQ", "presentingViewController"]
+- ["SQ", "preserve"]
+- ["SQ", "preserveAndHideBackButton"]
+- !private ["SQ", "pushViewController"]
+- ["SQ", "replace"]
+- !private ["SQ", "reversed"]
+- !private ["SQ", "selectedViewController"]
+- !private ["SQ", "setViewControllers"]
+- ["SQ", "subMenu"]
+- !private ["SQ", "viewControllers"]
+- !private ["SQ", "warning"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "reversed"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "animationsEnabled"]
+- !private ["SH", "append"]
+- !private ["SH", "begin"]
+- !private ["SH", "cannotPush"]
+- !private ["SH", "commit"]
+- ["SH", "default"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "hidesBackButton"]
+- !private ["SH", "init"]
+- !private ["SH", "last"]
+- !private ["SH", "navigationItem"]
+- !private ["SH", "popToViewController"]
+- ["SH", "popWhenPossible"]
+- !private ["SH", "presentingViewController"]
+- ["SH", "preserve"]
+- ["SH", "preserveAndHideBackButton"]
+- !private ["SH", "pushViewController"]
+- ["SH", "replace"]
+- !private ["SH", "reversed"]
+- !private ["SH", "selectedViewController"]
+- !private ["SH", "setViewControllers"]
+- ["SH", "subMenu"]
+- !private ["SH", "viewControllers"]
+- !private ["SH", "warning"]
+- !private ["8SideMenu18InitializableClassP", "animationsEnabled"]
+- !private ["8SideMenu18InitializableClassP", "begin"]
+- !private ["8SideMenu18InitializableClassP", "commit"]
+- !private ["8SideMenu18InitializableClassP", "hidesBackButton"]
+- !private ["8SideMenu18InitializableClassP", "navigationItem"]
+- !private ["8SideMenu18InitializableClassP", "popToViewController"]
+- !private ["8SideMenu18InitializableClassP", "presentingViewController"]
+- !private ["8SideMenu18InitializableClassP", "pushViewController"]
+- !private ["8SideMenu18InitializableClassP", "selectedViewController"]
+- !private ["8SideMenu18InitializableClassP", "setViewControllers"]
+- !private ["8SideMenu18InitializableClassP", "viewControllers"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", "Bool"]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", "SideMenuPushStyle"]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", "UIViewController"]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", "Void"]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", ""]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", "allowPushOfSameClassTwice"]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", "alongsideTransition"]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", "animated"]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", "fromViewController"]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", "init"]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", "pushStyle"]
+- ["8SideMenu0aB15PushCoordinatorC5ModelV", "toViewController"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["SM", "last"]
+- !private ["SM", "reversed"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "reversed"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "animationsEnabled"]
+- !private ["So8NSCodingP", "hidesBackButton"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "popToViewController"]
+- !private ["So8NSCodingP", "presentingViewController"]
+- !private ["So8NSCodingP", "pushViewController"]
+- !private ["So8NSCodingP", "selectedViewController"]
+- !private ["So8NSCodingP", "setViewControllers"]
+- !private ["So8NSCodingP", "viewControllers"]
+- !private ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "popToViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "presentingViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "selectedViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "setViewControllers"]
+- !private ["So26NSExtensionRequestHandlingP", "viewControllers"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "animationsEnabled"]
+- !private ["So8NSObjectC", "begin"]
+- !private ["So8NSObjectC", "commit"]
+- !private ["So8NSObjectC", "hidesBackButton"]
+- !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "popToViewController"]
+- !private ["So8NSObjectC", "presentingViewController"]
+- !private ["So8NSObjectC", "pushViewController"]
+- !private ["So8NSObjectC", "selectedViewController"]
+- !private ["So8NSObjectC", "setViewControllers"]
+- !private ["So8NSObjectC", "viewControllers"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "animationsEnabled"]
+- !private ["So8NSObjectP", "begin"]
+- !private ["So8NSObjectP", "commit"]
+- !private ["So8NSObjectP", "hidesBackButton"]
+- !private ["So8NSObjectP", "navigationItem"]
+- !private ["So8NSObjectP", "popToViewController"]
+- !private ["So8NSObjectP", "presentingViewController"]
+- !private ["So8NSObjectP", "pushViewController"]
+- !private ["So8NSObjectP", "selectedViewController"]
+- !private ["So8NSObjectP", "setViewControllers"]
+- !private ["So8NSObjectP", "viewControllers"]
+- !private ["8SideMenu5PrintO", "cannotPush"]
+- !private ["8SideMenu5PrintO", "warning"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sk", "last"]
+- !private ["Sk", "reversed"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["Sm", "reversed"]
+- !private ["SY", "RawValue"]
+- !private ["SY", "cannotPush"]
+- ["SY", "default"]
+- !private ["SY", "hidesBackButton"]
+- ["SY", "popWhenPossible"]
+- ["SY", "preserve"]
+- ["SY", "preserveAndHideBackButton"]
+- ["SY", "replace"]
+- ["SY", "subMenu"]
+- !private ["SY", "warning"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "reversed"]
+- ["8SideMenu0aB15PushCoordinatorC", "Bool"]
+- !private ["8SideMenu0aB15PushCoordinatorC", "CATransaction"]
+- ["8SideMenu0aB15PushCoordinatorC", "CoordinatorModel"]
+- ["8SideMenu0aB15PushCoordinatorC", "Model"]
+- !private ["8SideMenu0aB15PushCoordinatorC", "Print"]
+- ["8SideMenu0aB15PushCoordinatorC", "SideMenuPushStyle"]
+- !private ["8SideMenu0aB15PushCoordinatorC", "String"]
+- !private ["8SideMenu0aB15PushCoordinatorC", "UINavigationController"]
+- !private ["8SideMenu0aB15PushCoordinatorC", "UISplitViewController"]
+- !private ["8SideMenu0aB15PushCoordinatorC", "UITabBarController"]
+- !private ["8SideMenu0aB15PushCoordinatorC", "UIView"]
+- ["8SideMenu0aB15PushCoordinatorC", "UIViewController"]
+- ["8SideMenu0aB15PushCoordinatorC", "Void"]
+- ["8SideMenu0aB15PushCoordinatorC", ""]
+- !private ["8SideMenu0aB15PushCoordinatorC", "config"]
+- ["8SideMenu0aB15PushCoordinatorC", "deinit"]
+- ["8SideMenu0aB15PushCoordinatorC", "init"]
+- ["8SideMenu0aB15PushCoordinatorC", "start"]
+- !private ["8SideMenu0aB15PushCoordinatorC", "type"]
+- !private ["8SideMenu0aB9PushStyleO", "RawValue"]
+- !private ["8SideMenu0aB9PushStyleO", ""]
+- ["8SideMenu0aB9PushStyleO", "default"]
+- !private ["8SideMenu0aB9PushStyleO", "hidesBackButton"]
+- ["8SideMenu0aB9PushStyleO", "popWhenPossible"]
+- ["8SideMenu0aB9PushStyleO", "preserve"]
+- ["8SideMenu0aB9PushStyleO", "preserveAndHideBackButton"]
+- ["8SideMenu0aB9PushStyleO", "replace"]
+- ["8SideMenu0aB9PushStyleO", "subMenu"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "animationsEnabled"]
+- !private ["So12UIAppearanceP", "animationsEnabled"]
+- !private ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "animationsEnabled"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "popToViewController"]
+- !private ["So21UIAppearanceContainerP", "presentingViewController"]
+- !private ["So21UIAppearanceContainerP", "pushViewController"]
+- !private ["So21UIAppearanceContainerP", "selectedViewController"]
+- !private ["So21UIAppearanceContainerP", "setViewControllers"]
+- !private ["So21UIAppearanceContainerP", "viewControllers"]
+- !private ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "popToViewController"]
+- !private ["So18UIContentContainerP", "presentingViewController"]
+- !private ["So18UIContentContainerP", "pushViewController"]
+- !private ["So18UIContentContainerP", "selectedViewController"]
+- !private ["So18UIContentContainerP", "setViewControllers"]
+- !private ["So18UIContentContainerP", "viewControllers"]
+- !private ["So17UICoordinateSpaceP", "animationsEnabled"]
+- !private ["So13UIDynamicItemP", "animationsEnabled"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "animationsEnabled"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "popToViewController"]
+- !private ["So18UIFocusEnvironmentP", "presentingViewController"]
+- !private ["So18UIFocusEnvironmentP", "pushViewController"]
+- !private ["So18UIFocusEnvironmentP", "selectedViewController"]
+- !private ["So18UIFocusEnvironmentP", "setViewControllers"]
+- !private ["So18UIFocusEnvironmentP", "viewControllers"]
+- !private ["So11UIFocusItemP", "animationsEnabled"]
+- !private ["So20UIFocusItemContainerP", "animationsEnabled"]
+- !private ["So24UILargeContentViewerItemP", "animationsEnabled"]
+- !private ["So22UINavigationControllerC", "popToViewController"]
+- !private ["So22UINavigationControllerC", "presentingViewController"]
+- !private ["So22UINavigationControllerC", "pushViewController"]
+- !private ["So22UINavigationControllerC", "setViewControllers"]
+- !private ["So22UINavigationControllerC", "viewControllers"]
+- !private ["So16UINavigationItemC", "hidesBackButton"]
+- !private ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "animationsEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "popToViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentingViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "setViewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "animationsEnabled"]
+- !private ["So11UIResponderC", "navigationItem"]
+- !private ["So11UIResponderC", "popToViewController"]
+- !private ["So11UIResponderC", "presentingViewController"]
+- !private ["So11UIResponderC", "pushViewController"]
+- !private ["So11UIResponderC", "selectedViewController"]
+- !private ["So11UIResponderC", "setViewControllers"]
+- !private ["So11UIResponderC", "viewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "animationsEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "popToViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "presentingViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "setViewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "viewControllers"]
+- !private ["So21UISplitViewControllerC", "viewControllers"]
+- !private ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "popToViewController"]
+- !private ["So16UIStateRestoringP", "presentingViewController"]
+- !private ["So16UIStateRestoringP", "pushViewController"]
+- !private ["So16UIStateRestoringP", "selectedViewController"]
+- !private ["So16UIStateRestoringP", "setViewControllers"]
+- !private ["So16UIStateRestoringP", "viewControllers"]
+- !private ["So18UITabBarControllerC", "selectedViewController"]
+- !private ["So16UITabBarDelegateP", "selectedViewController"]
+- !private ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "animationsEnabled"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "popToViewController"]
+- !private ["So18UITraitEnvironmentP", "presentingViewController"]
+- !private ["So18UITraitEnvironmentP", "pushViewController"]
+- !private ["So18UITraitEnvironmentP", "selectedViewController"]
+- !private ["So18UITraitEnvironmentP", "setViewControllers"]
+- !private ["So18UITraitEnvironmentP", "viewControllers"]
+- !private ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "animationsEnabled"]
+- !private ["So23UIUserActivityRestoringP", "navigationItem"]
+- !private ["So23UIUserActivityRestoringP", "popToViewController"]
+- !private ["So23UIUserActivityRestoringP", "presentingViewController"]
+- !private ["So23UIUserActivityRestoringP", "pushViewController"]
+- !private ["So23UIUserActivityRestoringP", "selectedViewController"]
+- !private ["So23UIUserActivityRestoringP", "setViewControllers"]
+- !private ["So23UIUserActivityRestoringP", "viewControllers"]
+- !private ["So6UIViewC", "animationsEnabled"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- !private ["So16UIViewControllerC", "popToViewController"]
+- !private ["So16UIViewControllerC", "presentingViewController"]
+- !private ["So16UIViewControllerC", "pushViewController"]
+- !private ["So16UIViewControllerC", "selectedViewController"]
+- !private ["So16UIViewControllerC", "setViewControllers"]
+- !private ["So16UIViewControllerC", "viewControllers"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "reversed"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "reversed"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s19_HasContiguousBytesP", "reversed"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reversed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animationsEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "begin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "commit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hidesBackButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popToViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentingViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setViewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewControllers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animationsEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "begin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "commit"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hidesBackButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "popToViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "presentingViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pushViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selectedViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setViewControllers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewControllers"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "reversed"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "animationsEnabled"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- !private "So13CATransactionC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "8SideMenu11CoordinatorP"
+- "8SideMenu16CoordinatorModelP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "8SideMenu18InitializableClassP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "8SideMenu0aB15PushCoordinatorC5ModelV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "8SideMenu5PrintO"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- "8SideMenu0aB15PushCoordinatorC"
+- "8SideMenu0aB9PushStyleO"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So22UINavigationControllerC"
+- !private "So16UINavigationItemC"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So21UISplitViewControllerC"
+- !private "So16UIStateRestoringP"
+- !private "So18UITabBarControllerC"
+- !private "So16UITabBarDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Pods/Target Support Files/SideMenu/SideMenu-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master-2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SideMenu.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d960f7898ba4083ddce1c7698ce178ab"

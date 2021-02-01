@@ -1,0 +1,1706 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EditPlayerScoreVC"
+provides-nominal:
+- "9Golf_Putz17EditPlayerScoreVCC"
+provides-member:
+- ["9Golf_Putz17EditPlayerScoreVCC", ""]
+provides-dynamic-lookup:
+- "customerId"
+- "gameId"
+- "hole"
+- "holeCount"
+- "mainView"
+- "name"
+- "par"
+- "parCount"
+- "playerName"
+- "score"
+- "scoreDWBtn"
+- "scoreDWBtnTapped"
+- "scoreValues"
+- "scoresArray"
+- "submitBtnTapped"
+- "viewDidLoad"
+depends-top-level:
+- "+"
+- !private "..."
+- !private "=="
+- !private ">"
+- !private "??"
+- "AnyObject"
+- !private "ApiCall"
+- "AssignmentPrecedence"
+- "BaseViewController"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "EditPlayerScoreVC"
+- !private "FTCellConfiguration"
+- !private "FTConfiguration"
+- !private "FTPopOverMenu"
+- "FloatLiteralType"
+- !private "Int"
+- "IntegerLiteralType"
+- !private "MyStrings"
+- "NSArray"
+- "NSNumber"
+- !private "NSTextAlignment"
+- "Parameters"
+- "String"
+- !private "StringLiteralType"
+- !private "UIBarButtonItem"
+- "UIButton"
+- !private "UIColor"
+- "UILabel"
+- "UIView"
+- !private "UnicodeScalarType"
+- !private "customerId"
+- !private "gameId"
+- !private "hole"
+- !private "name"
+- !private "par"
+- "print"
+- !private "score"
+- !private "scoreDWBtn"
+- !private "scoreValues"
+- !private "scoresArray"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["9Golf_Putz7ApiCallC", "sendRequest"]
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["9Golf_Putz18BaseViewControllerC", "AnyObject"]
+- !private ["9Golf_Putz18BaseViewControllerC", "ApiCall"]
+- !private ["9Golf_Putz18BaseViewControllerC", "FTCellConfiguration"]
+- !private ["9Golf_Putz18BaseViewControllerC", "FTConfiguration"]
+- !private ["9Golf_Putz18BaseViewControllerC", "FTPopOverMenu"]
+- !private ["9Golf_Putz18BaseViewControllerC", "Int"]
+- !private ["9Golf_Putz18BaseViewControllerC", "MyStrings"]
+- ["9Golf_Putz18BaseViewControllerC", "NSArray"]
+- ["9Golf_Putz18BaseViewControllerC", "NSNumber"]
+- !private ["9Golf_Putz18BaseViewControllerC", "NSTextAlignment"]
+- !private ["9Golf_Putz18BaseViewControllerC", "Parameters"]
+- ["9Golf_Putz18BaseViewControllerC", "String"]
+- !private ["9Golf_Putz18BaseViewControllerC", "UIBarButtonItem"]
+- ["9Golf_Putz18BaseViewControllerC", "UIButton"]
+- !private ["9Golf_Putz18BaseViewControllerC", "UIColor"]
+- ["9Golf_Putz18BaseViewControllerC", "UILabel"]
+- ["9Golf_Putz18BaseViewControllerC", "UIView"]
+- ["9Golf_Putz18BaseViewControllerC", ""]
+- ["9Golf_Putz18BaseViewControllerC", "customerId"]
+- !private ["9Golf_Putz18BaseViewControllerC", "errorAlert"]
+- ["9Golf_Putz18BaseViewControllerC", "gameId"]
+- ["9Golf_Putz18BaseViewControllerC", "hole"]
+- ["9Golf_Putz18BaseViewControllerC", "holeCount"]
+- ["9Golf_Putz18BaseViewControllerC", "init"]
+- ["9Golf_Putz18BaseViewControllerC", "mainView"]
+- ["9Golf_Putz18BaseViewControllerC", "name"]
+- !private ["9Golf_Putz18BaseViewControllerC", "navigationController"]
+- !private ["9Golf_Putz18BaseViewControllerC", "navigationItem"]
+- ["9Golf_Putz18BaseViewControllerC", "par"]
+- ["9Golf_Putz18BaseViewControllerC", "parCount"]
+- ["9Golf_Putz18BaseViewControllerC", "playerName"]
+- !private ["9Golf_Putz18BaseViewControllerC", "print"]
+- ["9Golf_Putz18BaseViewControllerC", "score"]
+- ["9Golf_Putz18BaseViewControllerC", "scoreDWBtn"]
+- ["9Golf_Putz18BaseViewControllerC", "scoreDWBtnTapped"]
+- ["9Golf_Putz18BaseViewControllerC", "scoreValues"]
+- ["9Golf_Putz18BaseViewControllerC", "scoresArray"]
+- !private ["9Golf_Putz18BaseViewControllerC", "startLoadingIndicator"]
+- ["9Golf_Putz18BaseViewControllerC", "submitBtnTapped"]
+- !private ["9Golf_Putz18BaseViewControllerC", "title"]
+- ["9Golf_Putz18BaseViewControllerC", "viewDidLoad"]
+- ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["So15CALayerDelegateP", "setTitle"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "titleLabel"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "append"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "count"]
+- ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- !private ["s7CVarArgP", "ApiCall"]
+- !private ["s7CVarArgP", "FTCellConfiguration"]
+- !private ["s7CVarArgP", "FTConfiguration"]
+- !private ["s7CVarArgP", "FTPopOverMenu"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "MyStrings"]
+- !private ["s7CVarArgP", "NSTextAlignment"]
+- ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIBarButtonItem"]
+- !private ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "backBarButtonItem"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "customerId"]
+- !private ["s7CVarArgP", "errorAlert"]
+- !private ["s7CVarArgP", "gameId"]
+- !private ["s7CVarArgP", "hole"]
+- !private ["s7CVarArgP", "holeCount"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSuccess"]
+- !private ["s7CVarArgP", "lightGray"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "par"]
+- !private ["s7CVarArgP", "parCount"]
+- !private ["s7CVarArgP", "playerName"]
+- !private ["s7CVarArgP", "popViewController"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "score"]
+- !private ["s7CVarArgP", "scoreDWBtn"]
+- !private ["s7CVarArgP", "scoreDWBtnTapped"]
+- !private ["s7CVarArgP", "scoreValues"]
+- !private ["s7CVarArgP", "scoresArray"]
+- !private ["s7CVarArgP", "sendRequest"]
+- !private ["s7CVarArgP", "setTitle"]
+- !private ["s7CVarArgP", "showForSender"]
+- !private ["s7CVarArgP", "startLoadingIndicator"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "systemFont"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textAlignment"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "textFont"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "titleLabel"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "white"]
+- ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "count"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "ApiCall"]
+- !private ["s28CustomDebugStringConvertibleP", "FTCellConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "FTConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "FTPopOverMenu"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "MyStrings"]
+- !private ["s28CustomDebugStringConvertibleP", "NSTextAlignment"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "backBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "customerId"]
+- !private ["s28CustomDebugStringConvertibleP", "errorAlert"]
+- !private ["s28CustomDebugStringConvertibleP", "gameId"]
+- !private ["s28CustomDebugStringConvertibleP", "hole"]
+- !private ["s28CustomDebugStringConvertibleP", "holeCount"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSuccess"]
+- !private ["s28CustomDebugStringConvertibleP", "lightGray"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "par"]
+- !private ["s28CustomDebugStringConvertibleP", "parCount"]
+- !private ["s28CustomDebugStringConvertibleP", "playerName"]
+- !private ["s28CustomDebugStringConvertibleP", "popViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "score"]
+- !private ["s28CustomDebugStringConvertibleP", "scoreDWBtn"]
+- !private ["s28CustomDebugStringConvertibleP", "scoreDWBtnTapped"]
+- !private ["s28CustomDebugStringConvertibleP", "scoreValues"]
+- !private ["s28CustomDebugStringConvertibleP", "scoresArray"]
+- !private ["s28CustomDebugStringConvertibleP", "sendRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "setTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "showForSender"]
+- !private ["s28CustomDebugStringConvertibleP", "startLoadingIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "systemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textAlignment"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "textFont"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "titleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "setTitle"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s17CustomReflectableP", "titleLabel"]
+- !private ["s23CustomStringConvertibleP", "ApiCall"]
+- !private ["s23CustomStringConvertibleP", "FTCellConfiguration"]
+- !private ["s23CustomStringConvertibleP", "FTConfiguration"]
+- !private ["s23CustomStringConvertibleP", "FTPopOverMenu"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "MyStrings"]
+- !private ["s23CustomStringConvertibleP", "NSTextAlignment"]
+- ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "backBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "customerId"]
+- !private ["s23CustomStringConvertibleP", "errorAlert"]
+- !private ["s23CustomStringConvertibleP", "gameId"]
+- !private ["s23CustomStringConvertibleP", "hole"]
+- !private ["s23CustomStringConvertibleP", "holeCount"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSuccess"]
+- !private ["s23CustomStringConvertibleP", "lightGray"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "par"]
+- !private ["s23CustomStringConvertibleP", "parCount"]
+- !private ["s23CustomStringConvertibleP", "playerName"]
+- !private ["s23CustomStringConvertibleP", "popViewController"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "score"]
+- !private ["s23CustomStringConvertibleP", "scoreDWBtn"]
+- !private ["s23CustomStringConvertibleP", "scoreDWBtnTapped"]
+- !private ["s23CustomStringConvertibleP", "scoreValues"]
+- !private ["s23CustomStringConvertibleP", "scoresArray"]
+- !private ["s23CustomStringConvertibleP", "sendRequest"]
+- !private ["s23CustomStringConvertibleP", "setTitle"]
+- !private ["s23CustomStringConvertibleP", "showForSender"]
+- !private ["s23CustomStringConvertibleP", "startLoadingIndicator"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "systemFont"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textAlignment"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "textFont"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "titleLabel"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "setTitle"]
+- !private ["Se", "subscript"]
+- !private ["Se", "text"]
+- !private ["Se", "titleLabel"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "AnyObject"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "ApiCall"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "FTCellConfiguration"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "FTConfiguration"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "FTPopOverMenu"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "Int"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "MyStrings"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "NSArray"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "NSNumber"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "NSTextAlignment"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "Parameters"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "String"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "UIBarButtonItem"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "UIButton"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "UIColor"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "UILabel"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "UIView"]
+- ["9Golf_Putz17EditPlayerScoreVCC", ""]
+- ["9Golf_Putz17EditPlayerScoreVCC", "customerId"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "deinit"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "errorAlert"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "gameId"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "hole"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "holeCount"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "init"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "mainView"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "name"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "navigationController"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "navigationItem"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "par"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "parCount"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "playerName"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "print"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "score"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "scoreDWBtn"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "scoreDWBtnTapped"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "scoreValues"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "scoresArray"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "startLoadingIndicator"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "submitBtnTapped"]
+- !private ["9Golf_Putz17EditPlayerScoreVCC", "title"]
+- ["9Golf_Putz17EditPlayerScoreVCC", "viewDidLoad"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "setTitle"]
+- !private ["SE", "subscript"]
+- !private ["SE", "text"]
+- !private ["SE", "titleLabel"]
+- !private ["SQ", "ApiCall"]
+- !private ["SQ", "FTCellConfiguration"]
+- !private ["SQ", "FTConfiguration"]
+- !private ["SQ", "FTPopOverMenu"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "MyStrings"]
+- !private ["SQ", "NSTextAlignment"]
+- ["SQ", "String"]
+- !private ["SQ", "UIBarButtonItem"]
+- !private ["SQ", "UIColor"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "backBarButtonItem"]
+- !private ["SQ", "center"]
+- !private ["SQ", "count"]
+- !private ["SQ", "customerId"]
+- !private ["SQ", "errorAlert"]
+- !private ["SQ", "gameId"]
+- !private ["SQ", "hole"]
+- !private ["SQ", "holeCount"]
+- ["SQ", "init"]
+- !private ["SQ", "isSuccess"]
+- !private ["SQ", "lightGray"]
+- !private ["SQ", "name"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "navigationItem"]
+- !private ["SQ", "normal"]
+- !private ["SQ", "par"]
+- !private ["SQ", "parCount"]
+- !private ["SQ", "plain"]
+- !private ["SQ", "playerName"]
+- !private ["SQ", "popViewController"]
+- !private ["SQ", "print"]
+- !private ["SQ", "score"]
+- !private ["SQ", "scoreDWBtn"]
+- !private ["SQ", "scoreDWBtnTapped"]
+- !private ["SQ", "scoreValues"]
+- !private ["SQ", "scoresArray"]
+- !private ["SQ", "sendRequest"]
+- !private ["SQ", "setTitle"]
+- !private ["SQ", "showForSender"]
+- !private ["SQ", "startLoadingIndicator"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "systemFont"]
+- !private ["SQ", "text"]
+- !private ["SQ", "textAlignment"]
+- !private ["SQ", "textColor"]
+- !private ["SQ", "textFont"]
+- !private ["SQ", "title"]
+- !private ["SQ", "titleLabel"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "white"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "setTitle"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s23ExpressibleByNilLiteralP", "titleLabel"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["19FTPopOverMenu_Swift19FTCellConfigurationC", "init"]
+- !private ["19FTPopOverMenu_Swift19FTCellConfigurationC", "textAlignment"]
+- !private ["19FTPopOverMenu_Swift19FTCellConfigurationC", "textColor"]
+- !private ["19FTPopOverMenu_Swift19FTCellConfigurationC", "textFont"]
+- !private ["19FTPopOverMenu_Swift15FTConfigurationC", "backgoundTintColor"]
+- !private ["19FTPopOverMenu_Swift15FTConfigurationC", "borderColor"]
+- !private ["19FTPopOverMenu_Swift15FTConfigurationC", "borderWidth"]
+- !private ["19FTPopOverMenu_Swift15FTConfigurationC", "menuRowHeight"]
+- !private ["19FTPopOverMenu_Swift15FTConfigurationC", "menuSeparatorColor"]
+- !private ["19FTPopOverMenu_Swift15FTConfigurationC", "menuWidth"]
+- !private ["19FTPopOverMenu_Swift15FTConfigurationC", "shared"]
+- !private ["19FTPopOverMenu_Swift0abC0C", "showForSender"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "ApiCall"]
+- !private ["SH", "FTCellConfiguration"]
+- !private ["SH", "FTConfiguration"]
+- !private ["SH", "FTPopOverMenu"]
+- !private ["SH", "Int"]
+- !private ["SH", "MyStrings"]
+- !private ["SH", "NSTextAlignment"]
+- ["SH", "String"]
+- !private ["SH", "UIBarButtonItem"]
+- !private ["SH", "UIColor"]
+- ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "backBarButtonItem"]
+- !private ["SH", "center"]
+- !private ["SH", "count"]
+- !private ["SH", "customerId"]
+- !private ["SH", "errorAlert"]
+- !private ["SH", "gameId"]
+- !private ["SH", "hole"]
+- !private ["SH", "holeCount"]
+- ["SH", "init"]
+- !private ["SH", "isSuccess"]
+- !private ["SH", "lightGray"]
+- !private ["SH", "name"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "navigationItem"]
+- !private ["SH", "par"]
+- !private ["SH", "parCount"]
+- !private ["SH", "plain"]
+- !private ["SH", "playerName"]
+- !private ["SH", "popViewController"]
+- !private ["SH", "print"]
+- !private ["SH", "score"]
+- !private ["SH", "scoreDWBtn"]
+- !private ["SH", "scoreDWBtnTapped"]
+- !private ["SH", "scoreValues"]
+- !private ["SH", "scoresArray"]
+- !private ["SH", "sendRequest"]
+- !private ["SH", "setTitle"]
+- !private ["SH", "showForSender"]
+- !private ["SH", "startLoadingIndicator"]
+- !private ["SH", "subscript"]
+- !private ["SH", "systemFont"]
+- !private ["SH", "text"]
+- !private ["SH", "textAlignment"]
+- !private ["SH", "textColor"]
+- !private ["SH", "textFont"]
+- !private ["SH", "title"]
+- !private ["SH", "titleLabel"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "white"]
+- !private ["19FTPopOverMenu_Swift9ImageableP", "count"]
+- !private ["19FTPopOverMenu_Swift9ImageableP", "init"]
+- !private ["8SideMenu18InitializableClassP", "ApiCall"]
+- !private ["8SideMenu18InitializableClassP", "FTCellConfiguration"]
+- !private ["8SideMenu18InitializableClassP", "FTConfiguration"]
+- !private ["8SideMenu18InitializableClassP", "FTPopOverMenu"]
+- !private ["8SideMenu18InitializableClassP", "Int"]
+- !private ["8SideMenu18InitializableClassP", "MyStrings"]
+- !private ["8SideMenu18InitializableClassP", "NSTextAlignment"]
+- ["8SideMenu18InitializableClassP", "String"]
+- !private ["8SideMenu18InitializableClassP", "UIBarButtonItem"]
+- !private ["8SideMenu18InitializableClassP", "UIColor"]
+- ["8SideMenu18InitializableClassP", ""]
+- !private ["8SideMenu18InitializableClassP", "backBarButtonItem"]
+- !private ["8SideMenu18InitializableClassP", "count"]
+- !private ["8SideMenu18InitializableClassP", "customerId"]
+- !private ["8SideMenu18InitializableClassP", "errorAlert"]
+- !private ["8SideMenu18InitializableClassP", "gameId"]
+- !private ["8SideMenu18InitializableClassP", "hole"]
+- !private ["8SideMenu18InitializableClassP", "holeCount"]
+- !private ["8SideMenu18InitializableClassP", "init"]
+- !private ["8SideMenu18InitializableClassP", "isSuccess"]
+- !private ["8SideMenu18InitializableClassP", "lightGray"]
+- !private ["8SideMenu18InitializableClassP", "name"]
+- !private ["8SideMenu18InitializableClassP", "navigationController"]
+- !private ["8SideMenu18InitializableClassP", "navigationItem"]
+- !private ["8SideMenu18InitializableClassP", "par"]
+- !private ["8SideMenu18InitializableClassP", "parCount"]
+- !private ["8SideMenu18InitializableClassP", "playerName"]
+- !private ["8SideMenu18InitializableClassP", "popViewController"]
+- !private ["8SideMenu18InitializableClassP", "print"]
+- !private ["8SideMenu18InitializableClassP", "score"]
+- !private ["8SideMenu18InitializableClassP", "scoreDWBtn"]
+- !private ["8SideMenu18InitializableClassP", "scoreDWBtnTapped"]
+- !private ["8SideMenu18InitializableClassP", "scoreValues"]
+- !private ["8SideMenu18InitializableClassP", "scoresArray"]
+- !private ["8SideMenu18InitializableClassP", "sendRequest"]
+- !private ["8SideMenu18InitializableClassP", "setTitle"]
+- !private ["8SideMenu18InitializableClassP", "showForSender"]
+- !private ["8SideMenu18InitializableClassP", "startLoadingIndicator"]
+- !private ["8SideMenu18InitializableClassP", "systemFont"]
+- !private ["8SideMenu18InitializableClassP", "text"]
+- !private ["8SideMenu18InitializableClassP", "textAlignment"]
+- !private ["8SideMenu18InitializableClassP", "textColor"]
+- !private ["8SideMenu18InitializableClassP", "textFont"]
+- !private ["8SideMenu18InitializableClassP", "title"]
+- !private ["8SideMenu18InitializableClassP", "titleLabel"]
+- !private ["8SideMenu18InitializableClassP", "viewDidLoad"]
+- !private ["8SideMenu18InitializableClassP", "white"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["s10MirrorPathP", "init"]
+- ["SM", ""]
+- !private ["SM", "append"]
+- ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["9Golf_Putz9MyStringsV", "editPlayerScoreDataUrl"]
+- !private ["9Golf_Putz9MyStringsV", "init"]
+- !private ["So8NSCodingP", "ApiCall"]
+- !private ["So8NSCodingP", "FTCellConfiguration"]
+- !private ["So8NSCodingP", "FTConfiguration"]
+- !private ["So8NSCodingP", "FTPopOverMenu"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "MyStrings"]
+- !private ["So8NSCodingP", "NSTextAlignment"]
+- ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UIBarButtonItem"]
+- !private ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backBarButtonItem"]
+- !private ["So8NSCodingP", "count"]
+- ["So8NSCodingP", "customerId"]
+- !private ["So8NSCodingP", "errorAlert"]
+- ["So8NSCodingP", "gameId"]
+- ["So8NSCodingP", "hole"]
+- ["So8NSCodingP", "holeCount"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lightGray"]
+- ["So8NSCodingP", "mainView"]
+- ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "navigationItem"]
+- ["So8NSCodingP", "par"]
+- ["So8NSCodingP", "parCount"]
+- ["So8NSCodingP", "playerName"]
+- !private ["So8NSCodingP", "popViewController"]
+- !private ["So8NSCodingP", "print"]
+- ["So8NSCodingP", "score"]
+- ["So8NSCodingP", "scoreDWBtn"]
+- ["So8NSCodingP", "scoreDWBtnTapped"]
+- ["So8NSCodingP", "scoreValues"]
+- ["So8NSCodingP", "scoresArray"]
+- !private ["So8NSCodingP", "setTitle"]
+- !private ["So8NSCodingP", "startLoadingIndicator"]
+- ["So8NSCodingP", "submitBtnTapped"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "titleLabel"]
+- ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "lightGray"]
+- !private ["So9NSCopyingP", "systemFont"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So26NSExtensionRequestHandlingP", "ApiCall"]
+- !private ["So26NSExtensionRequestHandlingP", "FTCellConfiguration"]
+- !private ["So26NSExtensionRequestHandlingP", "FTConfiguration"]
+- !private ["So26NSExtensionRequestHandlingP", "FTPopOverMenu"]
+- !private ["So26NSExtensionRequestHandlingP", "Int"]
+- !private ["So26NSExtensionRequestHandlingP", "MyStrings"]
+- !private ["So26NSExtensionRequestHandlingP", "NSTextAlignment"]
+- ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItem"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "customerId"]
+- !private ["So26NSExtensionRequestHandlingP", "errorAlert"]
+- ["So26NSExtensionRequestHandlingP", "gameId"]
+- ["So26NSExtensionRequestHandlingP", "hole"]
+- ["So26NSExtensionRequestHandlingP", "holeCount"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "mainView"]
+- ["So26NSExtensionRequestHandlingP", "name"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- ["So26NSExtensionRequestHandlingP", "par"]
+- ["So26NSExtensionRequestHandlingP", "parCount"]
+- ["So26NSExtensionRequestHandlingP", "playerName"]
+- !private ["So26NSExtensionRequestHandlingP", "popViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- ["So26NSExtensionRequestHandlingP", "score"]
+- ["So26NSExtensionRequestHandlingP", "scoreDWBtn"]
+- ["So26NSExtensionRequestHandlingP", "scoreDWBtnTapped"]
+- ["So26NSExtensionRequestHandlingP", "scoreValues"]
+- ["So26NSExtensionRequestHandlingP", "scoresArray"]
+- !private ["So26NSExtensionRequestHandlingP", "startLoadingIndicator"]
+- ["So26NSExtensionRequestHandlingP", "submitBtnTapped"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "lightGray"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "lightGray"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "ApiCall"]
+- !private ["So8NSObjectC", "FTCellConfiguration"]
+- !private ["So8NSObjectC", "FTConfiguration"]
+- !private ["So8NSObjectC", "FTPopOverMenu"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "MyStrings"]
+- ["So8NSObjectC", "NSArray"]
+- ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "NSTextAlignment"]
+- !private ["So8NSObjectC", "Parameters"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIBarButtonItem"]
+- ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "backBarButtonItem"]
+- !private ["So8NSObjectC", "count"]
+- ["So8NSObjectC", "customerId"]
+- !private ["So8NSObjectC", "errorAlert"]
+- ["So8NSObjectC", "gameId"]
+- ["So8NSObjectC", "hole"]
+- ["So8NSObjectC", "holeCount"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isSuccess"]
+- !private ["So8NSObjectC", "lightGray"]
+- ["So8NSObjectC", "mainView"]
+- ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "navigationItem"]
+- ["So8NSObjectC", "par"]
+- ["So8NSObjectC", "parCount"]
+- ["So8NSObjectC", "playerName"]
+- !private ["So8NSObjectC", "popViewController"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "score"]
+- ["So8NSObjectC", "scoreDWBtn"]
+- ["So8NSObjectC", "scoreDWBtnTapped"]
+- ["So8NSObjectC", "scoreValues"]
+- ["So8NSObjectC", "scoresArray"]
+- !private ["So8NSObjectC", "sendRequest"]
+- !private ["So8NSObjectC", "setTitle"]
+- !private ["So8NSObjectC", "showForSender"]
+- !private ["So8NSObjectC", "startLoadingIndicator"]
+- ["So8NSObjectC", "submitBtnTapped"]
+- !private ["So8NSObjectC", "systemFont"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textAlignment"]
+- !private ["So8NSObjectC", "textColor"]
+- !private ["So8NSObjectC", "textFont"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "titleLabel"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "ApiCall"]
+- !private ["So8NSObjectP", "FTCellConfiguration"]
+- !private ["So8NSObjectP", "FTConfiguration"]
+- !private ["So8NSObjectP", "FTPopOverMenu"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "MyStrings"]
+- !private ["So8NSObjectP", "NSTextAlignment"]
+- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UIBarButtonItem"]
+- !private ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "backBarButtonItem"]
+- !private ["So8NSObjectP", "count"]
+- ["So8NSObjectP", "customerId"]
+- !private ["So8NSObjectP", "errorAlert"]
+- ["So8NSObjectP", "gameId"]
+- ["So8NSObjectP", "hole"]
+- ["So8NSObjectP", "holeCount"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isSuccess"]
+- !private ["So8NSObjectP", "lightGray"]
+- ["So8NSObjectP", "mainView"]
+- ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "navigationItem"]
+- ["So8NSObjectP", "par"]
+- ["So8NSObjectP", "parCount"]
+- ["So8NSObjectP", "playerName"]
+- !private ["So8NSObjectP", "popViewController"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "score"]
+- ["So8NSObjectP", "scoreDWBtn"]
+- ["So8NSObjectP", "scoreDWBtnTapped"]
+- ["So8NSObjectP", "scoreValues"]
+- ["So8NSObjectP", "scoresArray"]
+- !private ["So8NSObjectP", "sendRequest"]
+- !private ["So8NSObjectP", "setTitle"]
+- !private ["So8NSObjectP", "showForSender"]
+- !private ["So8NSObjectP", "startLoadingIndicator"]
+- ["So8NSObjectP", "submitBtnTapped"]
+- !private ["So8NSObjectP", "systemFont"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "textAlignment"]
+- !private ["So8NSObjectP", "textColor"]
+- !private ["So8NSObjectP", "textFont"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So8NSObjectP", "titleLabel"]
+- ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "lightGray"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["So8NSStringC", "count"]
+- !private ["So15NSTextAlignmentV", "center"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["Sq", "setTitle"]
+- !private ["Sq", "text"]
+- !private ["Sq", "titleLabel"]
+- ["Sk", ""]
+- !private ["Sk", "append"]
+- ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["SY", ""]
+- !private ["SY", "center"]
+- !private ["SY", "normal"]
+- !private ["SY", "plain"]
+- !private ["9Golf_Putz13ResponseModelC", "isSuccess"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["So14UIControlStateV", "normal"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["SS", "count"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "count"]
+- !private ["Sy", "init"]
+- !private ["So20UIBarButtonItemStyleV", "plain"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "titleLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "setTitle"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "titleLabel"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "setTitle"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "titleLabel"]
+- !private ["So21UIAppearanceContainerP", "ApiCall"]
+- !private ["So21UIAppearanceContainerP", "FTCellConfiguration"]
+- !private ["So21UIAppearanceContainerP", "FTConfiguration"]
+- !private ["So21UIAppearanceContainerP", "FTPopOverMenu"]
+- !private ["So21UIAppearanceContainerP", "Int"]
+- !private ["So21UIAppearanceContainerP", "MyStrings"]
+- !private ["So21UIAppearanceContainerP", "NSTextAlignment"]
+- ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UIBarButtonItem"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "customerId"]
+- !private ["So21UIAppearanceContainerP", "errorAlert"]
+- ["So21UIAppearanceContainerP", "gameId"]
+- ["So21UIAppearanceContainerP", "hole"]
+- ["So21UIAppearanceContainerP", "holeCount"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "mainView"]
+- ["So21UIAppearanceContainerP", "name"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- ["So21UIAppearanceContainerP", "par"]
+- ["So21UIAppearanceContainerP", "parCount"]
+- ["So21UIAppearanceContainerP", "playerName"]
+- !private ["So21UIAppearanceContainerP", "popViewController"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- ["So21UIAppearanceContainerP", "score"]
+- ["So21UIAppearanceContainerP", "scoreDWBtn"]
+- ["So21UIAppearanceContainerP", "scoreDWBtnTapped"]
+- ["So21UIAppearanceContainerP", "scoreValues"]
+- ["So21UIAppearanceContainerP", "scoresArray"]
+- !private ["So21UIAppearanceContainerP", "setTitle"]
+- !private ["So21UIAppearanceContainerP", "startLoadingIndicator"]
+- ["So21UIAppearanceContainerP", "submitBtnTapped"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So21UIAppearanceContainerP", "titleLabel"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So15UIBarButtonItemC", "init"]
+- ["So9UIBarItemC", ""]
+- !private ["So9UIBarItemC", "init"]
+- !private ["So8UIButtonC", "setTitle"]
+- !private ["So8UIButtonC", "titleLabel"]
+- !private ["So7UIColorC", "lightGray"]
+- !private ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "ApiCall"]
+- !private ["So18UIContentContainerP", "FTCellConfiguration"]
+- !private ["So18UIContentContainerP", "FTConfiguration"]
+- !private ["So18UIContentContainerP", "FTPopOverMenu"]
+- !private ["So18UIContentContainerP", "Int"]
+- !private ["So18UIContentContainerP", "MyStrings"]
+- !private ["So18UIContentContainerP", "NSTextAlignment"]
+- ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "UIBarButtonItem"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "customerId"]
+- !private ["So18UIContentContainerP", "errorAlert"]
+- ["So18UIContentContainerP", "gameId"]
+- ["So18UIContentContainerP", "hole"]
+- ["So18UIContentContainerP", "holeCount"]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "mainView"]
+- ["So18UIContentContainerP", "name"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- ["So18UIContentContainerP", "par"]
+- ["So18UIContentContainerP", "parCount"]
+- ["So18UIContentContainerP", "playerName"]
+- !private ["So18UIContentContainerP", "popViewController"]
+- !private ["So18UIContentContainerP", "print"]
+- ["So18UIContentContainerP", "score"]
+- ["So18UIContentContainerP", "scoreDWBtn"]
+- ["So18UIContentContainerP", "scoreDWBtnTapped"]
+- ["So18UIContentContainerP", "scoreValues"]
+- ["So18UIContentContainerP", "scoresArray"]
+- !private ["So18UIContentContainerP", "startLoadingIndicator"]
+- ["So18UIContentContainerP", "submitBtnTapped"]
+- !private ["So18UIContentContainerP", "title"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So32UIContextMenuInteractionDelegateP", "setTitle"]
+- !private ["So32UIContextMenuInteractionDelegateP", "titleLabel"]
+- !private ["So9UIControlC", "setTitle"]
+- !private ["So9UIControlC", "titleLabel"]
+- !private ["So17UICoordinateSpaceP", "setTitle"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "titleLabel"]
+- !private ["So13UIDynamicItemP", "setTitle"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "titleLabel"]
+- !private ["So18UIFocusEnvironmentP", "ApiCall"]
+- !private ["So18UIFocusEnvironmentP", "FTCellConfiguration"]
+- !private ["So18UIFocusEnvironmentP", "FTConfiguration"]
+- !private ["So18UIFocusEnvironmentP", "FTPopOverMenu"]
+- !private ["So18UIFocusEnvironmentP", "Int"]
+- !private ["So18UIFocusEnvironmentP", "MyStrings"]
+- !private ["So18UIFocusEnvironmentP", "NSTextAlignment"]
+- ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "customerId"]
+- !private ["So18UIFocusEnvironmentP", "errorAlert"]
+- ["So18UIFocusEnvironmentP", "gameId"]
+- ["So18UIFocusEnvironmentP", "hole"]
+- ["So18UIFocusEnvironmentP", "holeCount"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "mainView"]
+- ["So18UIFocusEnvironmentP", "name"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- ["So18UIFocusEnvironmentP", "par"]
+- ["So18UIFocusEnvironmentP", "parCount"]
+- ["So18UIFocusEnvironmentP", "playerName"]
+- !private ["So18UIFocusEnvironmentP", "popViewController"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- ["So18UIFocusEnvironmentP", "score"]
+- ["So18UIFocusEnvironmentP", "scoreDWBtn"]
+- ["So18UIFocusEnvironmentP", "scoreDWBtnTapped"]
+- ["So18UIFocusEnvironmentP", "scoreValues"]
+- ["So18UIFocusEnvironmentP", "scoresArray"]
+- !private ["So18UIFocusEnvironmentP", "setTitle"]
+- !private ["So18UIFocusEnvironmentP", "startLoadingIndicator"]
+- ["So18UIFocusEnvironmentP", "submitBtnTapped"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So18UIFocusEnvironmentP", "titleLabel"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "setTitle"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "titleLabel"]
+- !private ["So20UIFocusItemContainerP", "setTitle"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "titleLabel"]
+- !private ["So6UIFontC", "systemFont"]
+- !private ["So27UIGestureRecognizerDelegateP", "showForSender"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "setTitle"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So24UILargeContentViewerItemP", "titleLabel"]
+- !private ["So22UINavigationControllerC", "popViewController"]
+- !private ["So16UINavigationItemC", "backBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "ApiCall"]
+- !private ["So30UIPasteConfigurationSupportingP", "FTCellConfiguration"]
+- !private ["So30UIPasteConfigurationSupportingP", "FTConfiguration"]
+- !private ["So30UIPasteConfigurationSupportingP", "FTPopOverMenu"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int"]
+- !private ["So30UIPasteConfigurationSupportingP", "MyStrings"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSTextAlignment"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "customerId"]
+- !private ["So30UIPasteConfigurationSupportingP", "errorAlert"]
+- ["So30UIPasteConfigurationSupportingP", "gameId"]
+- ["So30UIPasteConfigurationSupportingP", "hole"]
+- ["So30UIPasteConfigurationSupportingP", "holeCount"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "mainView"]
+- ["So30UIPasteConfigurationSupportingP", "name"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- ["So30UIPasteConfigurationSupportingP", "par"]
+- ["So30UIPasteConfigurationSupportingP", "parCount"]
+- ["So30UIPasteConfigurationSupportingP", "playerName"]
+- !private ["So30UIPasteConfigurationSupportingP", "popViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- ["So30UIPasteConfigurationSupportingP", "score"]
+- ["So30UIPasteConfigurationSupportingP", "scoreDWBtn"]
+- ["So30UIPasteConfigurationSupportingP", "scoreDWBtnTapped"]
+- ["So30UIPasteConfigurationSupportingP", "scoreValues"]
+- ["So30UIPasteConfigurationSupportingP", "scoresArray"]
+- !private ["So30UIPasteConfigurationSupportingP", "setTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "startLoadingIndicator"]
+- ["So30UIPasteConfigurationSupportingP", "submitBtnTapped"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "titleLabel"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "AnyObject"]
+- !private ["So11UIResponderC", "ApiCall"]
+- !private ["So11UIResponderC", "FTCellConfiguration"]
+- !private ["So11UIResponderC", "FTConfiguration"]
+- !private ["So11UIResponderC", "FTPopOverMenu"]
+- !private ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "MyStrings"]
+- ["So11UIResponderC", "NSArray"]
+- ["So11UIResponderC", "NSNumber"]
+- !private ["So11UIResponderC", "NSTextAlignment"]
+- !private ["So11UIResponderC", "Parameters"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIBarButtonItem"]
+- ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "customerId"]
+- !private ["So11UIResponderC", "errorAlert"]
+- ["So11UIResponderC", "gameId"]
+- ["So11UIResponderC", "hole"]
+- ["So11UIResponderC", "holeCount"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "mainView"]
+- ["So11UIResponderC", "name"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "navigationItem"]
+- ["So11UIResponderC", "par"]
+- ["So11UIResponderC", "parCount"]
+- ["So11UIResponderC", "playerName"]
+- !private ["So11UIResponderC", "popViewController"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "score"]
+- ["So11UIResponderC", "scoreDWBtn"]
+- ["So11UIResponderC", "scoreDWBtnTapped"]
+- ["So11UIResponderC", "scoreValues"]
+- ["So11UIResponderC", "scoresArray"]
+- !private ["So11UIResponderC", "setTitle"]
+- !private ["So11UIResponderC", "startLoadingIndicator"]
+- ["So11UIResponderC", "submitBtnTapped"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "title"]
+- !private ["So11UIResponderC", "titleLabel"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "ApiCall"]
+- !private ["So30UIResponderStandardEditActionsP", "FTCellConfiguration"]
+- !private ["So30UIResponderStandardEditActionsP", "FTConfiguration"]
+- !private ["So30UIResponderStandardEditActionsP", "FTPopOverMenu"]
+- !private ["So30UIResponderStandardEditActionsP", "Int"]
+- !private ["So30UIResponderStandardEditActionsP", "MyStrings"]
+- !private ["So30UIResponderStandardEditActionsP", "NSTextAlignment"]
+- ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "customerId"]
+- !private ["So30UIResponderStandardEditActionsP", "errorAlert"]
+- ["So30UIResponderStandardEditActionsP", "gameId"]
+- ["So30UIResponderStandardEditActionsP", "hole"]
+- ["So30UIResponderStandardEditActionsP", "holeCount"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "mainView"]
+- ["So30UIResponderStandardEditActionsP", "name"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- ["So30UIResponderStandardEditActionsP", "par"]
+- ["So30UIResponderStandardEditActionsP", "parCount"]
+- ["So30UIResponderStandardEditActionsP", "playerName"]
+- !private ["So30UIResponderStandardEditActionsP", "popViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- ["So30UIResponderStandardEditActionsP", "score"]
+- ["So30UIResponderStandardEditActionsP", "scoreDWBtn"]
+- ["So30UIResponderStandardEditActionsP", "scoreDWBtnTapped"]
+- ["So30UIResponderStandardEditActionsP", "scoreValues"]
+- ["So30UIResponderStandardEditActionsP", "scoresArray"]
+- !private ["So30UIResponderStandardEditActionsP", "setTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "startLoadingIndicator"]
+- ["So30UIResponderStandardEditActionsP", "submitBtnTapped"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "titleLabel"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "titleLabel"]
+- !private ["So16UIStateRestoringP", "ApiCall"]
+- !private ["So16UIStateRestoringP", "FTCellConfiguration"]
+- !private ["So16UIStateRestoringP", "FTConfiguration"]
+- !private ["So16UIStateRestoringP", "FTPopOverMenu"]
+- !private ["So16UIStateRestoringP", "Int"]
+- !private ["So16UIStateRestoringP", "MyStrings"]
+- !private ["So16UIStateRestoringP", "NSTextAlignment"]
+- ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "UIBarButtonItem"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "customerId"]
+- !private ["So16UIStateRestoringP", "errorAlert"]
+- ["So16UIStateRestoringP", "gameId"]
+- ["So16UIStateRestoringP", "hole"]
+- ["So16UIStateRestoringP", "holeCount"]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "mainView"]
+- ["So16UIStateRestoringP", "name"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- ["So16UIStateRestoringP", "par"]
+- ["So16UIStateRestoringP", "parCount"]
+- ["So16UIStateRestoringP", "playerName"]
+- !private ["So16UIStateRestoringP", "popViewController"]
+- !private ["So16UIStateRestoringP", "print"]
+- ["So16UIStateRestoringP", "score"]
+- ["So16UIStateRestoringP", "scoreDWBtn"]
+- ["So16UIStateRestoringP", "scoreDWBtnTapped"]
+- ["So16UIStateRestoringP", "scoreValues"]
+- ["So16UIStateRestoringP", "scoresArray"]
+- !private ["So16UIStateRestoringP", "startLoadingIndicator"]
+- ["So16UIStateRestoringP", "submitBtnTapped"]
+- !private ["So16UIStateRestoringP", "title"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "ApiCall"]
+- !private ["So18UITraitEnvironmentP", "FTCellConfiguration"]
+- !private ["So18UITraitEnvironmentP", "FTConfiguration"]
+- !private ["So18UITraitEnvironmentP", "FTPopOverMenu"]
+- !private ["So18UITraitEnvironmentP", "Int"]
+- !private ["So18UITraitEnvironmentP", "MyStrings"]
+- !private ["So18UITraitEnvironmentP", "NSTextAlignment"]
+- ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "customerId"]
+- !private ["So18UITraitEnvironmentP", "errorAlert"]
+- ["So18UITraitEnvironmentP", "gameId"]
+- ["So18UITraitEnvironmentP", "hole"]
+- ["So18UITraitEnvironmentP", "holeCount"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "mainView"]
+- ["So18UITraitEnvironmentP", "name"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- ["So18UITraitEnvironmentP", "par"]
+- ["So18UITraitEnvironmentP", "parCount"]
+- ["So18UITraitEnvironmentP", "playerName"]
+- !private ["So18UITraitEnvironmentP", "popViewController"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- ["So18UITraitEnvironmentP", "score"]
+- ["So18UITraitEnvironmentP", "scoreDWBtn"]
+- ["So18UITraitEnvironmentP", "scoreDWBtnTapped"]
+- ["So18UITraitEnvironmentP", "scoreValues"]
+- ["So18UITraitEnvironmentP", "scoresArray"]
+- !private ["So18UITraitEnvironmentP", "setTitle"]
+- !private ["So18UITraitEnvironmentP", "startLoadingIndicator"]
+- ["So18UITraitEnvironmentP", "submitBtnTapped"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So18UITraitEnvironmentP", "titleLabel"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "ApiCall"]
+- !private ["So23UIUserActivityRestoringP", "FTCellConfiguration"]
+- !private ["So23UIUserActivityRestoringP", "FTConfiguration"]
+- !private ["So23UIUserActivityRestoringP", "FTPopOverMenu"]
+- !private ["So23UIUserActivityRestoringP", "Int"]
+- !private ["So23UIUserActivityRestoringP", "MyStrings"]
+- !private ["So23UIUserActivityRestoringP", "NSTextAlignment"]
+- ["So23UIUserActivityRestoringP", "String"]
+- !private ["So23UIUserActivityRestoringP", "UIBarButtonItem"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "customerId"]
+- !private ["So23UIUserActivityRestoringP", "errorAlert"]
+- ["So23UIUserActivityRestoringP", "gameId"]
+- ["So23UIUserActivityRestoringP", "hole"]
+- ["So23UIUserActivityRestoringP", "holeCount"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "mainView"]
+- ["So23UIUserActivityRestoringP", "name"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "navigationItem"]
+- ["So23UIUserActivityRestoringP", "par"]
+- ["So23UIUserActivityRestoringP", "parCount"]
+- ["So23UIUserActivityRestoringP", "playerName"]
+- !private ["So23UIUserActivityRestoringP", "popViewController"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- ["So23UIUserActivityRestoringP", "score"]
+- ["So23UIUserActivityRestoringP", "scoreDWBtn"]
+- ["So23UIUserActivityRestoringP", "scoreDWBtnTapped"]
+- ["So23UIUserActivityRestoringP", "scoreValues"]
+- ["So23UIUserActivityRestoringP", "scoresArray"]
+- !private ["So23UIUserActivityRestoringP", "setTitle"]
+- !private ["So23UIUserActivityRestoringP", "startLoadingIndicator"]
+- ["So23UIUserActivityRestoringP", "submitBtnTapped"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "title"]
+- !private ["So23UIUserActivityRestoringP", "titleLabel"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "setTitle"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "titleLabel"]
+- !private ["So16UIViewControllerC", "AnyObject"]
+- !private ["So16UIViewControllerC", "ApiCall"]
+- !private ["So16UIViewControllerC", "FTCellConfiguration"]
+- !private ["So16UIViewControllerC", "FTConfiguration"]
+- !private ["So16UIViewControllerC", "FTPopOverMenu"]
+- !private ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "MyStrings"]
+- ["So16UIViewControllerC", "NSArray"]
+- ["So16UIViewControllerC", "NSNumber"]
+- !private ["So16UIViewControllerC", "NSTextAlignment"]
+- !private ["So16UIViewControllerC", "Parameters"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIBarButtonItem"]
+- ["So16UIViewControllerC", "UIButton"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "customerId"]
+- !private ["So16UIViewControllerC", "errorAlert"]
+- ["So16UIViewControllerC", "gameId"]
+- ["So16UIViewControllerC", "hole"]
+- ["So16UIViewControllerC", "holeCount"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "mainView"]
+- ["So16UIViewControllerC", "name"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- ["So16UIViewControllerC", "par"]
+- ["So16UIViewControllerC", "parCount"]
+- ["So16UIViewControllerC", "playerName"]
+- !private ["So16UIViewControllerC", "popViewController"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "score"]
+- ["So16UIViewControllerC", "scoreDWBtn"]
+- ["So16UIViewControllerC", "scoreDWBtnTapped"]
+- ["So16UIViewControllerC", "scoreValues"]
+- ["So16UIViewControllerC", "scoresArray"]
+- !private ["So16UIViewControllerC", "startLoadingIndicator"]
+- ["So16UIViewControllerC", "submitBtnTapped"]
+- !private ["So16UIViewControllerC", "title"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["9Alamofire14URLConvertibleP", "count"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "lightGray"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ApiCall"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FTCellConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FTConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FTPopOverMenu"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MyStrings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSTextAlignment"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "customerId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "errorAlert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gameId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hole"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "holeCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSuccess"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lightGray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "par"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "playerName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "score"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scoreDWBtn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scoreDWBtnTapped"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scoreValues"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scoresArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showForSender"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startLoadingIndicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textAlignment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ApiCall"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FTCellConfiguration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FTConfiguration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FTPopOverMenu"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MyStrings"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSTextAlignment"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIBarButtonItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backBarButtonItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "customerId"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "errorAlert"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "gameId"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hole"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "holeCount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isSuccess"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lightGray"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "par"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parCount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "playerName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "popViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "score"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scoreDWBtn"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scoreDWBtnTapped"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scoreValues"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scoresArray"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sendRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setTitle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showForSender"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startLoadingIndicator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textAlignment"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "titleLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "setTitle"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "titleLabel"]
+- !private ["So13CKRecordValueP", "count"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setTitle"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "titleLabel"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "9Golf_Putz7ApiCallC"
+- "Sa"
+- "9Golf_Putz18BaseViewControllerC"
+- "SK"
+- !private "Sz"
+- !private "So15CALayerDelegateP"
+- "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "9Golf_Putz17EditPlayerScoreVCC"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "19FTPopOverMenu_Swift19FTCellConfigurationC"
+- !private "19FTPopOverMenu_Swift15FTConfigurationC"
+- !private "19FTPopOverMenu_Swift0abC0C"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "19FTPopOverMenu_Swift9ImageableP"
+- "8SideMenu18InitializableClassP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "9Golf_Putz9MyStringsV"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So15NSTextAlignmentV"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "Sk"
+- "Sm"
+- !private "SY"
+- !private "9Golf_Putz13ResponseModelC"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "So14UIControlStateV"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "So20UIBarButtonItemStyleV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So15UIBarButtonItemC"
+- "So9UIBarItemC"
+- !private "So8UIButtonC"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So32UIContextMenuInteractionDelegateP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So6UIFontC"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
+- !private "So22UINavigationControllerC"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "So13CKRecordValueP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules/FTPopOverMenu_Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/WebKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKURL.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Headers/FTPopOverMenu_Swift-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSImage+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRStackFrame.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceViewControllerBase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolving.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLink.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRExceptionModel.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkNavigation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKWebViewAppLinkResolver.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRCrashlytics.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkTarget.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Headers/FTPopOverMenu_Swift-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMeasurementEvent.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseMessaging/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseCrashlytics/FirebaseCrashlytics.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d35a0de6e940cbaa6fc36c60c344343a"

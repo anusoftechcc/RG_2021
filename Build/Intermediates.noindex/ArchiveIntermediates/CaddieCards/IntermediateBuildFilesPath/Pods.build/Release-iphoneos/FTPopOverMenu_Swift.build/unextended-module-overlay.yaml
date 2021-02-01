@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Intermediates.noindex/ArchiveIntermediates/CaddieCards/BuildProductsPath/Release-iphoneos/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/anusoft/Downloads/caddiecards_Xcode12-master/Build/Intermediates.noindex/ArchiveIntermediates/CaddieCards/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FTPopOverMenu_Swift.build/unextended-module.modulemap",
+    }]
+  }]
+}
